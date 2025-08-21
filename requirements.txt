@@ -1,0 +1,28 @@
+# Dependências do Monitor de Servidores GlassFish
+
+# Requisições HTTP
+requests>=2.28.0
+
+# Interface gráfica e gráficos
+matplotlib>=3.5.0
+
+# Bibliotecas padrão do Python (já incluídas)
+# tkinter - Interface gráfica (built-in)
+# threading - Multithreading (built-in)
+# socket - Conexões de rede (built-in)
+# subprocess - Execução de comandos (built-in)
+# logging - Sistema de logs (built-in)
+# csv - Manipulação de CSV (built-in)
+# json - Manipulação de JSON (built-in)
+# smtplib - Envio de emails (built-in)
+# datetime - Manipulação de datas (built-in)
+# os - Operações do sistema (built-in)
+# platform - Informações da plataforma (built-in)
+# time - Funções de tempo (built-in)
+# collections - Estruturas de dados (built-in)
+
+# Opcional: Para alertas sonoros no Windows
+# winsound - Som no Windows (built-in no Windows)
+
+# Opcional: Para melhor formatação de logs
+colorama>=0.4.4

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "SFCS 116",
+    "host": "147.1.0.116",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://147.1.0.116/sfcs/faces/login.jsf"
+  },
+  {
+    "name": "SFCS 40",
+    "host": "147.1.160.40",
+    "app_port": 80,
+    "admin_port": 4848,
+    "health_url": "http://147.1.160.40/sfcs/faces/login.jsf"
+  },
+  {
+    "name": "SFCS 130",
+    "host": "147.0.0.130",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://147.0.0.130/sfcs/faces/login.jsf"
+  },
+  {
+    "name": "SFCS 61",
+    "host": "147.1.0.61",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://147.1.0.61:8080/"
+  }
+]

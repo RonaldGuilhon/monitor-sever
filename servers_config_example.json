@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Servidor Local",
+    "host": "localhost",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://localhost:8080/health"
+  },
+  {
+    "name": "Servidor Desenvolvimento",
+    "host": "192.168.1.10",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://192.168.1.10:8080/health"
+  },
+  {
+    "name": "Servidor Homologação",
+    "host": "192.168.1.20",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://192.168.1.20:8080/app/status"
+  },
+  {
+    "name": "Servidor Produção",
+    "host": "192.168.1.100",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://192.168.1.100:8080/health"
+  },
+  {
+    "name": "Servidor Externo",
+    "host": "exemplo.com",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://exemplo.com:8080/"
+  }
+]
