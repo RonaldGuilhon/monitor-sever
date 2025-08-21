@@ -23494,3 +23494,21 @@
 2025-08-21 00:08:20,950 - INFO - ✅ SFCS 116 (147.1.0.116) - Ping: 64.3ms | App: 2.5ms | Admin: 21.9ms | HTTP: 200 (0.05s)
 2025-08-21 00:08:21,572 - INFO - ✅ SFCS 40 (147.1.160.40) - Ping: 257.9ms | App: 37.3ms | Admin: 6.5ms | HTTP: 200 (0.29s)
 2025-08-21 00:08:21,899 - INFO - ✅ SFCS 130 (147.0.0.130) - Ping: 47.8ms | App: 21.9ms | Admin: 109.3ms | HTTP: 200 (0.15s)
+2025-08-21 00:08:24,384 - INFO - ✅ SFCS 61 (147.1.0.61) - Ping: 20.3ms | App: CLOSED | Admin: 18.5ms
+2025-08-21 00:08:25,490 - INFO - ✅ SFCS 116 (147.1.0.116) - Ping: 33.8ms | App: 11.2ms | Admin: 5.8ms | HTTP: 200 (0.05s)
+2025-08-21 00:08:25,642 - INFO - ✅ SFCS 40 (147.1.160.40) - Ping: 47.8ms | App: 22.4ms | Admin: 2.2ms | HTTP: 200 (0.08s)
+2025-08-21 00:08:25,750 - INFO - ✅ SFCS 130 (147.0.0.130) - Ping: 43.5ms | App: 2.5ms | Admin: 2.0ms | HTTP: 200 (0.06s)
+2025-08-21 00:08:27,843 - INFO - ✅ SFCS 61 (147.1.0.61) - Ping: 33.9ms | App: CLOSED | Admin: 21.5ms
+2025-08-21 00:08:28,968 - INFO - ✅ SFCS 116 (147.1.0.116) - Ping: 22.9ms | App: 12.9ms | Admin: 14.7ms | HTTP: 200 (0.07s)
+2025-08-21 00:08:29,293 - INFO - ✅ SFCS 40 (147.1.160.40) - Ping: 24.3ms | App: 43.5ms | Admin: 45.6ms | HTTP: 200 (0.17s)
+2025-08-21 00:08:29,691 - INFO - ✅ SFCS 130 (147.0.0.130) - Ping: 154.0ms | App: 20.3ms | Admin: 4.8ms | HTTP: 200 (0.14s)
+2025-08-21 00:08:31,903 - INFO - ✅ SFCS 61 (147.1.0.61) - Ping: 126.0ms | App: CLOSED | Admin: 14.9ms
+2025-08-21 00:08:32,996 - INFO - ✅ SFCS 116 (147.1.0.116) - Ping: 22.4ms | App: 2.9ms | Admin: 12.1ms | HTTP: 200 (0.05s)
+2025-08-21 00:08:33,391 - INFO - ✅ SFCS 40 (147.1.160.40) - Ping: 146.3ms | App: 37.1ms | Admin: 36.8ms | HTTP: 200 (0.11s)
+2025-08-21 00:08:33,523 - INFO - ✅ SFCS 130 (147.0.0.130) - Ping: 42.5ms | App: 5.7ms | Admin: 2.5ms | HTTP: 200 (0.07s)
+2025-08-21 00:08:35,647 - INFO - ✅ SFCS 61 (147.1.0.61) - Ping: 79.0ms | App: CLOSED | Admin: 12.9ms
+2025-08-21 00:08:36,793 - INFO - ✅ SFCS 116 (147.1.0.116) - Ping: 38.6ms | App: 2.7ms | Admin: 35.2ms | HTTP: 200 (0.06s)
+2025-08-21 00:08:36,946 - INFO - ✅ SFCS 40 (147.1.160.40) - Ping: 28.7ms | App: 25.5ms | Admin: 15.0ms | HTTP: 200 (0.08s)
+2025-08-21 00:08:37,045 - INFO - ✅ SFCS 130 (147.0.0.130) - Ping: 22.3ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-21 00:08:39,155 - INFO - ✅ SFCS 61 (147.1.0.61) - Ping: 26.0ms | App: CLOSED | Admin: 15.1ms
+2025-08-21 00:08:39,157 - INFO - === Monitoramento finalizado ===
