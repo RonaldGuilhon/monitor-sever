@@ -29635,3 +29635,31 @@
 2025-08-21 20:47:03,328 - INFO - ⚠️ PostgreSQL local (127.0.0.1) - Ping: 134.0ms | App: 0.7ms | Admin: CLOSED | HTTP: Connection Error
 2025-08-21 20:47:06,370 - INFO - ❌ Servidor externo (189.2.128.179) - Ping: No response | App: SKIPPED | Admin: SKIPPED
 2025-08-21 20:47:09,375 - INFO - ❌ Servidor externo alternativo (189.2.128.179) - Ping: No response | App: SKIPPED | Admin: SKIPPED
+2025-08-21 20:47:19,694 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 106.3ms | App: 12.0ms | Admin: 4.7ms | HTTP: 200 (0.10s)
+2025-08-21 20:47:20,101 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 136.8ms | App: 9.2ms | Admin: 2.7ms | HTTP: 200 (0.12s)
+2025-08-21 20:47:20,326 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 91.7ms | App: 17.2ms | Admin: 12.6ms | HTTP: 200 (0.09s)
+2025-08-21 20:47:22,472 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 80.3ms | App: CLOSED | Admin: 2.3ms
+2025-08-21 20:47:22,561 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 36.4ms | App: 4.3ms | Admin: 3.7ms | HTTP: 200 (0.03s)
+2025-08-21 20:47:22,636 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 40.4ms | App: 4.7ms | Admin: 7.1ms | HTTP: Status 401
+2025-08-21 20:47:24,794 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 76.7ms | App: CLOSED | Admin: 2.6ms
+2025-08-21 20:47:24,890 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 57.5ms | App: 19.6ms | Admin: 5.9ms | HTTP: 200 (0.01s)
+2025-08-21 20:47:27,015 - INFO - ⚠️ PostgreSQL (múltiplas bases de dados) (147.1.160.75) - Ping: 33.8ms | App: 3.3ms | Admin: CLOSED | HTTP: Connection Error
+2025-08-21 20:47:29,249 - INFO - ⚠️ PostgreSQL (sfcs_digiboard) (147.1.0.148) - Ping: 42.2ms | App: 12.1ms | Admin: CLOSED | HTTP: Connection Error
+2025-08-21 20:47:32,372 - INFO - ❌ PostgreSQL (replicação) (147.1.0.147) - Ping: No response | App: SKIPPED | Admin: SKIPPED
+2025-08-21 20:47:34,507 - INFO - ⚠️ MySQL (sistemas) (147.1.5.160) - Ping: 37.3ms | App: 19.8ms | Admin: CLOSED | HTTP: Connection Error
+2025-08-21 20:47:36,711 - INFO - ⚠️ PostgreSQL local (127.0.0.1) - Ping: 42.5ms | App: 0.6ms | Admin: CLOSED | HTTP: Connection Error
+2025-08-21 20:47:39,378 - INFO - ❌ Servidor externo (189.2.128.179) - Ping: No response | App: SKIPPED | Admin: SKIPPED
+2025-08-21 20:47:42,376 - INFO - ❌ Servidor externo alternativo (189.2.128.179) - Ping: No response | App: SKIPPED | Admin: SKIPPED
+2025-08-21 20:47:52,478 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 22.4ms | App: 19.0ms | Admin: 14.7ms | HTTP: 200 (0.04s)
+2025-08-21 20:47:52,580 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 32.1ms | App: 2.1ms | Admin: 2.2ms | HTTP: 200 (0.06s)
+2025-08-21 20:47:52,739 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 33.4ms | App: 2.3ms | Admin: 4.7ms | HTTP: 200 (0.12s)
+2025-08-21 20:47:54,922 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 100.5ms | App: CLOSED | Admin: 2.2ms
+2025-08-21 20:47:54,997 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 34.1ms | App: 6.3ms | Admin: 7.2ms | HTTP: 200 (0.02s)
+2025-08-21 20:47:55,084 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 45.2ms | App: 4.0ms | Admin: 8.7ms | HTTP: Status 401
+2025-08-21 20:47:57,180 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 30.4ms | App: CLOSED | Admin: 3.7ms
+2025-08-21 20:47:57,322 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 102.0ms | App: 13.1ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-21 20:47:59,464 - INFO - ⚠️ PostgreSQL (múltiplas bases de dados) (147.1.160.75) - Ping: 69.6ms | App: 2.9ms | Admin: CLOSED | HTTP: Connection Error
+2025-08-21 20:48:01,722 - INFO - ⚠️ PostgreSQL (sfcs_digiboard) (147.1.0.148) - Ping: 181.7ms | App: 3.3ms | Admin: CLOSED | HTTP: Connection Error
+2025-08-21 20:48:04,388 - INFO - ❌ PostgreSQL (replicação) (147.1.0.147) - Ping: No response | App: SKIPPED | Admin: SKIPPED
+2025-08-21 20:48:06,527 - INFO - ⚠️ MySQL (sistemas) (147.1.5.160) - Ping: 71.9ms | App: 4.9ms | Admin: CLOSED | HTTP: Connection Error
+2025-08-21 20:48:08,624 - INFO - ⚠️ PostgreSQL local (127.0.0.1) - Ping: 27.5ms | App: 0.5ms | Admin: CLOSED | HTTP: Connection Error
