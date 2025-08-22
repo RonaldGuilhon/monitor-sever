@@ -113,7 +113,7 @@ class ServerMonitor:
                 return {
                     'success': False,
                     'response_time': 0,
-                    'error': 'No response'
+                    'error': 'Sem resposta'
                 }
         except (subprocess.TimeoutExpired, Exception) as e:
             self.logger.error(f"Erro no ping para {host}: {e}")
@@ -138,15 +138,15 @@ class ServerMonitor:
                     'success': True,
                     'port': port,
                     'response_time': round(response_time, 1),
-                    'status': 'OPEN'
+                    'status': 'ABERTA'
                 }
             else:
                 return {
                     'success': False,
                     'port': port,
                     'response_time': 0,
-                    'status': 'CLOSED',
-                    'error': f'Connection failed (code: {result})'
+                    'status': 'FECHADA',
+                    'error': f'Falha na conexão (código: {result})'
                 }
         except Exception as e:
             self.logger.error(f"Erro ao verificar porta {port} em {host}: {e}")
@@ -154,7 +154,7 @@ class ServerMonitor:
                 'success': False,
                 'port': port,
                 'response_time': 0,
-                'status': 'ERROR',
+                'status': 'ERRO',
                 'error': str(e)
             }
     
@@ -170,7 +170,7 @@ class ServerMonitor:
         except Timeout:
             return {'status_code': 0, 'success': False, 'response_time': CONFIG['http_timeout'], 'error': 'Timeout'}
         except ConnectionError:
-            return {'status_code': 0, 'success': False, 'response_time': 0, 'error': 'Connection Error'}
+            return {'status_code': 0, 'success': False, 'response_time': 0, 'error': 'Erro de Conexão'}
         except RequestException as e:
             return {'status_code': 0, 'success': False, 'response_time': 0, 'error': str(e)}
     
@@ -221,8 +221,8 @@ class ServerMonitor:
         
         # Verificações
         ping_result = self.check_ping(host)
-        app_port_result = self.check_port(host, server['app_port']) if ping_result['success'] else {'success': False, 'port': server['app_port'], 'status': 'SKIPPED'}
-        admin_port_result = self.check_port(host, server['admin_port']) if ping_result['success'] else {'success': False, 'port': server['admin_port'], 'status': 'SKIPPED'}
+        app_port_result = self.check_port(host, server['app_port']) if ping_result['success'] else {'success': False, 'port': server['app_port'], 'status': 'IGNORADO'}
+        admin_port_result = self.check_port(host, server['admin_port']) if ping_result['success'] else {'success': False, 'port': server['admin_port'], 'status': 'IGNORADO'}
         
         http_result = None
         if ping_result['success'] and app_port_result['success'] and 'health_url' in server:
@@ -233,10 +233,10 @@ class ServerMonitor:
             status = 'OFFLINE'
             status_icon = '❌'
         elif not app_port_result['success'] and not admin_port_result['success']:
-            status = 'PORTS_CLOSED'
+            status = 'PORTAS_FECHADAS'
             status_icon = '⚠️'
         elif http_result and not http_result['success']:
-            status = 'HTTP_ERROR'
+            status = 'ERRO_HTTP'
             status_icon = '⚠️'
         else:
             status = 'ONLINE'
@@ -276,11 +276,15 @@ class ServerMonitor:
         
         # Verificar se precisa de alerta
         previous_status = self.server_status.get(name, {}).get('status')
-        if previous_status == 'ONLINE' and status != 'ONLINE':
+        if previous_status and previous_status not in ['OFFLINE', 'PORTAS_FECHADAS', 'ERRO_HTTP'] and status in ['OFFLINE', 'PORTAS_FECHADAS', 'ERRO_HTTP']:
             # Servidor ficou indisponível
             self.play_alert_sound()
             alert_message = f"ALERTA: Servidor {name} ({host}) ficou indisponível!\nStatus: {status}"
             self.send_email_alert(f"Servidor {name} Indisponível", alert_message)
+        elif previous_status in ['OFFLINE', 'PORTAS_FECHADAS', 'ERRO_HTTP'] and status == 'ONLINE':
+            # Servidor voltou a funcionar
+            recovery_message = f"RECUPERAÇÃO: Servidor {name} ({host}) voltou a funcionar!\nStatus: {status}"
+            self.send_email_alert(f"Servidor {name} Recuperado", recovery_message)
         
         self.server_status[name] = result
         return result

@@ -300,7 +300,7 @@ class ServerMonitorGUI:
                     if app_port_data.get('success'):
                         app_port_status = f"✅ {app_port_number} ({app_port_data['response_time']}ms)"
                     else:
-                        app_port_status = f"❌ {app_port_number} ({app_port_data.get('status', 'Failed')})"
+                        app_port_status = f"❌ {app_port_number} ({app_port_data.get('status', 'Falhou')})"
                 else:
                     app_port_status = f"{'✅' if app_port_data else '❌'} {app_port_number}"
                 
@@ -311,7 +311,7 @@ class ServerMonitorGUI:
                     if admin_port_data.get('success'):
                         admin_port_status = f"✅ {admin_port_number} ({admin_port_data['response_time']}ms)"
                     else:
-                        admin_port_status = f"❌ {admin_port_number} ({admin_port_data.get('status', 'Failed')})"
+                        admin_port_status = f"❌ {admin_port_number} ({admin_port_data.get('status', 'Falhou')})"
                 else:
                     admin_port_status = f"{'✅' if admin_port_data else '❌'} {admin_port_number}"
                 
@@ -329,7 +329,7 @@ class ServerMonitorGUI:
                 last_check = timestamp.strftime('%H:%M:%S')
                 
                 # Determinar tag para cor
-                tag = 'online' if overall_status == 'ONLINE' else ('warning' if overall_status in ['HTTP_ERROR', 'PORTS_CLOSED'] else 'offline')
+                tag = 'online' if overall_status == 'ONLINE' else ('warning' if overall_status in ['ERRO_HTTP', 'PORTAS_FECHADAS'] else 'offline')
                 
                 item = self.servers_tree.insert('', tk.END, values=(
                     name, server['host'], ping_status, app_port_status, 

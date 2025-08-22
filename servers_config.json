@@ -54,54 +54,5 @@
     "app_port": 9090,
     "admin_port": 4848,
     "health_url": "http://147.1.160.40:9090/"
-  },
-  {
-    "name": "PostgreSQL (múltiplas bases de dados)",
-    "host": "147.1.160.75",
-    "app_port": 5432,
-    "admin_port": 4848,
-    "health_url": "http://147.1.160.75:5432/"
-  },
-  {
-    "name": "PostgreSQL (sfcs_digiboard)",
-    "host": "147.1.0.148",
-    "app_port": 5432,
-    "admin_port": 4848,
-    "health_url": "http://147.1.0.148:5432/"
-  },
-  {
-    "name": "PostgreSQL (replicação)",
-    "host": "147.1.0.147",
-    "app_port": 5432,
-    "admin_port": 4848,
-    "health_url": "http://147.1.0.147:5432/"
-  },
-  {
-    "name": "MySQL (sistemas)",
-    "host": "147.1.5.160",
-    "app_port": 3307,
-    "admin_port": 4848,
-    "health_url": "http://147.1.5.160:3307/"
-  },
-  {
-    "name": "PostgreSQL local",
-    "host": "127.0.0.1",
-    "app_port": 5432,
-    "admin_port": 4848,
-    "health_url": "http://127.0.0.1:5432/"
-  },
-  {
-    "name": "Servidor externo",
-    "host": "189.2.128.179",
-    "app_port": 9090,
-    "admin_port": 4848,
-    "health_url": "http://189.2.128.179:9090/"
-  },
-  {
-    "name": "Servidor externo alternativo",
-    "host": "189.2.128.179",
-    "app_port": 4790,
-    "admin_port": 4848,
-    "health_url": "http://189.2.128.179:4790/"
   }
 ]
