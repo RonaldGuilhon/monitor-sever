@@ -54,5 +54,12 @@
     "app_port": 9090,
     "admin_port": 4848,
     "health_url": "http://147.1.160.40:9090/"
+  },
+  {
+    "name": "ICT [pasta]",
+    "host": "147.1.0.95",
+    "app_port": 8080,
+    "admin_port": 4848,
+    "health_url": "http://147.1.0.95:8080/"
   }
 ]
