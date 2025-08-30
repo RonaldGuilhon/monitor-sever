@@ -54264,3 +54264,1607 @@
 2025-08-29 01:33:12,757 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 52.5ms | App: 2.7ms | Admin: 2.6ms | HTTP: Status 401
 2025-08-29 01:33:14,864 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 30.7ms | App: FECHADA | Admin: 15.8ms
 2025-08-29 01:33:14,867 - INFO - === Monitoramento finalizado ===
+2025-08-29 20:27:42,718 - INFO - === Iniciando monitoramento de servidores GlassFish ===
+2025-08-29 20:27:44,882 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 22.5ms | App: FECHADA | Admin: 15.0ms
+2025-08-29 20:27:45,016 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 27.4ms | App: 2.6ms | Admin: 3.3ms | HTTP: 200 (0.08s)
+2025-08-29 20:27:45,163 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 23.2ms | App: 27.1ms | Admin: 2.3ms | HTTP: 200 (0.09s)
+2025-08-29 20:27:47,249 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 22.7ms | App: FECHADA | Admin: 12.2ms
+2025-08-29 20:27:47,318 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 20.7ms | App: 24.1ms | Admin: 15.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:27:47,368 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 23.7ms | App: 4.2ms | Admin: 1.9ms | HTTP: Status 401
+2025-08-29 20:27:49,458 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 27.1ms | App: FECHADA | Admin: 13.1ms
+2025-08-29 20:27:49,545 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 57.5ms | App: 3.6ms | Admin: 3.7ms | HTTP: 200 (0.02s)
+2025-08-29 20:27:49,629 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 51.2ms | App: 2.2ms | Admin: 3.8ms | HTTP: 200 (0.02s)
+2025-08-29 20:28:21,714 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 31.4ms | App: FECHADA | Admin: 13.0ms
+2025-08-29 20:28:21,821 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 22.9ms | App: 3.1ms | Admin: 20.5ms | HTTP: 200 (0.06s)
+2025-08-29 20:28:21,937 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 23.5ms | App: 26.4ms | Admin: 3.5ms | HTTP: 200 (0.06s)
+2025-08-29 20:28:24,052 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 20.5ms | App: FECHADA | Admin: 13.1ms
+2025-08-29 20:28:24,109 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 20.2ms | App: 2.0ms | Admin: 23.6ms | HTTP: 200 (0.01s)
+2025-08-29 20:28:24,153 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 19.7ms | App: 2.4ms | Admin: 4.4ms | HTTP: Status 401
+2025-08-29 20:28:26,218 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 20.4ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 20:28:26,281 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 30.4ms | App: 2.2ms | Admin: 21.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:28:26,346 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 23.0ms | App: 2.2ms | Admin: 2.7ms | HTTP: 200 (0.03s)
+2025-08-29 20:28:58,440 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 40.5ms | App: FECHADA | Admin: 3.0ms
+2025-08-29 20:28:58,568 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 56.7ms | App: 3.4ms | Admin: 3.4ms | HTTP: 200 (0.06s)
+2025-08-29 20:28:58,676 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 31.8ms | App: 8.1ms | Admin: 3.7ms | HTTP: 200 (0.06s)
+2025-08-29 20:29:00,768 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 35.8ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:29:00,846 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 29.5ms | App: 12.0ms | Admin: 2.6ms | HTTP: 200 (0.03s)
+2025-08-29 20:29:00,907 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 23.5ms | App: 18.6ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 20:29:02,983 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 22.2ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:29:03,023 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 21.2ms | App: 5.0ms | Admin: 1.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:29:03,060 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 21.0ms | App: 2.6ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:29:35,122 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 22.0ms | App: FECHADA | Admin: 12.3ms
+2025-08-29 20:29:35,232 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 24.1ms | App: 22.1ms | Admin: 2.2ms | HTTP: 200 (0.06s)
+2025-08-29 20:29:35,341 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 22.3ms | App: 2.3ms | Admin: 22.3ms | HTTP: 200 (0.06s)
+2025-08-29 20:29:37,438 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 24.0ms | App: FECHADA | Admin: 15.7ms
+2025-08-29 20:29:37,476 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 24.8ms | App: 1.9ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:29:37,616 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 112.2ms | App: 2.1ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 20:29:39,690 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 36.0ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:29:39,785 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 53.7ms | App: 2.0ms | Admin: 4.8ms | HTTP: 200 (0.03s)
+2025-08-29 20:29:39,830 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 25.7ms | App: 2.1ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 20:30:11,926 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 30.3ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 20:30:12,050 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 46.0ms | App: 3.0ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 20:30:12,165 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 30.0ms | App: 2.6ms | Admin: 1.8ms | HTTP: 200 (0.08s)
+2025-08-29 20:30:14,225 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 26.5ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 20:30:14,290 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 22.0ms | App: 20.0ms | Admin: 15.8ms | HTTP: 200 (0.00s)
+2025-08-29 20:30:14,361 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 21.7ms | App: 18.7ms | Admin: 14.7ms | HTTP: Status 401
+2025-08-29 20:30:16,415 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 23.9ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 20:30:16,472 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 27.9ms | App: 1.9ms | Admin: 12.3ms | HTTP: 200 (0.01s)
+2025-08-29 20:30:16,549 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 28.6ms | App: 19.3ms | Admin: 15.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:30:48,635 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 36.9ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 20:30:48,740 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 37.4ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 20:30:48,877 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 26.9ms | App: 6.3ms | Admin: 15.8ms | HTTP: 200 (0.08s)
+2025-08-29 20:30:50,969 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 60.2ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:30:51,707 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 665.4ms | App: 5.4ms | Admin: 3.5ms | HTTP: 200 (0.04s)
+2025-08-29 20:30:51,846 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 55.4ms | App: 2.7ms | Admin: 2.9ms | HTTP: Status 401
+2025-08-29 20:30:54,003 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 91.2ms | App: FECHADA | Admin: 3.6ms
+2025-08-29 20:30:54,033 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 19.2ms | App: 2.0ms | Admin: 1.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:30:54,094 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 19.9ms | App: 6.6ms | Admin: 16.1ms | HTTP: 200 (0.02s)
+2025-08-29 20:31:26,371 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 191.3ms | App: FECHADA | Admin: 4.6ms
+2025-08-29 20:31:26,656 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 190.0ms | App: 3.0ms | Admin: 2.9ms | HTTP: 200 (0.08s)
+2025-08-29 20:31:26,810 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 61.9ms | App: 4.9ms | Admin: 2.4ms | HTTP: 200 (0.08s)
+2025-08-29 20:31:28,904 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 40.8ms | App: FECHADA | Admin: 2.7ms
+2025-08-29 20:31:28,960 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 41.1ms | App: 2.1ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:31:29,037 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 40.3ms | App: 5.0ms | Admin: 2.6ms | HTTP: Status 401
+2025-08-29 20:31:31,141 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 42.4ms | App: FECHADA | Admin: 6.6ms
+2025-08-29 20:31:31,204 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 47.4ms | App: 2.2ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:31:31,269 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 42.1ms | App: 2.8ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:32:03,350 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 41.1ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:32:03,477 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 33.9ms | App: 2.9ms | Admin: 15.6ms | HTTP: 200 (0.07s)
+2025-08-29 20:32:03,601 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 23.4ms | App: 2.8ms | Admin: 1.7ms | HTTP: 200 (0.09s)
+2025-08-29 20:32:05,694 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 31.7ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:32:05,738 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 28.9ms | App: 1.9ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:32:05,793 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.2ms | App: 2.3ms | Admin: 4.1ms | HTTP: Status 401
+2025-08-29 20:32:07,881 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 29.7ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:32:07,950 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 27.4ms | App: 12.4ms | Admin: 16.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:32:07,999 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 28.7ms | App: 2.4ms | Admin: 3.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:32:40,108 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 30.2ms | App: FECHADA | Admin: 15.3ms
+2025-08-29 20:32:40,233 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 26.3ms | App: 27.2ms | Admin: 2.4ms | HTTP: 200 (0.07s)
+2025-08-29 20:32:40,327 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 18.1ms | App: 20.3ms | Admin: 2.4ms | HTTP: 200 (0.05s)
+2025-08-29 20:32:42,438 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 21.1ms | App: FECHADA | Admin: 15.3ms
+2025-08-29 20:32:42,511 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 31.7ms | App: 13.0ms | Admin: 2.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:32:42,595 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.9ms | App: 2.0ms | Admin: 19.1ms | HTTP: Status 401
+2025-08-29 20:32:44,724 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 20.7ms | App: FECHADA | Admin: 20.5ms
+2025-08-29 20:32:44,775 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 28.3ms | App: 12.0ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 20:32:44,826 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 28.4ms | App: 4.6ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:33:16,940 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 45.5ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:33:17,060 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 34.6ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 20:33:17,187 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 47.2ms | App: 2.5ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 20:33:19,266 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 36.2ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 20:33:19,344 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 27.0ms | App: 14.2ms | Admin: 14.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:33:19,405 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 42.8ms | App: 2.0ms | Admin: 1.8ms | HTTP: Status 401
+2025-08-29 20:33:21,468 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 18.5ms | App: FECHADA | Admin: 13.0ms
+2025-08-29 20:33:21,500 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 20.6ms | App: 2.0ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:33:21,586 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 23.8ms | App: 20.5ms | Admin: 2.6ms | HTTP: 200 (0.04s)
+2025-08-29 20:33:53,717 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 37.6ms | App: FECHADA | Admin: 15.6ms
+2025-08-29 20:33:53,817 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 20.4ms | App: 25.4ms | Admin: 2.6ms | HTTP: 200 (0.05s)
+2025-08-29 20:33:53,928 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 18.9ms | App: 20.8ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-29 20:33:56,090 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 22.6ms | App: FECHADA | Admin: 63.4ms
+2025-08-29 20:33:56,211 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 31.3ms | App: 4.3ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 20:33:56,264 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 22.1ms | App: 2.3ms | Admin: 2.6ms | HTTP: Status 401
+2025-08-29 20:33:58,344 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 25.4ms | App: FECHADA | Admin: 5.1ms
+2025-08-29 20:33:58,404 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 31.8ms | App: 14.6ms | Admin: 1.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:33:58,486 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 30.2ms | App: 12.2ms | Admin: 1.9ms | HTTP: 200 (0.04s)
+2025-08-29 20:34:30,723 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 138.4ms | App: FECHADA | Admin: 15.5ms
+2025-08-29 20:34:30,811 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 28.1ms | App: 1.9ms | Admin: 2.1ms | HTTP: 200 (0.05s)
+2025-08-29 20:34:30,909 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 23.3ms | App: 2.4ms | Admin: 14.2ms | HTTP: 200 (0.06s)
+2025-08-29 20:34:32,993 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 20.7ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 20:34:33,048 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 21.4ms | App: 14.1ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 20:34:33,094 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 22.5ms | App: 1.7ms | Admin: 3.1ms | HTTP: Status 401
+2025-08-29 20:34:35,261 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 34.9ms | App: FECHADA | Admin: 1.9ms
+2025-08-29 20:34:35,322 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 21.7ms | App: 21.7ms | Admin: 3.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:34:35,423 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 49.5ms | App: 25.0ms | Admin: 1.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:35:07,511 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 40.5ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:35:07,614 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 29.5ms | App: 11.4ms | Admin: 3.0ms | HTTP: 200 (0.06s)
+2025-08-29 20:35:07,723 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 19.0ms | App: 1.9ms | Admin: 26.1ms | HTTP: 200 (0.06s)
+2025-08-29 20:35:09,792 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 17.9ms | App: FECHADA | Admin: 13.5ms
+2025-08-29 20:35:09,876 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 44.5ms | App: 14.5ms | Admin: 15.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:35:09,919 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 19.1ms | App: 3.3ms | Admin: 4.8ms | HTTP: Status 401
+2025-08-29 20:35:12,018 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 19.4ms | App: FECHADA | Admin: 15.0ms
+2025-08-29 20:35:12,101 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 35.9ms | App: 2.7ms | Admin: 20.2ms | HTTP: 200 (0.02s)
+2025-08-29 20:35:12,147 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 25.5ms | App: 2.0ms | Admin: 1.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:35:44,294 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 26.6ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:35:44,406 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 30.9ms | App: 13.1ms | Admin: 2.2ms | HTTP: 200 (0.06s)
+2025-08-29 20:35:44,517 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 21.4ms | App: 1.9ms | Admin: 15.2ms | HTTP: 200 (0.07s)
+2025-08-29 20:35:46,617 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 44.9ms | App: FECHADA | Admin: 13.6ms
+2025-08-29 20:35:46,681 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 36.3ms | App: 2.2ms | Admin: 17.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:35:46,743 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 30.3ms | App: 3.1ms | Admin: 6.0ms | HTTP: Status 401
+2025-08-29 20:35:48,837 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 33.8ms | App: FECHADA | Admin: 4.4ms
+2025-08-29 20:35:48,925 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 52.5ms | App: 2.2ms | Admin: 3.2ms | HTTP: 200 (0.03s)
+2025-08-29 20:35:48,996 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 45.6ms | App: 2.2ms | Admin: 3.4ms | HTTP: 200 (0.02s)
+2025-08-29 20:36:21,070 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 21.6ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 20:36:21,204 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 40.9ms | App: 2.2ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-08-29 20:36:21,320 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 28.1ms | App: 15.2ms | Admin: 2.5ms | HTTP: 200 (0.07s)
+2025-08-29 20:36:23,416 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 47.8ms | App: FECHADA | Admin: 3.3ms
+2025-08-29 20:36:23,487 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 37.6ms | App: 19.5ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:36:23,554 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 35.8ms | App: 2.2ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 20:36:25,636 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 48.1ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:36:25,724 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 50.2ms | App: 2.2ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-08-29 20:36:25,873 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 52.6ms | App: 2.6ms | Admin: 3.3ms | HTTP: 200 (0.06s)
+2025-08-29 20:36:58,002 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 21.8ms | App: FECHADA | Admin: 15.5ms
+2025-08-29 20:36:58,102 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 39.0ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.05s)
+2025-08-29 20:36:58,282 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 18.3ms | App: 2.0ms | Admin: 18.8ms | HTTP: 200 (0.14s)
+2025-08-29 20:37:00,417 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 30.5ms | App: FECHADA | Admin: 15.2ms
+2025-08-29 20:37:00,485 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 44.0ms | App: 2.6ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-08-29 20:37:00,554 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.8ms | App: 2.8ms | Admin: 1.8ms | HTTP: Status 401
+2025-08-29 20:37:02,684 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 50.3ms | App: FECHADA | Admin: 26.4ms
+2025-08-29 20:37:02,765 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 26.1ms | App: 17.7ms | Admin: 1.9ms | HTTP: 200 (0.03s)
+2025-08-29 20:37:02,823 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 24.7ms | App: 14.9ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:37:34,930 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 30.5ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:37:35,064 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 43.3ms | App: 3.0ms | Admin: 2.4ms | HTTP: 200 (0.07s)
+2025-08-29 20:37:35,150 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 24.8ms | App: 2.1ms | Admin: 1.8ms | HTTP: 200 (0.05s)
+2025-08-29 20:37:37,267 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 39.4ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:37:37,321 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 21.6ms | App: 21.9ms | Admin: 3.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:37:37,398 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 18.7ms | App: 17.0ms | Admin: 5.2ms | HTTP: Status 401
+2025-08-29 20:37:39,468 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 21.8ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:37:39,516 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 31.8ms | App: 2.2ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 20:37:39,557 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 23.2ms | App: 1.9ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 20:38:11,672 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 42.1ms | App: FECHADA | Admin: 14.7ms
+2025-08-29 20:38:11,787 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 33.4ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 20:38:11,891 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 19.6ms | App: 18.8ms | Admin: 2.0ms | HTTP: 200 (0.06s)
+2025-08-29 20:38:13,978 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 22.3ms | App: FECHADA | Admin: 15.3ms
+2025-08-29 20:38:14,031 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 32.8ms | App: 5.5ms | Admin: 4.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:38:14,119 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 19.3ms | App: 18.9ms | Admin: 1.9ms | HTTP: Status 401
+2025-08-29 20:38:16,208 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 20.6ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:38:16,267 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 40.3ms | App: 3.7ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:38:16,335 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 20.9ms | App: 21.9ms | Admin: 2.0ms | HTTP: 200 (0.02s)
+2025-08-29 20:38:48,480 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 42.9ms | App: FECHADA | Admin: 15.7ms
+2025-08-29 20:38:48,572 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 37.6ms | App: 3.8ms | Admin: 2.2ms | HTTP: 200 (0.04s)
+2025-08-29 20:38:48,673 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 20.7ms | App: 2.0ms | Admin: 23.2ms | HTTP: 200 (0.05s)
+2025-08-29 20:38:50,745 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 20.2ms | App: FECHADA | Admin: 13.9ms
+2025-08-29 20:38:50,825 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 19.0ms | App: 26.0ms | Admin: 2.2ms | HTTP: 200 (0.03s)
+2025-08-29 20:38:50,872 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 26.1ms | App: 3.7ms | Admin: 2.9ms | HTTP: Status 401
+2025-08-29 20:38:52,978 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 27.9ms | App: FECHADA | Admin: 15.3ms
+2025-08-29 20:38:53,029 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 36.1ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:38:53,082 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 17.7ms | App: 21.2ms | Admin: 3.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:39:25,172 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 40.9ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:39:25,281 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 23.6ms | App: 2.0ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-08-29 20:39:25,382 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 19.3ms | App: 20.8ms | Admin: 2.4ms | HTTP: 200 (0.06s)
+2025-08-29 20:39:27,457 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 23.9ms | App: FECHADA | Admin: 12.8ms
+2025-08-29 20:39:27,523 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 19.5ms | App: 25.9ms | Admin: 1.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:39:27,595 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 20.5ms | App: 22.1ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 20:39:29,690 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 20.8ms | App: FECHADA | Admin: 15.9ms
+2025-08-29 20:39:29,742 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 34.1ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:39:29,807 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 19.1ms | App: 22.3ms | Admin: 3.5ms | HTTP: 200 (0.02s)
+2025-08-29 20:40:01,868 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 20.3ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:40:01,986 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 35.3ms | App: 3.5ms | Admin: 2.3ms | HTTP: 200 (0.07s)
+2025-08-29 20:40:02,088 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 26.6ms | App: 2.5ms | Admin: 1.8ms | HTTP: 200 (0.07s)
+2025-08-29 20:40:04,198 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 46.0ms | App: FECHADA | Admin: 12.8ms
+2025-08-29 20:40:04,238 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 28.2ms | App: 1.9ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:40:04,298 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 32.8ms | App: 2.1ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 20:40:06,383 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 28.1ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:40:06,460 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 30.1ms | App: 11.1ms | Admin: 2.5ms | HTTP: 200 (0.03s)
+2025-08-29 20:40:06,516 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 25.4ms | App: 13.5ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:40:38,594 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 23.3ms | App: FECHADA | Admin: 3.2ms
+2025-08-29 20:40:38,726 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 32.3ms | App: 2.0ms | Admin: 2.0ms | HTTP: 200 (0.09s)
+2025-08-29 20:40:38,814 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 25.7ms | App: 2.0ms | Admin: 1.9ms | HTTP: 200 (0.05s)
+2025-08-29 20:40:40,904 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 18.7ms | App: FECHADA | Admin: 14.7ms
+2025-08-29 20:40:40,946 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 29.5ms | App: 1.9ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:40:41,004 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 29.4ms | App: 2.4ms | Admin: 4.3ms | HTTP: Status 401
+2025-08-29 20:40:43,099 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 31.5ms | App: FECHADA | Admin: 13.2ms
+2025-08-29 20:40:43,313 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 94.5ms | App: 31.8ms | Admin: 31.5ms | HTTP: 200 (0.02s)
+2025-08-29 20:40:43,359 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 19.9ms | App: 3.8ms | Admin: 4.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:41:15,466 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 36.0ms | App: FECHADA | Admin: 25.8ms
+2025-08-29 20:41:15,629 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 26.3ms | App: 19.3ms | Admin: 22.1ms | HTTP: 200 (0.08s)
+2025-08-29 20:41:15,892 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 65.0ms | App: 29.8ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 20:41:18,015 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 31.6ms | App: FECHADA | Admin: 15.6ms
+2025-08-29 20:41:18,159 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 50.8ms | App: 2.1ms | Admin: 25.9ms | HTTP: 200 (0.06s)
+2025-08-29 20:41:18,339 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 44.9ms | App: 25.1ms | Admin: 60.1ms | HTTP: Status 401
+2025-08-29 20:41:20,480 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 41.8ms | App: FECHADA | Admin: 15.4ms
+2025-08-29 20:41:20,600 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 38.6ms | App: 2.0ms | Admin: 26.0ms | HTTP: 200 (0.05s)
+2025-08-29 20:41:20,731 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 60.0ms | App: 2.0ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 20:41:52,841 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 41.1ms | App: FECHADA | Admin: 12.9ms
+2025-08-29 20:41:52,939 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 19.0ms | App: 1.8ms | Admin: 23.2ms | HTTP: 200 (0.05s)
+2025-08-29 20:41:53,035 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 30.3ms | App: 2.0ms | Admin: 1.7ms | HTTP: 200 (0.06s)
+2025-08-29 20:41:55,131 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 34.5ms | App: FECHADA | Admin: 13.3ms
+2025-08-29 20:41:55,197 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 34.3ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 20:41:55,254 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 24.2ms | App: 1.9ms | Admin: 15.7ms | HTTP: Status 401
+2025-08-29 20:41:57,345 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 19.7ms | App: FECHADA | Admin: 16.1ms
+2025-08-29 20:41:57,430 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 31.5ms | App: 3.9ms | Admin: 26.2ms | HTTP: 200 (0.02s)
+2025-08-29 20:41:57,476 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 28.3ms | App: 2.6ms | Admin: 1.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:42:29,576 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 23.6ms | App: FECHADA | Admin: 14.6ms
+2025-08-29 20:42:29,717 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 34.2ms | App: 5.2ms | Admin: 19.6ms | HTTP: 200 (0.08s)
+2025-08-29 20:42:29,828 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 19.6ms | App: 2.0ms | Admin: 19.9ms | HTTP: 200 (0.07s)
+2025-08-29 20:42:31,950 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 56.4ms | App: FECHADA | Admin: 13.9ms
+2025-08-29 20:42:32,009 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 27.5ms | App: 17.4ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-08-29 20:42:32,065 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.7ms | App: 4.2ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 20:42:34,203 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 29.9ms | App: FECHADA | Admin: 15.3ms
+2025-08-29 20:42:34,281 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 61.7ms | App: 2.7ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:42:34,373 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 21.1ms | App: 2.3ms | Admin: 25.7ms | HTTP: 200 (0.04s)
+2025-08-29 20:43:06,444 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 20.4ms | App: FECHADA | Admin: 3.8ms
+2025-08-29 20:43:06,567 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 56.3ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 20:43:06,697 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 32.5ms | App: 2.6ms | Admin: 3.0ms | HTTP: 200 (0.09s)
+2025-08-29 20:43:08,827 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 33.0ms | App: FECHADA | Admin: 27.0ms
+2025-08-29 20:43:08,871 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 24.1ms | App: 2.4ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 20:43:09,114 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 94.6ms | App: 15.6ms | Admin: 7.6ms | HTTP: Status 401
+2025-08-29 20:43:11,268 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 89.7ms | App: FECHADA | Admin: 1.8ms
+2025-08-29 20:43:11,312 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 32.9ms | App: 2.0ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:43:11,379 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 36.6ms | App: 2.5ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 20:43:43,564 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 85.8ms | App: FECHADA | Admin: 13.2ms
+2025-08-29 20:43:43,650 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 25.2ms | App: 3.0ms | Admin: 2.0ms | HTTP: 200 (0.05s)
+2025-08-29 20:43:43,731 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 18.9ms | App: 1.9ms | Admin: 1.8ms | HTTP: 200 (0.06s)
+2025-08-29 20:43:45,844 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 18.1ms | App: FECHADA | Admin: 15.1ms
+2025-08-29 20:43:45,940 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 33.0ms | App: 25.7ms | Admin: 2.7ms | HTTP: 200 (0.03s)
+2025-08-29 20:43:46,062 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 45.4ms | App: 24.4ms | Admin: 15.0ms | HTTP: Status 401
+2025-08-29 20:43:48,181 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 64.5ms | App: FECHADA | Admin: 12.6ms
+2025-08-29 20:43:48,236 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 20.6ms | App: 23.7ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:43:48,289 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 22.8ms | App: 12.1ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:44:20,399 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 22.4ms | App: FECHADA | Admin: 14.8ms
+2025-08-29 20:44:20,488 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 26.1ms | App: 2.7ms | Admin: 1.8ms | HTTP: 200 (0.06s)
+2025-08-29 20:44:20,622 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 22.9ms | App: 28.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 20:44:22,692 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 32.3ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:44:22,734 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 25.5ms | App: 1.8ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 20:44:22,828 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 25.5ms | App: 24.8ms | Admin: 5.7ms | HTTP: Status 401
+2025-08-29 20:44:24,911 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 25.7ms | App: FECHADA | Admin: 14.1ms
+2025-08-29 20:44:24,949 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 23.7ms | App: 3.4ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:44:25,022 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 33.7ms | App: 22.0ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:44:57,101 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 22.1ms | App: FECHADA | Admin: 15.8ms
+2025-08-29 20:44:57,222 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 24.3ms | App: 19.4ms | Admin: 6.5ms | HTTP: 200 (0.07s)
+2025-08-29 20:44:57,339 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 32.9ms | App: 10.7ms | Admin: 2.6ms | HTTP: 200 (0.07s)
+2025-08-29 20:44:59,427 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 54.8ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:44:59,496 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 50.4ms | App: 2.0ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:44:59,589 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 63.3ms | App: 2.2ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 20:45:01,702 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 39.4ms | App: FECHADA | Admin: 15.1ms
+2025-08-29 20:45:01,775 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 26.1ms | App: 18.6ms | Admin: 18.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:45:01,853 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 46.4ms | App: 12.7ms | Admin: 3.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:45:33,950 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 19.9ms | App: FECHADA | Admin: 14.9ms
+2025-08-29 20:45:34,069 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 25.5ms | App: 18.9ms | Admin: 2.8ms | HTTP: 200 (0.07s)
+2025-08-29 20:45:34,160 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 20.9ms | App: 12.4ms | Admin: 3.0ms | HTTP: 200 (0.05s)
+2025-08-29 20:45:36,264 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 32.0ms | App: FECHADA | Admin: 15.7ms
+2025-08-29 20:45:36,322 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 40.2ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:45:36,387 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 25.4ms | App: 2.2ms | Admin: 23.0ms | HTTP: Status 401
+2025-08-29 20:45:38,458 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 19.5ms | App: FECHADA | Admin: 12.7ms
+2025-08-29 20:45:38,494 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 23.4ms | App: 2.0ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:45:38,532 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 22.6ms | App: 1.9ms | Admin: 1.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:46:10,634 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 21.7ms | App: FECHADA | Admin: 15.1ms
+2025-08-29 20:46:10,784 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 42.2ms | App: 23.9ms | Admin: 2.0ms | HTTP: 200 (0.08s)
+2025-08-29 20:46:10,892 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 20.8ms | App: 19.9ms | Admin: 2.2ms | HTTP: 200 (0.06s)
+2025-08-29 20:46:12,971 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 21.8ms | App: FECHADA | Admin: 13.3ms
+2025-08-29 20:46:13,006 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 20.2ms | App: 1.9ms | Admin: 1.8ms | HTTP: 200 (0.01s)
+2025-08-29 20:46:13,089 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 29.7ms | App: 26.1ms | Admin: 2.3ms | HTTP: Status 401
+2025-08-29 20:46:15,281 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 21.5ms | App: FECHADA | Admin: 46.2ms
+2025-08-29 20:46:15,405 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 35.4ms | App: 4.7ms | Admin: 24.6ms | HTTP: 200 (0.03s)
+2025-08-29 20:46:15,454 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 20.4ms | App: 2.0ms | Admin: 8.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:46:47,573 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 29.6ms | App: FECHADA | Admin: 12.8ms
+2025-08-29 20:46:48,060 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 152.1ms | App: 69.0ms | Admin: 15.4ms | HTTP: 200 (0.13s)
+2025-08-29 20:46:48,187 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 37.1ms | App: 4.1ms | Admin: 8.9ms | HTTP: 200 (0.06s)
+2025-08-29 20:46:50,301 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 33.1ms | App: FECHADA | Admin: 14.9ms
+2025-08-29 20:46:50,383 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 24.6ms | App: 19.7ms | Admin: 15.4ms | HTTP: 200 (0.02s)
+2025-08-29 20:46:50,432 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 25.1ms | App: 2.2ms | Admin: 1.7ms | HTTP: Status 401
+2025-08-29 20:46:52,531 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 23.9ms | App: FECHADA | Admin: 15.2ms
+2025-08-29 20:46:52,612 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 33.8ms | App: 24.9ms | Admin: 1.8ms | HTTP: 200 (0.02s)
+2025-08-29 20:46:52,655 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 23.1ms | App: 2.4ms | Admin: 4.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:47:24,765 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 45.5ms | App: FECHADA | Admin: 4.1ms
+2025-08-29 20:47:24,992 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 37.4ms | App: 15.4ms | Admin: 8.2ms | HTTP: 200 (0.16s)
+2025-08-29 20:47:25,133 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 54.0ms | App: 2.9ms | Admin: 3.0ms | HTTP: 200 (0.07s)
+2025-08-29 20:47:27,219 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 38.8ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:47:27,282 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 24.5ms | App: 4.6ms | Admin: 24.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:47:27,385 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 43.0ms | App: 24.5ms | Admin: 15.2ms | HTTP: Status 401
+2025-08-29 20:47:29,476 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 39.9ms | App: FECHADA | Admin: 13.0ms
+2025-08-29 20:47:29,574 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 59.6ms | App: 3.0ms | Admin: 5.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:47:29,675 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 41.5ms | App: 13.1ms | Admin: 4.4ms | HTTP: 200 (0.04s)
+2025-08-29 20:48:01,806 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 33.9ms | App: FECHADA | Admin: 26.3ms
+2025-08-29 20:48:01,945 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 42.7ms | App: 6.1ms | Admin: 2.0ms | HTTP: 200 (0.08s)
+2025-08-29 20:48:02,089 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 54.4ms | App: 5.6ms | Admin: 3.3ms | HTTP: 200 (0.08s)
+2025-08-29 20:48:04,220 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 52.9ms | App: FECHADA | Admin: 13.2ms
+2025-08-29 20:48:04,280 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 45.6ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:48:04,389 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 74.2ms | App: 4.7ms | Admin: 2.6ms | HTTP: Status 401
+2025-08-29 20:48:06,501 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.6ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:48:06,593 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 58.9ms | App: 2.5ms | Admin: 2.1ms | HTTP: 200 (0.03s)
+2025-08-29 20:48:06,692 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 49.0ms | App: 2.4ms | Admin: 19.3ms | HTTP: 200 (0.03s)
+2025-08-29 20:48:38,766 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 19.4ms | App: FECHADA | Admin: 13.3ms
+2025-08-29 20:48:38,889 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 30.6ms | App: 25.1ms | Admin: 2.8ms | HTTP: 200 (0.06s)
+2025-08-29 20:48:38,990 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 27.7ms | App: 2.2ms | Admin: 2.3ms | HTTP: 200 (0.07s)
+2025-08-29 20:48:41,109 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 32.1ms | App: FECHADA | Admin: 15.7ms
+2025-08-29 20:48:41,173 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 19.4ms | App: 25.7ms | Admin: 1.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:48:41,448 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 86.2ms | App: 56.5ms | Admin: 5.4ms | HTTP: Status 401
+2025-08-29 20:48:43,594 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 46.4ms | App: FECHADA | Admin: 3.8ms
+2025-08-29 20:48:43,748 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 79.2ms | App: 12.0ms | Admin: 2.5ms | HTTP: 200 (0.02s)
+2025-08-29 20:48:43,830 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 51.8ms | App: 3.0ms | Admin: 7.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:49:15,973 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 92.7ms | App: FECHADA | Admin: 11.4ms
+2025-08-29 20:49:16,096 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 37.8ms | App: 4.1ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 20:49:16,194 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 30.3ms | App: 2.4ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 20:49:18,292 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 24.0ms | App: FECHADA | Admin: 13.4ms
+2025-08-29 20:49:18,332 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 24.5ms | App: 2.1ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:49:18,403 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.3ms | App: 20.8ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 20:49:20,529 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 26.1ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:49:20,596 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 46.9ms | App: 2.0ms | Admin: 6.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:49:20,634 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 20.0ms | App: 2.9ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:49:52,751 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 39.4ms | App: FECHADA | Admin: 11.8ms
+2025-08-29 20:49:52,925 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 49.1ms | App: 10.6ms | Admin: 25.7ms | HTTP: 200 (0.08s)
+2025-08-29 20:49:53,039 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 38.8ms | App: 2.1ms | Admin: 2.8ms | HTTP: 200 (0.07s)
+2025-08-29 20:49:55,169 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 82.2ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 20:49:55,261 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 43.8ms | App: 2.8ms | Admin: 25.0ms | HTTP: 200 (0.02s)
+2025-08-29 20:49:55,315 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 29.7ms | App: 1.9ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 20:49:57,404 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 31.7ms | App: FECHADA | Admin: 1.8ms
+2025-08-29 20:49:57,481 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 33.8ms | App: 8.2ms | Admin: 4.9ms | HTTP: 200 (0.03s)
+2025-08-29 20:49:57,529 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 27.0ms | App: 2.2ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-08-29 20:50:29,635 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 26.4ms | App: FECHADA | Admin: 15.2ms
+2025-08-29 20:50:29,762 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 35.3ms | App: 2.5ms | Admin: 2.2ms | HTTP: 200 (0.08s)
+2025-08-29 20:50:29,855 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 28.4ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.06s)
+2025-08-29 20:50:31,939 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 32.1ms | App: FECHADA | Admin: 12.5ms
+2025-08-29 20:50:31,981 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 28.5ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:50:32,072 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 27.7ms | App: 19.2ms | Admin: 15.2ms | HTTP: Status 401
+2025-08-29 20:50:34,152 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 24.6ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 20:50:34,204 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 36.7ms | App: 2.2ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-08-29 20:50:34,345 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 63.2ms | App: 2.2ms | Admin: 19.5ms | HTTP: 200 (0.02s)
+2025-08-29 20:51:06,493 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 50.9ms | App: FECHADA | Admin: 15.1ms
+2025-08-29 20:51:06,675 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 65.5ms | App: 25.6ms | Admin: 4.3ms | HTTP: 200 (0.08s)
+2025-08-29 20:51:06,770 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 21.4ms | App: 13.0ms | Admin: 4.0ms | HTTP: 200 (0.05s)
+2025-08-29 20:51:08,842 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 21.5ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 20:51:08,880 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 23.4ms | App: 2.5ms | Admin: 1.7ms | HTTP: 200 (0.01s)
+2025-08-29 20:51:08,941 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 23.1ms | App: 1.8ms | Admin: 1.8ms | HTTP: Status 401
+2025-08-29 20:51:11,012 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 26.2ms | App: FECHADA | Admin: 3.3ms
+2025-08-29 20:51:11,224 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 52.6ms | App: 13.1ms | Admin: 8.4ms | HTTP: 200 (0.09s)
+2025-08-29 20:51:11,308 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 35.9ms | App: 15.2ms | Admin: 2.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:51:43,454 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 21.6ms | App: FECHADA | Admin: 19.3ms
+2025-08-29 20:51:43,631 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 46.9ms | App: 4.6ms | Admin: 2.2ms | HTTP: 200 (0.05s)
+2025-08-29 20:51:43,736 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 30.3ms | App: 2.5ms | Admin: 2.7ms | HTTP: 200 (0.06s)
+2025-08-29 20:51:45,831 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 44.2ms | App: FECHADA | Admin: 4.3ms
+2025-08-29 20:51:45,905 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 59.0ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:51:45,976 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 31.6ms | App: 2.1ms | Admin: 3.0ms | HTTP: Status 401
+2025-08-29 20:51:48,079 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 62.3ms | App: FECHADA | Admin: 3.3ms
+2025-08-29 20:51:48,154 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 58.9ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:51:48,240 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 60.8ms | App: 3.6ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 20:52:20,309 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 31.2ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 20:52:20,418 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 24.6ms | App: 3.3ms | Admin: 6.7ms | HTTP: 200 (0.07s)
+2025-08-29 20:52:20,504 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 27.5ms | App: 2.0ms | Admin: 1.9ms | HTTP: 200 (0.05s)
+2025-08-29 20:52:22,573 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 21.6ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:52:22,621 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 25.5ms | App: 2.0ms | Admin: 1.7ms | HTTP: 200 (0.02s)
+2025-08-29 20:52:22,694 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 19.2ms | App: 24.7ms | Admin: 2.5ms | HTTP: Status 401
+2025-08-29 20:52:24,861 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 20.3ms | App: FECHADA | Admin: 15.3ms
+2025-08-29 20:52:24,912 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 34.1ms | App: 2.1ms | Admin: 3.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:52:24,980 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 19.3ms | App: 21.4ms | Admin: 1.9ms | HTTP: 200 (0.02s)
+2025-08-29 20:52:57,082 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 56.4ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:52:57,231 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 61.8ms | App: 2.7ms | Admin: 2.9ms | HTTP: 200 (0.08s)
+2025-08-29 20:52:57,360 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 50.7ms | App: 2.6ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 20:52:59,489 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 63.1ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 20:52:59,557 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 50.1ms | App: 3.8ms | Admin: 3.6ms | HTTP: 200 (0.01s)
+2025-08-29 20:52:59,634 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 50.5ms | App: 2.3ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 20:53:01,775 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 63.0ms | App: FECHADA | Admin: 11.7ms
+2025-08-29 20:53:01,850 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 60.5ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:53:01,909 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 35.3ms | App: 2.4ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:53:34,013 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 51.7ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:53:34,292 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 66.4ms | App: 2.5ms | Admin: 17.9ms | HTTP: 200 (0.19s)
+2025-08-29 20:53:34,435 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 63.0ms | App: 3.0ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 20:53:36,530 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 52.2ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:53:36,589 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 45.1ms | App: 2.7ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:53:36,659 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 47.8ms | App: 2.0ms | Admin: 1.9ms | HTTP: Status 401
+2025-08-29 20:53:38,744 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 31.0ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 20:53:38,796 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 33.3ms | App: 2.8ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:53:38,927 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 58.8ms | App: 2.9ms | Admin: 2.1ms | HTTP: 200 (0.05s)
+2025-08-29 20:54:11,066 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 40.2ms | App: FECHADA | Admin: 3.4ms
+2025-08-29 20:54:11,255 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 45.4ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 20:54:11,660 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 157.0ms | App: 35.7ms | Admin: 4.0ms | HTTP: 200 (0.07s)
+2025-08-29 20:54:13,770 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 56.9ms | App: FECHADA | Admin: 3.1ms
+2025-08-29 20:54:13,865 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 68.3ms | App: 2.9ms | Admin: 5.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:54:13,957 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 65.3ms | App: 2.1ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 20:54:16,062 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 55.2ms | App: FECHADA | Admin: 13.4ms
+2025-08-29 20:54:16,116 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 39.8ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 20:54:16,194 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 49.8ms | App: 2.3ms | Admin: 5.8ms | HTTP: 200 (0.02s)
+2025-08-29 20:54:48,272 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 47.5ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 20:54:48,490 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 102.1ms | App: 3.6ms | Admin: 3.2ms | HTTP: 200 (0.10s)
+2025-08-29 20:54:48,645 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 56.3ms | App: 3.5ms | Admin: 7.9ms | HTTP: 200 (0.08s)
+2025-08-29 20:54:50,822 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 50.0ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:54:50,881 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 46.5ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:54:50,949 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 39.1ms | App: 2.3ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 20:54:53,041 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 43.1ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:54:53,094 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 38.3ms | App: 2.7ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 20:54:53,173 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 41.7ms | App: 2.4ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-08-29 20:55:25,272 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 40.7ms | App: FECHADA | Admin: 15.5ms
+2025-08-29 20:55:25,394 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 25.9ms | App: 2.8ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-08-29 20:55:25,508 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 33.2ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-29 20:55:27,579 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 38.8ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:55:27,664 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 62.1ms | App: 2.0ms | Admin: 9.5ms | HTTP: 200 (0.01s)
+2025-08-29 20:55:27,752 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 54.9ms | App: 2.3ms | Admin: 2.2ms | HTTP: Status 401
+2025-08-29 20:55:29,874 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 81.3ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:55:29,965 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 73.9ms | App: 2.6ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 20:55:30,050 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 59.3ms | App: 4.4ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 20:56:02,130 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 31.5ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 20:56:02,289 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 41.1ms | App: 20.0ms | Admin: 4.8ms | HTTP: 200 (0.09s)
+2025-08-29 20:56:02,415 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 46.7ms | App: 15.1ms | Admin: 2.4ms | HTTP: 200 (0.06s)
+2025-08-29 20:56:04,508 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 38.1ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 20:56:04,580 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 56.0ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:56:04,828 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 88.8ms | App: 40.8ms | Admin: 10.7ms | HTTP: Status 401
+2025-08-29 20:56:07,106 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 134.7ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 20:56:07,202 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 51.0ms | App: 4.1ms | Admin: 8.6ms | HTTP: 200 (0.02s)
+2025-08-29 20:56:07,278 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 47.6ms | App: 3.5ms | Admin: 4.4ms | HTTP: 200 (0.01s)
+2025-08-29 20:56:39,454 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 117.0ms | App: FECHADA | Admin: 6.9ms
+2025-08-29 20:56:39,626 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 56.8ms | App: 13.2ms | Admin: 14.8ms | HTTP: 200 (0.08s)
+2025-08-29 20:56:39,919 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 163.4ms | App: 2.4ms | Admin: 4.7ms | HTTP: 200 (0.07s)
+2025-08-29 20:56:42,025 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 59.4ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 20:56:42,131 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 64.6ms | App: 2.2ms | Admin: 8.9ms | HTTP: 200 (0.03s)
+2025-08-29 20:56:42,193 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 33.3ms | App: 2.2ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 20:56:44,303 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 61.2ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 20:56:44,370 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 48.5ms | App: 6.1ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:56:44,441 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 51.2ms | App: 1.7ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 20:57:16,573 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 52.9ms | App: FECHADA | Admin: 15.8ms
+2025-08-29 20:57:16,843 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 127.1ms | App: 2.4ms | Admin: 23.1ms | HTTP: 200 (0.11s)
+2025-08-29 20:57:17,133 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 133.8ms | App: 7.4ms | Admin: 23.2ms | HTTP: 200 (0.09s)
+2025-08-29 20:57:19,407 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 102.4ms | App: FECHADA | Admin: 7.8ms
+2025-08-29 20:57:19,551 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 77.6ms | App: 13.8ms | Admin: 37.0ms | HTTP: 200 (0.01s)
+2025-08-29 20:57:19,686 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 81.8ms | App: 4.5ms | Admin: 3.1ms | HTTP: Status 401
+2025-08-29 20:57:22,141 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 273.2ms | App: FECHADA | Admin: 8.4ms
+2025-08-29 20:57:22,421 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 83.0ms | App: 4.0ms | Admin: 3.9ms | HTTP: 200 (0.07s)
+2025-08-29 20:57:22,672 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 99.3ms | App: 8.5ms | Admin: 8.3ms | HTTP: 200 (0.06s)
+2025-08-29 20:57:54,865 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 85.9ms | App: FECHADA | Admin: 2.7ms
+2025-08-29 20:57:55,668 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 55.4ms | App: 6.9ms | Admin: 2.1ms | HTTP: 200 (0.10s)
+2025-08-29 20:57:55,837 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 80.1ms | App: 5.7ms | Admin: 6.3ms | HTTP: 200 (0.07s)
+2025-08-29 20:57:57,980 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 73.6ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 20:57:58,065 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 61.8ms | App: 8.5ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 20:57:58,155 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 58.0ms | App: 2.9ms | Admin: 2.4ms | HTTP: Status 401
+2025-08-29 20:58:00,283 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.1ms | App: FECHADA | Admin: 5.5ms
+2025-08-29 20:58:00,358 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 45.3ms | App: 2.3ms | Admin: 4.5ms | HTTP: 200 (0.02s)
+2025-08-29 20:58:00,622 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 170.2ms | App: 11.1ms | Admin: 22.3ms | HTTP: 200 (0.04s)
+2025-08-29 20:58:32,924 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 139.7ms | App: FECHADA | Admin: 30.5ms
+2025-08-29 20:58:33,242 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 151.6ms | App: 16.6ms | Admin: 3.5ms | HTTP: 200 (0.12s)
+2025-08-29 20:58:33,689 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 139.6ms | App: 4.9ms | Admin: 30.7ms | HTTP: 200 (0.15s)
+2025-08-29 20:58:36,005 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 268.5ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:58:36,098 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 74.5ms | App: 4.9ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 20:58:36,189 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 61.8ms | App: 2.8ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 20:58:38,324 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 83.1ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:58:38,407 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 45.8ms | App: 2.9ms | Admin: 21.3ms | HTTP: 200 (0.01s)
+2025-08-29 20:58:38,540 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 87.9ms | App: 2.7ms | Admin: 3.3ms | HTTP: 200 (0.04s)
+2025-08-29 20:59:10,652 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 41.9ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 20:59:10,792 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 38.0ms | App: 2.2ms | Admin: 15.2ms | HTTP: 200 (0.08s)
+2025-08-29 20:59:10,895 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 40.1ms | App: 3.4ms | Admin: 2.7ms | HTTP: 200 (0.05s)
+2025-08-29 20:59:12,997 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 38.6ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 20:59:13,061 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 42.5ms | App: 5.0ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-08-29 20:59:13,152 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 63.3ms | App: 3.7ms | Admin: 2.2ms | HTTP: Status 401
+2025-08-29 20:59:15,245 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 38.5ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 20:59:15,310 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 48.2ms | App: 3.1ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 20:59:15,402 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 59.2ms | App: 2.3ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-08-29 20:59:47,543 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 37.7ms | App: FECHADA | Admin: 10.7ms
+2025-08-29 20:59:47,745 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 105.6ms | App: 2.9ms | Admin: 6.0ms | HTTP: 200 (0.08s)
+2025-08-29 20:59:47,932 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 83.5ms | App: 21.4ms | Admin: 7.8ms | HTTP: 200 (0.07s)
+2025-08-29 20:59:50,080 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 86.8ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 20:59:50,293 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 171.7ms | App: 15.5ms | Admin: 4.8ms | HTTP: 200 (0.02s)
+2025-08-29 20:59:50,464 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 96.0ms | App: 3.5ms | Admin: 12.8ms | HTTP: Status 401
+2025-08-29 20:59:52,736 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 211.6ms | App: FECHADA | Admin: 4.0ms
+2025-08-29 20:59:53,300 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 437.9ms | App: 3.7ms | Admin: 3.0ms | HTTP: 200 (0.04s)
+2025-08-29 20:59:53,550 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 125.8ms | App: 18.1ms | Admin: 10.5ms | HTTP: 200 (0.04s)
+2025-08-29 21:00:25,896 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 141.2ms | App: FECHADA | Admin: 30.8ms
+2025-08-29 21:00:26,217 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 186.4ms | App: 2.3ms | Admin: 3.8ms | HTTP: 200 (0.12s)
+2025-08-29 21:00:26,498 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 173.9ms | App: 3.9ms | Admin: 5.7ms | HTTP: 200 (0.08s)
+2025-08-29 21:00:28,609 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 63.8ms | App: FECHADA | Admin: 4.6ms
+2025-08-29 21:00:28,754 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 125.2ms | App: 3.0ms | Admin: 3.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:00:28,916 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 131.7ms | App: 2.5ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:00:31,013 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 57.9ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 21:00:31,078 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 48.9ms | App: 2.6ms | Admin: 3.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:00:31,176 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 66.0ms | App: 3.8ms | Admin: 5.9ms | HTTP: 200 (0.02s)
+2025-08-29 21:01:03,282 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 46.0ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 21:01:03,472 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 90.8ms | App: 2.6ms | Admin: 2.5ms | HTTP: 200 (0.09s)
+2025-08-29 21:01:03,748 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 147.7ms | App: 23.0ms | Admin: 2.7ms | HTTP: 200 (0.10s)
+2025-08-29 21:01:05,883 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 42.7ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 21:01:05,979 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 67.8ms | App: 3.4ms | Admin: 3.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:01:06,099 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 81.7ms | App: 2.1ms | Admin: 3.6ms | HTTP: Status 401
+2025-08-29 21:01:08,326 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 137.0ms | App: FECHADA | Admin: 11.8ms
+2025-08-29 21:01:08,911 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 412.2ms | App: 36.9ms | Admin: 15.1ms | HTTP: 200 (0.08s)
+2025-08-29 21:01:09,339 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 244.3ms | App: 6.4ms | Admin: 2.7ms | HTTP: 200 (0.06s)
+2025-08-29 21:01:41,704 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 169.4ms | App: FECHADA | Admin: 3.1ms
+2025-08-29 21:01:42,081 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 178.7ms | App: 5.4ms | Admin: 14.6ms | HTTP: 200 (0.10s)
+2025-08-29 21:01:42,242 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 54.0ms | App: 7.3ms | Admin: 6.8ms | HTTP: 200 (0.07s)
+2025-08-29 21:01:44,388 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 76.8ms | App: FECHADA | Admin: 4.4ms
+2025-08-29 21:01:44,489 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 59.4ms | App: 2.7ms | Admin: 3.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:01:44,593 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 72.9ms | App: 2.5ms | Admin: 3.0ms | HTTP: Status 401
+2025-08-29 21:01:46,695 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 52.0ms | App: FECHADA | Admin: 5.4ms
+2025-08-29 21:01:46,790 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 66.1ms | App: 3.1ms | Admin: 6.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:01:46,903 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 85.1ms | App: 2.5ms | Admin: 3.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:02:18,994 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 38.6ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 21:02:19,236 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 88.7ms | App: 5.6ms | Admin: 15.3ms | HTTP: 200 (0.13s)
+2025-08-29 21:02:20,953 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 1322.0ms | App: 2.8ms | Admin: 1.8ms | HTTP: 200 (0.37s)
+2025-08-29 21:02:24,277 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 1058.1ms | App: FECHADA | Admin: 38.2ms
+2025-08-29 21:02:26,199 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 1725.2ms | App: 32.0ms | Admin: 5.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:02:26,967 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 601.4ms | App: 3.4ms | Admin: 6.7ms | HTTP: Status 401
+2025-08-29 21:02:29,191 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 142.4ms | App: FECHADA | Admin: 4.7ms
+2025-08-29 21:02:29,281 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 74.7ms | App: 2.3ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:02:29,598 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 179.2ms | App: 50.4ms | Admin: 26.6ms | HTTP: 200 (0.04s)
+2025-08-29 21:03:01,749 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 42.1ms | App: FECHADA | Admin: 10.2ms
+2025-08-29 21:03:01,891 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 60.5ms | App: 2.2ms | Admin: 3.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:03:02,245 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 46.6ms | App: 3.6ms | Admin: 36.5ms | HTTP: 200 (0.20s)
+2025-08-29 21:03:04,518 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 130.7ms | App: FECHADA | Admin: 14.2ms
+2025-08-29 21:03:04,736 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 159.6ms | App: 3.6ms | Admin: 6.6ms | HTTP: 200 (0.03s)
+2025-08-29 21:03:04,857 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 76.8ms | App: 3.8ms | Admin: 7.2ms | HTTP: Status 401
+2025-08-29 21:03:07,007 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 69.4ms | App: FECHADA | Admin: 18.6ms
+2025-08-29 21:03:07,084 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 62.5ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:03:07,157 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 50.2ms | App: 2.5ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:03:39,251 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 47.1ms | App: FECHADA | Admin: 5.1ms
+2025-08-29 21:03:39,489 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 108.0ms | App: 6.1ms | Admin: 2.8ms | HTTP: 200 (0.11s)
+2025-08-29 21:03:39,650 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 70.0ms | App: 2.2ms | Admin: 5.3ms | HTTP: 200 (0.07s)
+2025-08-29 21:03:41,789 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 47.0ms | App: FECHADA | Admin: 15.6ms
+2025-08-29 21:03:41,886 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 40.0ms | App: 19.9ms | Admin: 3.6ms | HTTP: 200 (0.03s)
+2025-08-29 21:03:41,963 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 48.7ms | App: 2.3ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 21:03:44,059 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 47.0ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:03:44,159 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 54.4ms | App: 27.5ms | Admin: 5.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:03:44,255 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 58.7ms | App: 2.3ms | Admin: 11.9ms | HTTP: 200 (0.02s)
+2025-08-29 21:04:16,375 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 56.1ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:04:16,513 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 53.9ms | App: 2.7ms | Admin: 2.7ms | HTTP: 200 (0.07s)
+2025-08-29 21:04:16,645 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 54.9ms | App: 2.7ms | Admin: 2.3ms | HTTP: 200 (0.07s)
+2025-08-29 21:04:18,748 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 53.9ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 21:04:18,818 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 39.7ms | App: 3.3ms | Admin: 2.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:04:18,878 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 36.1ms | App: 2.4ms | Admin: 2.5ms | HTTP: Status 401
+2025-08-29 21:04:20,991 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 43.5ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:04:21,092 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 61.7ms | App: 5.5ms | Admin: 2.6ms | HTTP: 200 (0.03s)
+2025-08-29 21:04:21,147 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 34.2ms | App: 2.2ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:04:53,250 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 35.9ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:04:53,382 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 49.9ms | App: 2.5ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:04:53,493 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 45.6ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 21:04:55,814 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 155.9ms | App: FECHADA | Admin: 62.8ms
+2025-08-29 21:04:55,926 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 39.3ms | App: 11.9ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:04:56,015 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 38.4ms | App: 4.4ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 21:04:58,130 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 44.6ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 21:04:58,234 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 55.5ms | App: 3.3ms | Admin: 2.4ms | HTTP: 200 (0.03s)
+2025-08-29 21:04:58,316 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 36.4ms | App: 1.9ms | Admin: 18.7ms | HTTP: 200 (0.02s)
+2025-08-29 21:05:30,597 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 166.9ms | App: FECHADA | Admin: 4.2ms
+2025-08-29 21:05:31,072 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 237.6ms | App: 10.0ms | Admin: 3.7ms | HTTP: 200 (0.15s)
+2025-08-29 21:05:31,508 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 112.0ms | App: 3.1ms | Admin: 6.7ms | HTTP: 200 (0.25s)
+2025-08-29 21:05:33,698 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 68.2ms | App: FECHADA | Admin: 13.2ms
+2025-08-29 21:05:34,240 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 459.7ms | App: 16.3ms | Admin: 13.5ms | HTTP: 200 (0.02s)
+2025-08-29 21:05:34,994 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 580.7ms | App: 10.3ms | Admin: 41.0ms | HTTP: Status 401
+2025-08-29 21:05:37,249 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 106.0ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:05:37,357 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 67.4ms | App: 17.6ms | Admin: 9.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:05:37,448 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 45.6ms | App: 23.6ms | Admin: 3.2ms | HTTP: 200 (0.02s)
+2025-08-29 21:06:09,704 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 161.2ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 21:06:09,915 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 55.1ms | App: 4.7ms | Admin: 2.1ms | HTTP: 200 (0.10s)
+2025-08-29 21:06:10,132 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 79.6ms | App: 5.4ms | Admin: 7.5ms | HTTP: 200 (0.11s)
+2025-08-29 21:06:12,298 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 69.4ms | App: FECHADA | Admin: 4.0ms
+2025-08-29 21:06:12,477 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 101.4ms | App: 14.0ms | Admin: 11.4ms | HTTP: 200 (0.03s)
+2025-08-29 21:06:12,951 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 301.7ms | App: 26.1ms | Admin: 8.3ms | HTTP: Status 401
+2025-08-29 21:06:15,380 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 205.5ms | App: FECHADA | Admin: 67.0ms
+2025-08-29 21:06:15,841 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 168.8ms | App: 6.5ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-08-29 21:06:16,210 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 155.5ms | App: 42.9ms | Admin: 25.5ms | HTTP: 200 (0.04s)
+2025-08-29 21:06:48,345 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 52.9ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 21:06:48,526 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 74.6ms | App: 5.0ms | Admin: 4.5ms | HTTP: 200 (0.08s)
+2025-08-29 21:06:48,719 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 68.4ms | App: 15.8ms | Admin: 19.3ms | HTTP: 200 (0.08s)
+2025-08-29 21:06:50,908 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 57.1ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:06:51,251 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 220.6ms | App: 2.2ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:06:51,379 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 96.5ms | App: 2.1ms | Admin: 3.9ms | HTTP: Status 401
+2025-08-29 21:06:53,507 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 63.0ms | App: FECHADA | Admin: 14.0ms
+2025-08-29 21:06:53,620 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 52.0ms | App: 24.0ms | Admin: 2.5ms | HTTP: 200 (0.03s)
+2025-08-29 21:06:53,673 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 30.9ms | App: 2.5ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:07:25,849 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 94.1ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 21:07:26,114 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 175.1ms | App: 6.2ms | Admin: 3.8ms | HTTP: 200 (0.08s)
+2025-08-29 21:07:26,288 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 72.3ms | App: 8.9ms | Admin: 5.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:07:28,428 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 73.1ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:07:28,677 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 205.0ms | App: 7.6ms | Admin: 14.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:07:29,169 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 188.6ms | App: 30.4ms | Admin: 31.7ms | HTTP: Status 401
+2025-08-29 21:07:31,567 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 173.8ms | App: FECHADA | Admin: 14.6ms
+2025-08-29 21:07:32,091 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 308.0ms | App: 3.5ms | Admin: 11.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:07:32,297 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 139.5ms | App: 2.8ms | Admin: 8.6ms | HTTP: 200 (0.03s)
+2025-08-29 21:08:04,586 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 158.4ms | App: FECHADA | Admin: 10.6ms
+2025-08-29 21:08:05,105 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 182.3ms | App: 16.4ms | Admin: 98.9ms | HTTP: 200 (0.15s)
+2025-08-29 21:08:05,498 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 280.6ms | App: 3.8ms | Admin: 5.5ms | HTTP: 200 (0.09s)
+2025-08-29 21:08:07,662 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 64.5ms | App: FECHADA | Admin: 7.0ms
+2025-08-29 21:08:08,105 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 231.4ms | App: 10.5ms | Admin: 7.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:08:08,268 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 89.6ms | App: 3.0ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:08:10,434 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 83.3ms | App: FECHADA | Admin: 12.2ms
+2025-08-29 21:08:10,604 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 142.0ms | App: 2.8ms | Admin: 4.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:08:10,982 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 232.8ms | App: 8.2ms | Admin: 31.2ms | HTTP: 200 (0.08s)
+2025-08-29 21:08:43,156 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 71.8ms | App: FECHADA | Admin: 9.6ms
+2025-08-29 21:08:43,330 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 66.8ms | App: 11.7ms | Admin: 3.4ms | HTTP: 200 (0.08s)
+2025-08-29 21:08:43,616 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 70.5ms | App: 27.1ms | Admin: 14.8ms | HTTP: 200 (0.08s)
+2025-08-29 21:08:46,001 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 128.9ms | App: FECHADA | Admin: 15.8ms
+2025-08-29 21:08:46,194 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 76.0ms | App: 4.6ms | Admin: 5.6ms | HTTP: 200 (0.03s)
+2025-08-29 21:08:46,373 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 78.2ms | App: 17.8ms | Admin: 31.4ms | HTTP: Status 401
+2025-08-29 21:08:48,538 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 83.7ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 21:08:48,653 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 71.1ms | App: 4.1ms | Admin: 11.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:08:48,786 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 67.2ms | App: 4.1ms | Admin: 6.8ms | HTTP: 200 (0.03s)
+2025-08-29 21:09:20,935 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 57.1ms | App: FECHADA | Admin: 3.2ms
+2025-08-29 21:09:21,090 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 58.3ms | App: 10.8ms | Admin: 11.3ms | HTTP: 200 (0.07s)
+2025-08-29 21:09:21,347 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 93.3ms | App: 6.7ms | Admin: 16.3ms | HTTP: 200 (0.09s)
+2025-08-29 21:09:23,502 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 72.4ms | App: FECHADA | Admin: 12.4ms
+2025-08-29 21:09:23,571 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 52.0ms | App: 2.4ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:09:23,684 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 58.7ms | App: 2.5ms | Admin: 4.2ms | HTTP: Status 401
+2025-08-29 21:09:25,875 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 75.5ms | App: FECHADA | Admin: 5.3ms
+2025-08-29 21:09:25,972 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 69.7ms | App: 4.1ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:09:26,090 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 78.9ms | App: 13.4ms | Admin: 5.8ms | HTTP: 200 (0.02s)
+2025-08-29 21:09:58,336 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 175.0ms | App: FECHADA | Admin: 12.5ms
+2025-08-29 21:09:58,460 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 47.4ms | App: 11.7ms | Admin: 3.3ms | HTTP: 200 (0.06s)
+2025-08-29 21:09:58,587 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 49.1ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 21:10:00,878 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 238.9ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:10:01,185 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 77.1ms | App: 38.1ms | Admin: 87.2ms | HTTP: 200 (0.10s)
+2025-08-29 21:10:01,681 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 242.5ms | App: 17.0ms | Admin: 15.8ms | HTTP: Status 401
+2025-08-29 21:10:03,974 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 175.1ms | App: FECHADA | Admin: 12.0ms
+2025-08-29 21:10:04,151 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 118.0ms | App: 6.9ms | Admin: 9.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:10:04,549 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 324.8ms | App: 12.1ms | Admin: 9.0ms | HTTP: 200 (0.04s)
+2025-08-29 21:10:36,814 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 197.7ms | App: FECHADA | Admin: 6.5ms
+2025-08-29 21:10:36,973 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 68.9ms | App: 4.1ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-08-29 21:10:37,105 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 50.1ms | App: 2.4ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:10:39,229 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 72.2ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 21:10:39,413 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 128.5ms | App: 2.3ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:10:39,516 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 75.1ms | App: 2.4ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:10:41,625 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 53.5ms | App: FECHADA | Admin: 3.6ms
+2025-08-29 21:10:41,734 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 73.7ms | App: 4.1ms | Admin: 19.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:10:41,861 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 90.2ms | App: 7.6ms | Admin: 4.6ms | HTTP: 200 (0.02s)
+2025-08-29 21:11:13,946 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 32.4ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:11:14,190 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 116.6ms | App: 15.2ms | Admin: 2.7ms | HTTP: 200 (0.10s)
+2025-08-29 21:11:14,364 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 81.2ms | App: 6.7ms | Admin: 2.0ms | HTTP: 200 (0.08s)
+2025-08-29 21:11:16,512 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 82.8ms | App: FECHADA | Admin: 6.5ms
+2025-08-29 21:11:16,649 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 111.9ms | App: 3.5ms | Admin: 4.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:11:16,753 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 63.3ms | App: 2.2ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 21:11:18,885 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 59.8ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:11:18,964 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 54.9ms | App: 3.3ms | Admin: 6.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:11:19,288 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 129.9ms | App: 4.0ms | Admin: 4.3ms | HTTP: 200 (0.06s)
+2025-08-29 21:11:51,445 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 65.8ms | App: FECHADA | Admin: 3.4ms
+2025-08-29 21:11:51,825 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 132.2ms | App: 59.7ms | Admin: 14.8ms | HTTP: 200 (0.10s)
+2025-08-29 21:11:52,196 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 107.3ms | App: 5.8ms | Admin: 10.4ms | HTTP: 200 (0.21s)
+2025-08-29 21:11:54,381 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 122.2ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 21:11:54,465 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 46.7ms | App: 3.3ms | Admin: 4.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:11:54,576 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 80.8ms | App: 2.2ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:11:56,727 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 88.1ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:11:56,958 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 211.9ms | App: 3.9ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:11:57,055 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 69.6ms | App: 3.0ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-08-29 21:12:29,174 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 40.8ms | App: FECHADA | Admin: 10.3ms
+2025-08-29 21:12:29,344 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 78.1ms | App: 3.7ms | Admin: 3.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:12:29,575 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 112.8ms | App: 3.3ms | Admin: 25.3ms | HTTP: 200 (0.08s)
+2025-08-29 21:12:31,815 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 116.9ms | App: FECHADA | Admin: 3.8ms
+2025-08-29 21:12:32,096 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 247.0ms | App: 9.6ms | Admin: 6.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:12:32,210 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 59.5ms | App: 25.5ms | Admin: 2.2ms | HTTP: Status 401
+2025-08-29 21:12:34,531 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 179.2ms | App: FECHADA | Admin: 31.0ms
+2025-08-29 21:12:34,770 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 90.5ms | App: 5.4ms | Admin: 9.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:12:34,990 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 154.6ms | App: 20.1ms | Admin: 4.2ms | HTTP: 200 (0.03s)
+2025-08-29 21:13:07,292 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 185.6ms | App: FECHADA | Admin: 10.7ms
+2025-08-29 21:13:07,585 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 125.1ms | App: 2.9ms | Admin: 13.5ms | HTTP: 200 (0.13s)
+2025-08-29 21:13:07,757 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 77.3ms | App: 5.6ms | Admin: 4.2ms | HTTP: 200 (0.08s)
+2025-08-29 21:13:09,888 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 57.3ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 21:13:09,979 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 67.5ms | App: 7.9ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:13:10,235 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 197.8ms | App: 6.9ms | Admin: 7.5ms | HTTP: Status 401
+2025-08-29 21:13:12,358 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 66.5ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 21:13:12,469 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 84.0ms | App: 5.7ms | Admin: 4.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:13:12,572 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 77.4ms | App: 2.7ms | Admin: 2.9ms | HTTP: 200 (0.02s)
+2025-08-29 21:13:44,752 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 71.3ms | App: FECHADA | Admin: 16.2ms
+2025-08-29 21:13:44,907 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 67.0ms | App: 5.3ms | Admin: 3.4ms | HTTP: 200 (0.08s)
+2025-08-29 21:13:45,135 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 144.1ms | App: 5.3ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 21:13:47,365 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 87.4ms | App: FECHADA | Admin: 17.5ms
+2025-08-29 21:13:47,881 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 182.5ms | App: 32.1ms | Admin: 17.5ms | HTTP: 200 (0.04s)
+2025-08-29 21:13:48,060 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 60.3ms | App: 4.2ms | Admin: 26.6ms | HTTP: Status 401
+2025-08-29 21:13:50,240 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 90.2ms | App: FECHADA | Admin: 3.2ms
+2025-08-29 21:13:50,374 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 87.8ms | App: 12.6ms | Admin: 15.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:13:50,511 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 100.0ms | App: 3.4ms | Admin: 4.2ms | HTTP: 200 (0.03s)
+2025-08-29 21:14:22,643 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 65.3ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 21:14:22,805 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 68.3ms | App: 4.0ms | Admin: 2.4ms | HTTP: 200 (0.08s)
+2025-08-29 21:14:23,051 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 132.2ms | App: 14.7ms | Admin: 5.9ms | HTTP: 200 (0.08s)
+2025-08-29 21:14:25,188 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 73.8ms | App: FECHADA | Admin: 5.3ms
+2025-08-29 21:14:25,293 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 56.5ms | App: 7.4ms | Admin: 2.1ms | HTTP: 200 (0.04s)
+2025-08-29 21:14:25,420 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 92.1ms | App: 3.0ms | Admin: 2.6ms | HTTP: Status 401
+2025-08-29 21:14:27,608 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 114.4ms | App: FECHADA | Admin: 13.4ms
+2025-08-29 21:14:27,712 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 81.1ms | App: 2.6ms | Admin: 6.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:14:27,841 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 103.5ms | App: 4.2ms | Admin: 2.2ms | HTTP: 200 (0.02s)
+2025-08-29 21:14:59,993 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 68.1ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 21:15:00,183 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 91.8ms | App: 10.5ms | Admin: 7.7ms | HTTP: 200 (0.08s)
+2025-08-29 21:15:00,341 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 67.5ms | App: 2.3ms | Admin: 3.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:15:02,579 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 150.7ms | App: FECHADA | Admin: 15.4ms
+2025-08-29 21:15:02,669 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 65.8ms | App: 4.6ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:15:02,817 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 93.5ms | App: 8.0ms | Admin: 6.8ms | HTTP: Status 401
+2025-08-29 21:15:05,157 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 241.2ms | App: FECHADA | Admin: 28.5ms
+2025-08-29 21:15:05,588 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 174.6ms | App: 44.0ms | Admin: 102.5ms | HTTP: 200 (0.03s)
+2025-08-29 21:15:05,899 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 251.0ms | App: 5.4ms | Admin: 3.1ms | HTTP: 200 (0.04s)
+2025-08-29 21:15:38,133 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 84.6ms | App: FECHADA | Admin: 28.4ms
+2025-08-29 21:15:38,547 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 181.7ms | App: 30.2ms | Admin: 19.6ms | HTTP: 200 (0.12s)
+2025-08-29 21:15:38,742 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 94.6ms | App: 6.4ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-08-29 21:15:41,365 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 554.1ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:15:41,452 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 61.7ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:15:41,578 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 86.1ms | App: 3.1ms | Admin: 6.5ms | HTTP: Status 401
+2025-08-29 21:15:43,743 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 77.9ms | App: FECHADA | Admin: 10.4ms
+2025-08-29 21:15:44,360 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 384.3ms | App: 3.8ms | Admin: 25.4ms | HTTP: 200 (0.14s)
+2025-08-29 21:15:44,919 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 232.8ms | App: 10.1ms | Admin: 34.4ms | HTTP: 200 (0.09s)
+2025-08-29 21:16:17,277 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 126.2ms | App: FECHADA | Admin: 28.4ms
+2025-08-29 21:16:17,602 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 113.1ms | App: 32.6ms | Admin: 13.0ms | HTTP: 200 (0.12s)
+2025-08-29 21:16:17,815 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 98.9ms | App: 6.0ms | Admin: 2.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:16:20,105 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 204.9ms | App: FECHADA | Admin: 3.4ms
+2025-08-29 21:16:20,201 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 75.7ms | App: 2.1ms | Admin: 6.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:16:20,388 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 56.8ms | App: 3.9ms | Admin: 2.5ms | HTTP: Status 401
+2025-08-29 21:16:22,557 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 70.5ms | App: FECHADA | Admin: 3.7ms
+2025-08-29 21:16:22,648 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 68.2ms | App: 2.3ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:16:22,768 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 65.5ms | App: 2.5ms | Admin: 3.3ms | HTTP: 200 (0.04s)
+2025-08-29 21:16:54,869 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 33.0ms | App: FECHADA | Admin: 12.4ms
+2025-08-29 21:16:54,996 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 48.6ms | App: 4.1ms | Admin: 3.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:16:55,127 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 51.6ms | App: 2.1ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 21:16:57,242 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 57.4ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:16:57,747 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 333.7ms | App: 31.6ms | Admin: 38.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:16:58,078 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 202.3ms | App: 46.4ms | Admin: 4.4ms | HTTP: Status 401
+2025-08-29 21:17:00,344 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 171.1ms | App: FECHADA | Admin: 3.4ms
+2025-08-29 21:17:00,443 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 77.4ms | App: 3.1ms | Admin: 4.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:17:00,528 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 51.7ms | App: 10.4ms | Admin: 3.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:17:32,763 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 149.0ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:17:32,975 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 57.6ms | App: 5.0ms | Admin: 7.7ms | HTTP: 200 (0.08s)
+2025-08-29 21:17:33,124 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 59.0ms | App: 14.0ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 21:17:35,240 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 62.0ms | App: FECHADA | Admin: 3.0ms
+2025-08-29 21:17:35,446 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 66.7ms | App: 2.4ms | Admin: 99.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:17:35,583 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 109.0ms | App: 2.1ms | Admin: 1.9ms | HTTP: Status 401
+2025-08-29 21:17:37,747 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 85.3ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:17:37,836 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 71.6ms | App: 3.1ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:17:37,916 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 55.7ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:18:09,993 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 35.1ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:18:10,175 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 75.8ms | App: 3.1ms | Admin: 2.2ms | HTTP: 200 (0.10s)
+2025-08-29 21:18:10,355 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 66.7ms | App: 3.2ms | Admin: 2.0ms | HTTP: 200 (0.08s)
+2025-08-29 21:18:12,476 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 62.1ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:18:12,636 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 113.1ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:18:12,815 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 64.7ms | App: 2.2ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:18:15,089 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 110.1ms | App: FECHADA | Admin: 4.3ms
+2025-08-29 21:18:15,403 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 241.3ms | App: 18.5ms | Admin: 3.7ms | HTTP: 200 (0.02s)
+2025-08-29 21:18:15,535 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 49.8ms | App: 21.3ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-08-29 21:18:47,856 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 255.0ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 21:18:48,017 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 59.2ms | App: 3.4ms | Admin: 2.9ms | HTTP: 200 (0.07s)
+2025-08-29 21:18:48,375 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 276.3ms | App: 2.7ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-29 21:18:50,522 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 53.0ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 21:18:50,673 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 90.0ms | App: 23.5ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:18:50,774 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 70.0ms | App: 2.2ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 21:18:53,053 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 161.0ms | App: FECHADA | Admin: 3.3ms
+2025-08-29 21:18:53,126 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 58.6ms | App: 2.5ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:18:53,199 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 49.7ms | App: 2.1ms | Admin: 2.6ms | HTTP: 200 (0.02s)
+2025-08-29 21:19:25,315 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 41.3ms | App: FECHADA | Admin: 12.8ms
+2025-08-29 21:19:25,445 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 53.3ms | App: 2.1ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:19:25,958 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 422.7ms | App: 2.1ms | Admin: 3.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:19:28,259 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 138.3ms | App: FECHADA | Admin: 3.8ms
+2025-08-29 21:19:28,452 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 150.8ms | App: 13.3ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:19:28,582 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 62.8ms | App: 4.5ms | Admin: 12.9ms | HTTP: Status 401
+2025-08-29 21:19:30,726 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.4ms | App: FECHADA | Admin: 18.1ms
+2025-08-29 21:19:30,815 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 65.9ms | App: 4.9ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:19:31,083 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 245.9ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:20:03,186 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 54.1ms | App: FECHADA | Admin: 3.7ms
+2025-08-29 21:20:03,453 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 128.2ms | App: 4.6ms | Admin: 5.6ms | HTTP: 200 (0.09s)
+2025-08-29 21:20:03,593 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 57.4ms | App: 6.4ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-08-29 21:20:05,736 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 53.3ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 21:20:06,012 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 177.6ms | App: 11.9ms | Admin: 29.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:20:06,105 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 58.2ms | App: 8.0ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:20:08,228 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 59.8ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:20:08,305 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 58.0ms | App: 4.6ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:20:08,379 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 46.6ms | App: 5.5ms | Admin: 2.2ms | HTTP: 200 (0.02s)
+2025-08-29 21:20:40,516 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 67.5ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:20:40,708 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 105.8ms | App: 2.2ms | Admin: 3.9ms | HTTP: 200 (0.08s)
+2025-08-29 21:20:40,899 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 74.8ms | App: 17.2ms | Admin: 11.1ms | HTTP: 200 (0.08s)
+2025-08-29 21:20:43,028 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 74.5ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:20:43,105 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 61.0ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:20:43,406 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 132.9ms | App: 45.7ms | Admin: 8.4ms | HTTP: Status 401
+2025-08-29 21:20:45,702 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 197.0ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 21:20:45,900 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 127.5ms | App: 8.6ms | Admin: 2.0ms | HTTP: 200 (0.04s)
+2025-08-29 21:20:46,047 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 84.8ms | App: 15.2ms | Admin: 6.5ms | HTTP: 200 (0.03s)
+2025-08-29 21:21:18,423 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 201.0ms | App: FECHADA | Admin: 5.6ms
+2025-08-29 21:21:18,614 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 73.9ms | App: 5.1ms | Admin: 19.9ms | HTTP: 200 (0.08s)
+2025-08-29 21:21:18,809 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 73.0ms | App: 8.6ms | Admin: 5.8ms | HTTP: 200 (0.08s)
+2025-08-29 21:21:21,154 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 235.7ms | App: FECHADA | Admin: 7.8ms
+2025-08-29 21:21:21,265 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 68.6ms | App: 2.4ms | Admin: 22.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:21:21,370 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 59.4ms | App: 5.1ms | Admin: 2.7ms | HTTP: Status 401
+2025-08-29 21:21:23,502 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 70.7ms | App: FECHADA | Admin: 9.8ms
+2025-08-29 21:21:23,628 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 93.7ms | App: 3.2ms | Admin: 3.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:21:24,116 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 445.5ms | App: 2.7ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-08-29 21:21:56,223 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 39.3ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:21:56,339 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 37.5ms | App: 2.2ms | Admin: 3.1ms | HTTP: 200 (0.07s)
+2025-08-29 21:21:56,470 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 53.4ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 21:21:58,760 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 261.7ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:21:58,965 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 178.2ms | App: 2.9ms | Admin: 4.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:21:59,254 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 138.9ms | App: 3.7ms | Admin: 24.7ms | HTTP: Status 401
+2025-08-29 21:22:01,507 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 120.0ms | App: FECHADA | Admin: 17.0ms
+2025-08-29 21:22:01,686 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 152.5ms | App: 2.5ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:22:02,523 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 791.5ms | App: 7.8ms | Admin: 8.2ms | HTTP: 200 (0.02s)
+2025-08-29 21:22:34,667 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 75.1ms | App: FECHADA | Admin: 3.0ms
+2025-08-29 21:22:34,824 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 67.8ms | App: 3.5ms | Admin: 2.9ms | HTTP: 200 (0.07s)
+2025-08-29 21:22:34,975 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 56.0ms | App: 7.3ms | Admin: 5.3ms | HTTP: 200 (0.08s)
+2025-08-29 21:22:37,246 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 199.7ms | App: FECHADA | Admin: 5.3ms
+2025-08-29 21:22:37,427 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 151.5ms | App: 5.1ms | Admin: 6.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:22:37,602 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 136.9ms | App: 5.4ms | Admin: 4.9ms | HTTP: Status 401
+2025-08-29 21:22:39,937 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 219.6ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 21:22:40,150 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 73.1ms | App: 15.8ms | Admin: 16.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:22:40,503 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 112.2ms | App: 31.2ms | Admin: 43.3ms | HTTP: 200 (0.04s)
+2025-08-29 21:23:12,766 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 130.0ms | App: FECHADA | Admin: 12.0ms
+2025-08-29 21:23:13,056 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 117.4ms | App: 5.3ms | Admin: 11.1ms | HTTP: 200 (0.12s)
+2025-08-29 21:23:13,323 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 147.8ms | App: 3.3ms | Admin: 5.4ms | HTTP: 200 (0.10s)
+2025-08-29 21:23:15,404 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 51.2ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:23:15,477 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 56.9ms | App: 3.1ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:23:15,583 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 53.6ms | App: 21.4ms | Admin: 2.4ms | HTTP: Status 401
+2025-08-29 21:23:17,825 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 175.4ms | App: FECHADA | Admin: 14.1ms
+2025-08-29 21:23:17,892 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 37.7ms | App: 4.2ms | Admin: 2.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:23:17,966 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 52.9ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:23:50,046 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 45.3ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:23:50,187 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 64.7ms | App: 3.4ms | Admin: 5.1ms | HTTP: 200 (0.06s)
+2025-08-29 21:23:50,326 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 49.0ms | App: 3.2ms | Admin: 17.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:23:52,456 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 55.9ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:23:52,541 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 65.2ms | App: 2.2ms | Admin: 3.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:23:52,646 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 70.8ms | App: 3.2ms | Admin: 4.6ms | HTTP: Status 401
+2025-08-29 21:23:54,781 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 75.7ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:23:54,881 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 75.0ms | App: 7.4ms | Admin: 3.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:23:55,108 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 147.7ms | App: 22.3ms | Admin: 23.3ms | HTTP: 200 (0.03s)
+2025-08-29 21:24:27,241 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 38.2ms | App: FECHADA | Admin: 5.3ms
+2025-08-29 21:24:27,426 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 94.5ms | App: 4.1ms | Admin: 5.5ms | HTTP: 200 (0.07s)
+2025-08-29 21:24:27,559 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 56.1ms | App: 2.5ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 21:24:29,719 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 56.9ms | App: FECHADA | Admin: 27.4ms
+2025-08-29 21:24:29,902 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 146.7ms | App: 7.6ms | Admin: 8.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:24:30,006 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 71.3ms | App: 3.4ms | Admin: 2.3ms | HTTP: Status 401
+2025-08-29 21:24:32,202 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 73.1ms | App: FECHADA | Admin: 9.7ms
+2025-08-29 21:24:32,421 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 171.6ms | App: 5.4ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:24:32,517 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 56.4ms | App: 2.2ms | Admin: 16.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:25:04,668 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 53.4ms | App: FECHADA | Admin: 5.3ms
+2025-08-29 21:25:04,849 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 89.9ms | App: 5.7ms | Admin: 2.3ms | HTTP: 200 (0.08s)
+2025-08-29 21:25:05,033 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 77.6ms | App: 2.4ms | Admin: 3.9ms | HTTP: 200 (0.10s)
+2025-08-29 21:25:07,192 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 75.0ms | App: FECHADA | Admin: 3.3ms
+2025-08-29 21:25:07,281 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 63.8ms | App: 8.5ms | Admin: 5.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:25:07,401 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 67.4ms | App: 13.0ms | Admin: 3.9ms | HTTP: Status 401
+2025-08-29 21:25:09,576 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 102.6ms | App: FECHADA | Admin: 10.8ms
+2025-08-29 21:25:09,883 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 137.8ms | App: 29.7ms | Admin: 23.2ms | HTTP: 200 (0.06s)
+2025-08-29 21:25:10,143 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 126.3ms | App: 33.3ms | Admin: 6.7ms | HTTP: 200 (0.02s)
+2025-08-29 21:25:42,481 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 205.1ms | App: FECHADA | Admin: 5.9ms
+2025-08-29 21:25:42,969 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 266.5ms | App: 21.2ms | Admin: 8.4ms | HTTP: 200 (0.12s)
+2025-08-29 21:25:43,151 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 73.2ms | App: 19.4ms | Admin: 4.9ms | HTTP: 200 (0.08s)
+2025-08-29 21:25:45,356 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 69.8ms | App: FECHADA | Admin: 25.6ms
+2025-08-29 21:25:45,513 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 97.7ms | App: 10.8ms | Admin: 4.0ms | HTTP: 200 (0.03s)
+2025-08-29 21:25:45,850 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 82.7ms | App: 5.6ms | Admin: 104.4ms | HTTP: Status 401
+2025-08-29 21:25:48,051 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 50.3ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:25:48,148 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 50.5ms | App: 20.2ms | Admin: 14.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:25:48,256 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 73.6ms | App: 3.2ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:26:20,366 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 38.9ms | App: FECHADA | Admin: 4.5ms
+2025-08-29 21:26:20,512 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 50.5ms | App: 2.3ms | Admin: 2.6ms | HTTP: 200 (0.09s)
+2025-08-29 21:26:20,641 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 47.0ms | App: 2.3ms | Admin: 3.1ms | HTTP: 200 (0.07s)
+2025-08-29 21:26:22,727 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 42.5ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:26:22,791 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 37.3ms | App: 2.4ms | Admin: 13.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:26:22,995 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 140.5ms | App: 3.7ms | Admin: 10.9ms | HTTP: Status 401
+2025-08-29 21:26:25,145 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 86.6ms | App: FECHADA | Admin: 1.8ms
+2025-08-29 21:26:25,186 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 26.3ms | App: 4.7ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:26:25,245 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 28.3ms | App: 3.0ms | Admin: 14.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:26:57,335 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 33.7ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 21:26:57,546 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 118.3ms | App: 2.2ms | Admin: 2.5ms | HTTP: 200 (0.08s)
+2025-08-29 21:26:57,693 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 68.3ms | App: 2.3ms | Admin: 5.0ms | HTTP: 200 (0.07s)
+2025-08-29 21:26:59,816 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 70.1ms | App: FECHADA | Admin: 1.9ms
+2025-08-29 21:26:59,880 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 48.8ms | App: 2.4ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:26:59,992 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 66.3ms | App: 21.8ms | Admin: 2.3ms | HTTP: Status 401
+2025-08-29 21:27:02,110 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 54.2ms | App: FECHADA | Admin: 4.1ms
+2025-08-29 21:27:02,197 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 50.6ms | App: 2.5ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:27:02,602 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 116.0ms | App: 16.1ms | Admin: 54.3ms | HTTP: 200 (0.03s)
+2025-08-29 21:27:34,974 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 196.6ms | App: FECHADA | Admin: 10.3ms
+2025-08-29 21:27:35,176 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 54.9ms | App: 8.2ms | Admin: 4.0ms | HTTP: 200 (0.09s)
+2025-08-29 21:27:35,325 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 48.8ms | App: 4.8ms | Admin: 3.4ms | HTTP: 200 (0.08s)
+2025-08-29 21:27:37,509 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 61.9ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:27:37,577 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 51.5ms | App: 2.0ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:27:37,685 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 74.6ms | App: 3.5ms | Admin: 3.1ms | HTTP: Status 401
+2025-08-29 21:27:39,806 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 50.0ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:27:39,911 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 90.1ms | App: 2.2ms | Admin: 3.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:27:40,006 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 62.4ms | App: 3.6ms | Admin: 7.4ms | HTTP: 200 (0.02s)
+2025-08-29 21:28:12,119 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 40.0ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 21:28:12,276 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 48.5ms | App: 2.1ms | Admin: 4.0ms | HTTP: 200 (0.09s)
+2025-08-29 21:28:12,393 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 39.1ms | App: 3.6ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 21:28:14,487 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 47.1ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:28:14,570 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 54.2ms | App: 12.6ms | Admin: 5.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:28:14,658 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 59.7ms | App: 2.1ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:28:16,766 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 45.2ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:28:16,828 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 42.4ms | App: 2.6ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:28:16,926 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 47.1ms | App: 2.3ms | Admin: 26.2ms | HTTP: 200 (0.02s)
+2025-08-29 21:28:49,011 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 30.0ms | App: FECHADA | Admin: 11.9ms
+2025-08-29 21:28:49,148 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 42.9ms | App: 22.0ms | Admin: 2.4ms | HTTP: 200 (0.07s)
+2025-08-29 21:28:49,250 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 35.3ms | App: 3.4ms | Admin: 4.5ms | HTTP: 200 (0.06s)
+2025-08-29 21:28:51,342 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 36.3ms | App: FECHADA | Admin: 3.8ms
+2025-08-29 21:28:51,636 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 53.0ms | App: 38.3ms | Admin: 15.1ms | HTTP: 200 (0.09s)
+2025-08-29 21:28:51,852 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 98.5ms | App: 10.1ms | Admin: 6.6ms | HTTP: Status 401
+2025-08-29 21:28:53,959 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 51.8ms | App: FECHADA | Admin: 5.1ms
+2025-08-29 21:28:54,040 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 48.2ms | App: 2.3ms | Admin: 5.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:28:54,114 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 39.5ms | App: 14.4ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:29:26,390 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 154.5ms | App: FECHADA | Admin: 6.6ms
+2025-08-29 21:29:26,555 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 57.5ms | App: 3.9ms | Admin: 17.0ms | HTTP: 200 (0.08s)
+2025-08-29 21:29:26,737 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 64.8ms | App: 3.6ms | Admin: 7.4ms | HTTP: 200 (0.10s)
+2025-08-29 21:29:28,848 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 47.2ms | App: FECHADA | Admin: 13.4ms
+2025-08-29 21:29:28,919 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 50.0ms | App: 6.3ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:29:29,017 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 66.8ms | App: 2.3ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:29:31,137 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 51.7ms | App: FECHADA | Admin: 12.6ms
+2025-08-29 21:29:31,186 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 32.5ms | App: 2.8ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:29:31,289 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 64.0ms | App: 11.6ms | Admin: 3.8ms | HTTP: 200 (0.02s)
+2025-08-29 21:30:03,353 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 22.1ms | App: FECHADA | Admin: 2.7ms
+2025-08-29 21:30:03,544 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 56.8ms | App: 24.5ms | Admin: 19.4ms | HTTP: 200 (0.09s)
+2025-08-29 21:30:03,672 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 46.9ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 21:30:05,760 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 48.6ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:30:05,845 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 68.9ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:30:05,963 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 79.8ms | App: 2.3ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 21:30:08,091 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 85.1ms | App: FECHADA | Admin: 3.4ms
+2025-08-29 21:30:08,160 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 54.0ms | App: 2.5ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:30:08,246 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 64.0ms | App: 3.4ms | Admin: 4.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:30:40,347 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 48.7ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:30:40,475 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 45.0ms | App: 2.0ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:30:40,662 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 102.2ms | App: 2.4ms | Admin: 3.7ms | HTTP: 200 (0.08s)
+2025-08-29 21:30:42,976 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 227.2ms | App: FECHADA | Admin: 6.7ms
+2025-08-29 21:30:43,250 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 109.2ms | App: 17.7ms | Admin: 30.9ms | HTTP: 200 (0.03s)
+2025-08-29 21:30:43,571 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 96.6ms | App: 28.8ms | Admin: 6.8ms | HTTP: Status 401
+2025-08-29 21:30:45,769 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 121.2ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:30:45,875 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 63.1ms | App: 19.8ms | Admin: 8.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:30:45,971 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 66.5ms | App: 2.4ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-08-29 21:31:18,104 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 58.6ms | App: FECHADA | Admin: 2.7ms
+2025-08-29 21:31:18,249 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 49.4ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.09s)
+2025-08-29 21:31:18,448 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 111.4ms | App: 4.5ms | Admin: 6.0ms | HTTP: 200 (0.07s)
+2025-08-29 21:31:20,572 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 70.9ms | App: FECHADA | Admin: 6.6ms
+2025-08-29 21:31:20,670 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 59.0ms | App: 26.2ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:31:20,774 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 73.0ms | App: 3.8ms | Admin: 2.7ms | HTTP: Status 401
+2025-08-29 21:31:22,907 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 54.9ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 21:31:22,999 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 62.0ms | App: 2.1ms | Admin: 17.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:31:23,074 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 50.0ms | App: 2.2ms | Admin: 5.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:31:55,167 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 37.9ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:31:55,297 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 52.4ms | App: 3.7ms | Admin: 3.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:31:55,415 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 43.9ms | App: 2.2ms | Admin: 4.3ms | HTTP: 200 (0.06s)
+2025-08-29 21:31:57,533 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 59.9ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:31:57,607 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 45.8ms | App: 2.4ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:31:57,688 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 50.6ms | App: 4.1ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 21:31:59,800 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 62.5ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 21:31:59,898 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 69.2ms | App: 3.5ms | Admin: 2.9ms | HTTP: 200 (0.02s)
+2025-08-29 21:32:00,002 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 79.9ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.02s)
+2025-08-29 21:32:32,156 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 61.1ms | App: FECHADA | Admin: 22.3ms
+2025-08-29 21:32:32,287 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 54.6ms | App: 2.2ms | Admin: 3.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:32:32,584 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 48.5ms | App: 28.1ms | Admin: 2.1ms | HTTP: 200 (0.12s)
+2025-08-29 21:32:34,840 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 115.8ms | App: FECHADA | Admin: 8.1ms
+2025-08-29 21:32:34,932 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 53.1ms | App: 5.0ms | Admin: 16.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:32:35,045 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 68.4ms | App: 4.3ms | Admin: 6.7ms | HTTP: Status 401
+2025-08-29 21:32:37,247 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 71.8ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:32:37,340 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 59.8ms | App: 2.7ms | Admin: 7.6ms | HTTP: 200 (0.02s)
+2025-08-29 21:32:37,418 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 48.9ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:33:09,508 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 23.3ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:33:09,634 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 44.5ms | App: 2.6ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:33:09,751 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 41.9ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-29 21:33:11,863 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 46.2ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 21:33:11,921 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 40.6ms | App: 3.1ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:33:11,995 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 47.7ms | App: 2.1ms | Admin: 2.3ms | HTTP: Status 401
+2025-08-29 21:33:14,109 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 50.7ms | App: FECHADA | Admin: 4.2ms
+2025-08-29 21:33:14,208 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 56.4ms | App: 3.0ms | Admin: 2.6ms | HTTP: 200 (0.03s)
+2025-08-29 21:33:14,315 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 34.1ms | App: 9.9ms | Admin: 4.8ms | HTTP: 200 (0.05s)
+2025-08-29 21:33:46,507 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 116.1ms | App: FECHADA | Admin: 6.2ms
+2025-08-29 21:33:46,714 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 101.8ms | App: 2.2ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-08-29 21:33:46,866 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 63.4ms | App: 9.5ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-29 21:33:48,963 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 60.9ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:33:49,047 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 68.0ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:33:49,150 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 63.4ms | App: 3.4ms | Admin: 2.2ms | HTTP: Status 401
+2025-08-29 21:33:51,291 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 54.4ms | App: FECHADA | Admin: 3.2ms
+2025-08-29 21:33:51,371 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 65.8ms | App: 2.6ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:33:51,704 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 126.2ms | App: 2.7ms | Admin: 30.5ms | HTTP: 200 (0.07s)
+2025-08-29 21:34:23,906 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 72.9ms | App: FECHADA | Admin: 3.9ms
+2025-08-29 21:34:24,038 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 51.0ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 21:34:24,278 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 61.3ms | App: 2.2ms | Admin: 2.2ms | HTTP: 200 (0.12s)
+2025-08-29 21:34:26,595 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 212.3ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:34:26,686 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 54.0ms | App: 2.9ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:34:26,797 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 47.1ms | App: 2.9ms | Admin: 17.0ms | HTTP: Status 401
+2025-08-29 21:34:28,931 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 65.5ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:34:29,006 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 60.5ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:34:29,094 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 51.1ms | App: 19.1ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:35:01,274 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 116.7ms | App: FECHADA | Admin: 10.0ms
+2025-08-29 21:35:01,427 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 64.0ms | App: 2.3ms | Admin: 2.6ms | HTTP: 200 (0.07s)
+2025-08-29 21:35:01,576 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 53.0ms | App: 5.9ms | Admin: 2.8ms | HTTP: 200 (0.07s)
+2025-08-29 21:35:03,680 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 59.8ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:35:03,735 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 42.1ms | App: 2.1ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:35:03,816 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 54.6ms | App: 2.2ms | Admin: 1.9ms | HTTP: Status 401
+2025-08-29 21:35:05,917 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 46.5ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:35:06,047 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 101.3ms | App: 2.1ms | Admin: 15.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:35:06,216 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 148.5ms | App: 2.1ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:35:38,410 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 46.7ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:35:38,711 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 207.1ms | App: 4.2ms | Admin: 3.7ms | HTTP: 200 (0.08s)
+2025-08-29 21:35:38,907 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 102.5ms | App: 11.3ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 21:35:41,044 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 92.0ms | App: FECHADA | Admin: 3.0ms
+2025-08-29 21:35:41,140 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 79.6ms | App: 2.3ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:35:41,599 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 174.8ms | App: 37.8ms | Admin: 8.0ms | HTTP: Status 401
+2025-08-29 21:35:43,789 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 65.2ms | App: FECHADA | Admin: 6.5ms
+2025-08-29 21:35:43,944 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 125.3ms | App: 3.3ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:35:44,113 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 115.5ms | App: 7.2ms | Admin: 9.4ms | HTTP: 200 (0.02s)
+2025-08-29 21:36:16,345 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 84.6ms | App: FECHADA | Admin: 34.1ms
+2025-08-29 21:36:16,630 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 154.8ms | App: 4.7ms | Admin: 4.0ms | HTTP: 200 (0.11s)
+2025-08-29 21:36:16,842 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 105.3ms | App: 4.8ms | Admin: 4.4ms | HTTP: 200 (0.08s)
+2025-08-29 21:36:18,975 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 70.3ms | App: FECHADA | Admin: 3.0ms
+2025-08-29 21:36:19,144 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 128.8ms | App: 2.1ms | Admin: 3.4ms | HTTP: 200 (0.03s)
+2025-08-29 21:36:19,517 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 317.7ms | App: 2.3ms | Admin: 24.0ms | HTTP: Status 401
+2025-08-29 21:36:21,630 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 67.2ms | App: FECHADA | Admin: 2.7ms
+2025-08-29 21:36:21,730 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 55.5ms | App: 5.9ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-08-29 21:36:21,851 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 92.6ms | App: 2.2ms | Admin: 2.9ms | HTTP: 200 (0.02s)
+2025-08-29 21:36:54,019 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 79.1ms | App: FECHADA | Admin: 3.8ms
+2025-08-29 21:36:54,222 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 78.4ms | App: 4.9ms | Admin: 2.0ms | HTTP: 200 (0.11s)
+2025-08-29 21:36:54,416 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 74.5ms | App: 4.7ms | Admin: 3.9ms | HTTP: 200 (0.11s)
+2025-08-29 21:36:56,763 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 295.7ms | App: FECHADA | Admin: 2.7ms
+2025-08-29 21:36:56,927 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 57.6ms | App: 2.4ms | Admin: 36.6ms | HTTP: 200 (0.05s)
+2025-08-29 21:36:57,171 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 69.5ms | App: 15.9ms | Admin: 5.4ms | HTTP: Status 401
+2025-08-29 21:36:59,510 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 200.2ms | App: FECHADA | Admin: 12.9ms
+2025-08-29 21:36:59,706 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 87.2ms | App: 8.0ms | Admin: 21.0ms | HTTP: 200 (0.03s)
+2025-08-29 21:36:59,988 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 211.4ms | App: 6.7ms | Admin: 18.5ms | HTTP: 200 (0.03s)
+2025-08-29 21:37:32,278 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 201.2ms | App: FECHADA | Admin: 16.9ms
+2025-08-29 21:37:32,565 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 143.6ms | App: 22.7ms | Admin: 2.5ms | HTTP: 200 (0.11s)
+2025-08-29 21:37:32,768 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 87.7ms | App: 3.1ms | Admin: 3.3ms | HTTP: 200 (0.09s)
+2025-08-29 21:37:34,951 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 100.5ms | App: FECHADA | Admin: 4.8ms
+2025-08-29 21:37:35,231 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 186.4ms | App: 2.3ms | Admin: 3.4ms | HTTP: 200 (0.02s)
+2025-08-29 21:37:35,373 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 70.2ms | App: 20.6ms | Admin: 7.5ms | HTTP: Status 401
+2025-08-29 21:37:37,634 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 164.4ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:37:37,924 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 177.4ms | App: 13.7ms | Admin: 31.9ms | HTTP: 200 (0.03s)
+2025-08-29 21:37:38,187 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 79.0ms | App: 12.7ms | Admin: 21.9ms | HTTP: 200 (0.05s)
+2025-08-29 21:38:10,328 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 59.8ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:38:10,740 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 146.0ms | App: 9.0ms | Admin: 18.9ms | HTTP: 200 (0.13s)
+2025-08-29 21:38:11,145 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 164.7ms | App: 4.0ms | Admin: 30.9ms | HTTP: 200 (0.11s)
+2025-08-29 21:38:13,298 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 66.2ms | App: FECHADA | Admin: 3.7ms
+2025-08-29 21:38:13,482 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 145.0ms | App: 4.0ms | Admin: 11.6ms | HTTP: 200 (0.02s)
+2025-08-29 21:38:13,615 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 83.3ms | App: 5.8ms | Admin: 5.8ms | HTTP: Status 401
+2025-08-29 21:38:15,782 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 71.7ms | App: FECHADA | Admin: 6.8ms
+2025-08-29 21:38:15,878 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 72.1ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:38:15,981 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 58.1ms | App: 20.1ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:38:48,148 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 114.3ms | App: FECHADA | Admin: 3.7ms
+2025-08-29 21:38:48,370 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 58.6ms | App: 27.7ms | Admin: 12.9ms | HTTP: 200 (0.12s)
+2025-08-29 21:38:48,548 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 70.0ms | App: 2.6ms | Admin: 2.2ms | HTTP: 200 (0.10s)
+2025-08-29 21:38:50,679 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 78.5ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:38:50,765 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 66.1ms | App: 2.8ms | Admin: 5.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:38:50,871 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 70.4ms | App: 3.3ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:38:53,216 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 81.3ms | App: FECHADA | Admin: 42.5ms
+2025-08-29 21:38:53,506 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 127.9ms | App: 31.9ms | Admin: 27.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:38:53,644 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 85.2ms | App: 2.5ms | Admin: 16.8ms | HTTP: 200 (0.02s)
+2025-08-29 21:39:25,750 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 33.3ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:39:25,860 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 40.6ms | App: 2.4ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 21:39:25,980 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 42.7ms | App: 2.3ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:39:28,289 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 128.6ms | App: FECHADA | Admin: 32.5ms
+2025-08-29 21:39:28,445 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 64.4ms | App: 2.3ms | Admin: 2.4ms | HTTP: 200 (0.02s)
+2025-08-29 21:39:28,561 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 63.5ms | App: 2.4ms | Admin: 2.5ms | HTTP: Status 401
+2025-08-29 21:39:30,688 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.5ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:39:30,842 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 97.2ms | App: 28.5ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:39:30,940 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 73.4ms | App: 2.1ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:40:03,136 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 148.2ms | App: FECHADA | Admin: 3.1ms
+2025-08-29 21:40:03,290 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 48.0ms | App: 4.5ms | Admin: 2.5ms | HTTP: 200 (0.08s)
+2025-08-29 21:40:03,415 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 40.6ms | App: 2.0ms | Admin: 2.7ms | HTTP: 200 (0.07s)
+2025-08-29 21:40:05,525 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 61.8ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:40:05,787 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 244.6ms | App: 3.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:40:05,891 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 64.3ms | App: 3.1ms | Admin: 2.4ms | HTTP: Status 401
+2025-08-29 21:40:08,014 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 61.1ms | App: FECHADA | Admin: 3.6ms
+2025-08-29 21:40:08,102 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 41.1ms | App: 2.0ms | Admin: 23.6ms | HTTP: 200 (0.02s)
+2025-08-29 21:40:08,174 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 47.9ms | App: 2.3ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:40:40,254 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 26.5ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 21:40:40,380 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 49.8ms | App: 2.2ms | Admin: 2.3ms | HTTP: 200 (0.07s)
+2025-08-29 21:40:40,509 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 56.2ms | App: 3.1ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 21:40:42,616 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 62.3ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:40:42,710 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 64.3ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:40:42,776 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 34.9ms | App: 3.4ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:40:44,922 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 84.3ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:40:45,003 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 49.2ms | App: 4.7ms | Admin: 18.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:40:45,068 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 44.8ms | App: 2.0ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:41:17,278 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 74.7ms | App: FECHADA | Admin: 71.5ms
+2025-08-29 21:41:17,878 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 333.2ms | App: 9.0ms | Admin: 18.1ms | HTTP: 200 (0.12s)
+2025-08-29 21:41:18,154 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 132.4ms | App: 6.4ms | Admin: 7.1ms | HTTP: 200 (0.11s)
+2025-08-29 21:41:20,740 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 390.9ms | App: FECHADA | Admin: 26.3ms
+2025-08-29 21:41:21,160 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 289.1ms | App: 4.3ms | Admin: 21.5ms | HTTP: 200 (0.07s)
+2025-08-29 21:41:21,405 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 82.2ms | App: 13.0ms | Admin: 3.3ms | HTTP: Status 401
+2025-08-29 21:41:23,592 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 92.3ms | App: FECHADA | Admin: 4.6ms
+2025-08-29 21:41:23,715 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 66.2ms | App: 9.6ms | Admin: 2.9ms | HTTP: 200 (0.04s)
+2025-08-29 21:41:23,809 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 64.8ms | App: 3.4ms | Admin: 3.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:41:56,015 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 92.0ms | App: FECHADA | Admin: 12.6ms
+2025-08-29 21:41:56,284 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 125.6ms | App: 2.7ms | Admin: 15.9ms | HTTP: 200 (0.10s)
+2025-08-29 21:41:56,580 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 117.9ms | App: 11.0ms | Admin: 11.6ms | HTTP: 200 (0.13s)
+2025-08-29 21:41:58,859 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 201.0ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 21:41:58,964 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 65.3ms | App: 2.2ms | Admin: 3.1ms | HTTP: 200 (0.03s)
+2025-08-29 21:41:59,129 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 114.6ms | App: 3.3ms | Admin: 12.9ms | HTTP: Status 401
+2025-08-29 21:42:01,310 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 103.4ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:42:01,602 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 89.3ms | App: 39.1ms | Admin: 24.9ms | HTTP: 200 (0.08s)
+2025-08-29 21:42:01,868 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 112.4ms | App: 34.6ms | Admin: 31.4ms | HTTP: 200 (0.03s)
+2025-08-29 21:42:34,212 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 138.5ms | App: FECHADA | Admin: 33.0ms
+2025-08-29 21:42:34,793 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 239.8ms | App: 13.3ms | Admin: 23.3ms | HTTP: 200 (0.16s)
+2025-08-29 21:42:34,992 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 48.1ms | App: 2.5ms | Admin: 2.3ms | HTTP: 200 (0.10s)
+2025-08-29 21:42:37,108 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 63.5ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:42:37,204 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 64.4ms | App: 2.4ms | Admin: 10.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:42:37,354 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 111.4ms | App: 2.4ms | Admin: 5.4ms | HTTP: Status 401
+2025-08-29 21:42:39,502 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 81.4ms | App: FECHADA | Admin: 6.0ms
+2025-08-29 21:42:39,628 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 101.2ms | App: 7.0ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:42:39,698 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 47.4ms | App: 1.9ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:43:11,817 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 48.0ms | App: FECHADA | Admin: 4.6ms
+2025-08-29 21:43:12,245 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 260.7ms | App: 2.8ms | Admin: 7.7ms | HTTP: 200 (0.10s)
+2025-08-29 21:43:12,545 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 80.6ms | App: 2.6ms | Admin: 26.4ms | HTTP: 200 (0.16s)
+2025-08-29 21:43:15,033 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 122.5ms | App: FECHADA | Admin: 28.1ms
+2025-08-29 21:43:15,474 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 159.7ms | App: 10.7ms | Admin: 30.5ms | HTTP: 200 (0.06s)
+2025-08-29 21:43:15,632 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 73.0ms | App: 5.6ms | Admin: 27.3ms | HTTP: Status 401
+2025-08-29 21:43:17,786 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 81.6ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 21:43:17,932 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 114.6ms | App: 2.2ms | Admin: 5.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:43:18,064 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 71.9ms | App: 12.8ms | Admin: 15.9ms | HTTP: 200 (0.03s)
+2025-08-29 21:43:50,139 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 41.9ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:43:53,533 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 2685.0ms | App: 62.9ms | Admin: 100.3ms | HTTP: 200 (0.32s)
+2025-08-29 21:43:55,757 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 1254.8ms | App: 87.6ms | Admin: 39.3ms | HTTP: 200 (0.29s)
+2025-08-29 21:43:59,304 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 1199.4ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:44:00,757 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 1240.9ms | App: 6.4ms | Admin: 3.5ms | HTTP: 200 (0.02s)
+2025-08-29 21:44:00,926 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 124.7ms | App: 3.2ms | Admin: 8.4ms | HTTP: Status 401
+2025-08-29 21:44:03,085 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 109.0ms | App: FECHADA | Admin: 5.5ms
+2025-08-29 21:44:03,150 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 48.3ms | App: 3.6ms | Admin: 3.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:44:03,525 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 189.2ms | App: 7.7ms | Admin: 28.1ms | HTTP: 200 (0.07s)
+2025-08-29 21:44:35,747 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 51.3ms | App: FECHADA | Admin: 25.3ms
+2025-08-29 21:44:36,269 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 155.4ms | App: 88.3ms | Admin: 19.9ms | HTTP: 200 (0.15s)
+2025-08-29 21:44:36,609 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 148.2ms | App: 5.0ms | Admin: 13.4ms | HTTP: 200 (0.14s)
+2025-08-29 21:44:38,780 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 93.9ms | App: FECHADA | Admin: 5.6ms
+2025-08-29 21:44:38,870 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 61.4ms | App: 3.7ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:44:39,046 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 87.7ms | App: 3.2ms | Admin: 17.8ms | HTTP: Status 401
+2025-08-29 21:44:41,704 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 486.5ms | App: FECHADA | Admin: 79.5ms
+2025-08-29 21:44:42,068 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 146.6ms | App: 3.8ms | Admin: 5.7ms | HTTP: 200 (0.06s)
+2025-08-29 21:44:42,411 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 160.5ms | App: 3.1ms | Admin: 14.5ms | HTTP: 200 (0.07s)
+2025-08-29 21:45:14,724 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 122.8ms | App: FECHADA | Admin: 5.6ms
+2025-08-29 21:45:15,033 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 119.9ms | App: 3.1ms | Admin: 15.4ms | HTTP: 200 (0.10s)
+2025-08-29 21:45:15,370 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 159.0ms | App: 7.5ms | Admin: 7.4ms | HTTP: 200 (0.13s)
+2025-08-29 21:45:17,545 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 90.7ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:45:17,622 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 56.9ms | App: 5.9ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:45:17,736 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 79.5ms | App: 3.3ms | Admin: 2.2ms | HTTP: Status 401
+2025-08-29 21:45:19,990 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 155.6ms | App: FECHADA | Admin: 19.2ms
+2025-08-29 21:45:20,308 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 147.8ms | App: 30.3ms | Admin: 17.2ms | HTTP: 200 (0.06s)
+2025-08-29 21:45:20,544 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 160.6ms | App: 5.0ms | Admin: 2.5ms | HTTP: 200 (0.03s)
+2025-08-29 21:45:52,863 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 180.6ms | App: FECHADA | Admin: 10.0ms
+2025-08-29 21:45:53,182 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 167.9ms | App: 4.0ms | Admin: 5.1ms | HTTP: 200 (0.11s)
+2025-08-29 21:45:53,343 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 60.4ms | App: 6.7ms | Admin: 4.7ms | HTTP: 200 (0.07s)
+2025-08-29 21:45:55,454 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 70.4ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:45:55,562 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 81.4ms | App: 3.9ms | Admin: 5.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:45:55,660 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 63.2ms | App: 2.1ms | Admin: 2.7ms | HTTP: Status 401
+2025-08-29 21:45:57,819 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 82.8ms | App: FECHADA | Admin: 5.4ms
+2025-08-29 21:45:58,026 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 175.2ms | App: 2.3ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:45:58,148 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 93.3ms | App: 2.4ms | Admin: 6.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:46:30,421 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 134.7ms | App: FECHADA | Admin: 12.3ms
+2025-08-29 21:46:30,954 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 205.4ms | App: 11.6ms | Admin: 18.4ms | HTTP: 200 (0.15s)
+2025-08-29 21:46:31,458 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 292.0ms | App: 5.0ms | Admin: 26.8ms | HTTP: 200 (0.08s)
+2025-08-29 21:46:33,625 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 75.9ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 21:46:33,716 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 67.4ms | App: 2.5ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:46:33,918 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 144.2ms | App: 2.2ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 21:46:36,020 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 60.9ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:46:36,239 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 174.5ms | App: 16.0ms | Admin: 6.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:46:36,341 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 71.6ms | App: 3.3ms | Admin: 6.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:47:08,459 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 46.9ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:47:08,820 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 175.0ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.10s)
+2025-08-29 21:47:08,976 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 58.3ms | App: 2.2ms | Admin: 6.4ms | HTTP: 200 (0.08s)
+2025-08-29 21:47:11,090 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 66.9ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 21:47:11,692 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 333.3ms | App: 69.3ms | Admin: 25.3ms | HTTP: 200 (0.06s)
+2025-08-29 21:47:11,935 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 85.3ms | App: 28.5ms | Admin: 2.7ms | HTTP: Status 401
+2025-08-29 21:47:14,226 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 148.5ms | App: FECHADA | Admin: 3.2ms
+2025-08-29 21:47:14,711 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 326.5ms | App: 2.7ms | Admin: 2.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:47:16,106 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 1171.4ms | App: 9.1ms | Admin: 15.4ms | HTTP: 200 (0.03s)
+2025-08-29 21:47:48,263 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 29.6ms | App: FECHADA | Admin: 3.6ms
+2025-08-29 21:47:48,409 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 44.4ms | App: 25.5ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:47:48,551 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 68.8ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-29 21:47:50,653 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 57.3ms | App: FECHADA | Admin: 1.9ms
+2025-08-29 21:47:50,723 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 52.9ms | App: 2.3ms | Admin: 4.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:47:50,809 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 56.2ms | App: 2.6ms | Admin: 4.6ms | HTTP: Status 401
+2025-08-29 21:47:52,925 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 44.5ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 21:47:53,022 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 79.6ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:47:53,133 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 82.1ms | App: 7.3ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-08-29 21:48:25,217 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 32.4ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:48:25,336 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 40.3ms | App: 2.2ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-08-29 21:48:25,521 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 49.7ms | App: 2.2ms | Admin: 22.5ms | HTTP: 200 (0.11s)
+2025-08-29 21:48:27,741 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 55.8ms | App: FECHADA | Admin: 17.6ms
+2025-08-29 21:48:28,096 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 108.2ms | App: 34.9ms | Admin: 14.8ms | HTTP: 200 (0.06s)
+2025-08-29 21:48:28,217 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 68.8ms | App: 3.7ms | Admin: 1.9ms | HTTP: Status 401
+2025-08-29 21:48:30,352 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.2ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 21:48:30,412 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 40.9ms | App: 2.6ms | Admin: 4.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:48:30,479 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 43.6ms | App: 3.0ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:49:02,679 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 89.3ms | App: FECHADA | Admin: 37.3ms
+2025-08-29 21:49:03,041 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 121.1ms | App: 10.8ms | Admin: 34.0ms | HTTP: 200 (0.13s)
+2025-08-29 21:49:03,250 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 65.7ms | App: 5.7ms | Admin: 11.6ms | HTTP: 200 (0.09s)
+2025-08-29 21:49:05,396 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 73.5ms | App: FECHADA | Admin: 19.0ms
+2025-08-29 21:49:05,550 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 103.0ms | App: 3.7ms | Admin: 6.9ms | HTTP: 200 (0.03s)
+2025-08-29 21:49:05,687 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 94.5ms | App: 2.7ms | Admin: 3.0ms | HTTP: Status 401
+2025-08-29 21:49:07,828 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 71.1ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:49:07,959 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 105.1ms | App: 2.2ms | Admin: 4.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:49:08,072 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 84.8ms | App: 2.2ms | Admin: 3.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:49:40,624 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 430.5ms | App: FECHADA | Admin: 4.3ms
+2025-08-29 21:49:41,286 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 417.4ms | App: 4.4ms | Admin: 8.5ms | HTTP: 200 (0.11s)
+2025-08-29 21:49:41,539 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 105.2ms | App: 5.8ms | Admin: 5.8ms | HTTP: 200 (0.13s)
+2025-08-29 21:49:43,768 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 104.6ms | App: FECHADA | Admin: 29.4ms
+2025-08-29 21:49:44,172 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 110.8ms | App: 43.4ms | Admin: 63.6ms | HTTP: 200 (0.07s)
+2025-08-29 21:49:44,458 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 136.3ms | App: 14.5ms | Admin: 44.0ms | HTTP: Status 401
+2025-08-29 21:49:46,725 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 125.0ms | App: FECHADA | Admin: 14.1ms
+2025-08-29 21:49:47,164 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 194.2ms | App: 8.6ms | Admin: 8.4ms | HTTP: 200 (0.02s)
+2025-08-29 21:49:47,403 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 127.8ms | App: 27.9ms | Admin: 6.6ms | HTTP: 200 (0.04s)
+2025-08-29 21:50:19,663 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 204.1ms | App: FECHADA | Admin: 4.5ms
+2025-08-29 21:50:20,137 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 356.7ms | App: 13.5ms | Admin: 9.2ms | HTTP: 200 (0.08s)
+2025-08-29 21:50:20,700 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 294.4ms | App: 29.3ms | Admin: 34.1ms | HTTP: 200 (0.16s)
+2025-08-29 21:50:23,472 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 675.5ms | App: FECHADA | Admin: 3.3ms
+2025-08-29 21:50:23,588 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 96.7ms | App: 2.4ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:50:23,700 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 71.9ms | App: 5.8ms | Admin: 4.8ms | HTTP: Status 401
+2025-08-29 21:50:25,847 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 72.2ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:50:25,995 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 110.5ms | App: 2.7ms | Admin: 3.4ms | HTTP: 200 (0.02s)
+2025-08-29 21:50:26,276 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 247.4ms | App: 2.8ms | Admin: 2.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:50:58,419 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 76.1ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 21:50:58,609 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 79.4ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.10s)
+2025-08-29 21:50:58,782 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 67.4ms | App: 4.4ms | Admin: 3.0ms | HTTP: 200 (0.09s)
+2025-08-29 21:51:00,897 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 63.2ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:51:00,990 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 76.5ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:51:01,085 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 63.2ms | App: 5.5ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 21:51:03,194 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 64.6ms | App: FECHADA | Admin: 3.9ms
+2025-08-29 21:51:03,349 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 124.1ms | App: 2.3ms | Admin: 16.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:51:03,593 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 215.7ms | App: 2.7ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:51:35,750 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 52.7ms | App: FECHADA | Admin: 13.4ms
+2025-08-29 21:51:36,067 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 148.2ms | App: 6.2ms | Admin: 15.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:51:36,260 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 79.1ms | App: 2.3ms | Admin: 3.4ms | HTTP: 200 (0.10s)
+2025-08-29 21:51:38,490 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 124.3ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 21:51:38,601 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 93.4ms | App: 3.7ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:51:38,728 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 68.5ms | App: 8.7ms | Admin: 15.0ms | HTTP: Status 401
+2025-08-29 21:51:41,263 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 350.0ms | App: FECHADA | Admin: 20.5ms
+2025-08-29 21:51:41,596 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 244.8ms | App: 12.8ms | Admin: 23.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:51:41,843 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 78.2ms | App: 3.7ms | Admin: 6.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:52:14,175 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 150.6ms | App: FECHADA | Admin: 14.0ms
+2025-08-29 21:52:14,397 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 98.4ms | App: 6.7ms | Admin: 19.3ms | HTTP: 200 (0.08s)
+2025-08-29 21:52:14,604 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 79.6ms | App: 3.3ms | Admin: 2.4ms | HTTP: 200 (0.11s)
+2025-08-29 21:52:16,816 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 137.2ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:52:16,941 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 84.0ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.03s)
+2025-08-29 21:52:17,027 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 56.5ms | App: 2.5ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 21:52:19,127 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 55.6ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:52:19,222 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 68.2ms | App: 5.8ms | Admin: 7.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:52:19,313 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 63.4ms | App: 2.6ms | Admin: 3.5ms | HTTP: 200 (0.02s)
+2025-08-29 21:52:51,431 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 52.6ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 21:52:51,589 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 72.2ms | App: 2.4ms | Admin: 2.3ms | HTTP: 200 (0.08s)
+2025-08-29 21:52:51,975 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 264.2ms | App: 2.8ms | Admin: 20.8ms | HTTP: 200 (0.08s)
+2025-08-29 21:52:54,225 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 96.2ms | App: FECHADA | Admin: 21.8ms
+2025-08-29 21:52:54,662 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 91.7ms | App: 23.8ms | Admin: 14.4ms | HTTP: 200 (0.09s)
+2025-08-29 21:52:54,945 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 152.1ms | App: 18.7ms | Admin: 14.0ms | HTTP: Status 401
+2025-08-29 21:52:57,187 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 139.0ms | App: FECHADA | Admin: 28.4ms
+2025-08-29 21:52:57,469 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 220.6ms | App: 15.5ms | Admin: 13.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:52:57,592 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 81.1ms | App: 2.5ms | Admin: 8.8ms | HTTP: 200 (0.03s)
+2025-08-29 21:53:29,730 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 95.1ms | App: FECHADA | Admin: 3.1ms
+2025-08-29 21:53:29,986 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 148.4ms | App: 13.9ms | Admin: 3.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:53:30,183 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 113.3ms | App: 11.1ms | Admin: 5.4ms | HTTP: 200 (0.06s)
+2025-08-29 21:53:32,363 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 89.1ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:53:32,694 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 298.5ms | App: 5.4ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-08-29 21:53:32,839 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 88.3ms | App: 5.4ms | Admin: 14.3ms | HTTP: Status 401
+2025-08-29 21:53:34,958 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 79.4ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:53:35,132 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 154.5ms | App: 2.7ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 21:53:35,937 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 626.1ms | App: 16.1ms | Admin: 12.9ms | HTTP: 200 (0.05s)
+2025-08-29 21:54:08,243 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 127.4ms | App: FECHADA | Admin: 6.9ms
+2025-08-29 21:54:08,463 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 86.2ms | App: 3.4ms | Admin: 8.5ms | HTTP: 200 (0.10s)
+2025-08-29 21:54:08,651 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 79.3ms | App: 3.5ms | Admin: 5.6ms | HTTP: 200 (0.08s)
+2025-08-29 21:54:10,765 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 54.7ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:54:11,051 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 268.8ms | App: 2.1ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 21:54:11,161 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 71.5ms | App: 8.9ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 21:54:13,321 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 79.9ms | App: FECHADA | Admin: 4.4ms
+2025-08-29 21:54:13,514 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 173.9ms | App: 6.3ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 21:54:13,663 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 118.4ms | App: 2.3ms | Admin: 4.8ms | HTTP: 200 (0.02s)
+2025-08-29 21:54:45,769 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 43.9ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 21:54:45,958 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 96.4ms | App: 2.3ms | Admin: 2.7ms | HTTP: 200 (0.08s)
+2025-08-29 21:54:46,111 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 69.0ms | App: 3.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 21:54:48,375 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 173.0ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 21:54:48,503 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 75.9ms | App: 7.4ms | Admin: 2.1ms | HTTP: 200 (0.02s)
+2025-08-29 21:54:48,837 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 112.4ms | App: 30.4ms | Admin: 54.0ms | HTTP: Status 401
+2025-08-29 21:54:51,384 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 446.1ms | App: FECHADA | Admin: 14.0ms
+2025-08-29 21:54:51,575 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 130.7ms | App: 7.5ms | Admin: 9.8ms | HTTP: 200 (0.02s)
+2025-08-29 21:54:51,692 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 86.7ms | App: 2.8ms | Admin: 2.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:55:23,823 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 61.0ms | App: FECHADA | Admin: 6.3ms
+2025-08-29 21:55:24,041 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 82.2ms | App: 3.0ms | Admin: 2.9ms | HTTP: 200 (0.09s)
+2025-08-29 21:55:24,194 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 70.5ms | App: 2.8ms | Admin: 3.4ms | HTTP: 200 (0.07s)
+2025-08-29 21:55:26,325 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 106.7ms | App: FECHADA | Admin: 1.9ms
+2025-08-29 21:55:26,437 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 77.9ms | App: 3.4ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:55:26,558 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 79.3ms | App: 11.3ms | Admin: 4.8ms | HTTP: Status 401
+2025-08-29 21:55:28,675 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 63.9ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:55:28,767 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 45.7ms | App: 19.9ms | Admin: 16.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:55:28,847 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 53.0ms | App: 2.0ms | Admin: 2.0ms | HTTP: 200 (0.02s)
+2025-08-29 21:56:00,991 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 60.9ms | App: FECHADA | Admin: 4.0ms
+2025-08-29 21:56:01,260 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 143.5ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.11s)
+2025-08-29 21:56:01,415 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 66.8ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.08s)
+2025-08-29 21:56:03,564 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 71.7ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:56:03,690 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 84.0ms | App: 15.3ms | Admin: 14.1ms | HTTP: 200 (0.01s)
+2025-08-29 21:56:04,219 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 351.6ms | App: 33.1ms | Admin: 26.2ms | HTTP: Status 401
+2025-08-29 21:56:06,654 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 263.4ms | App: FECHADA | Admin: 21.8ms
+2025-08-29 21:56:06,895 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 58.9ms | App: 7.0ms | Admin: 22.4ms | HTTP: 200 (0.12s)
+2025-08-29 21:56:07,138 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 123.0ms | App: 7.4ms | Admin: 10.8ms | HTTP: 200 (0.06s)
+2025-08-29 21:56:39,392 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 92.9ms | App: FECHADA | Admin: 9.0ms
+2025-08-29 21:56:39,663 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 153.9ms | App: 8.6ms | Admin: 3.2ms | HTTP: 200 (0.09s)
+2025-08-29 21:56:39,830 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 85.6ms | App: 3.4ms | Admin: 2.4ms | HTTP: 200 (0.06s)
+2025-08-29 21:56:42,018 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 46.2ms | App: FECHADA | Admin: 7.6ms
+2025-08-29 21:56:42,117 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 77.5ms | App: 2.5ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 21:56:42,217 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 66.0ms | App: 2.4ms | Admin: 2.2ms | HTTP: Status 401
+2025-08-29 21:56:44,362 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 80.0ms | App: FECHADA | Admin: 12.1ms
+2025-08-29 21:56:44,469 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 69.9ms | App: 3.0ms | Admin: 15.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:56:44,799 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 268.0ms | App: 3.8ms | Admin: 12.2ms | HTTP: 200 (0.04s)
+2025-08-29 21:57:17,067 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 173.1ms | App: FECHADA | Admin: 12.2ms
+2025-08-29 21:57:17,401 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 159.5ms | App: 3.9ms | Admin: 17.7ms | HTTP: 200 (0.10s)
+2025-08-29 21:57:17,991 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 429.8ms | App: 3.9ms | Admin: 2.2ms | HTTP: 200 (0.15s)
+2025-08-29 21:57:20,381 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 237.5ms | App: FECHADA | Admin: 62.0ms
+2025-08-29 21:57:20,726 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 86.2ms | App: 3.9ms | Admin: 19.6ms | HTTP: 200 (0.03s)
+2025-08-29 21:57:21,015 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 186.0ms | App: 7.1ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 21:57:23,226 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 113.9ms | App: FECHADA | Admin: 3.0ms
+2025-08-29 21:57:23,430 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 163.0ms | App: 3.5ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:57:23,637 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 131.9ms | App: 3.1ms | Admin: 19.7ms | HTTP: 200 (0.03s)
+2025-08-29 21:57:55,873 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 117.8ms | App: FECHADA | Admin: 3.2ms
+2025-08-29 21:57:56,443 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 131.0ms | App: 4.9ms | Admin: 25.4ms | HTTP: 200 (0.29s)
+2025-08-29 21:57:56,649 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 80.8ms | App: 4.5ms | Admin: 2.4ms | HTTP: 200 (0.09s)
+2025-08-29 21:57:58,788 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 75.3ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 21:58:03,499 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 3812.1ms | App: 2.5ms | Admin: 31.8ms | HTTP: 200 (0.65s)
+2025-08-29 21:58:06,389 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 1842.9ms | App: 8.0ms | Admin: 5.6ms | HTTP: Status 401
+2025-08-29 21:58:10,962 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 2406.2ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 21:58:11,330 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 315.5ms | App: 7.0ms | Admin: 15.4ms | HTTP: 200 (0.01s)
+2025-08-29 21:58:11,459 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 71.3ms | App: 2.9ms | Admin: 2.7ms | HTTP: 200 (0.05s)
+2025-08-29 21:58:43,610 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 95.4ms | App: FECHADA | Admin: 3.6ms
+2025-08-29 21:58:43,850 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 61.7ms | App: 2.1ms | Admin: 6.9ms | HTTP: 200 (0.15s)
+2025-08-29 21:58:44,182 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 103.0ms | App: 44.8ms | Admin: 14.5ms | HTTP: 200 (0.11s)
+2025-08-29 21:58:46,583 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 304.2ms | App: FECHADA | Admin: 13.0ms
+2025-08-29 21:58:46,694 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 90.0ms | App: 2.6ms | Admin: 4.7ms | HTTP: 200 (0.01s)
+2025-08-29 21:58:46,885 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 118.5ms | App: 5.2ms | Admin: 6.1ms | HTTP: Status 401
+2025-08-29 21:58:49,296 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 353.4ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 21:58:49,389 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 52.5ms | App: 2.4ms | Admin: 16.5ms | HTTP: 200 (0.02s)
+2025-08-29 21:58:49,510 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 77.0ms | App: 18.2ms | Admin: 4.3ms | HTTP: 200 (0.02s)
+2025-08-29 21:59:22,477 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 857.5ms | App: FECHADA | Admin: 25.1ms
+2025-08-29 21:59:23,285 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 438.9ms | App: 33.3ms | Admin: 13.5ms | HTTP: 200 (0.10s)
+2025-08-29 21:59:23,890 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 393.0ms | App: 60.3ms | Admin: 6.3ms | HTTP: 200 (0.10s)
+2025-08-29 21:59:26,024 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 70.2ms | App: FECHADA | Admin: 2.8ms
+2025-08-29 21:59:26,089 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 49.6ms | App: 2.2ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-08-29 21:59:26,250 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 49.4ms | App: 17.2ms | Admin: 1.9ms | HTTP: Status 401
+2025-08-29 21:59:28,426 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 57.1ms | App: FECHADA | Admin: 5.9ms
+2025-08-29 21:59:28,692 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 124.9ms | App: 3.0ms | Admin: 5.2ms | HTTP: 200 (0.05s)
+2025-08-29 21:59:28,838 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 47.1ms | App: 7.6ms | Admin: 4.4ms | HTTP: 200 (0.03s)
+2025-08-29 22:00:00,971 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 47.6ms | App: FECHADA | Admin: 22.6ms
+2025-08-29 22:00:01,189 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 66.7ms | App: 13.9ms | Admin: 16.4ms | HTTP: 200 (0.12s)
+2025-08-29 22:00:01,557 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 136.0ms | App: 22.1ms | Admin: 21.6ms | HTTP: 200 (0.13s)
+2025-08-29 22:00:03,976 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 213.1ms | App: FECHADA | Admin: 9.6ms
+2025-08-29 22:00:04,220 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 108.3ms | App: 20.6ms | Admin: 11.7ms | HTTP: 200 (0.05s)
+2025-08-29 22:00:04,852 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 533.7ms | App: 4.3ms | Admin: 13.9ms | HTTP: Status 401
+2025-08-29 22:00:07,082 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 139.8ms | App: FECHADA | Admin: 4.4ms
+2025-08-29 22:00:07,359 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 236.3ms | App: 3.9ms | Admin: 5.5ms | HTTP: 200 (0.03s)
+2025-08-29 22:00:07,558 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 69.7ms | App: 3.9ms | Admin: 33.6ms | HTTP: 200 (0.08s)
+2025-08-29 22:00:39,712 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 46.1ms | App: FECHADA | Admin: 13.2ms
+2025-08-29 22:00:39,984 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 121.4ms | App: 7.5ms | Admin: 28.8ms | HTTP: 200 (0.11s)
+2025-08-29 22:00:40,311 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 105.0ms | App: 43.5ms | Admin: 20.8ms | HTTP: 200 (0.13s)
+2025-08-29 22:00:42,541 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 78.4ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 22:00:42,779 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 196.7ms | App: 19.8ms | Admin: 6.8ms | HTTP: 200 (0.01s)
+2025-08-29 22:00:43,026 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 153.3ms | App: 10.1ms | Admin: 23.4ms | HTTP: Status 401
+2025-08-29 22:00:45,172 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 61.0ms | App: FECHADA | Admin: 8.3ms
+2025-08-29 22:00:45,353 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 112.9ms | App: 2.4ms | Admin: 20.5ms | HTTP: 200 (0.03s)
+2025-08-29 22:00:45,509 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 125.1ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.02s)
+2025-08-29 22:01:17,585 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 34.7ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 22:01:17,922 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 218.1ms | App: 2.6ms | Admin: 6.7ms | HTTP: 200 (0.11s)
+2025-08-29 22:01:18,086 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 76.1ms | App: 3.6ms | Admin: 2.9ms | HTTP: 200 (0.08s)
+2025-08-29 22:01:20,198 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 66.1ms | App: FECHADA | Admin: 13.8ms
+2025-08-29 22:01:20,260 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 46.2ms | App: 3.0ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 22:01:20,368 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 51.7ms | App: 3.5ms | Admin: 8.1ms | HTTP: Status 401
+2025-08-29 22:01:22,504 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 79.2ms | App: FECHADA | Admin: 1.9ms
+2025-08-29 22:01:22,588 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 46.6ms | App: 11.6ms | Admin: 15.2ms | HTTP: 200 (0.01s)
+2025-08-29 22:01:22,662 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 47.6ms | App: 3.5ms | Admin: 2.5ms | HTTP: 200 (0.02s)
+2025-08-29 22:01:54,782 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 53.7ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 22:01:54,969 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 73.3ms | App: 18.9ms | Admin: 3.9ms | HTTP: 200 (0.08s)
+2025-08-29 22:01:55,135 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 63.5ms | App: 2.4ms | Admin: 21.5ms | HTTP: 200 (0.07s)
+2025-08-29 22:01:57,442 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 223.7ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 22:01:57,717 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 105.5ms | App: 37.4ms | Admin: 15.0ms | HTTP: 200 (0.07s)
+2025-08-29 22:01:57,907 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 48.7ms | App: 14.1ms | Admin: 4.4ms | HTTP: Status 401
+2025-08-29 22:02:00,217 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 159.0ms | App: FECHADA | Admin: 38.7ms
+2025-08-29 22:02:00,414 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 82.9ms | App: 7.5ms | Admin: 32.0ms | HTTP: 200 (0.05s)
+2025-08-29 22:02:00,540 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 86.1ms | App: 3.7ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-08-29 22:02:32,828 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 117.4ms | App: FECHADA | Admin: 11.5ms
+2025-08-29 22:02:33,478 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 453.8ms | App: 33.9ms | Admin: 10.1ms | HTTP: 200 (0.11s)
+2025-08-29 22:02:33,756 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 99.1ms | App: 11.0ms | Admin: 3.3ms | HTTP: 200 (0.15s)
+2025-08-29 22:02:35,945 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 105.9ms | App: FECHADA | Admin: 4.5ms
+2025-08-29 22:02:36,274 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 236.0ms | App: 26.7ms | Admin: 27.3ms | HTTP: 200 (0.03s)
+2025-08-29 22:02:36,409 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 89.0ms | App: 5.9ms | Admin: 3.9ms | HTTP: Status 401
+2025-08-29 22:02:38,679 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 91.5ms | App: FECHADA | Admin: 14.4ms
+2025-08-29 22:02:39,008 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 96.2ms | App: 15.1ms | Admin: 29.9ms | HTTP: 200 (0.13s)
+2025-08-29 22:02:39,856 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 677.3ms | App: 38.9ms | Admin: 27.5ms | HTTP: 200 (0.03s)
+2025-08-29 22:03:12,048 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 50.7ms | App: FECHADA | Admin: 11.7ms
+2025-08-29 22:03:12,355 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 73.4ms | App: 10.5ms | Admin: 3.9ms | HTTP: 200 (0.16s)
+2025-08-29 22:03:12,988 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 193.9ms | App: 12.7ms | Admin: 7.0ms | HTTP: 200 (0.41s)
+2025-08-29 22:03:15,119 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 64.4ms | App: FECHADA | Admin: 4.9ms
+2025-08-29 22:03:15,272 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 122.3ms | App: 3.1ms | Admin: 9.9ms | HTTP: 200 (0.01s)
+2025-08-29 22:03:15,395 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 72.9ms | App: 2.2ms | Admin: 17.1ms | HTTP: Status 401
+2025-08-29 22:03:17,734 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 282.8ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 22:03:18,117 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 182.5ms | App: 28.0ms | Admin: 20.4ms | HTTP: 200 (0.05s)
+2025-08-29 22:03:18,344 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 123.8ms | App: 7.3ms | Admin: 4.3ms | HTTP: 200 (0.02s)
+2025-08-29 22:03:50,543 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 71.1ms | App: FECHADA | Admin: 27.1ms
+2025-08-29 22:03:50,763 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 130.0ms | App: 2.3ms | Admin: 2.2ms | HTTP: 200 (0.08s)
+2025-08-29 22:03:50,968 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 102.1ms | App: 2.5ms | Admin: 15.2ms | HTTP: 200 (0.08s)
+2025-08-29 22:03:53,183 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 61.2ms | App: FECHADA | Admin: 26.9ms
+2025-08-29 22:03:53,278 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 44.0ms | App: 25.3ms | Admin: 7.8ms | HTTP: 200 (0.01s)
+2025-08-29 22:03:53,790 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 276.4ms | App: 67.5ms | Admin: 13.9ms | HTTP: Status 401
+2025-08-29 22:03:56,082 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 132.0ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 22:03:56,212 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 65.5ms | App: 22.4ms | Admin: 6.0ms | HTTP: 200 (0.02s)
+2025-08-29 22:03:56,333 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 72.1ms | App: 3.6ms | Admin: 3.3ms | HTTP: 200 (0.03s)
+2025-08-29 22:04:28,614 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 139.7ms | App: FECHADA | Admin: 26.9ms
+2025-08-29 22:04:28,993 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 165.7ms | App: 10.1ms | Admin: 4.0ms | HTTP: 200 (0.09s)
+2025-08-29 22:04:29,183 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 64.8ms | App: 2.5ms | Admin: 6.3ms | HTTP: 200 (0.08s)
+2025-08-29 22:04:31,326 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 70.2ms | App: FECHADA | Admin: 15.3ms
+2025-08-29 22:04:31,418 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 57.0ms | App: 16.0ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 22:04:31,524 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 64.9ms | App: 7.5ms | Admin: 4.6ms | HTTP: Status 401
+2025-08-29 22:04:33,685 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 60.2ms | App: FECHADA | Admin: 15.0ms
+2025-08-29 22:04:33,819 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 102.7ms | App: 2.1ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 22:04:33,955 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 101.0ms | App: 8.1ms | Admin: 4.4ms | HTTP: 200 (0.02s)
+2025-08-29 22:05:06,144 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 133.0ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 22:05:06,490 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 205.1ms | App: 2.6ms | Admin: 4.0ms | HTTP: 200 (0.08s)
+2025-08-29 22:05:06,651 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 72.7ms | App: 4.9ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 22:05:09,253 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 506.8ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 22:05:09,521 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 151.0ms | App: 51.6ms | Admin: 6.5ms | HTTP: 200 (0.02s)
+2025-08-29 22:05:09,765 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 155.5ms | App: 18.8ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 22:05:11,996 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 131.0ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 22:05:12,123 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 100.0ms | App: 2.3ms | Admin: 7.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:05:12,319 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 94.9ms | App: 2.9ms | Admin: 22.0ms | HTTP: 200 (0.03s)
+2025-08-29 22:05:44,701 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 252.6ms | App: FECHADA | Admin: 8.2ms
+2025-08-29 22:05:44,956 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 111.1ms | App: 10.0ms | Admin: 2.6ms | HTTP: 200 (0.08s)
+2025-08-29 22:05:45,229 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 63.9ms | App: 6.1ms | Admin: 12.8ms | HTTP: 200 (0.14s)
+2025-08-29 22:05:47,497 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 92.0ms | App: FECHADA | Admin: 80.2ms
+2025-08-29 22:05:47,576 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 59.8ms | App: 2.9ms | Admin: 3.7ms | HTTP: 200 (0.01s)
+2025-08-29 22:05:47,667 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 56.8ms | App: 2.1ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 22:05:49,798 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 49.3ms | App: FECHADA | Admin: 6.4ms
+2025-08-29 22:05:50,147 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 323.7ms | App: 2.9ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 22:05:50,286 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 96.4ms | App: 6.3ms | Admin: 4.9ms | HTTP: 200 (0.02s)
+2025-08-29 22:06:22,446 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 99.4ms | App: FECHADA | Admin: 2.7ms
+2025-08-29 22:06:22,596 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 60.0ms | App: 6.1ms | Admin: 2.2ms | HTTP: 200 (0.08s)
+2025-08-29 22:06:22,788 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 79.0ms | App: 14.2ms | Admin: 12.2ms | HTTP: 200 (0.08s)
+2025-08-29 22:06:24,904 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 54.8ms | App: FECHADA | Admin: 16.1ms
+2025-08-29 22:06:25,111 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 142.8ms | App: 11.9ms | Admin: 14.7ms | HTTP: 200 (0.02s)
+2025-08-29 22:06:25,293 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 121.3ms | App: 25.7ms | Admin: 3.7ms | HTTP: Status 401
+2025-08-29 22:06:27,465 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 64.1ms | App: FECHADA | Admin: 18.6ms
+2025-08-29 22:06:27,924 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 201.9ms | App: 32.2ms | Admin: 29.9ms | HTTP: 200 (0.06s)
+2025-08-29 22:06:28,330 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 265.2ms | App: 7.7ms | Admin: 9.7ms | HTTP: 200 (0.03s)
+2025-08-29 22:07:00,689 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 209.8ms | App: FECHADA | Admin: 27.3ms
+2025-08-29 22:07:01,056 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 103.1ms | App: 36.6ms | Admin: 23.7ms | HTTP: 200 (0.12s)
+2025-08-29 22:07:01,242 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 74.0ms | App: 3.4ms | Admin: 5.2ms | HTTP: 200 (0.09s)
+2025-08-29 22:07:03,538 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 194.6ms | App: FECHADA | Admin: 13.2ms
+2025-08-29 22:07:03,616 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 59.8ms | App: 2.5ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-08-29 22:07:03,724 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 65.0ms | App: 6.1ms | Admin: 5.0ms | HTTP: Status 401
+2025-08-29 22:07:05,844 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 80.8ms | App: FECHADA | Admin: 2.4ms
+2025-08-29 22:07:05,946 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 74.1ms | App: 2.3ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-08-29 22:07:06,062 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 62.3ms | App: 6.7ms | Admin: 24.8ms | HTTP: 200 (0.02s)
+2025-08-29 22:07:38,463 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 315.4ms | App: FECHADA | Admin: 17.3ms
+2025-08-29 22:07:38,645 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 90.3ms | App: 5.2ms | Admin: 3.1ms | HTTP: 200 (0.08s)
+2025-08-29 22:07:38,811 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 62.7ms | App: 6.4ms | Admin: 3.2ms | HTTP: 200 (0.09s)
+2025-08-29 22:07:40,967 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 62.5ms | App: FECHADA | Admin: 4.8ms
+2025-08-29 22:07:41,083 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 63.2ms | App: 11.7ms | Admin: 5.0ms | HTTP: 200 (0.01s)
+2025-08-29 22:07:41,211 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 81.5ms | App: 3.4ms | Admin: 2.5ms | HTTP: Status 401
+2025-08-29 22:07:43,371 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 66.9ms | App: FECHADA | Admin: 4.3ms
+2025-08-29 22:07:43,471 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 65.6ms | App: 2.3ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-08-29 22:07:43,592 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 77.6ms | App: 7.5ms | Admin: 5.8ms | HTTP: 200 (0.02s)
+2025-08-29 22:08:15,731 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 54.0ms | App: FECHADA | Admin: 4.3ms
+2025-08-29 22:08:15,961 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 120.1ms | App: 4.1ms | Admin: 2.6ms | HTTP: 200 (0.09s)
+2025-08-29 22:08:16,135 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 74.5ms | App: 3.2ms | Admin: 2.1ms | HTTP: 200 (0.09s)
+2025-08-29 22:08:18,257 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 90.8ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 22:08:18,363 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 61.9ms | App: 10.2ms | Admin: 14.6ms | HTTP: 200 (0.02s)
+2025-08-29 22:08:18,454 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 61.8ms | App: 2.2ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 22:08:20,561 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 65.3ms | App: FECHADA | Admin: 2.9ms
+2025-08-29 22:08:20,640 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 43.3ms | App: 6.1ms | Admin: 20.4ms | HTTP: 200 (0.01s)
+2025-08-29 22:08:20,707 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 38.1ms | App: 2.2ms | Admin: 12.5ms | HTTP: 200 (0.01s)
+2025-08-29 22:08:52,772 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 24.2ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 22:08:52,932 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 42.4ms | App: 2.4ms | Admin: 4.9ms | HTTP: 200 (0.11s)
+2025-08-29 22:08:53,055 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 48.0ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-08-29 22:08:55,173 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 45.0ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 22:08:55,229 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 42.0ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.01s)
+2025-08-29 22:08:55,316 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 57.2ms | App: 3.0ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 22:08:57,426 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.4ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 22:08:57,481 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 40.3ms | App: 3.6ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:08:57,604 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 38.7ms | App: 4.1ms | Admin: 2.7ms | HTTP: 200 (0.05s)
+2025-08-29 22:09:29,877 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 30.5ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 22:09:30,058 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 64.4ms | App: 25.9ms | Admin: 2.3ms | HTTP: 200 (0.08s)
+2025-08-29 22:09:30,277 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 84.2ms | App: 3.9ms | Admin: 4.1ms | HTTP: 200 (0.09s)
+2025-08-29 22:09:32,642 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 229.1ms | App: FECHADA | Admin: 7.5ms
+2025-08-29 22:09:32,745 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 54.0ms | App: 5.1ms | Admin: 17.6ms | HTTP: 200 (0.01s)
+2025-08-29 22:09:32,887 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 72.4ms | App: 2.7ms | Admin: 17.2ms | HTTP: Status 401
+2025-08-29 22:09:35,063 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 118.0ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 22:09:35,135 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 50.6ms | App: 3.2ms | Admin: 2.4ms | HTTP: 200 (0.01s)
+2025-08-29 22:09:35,228 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 56.6ms | App: 3.4ms | Admin: 2.2ms | HTTP: 200 (0.03s)
+2025-08-29 22:10:07,349 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 68.2ms | App: FECHADA | Admin: 7.7ms
+2025-08-29 22:10:07,869 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 393.0ms | App: 12.5ms | Admin: 16.3ms | HTTP: 200 (0.08s)
+2025-08-29 22:10:08,029 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 60.2ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 22:10:10,160 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 73.5ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 22:10:10,515 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 268.3ms | App: 2.1ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 22:10:10,641 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 65.5ms | App: 2.3ms | Admin: 2.8ms | HTTP: Status 401
+2025-08-29 22:10:12,886 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 66.3ms | App: FECHADA | Admin: 5.4ms
+2025-08-29 22:10:13,146 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 132.7ms | App: 8.7ms | Admin: 17.0ms | HTTP: 200 (0.03s)
+2025-08-29 22:10:13,434 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 189.4ms | App: 15.0ms | Admin: 8.1ms | HTTP: 200 (0.02s)
+2025-08-29 22:10:45,778 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 147.3ms | App: FECHADA | Admin: 8.5ms
+2025-08-29 22:10:46,176 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 98.6ms | App: 9.2ms | Admin: 42.5ms | HTTP: 200 (0.17s)
+2025-08-29 22:10:46,453 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 86.0ms | App: 3.1ms | Admin: 5.0ms | HTTP: 200 (0.16s)
+2025-08-29 22:10:48,754 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 75.4ms | App: FECHADA | Admin: 3.8ms
+2025-08-29 22:10:48,817 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 48.7ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:10:48,934 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 57.7ms | App: 14.2ms | Admin: 10.5ms | HTTP: Status 401
+2025-08-29 22:10:51,023 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 48.6ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 22:10:51,110 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 68.4ms | App: 4.0ms | Admin: 3.0ms | HTTP: 200 (0.01s)
+2025-08-29 22:10:51,202 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 65.9ms | App: 3.1ms | Admin: 2.2ms | HTTP: 200 (0.02s)
+2025-08-29 22:11:23,541 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 242.4ms | App: FECHADA | Admin: 4.5ms
+2025-08-29 22:11:23,704 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 72.1ms | App: 5.3ms | Admin: 14.8ms | HTTP: 200 (0.07s)
+2025-08-29 22:11:23,857 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 53.0ms | App: 6.8ms | Admin: 1.9ms | HTTP: 200 (0.09s)
+2025-08-29 22:11:25,997 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 71.9ms | App: FECHADA | Admin: 5.9ms
+2025-08-29 22:11:26,286 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 190.7ms | App: 26.7ms | Admin: 14.7ms | HTTP: 200 (0.04s)
+2025-08-29 22:11:26,625 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 126.8ms | App: 23.6ms | Admin: 34.6ms | HTTP: Status 401
+2025-08-29 22:11:28,785 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 68.8ms | App: FECHADA | Admin: 3.7ms
+2025-08-29 22:11:28,880 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 54.8ms | App: 26.9ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 22:11:28,977 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 46.3ms | App: 32.0ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-08-29 22:12:01,100 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 32.8ms | App: FECHADA | Admin: 11.1ms
+2025-08-29 22:12:01,307 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 119.5ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-08-29 22:12:01,428 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 40.1ms | App: 2.1ms | Admin: 2.7ms | HTTP: 200 (0.07s)
+2025-08-29 22:12:03,543 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 67.0ms | App: FECHADA | Admin: 3.2ms
+2025-08-29 22:12:03,636 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 53.6ms | App: 6.9ms | Admin: 2.4ms | HTTP: 200 (0.03s)
+2025-08-29 22:12:03,707 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 41.9ms | App: 2.3ms | Admin: 2.7ms | HTTP: Status 401
+2025-08-29 22:12:05,829 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 75.8ms | App: FECHADA | Admin: 13.8ms
+2025-08-29 22:12:05,901 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 39.4ms | App: 21.4ms | Admin: 2.2ms | HTTP: 200 (0.01s)
+2025-08-29 22:12:05,960 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 38.7ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 22:12:38,020 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 39.1ms | App: FECHADA | Admin: 2.3ms
+2025-08-29 22:12:38,162 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 49.1ms | App: 21.8ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 22:12:38,291 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 50.9ms | App: 2.3ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-08-29 22:12:40,384 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 62.0ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 22:12:40,460 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 61.8ms | App: 2.1ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 22:12:40,563 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 69.5ms | App: 3.4ms | Admin: 2.9ms | HTTP: Status 401
+2025-08-29 22:12:42,650 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 47.9ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 22:12:42,816 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 150.5ms | App: 2.4ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:12:42,890 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 51.5ms | App: 2.1ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-08-29 22:13:15,052 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 125.5ms | App: FECHADA | Admin: 3.7ms
+2025-08-29 22:13:15,198 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 56.8ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-08-29 22:13:15,391 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 111.2ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.07s)
+2025-08-29 22:13:17,606 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 64.9ms | App: FECHADA | Admin: 47.6ms
+2025-08-29 22:13:17,944 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 204.1ms | App: 31.0ms | Admin: 17.8ms | HTTP: 200 (0.03s)
+2025-08-29 22:13:18,230 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 159.2ms | App: 14.6ms | Admin: 3.7ms | HTTP: Status 401
+2025-08-29 22:13:20,324 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 59.5ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 22:13:20,396 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 56.1ms | App: 2.1ms | Admin: 3.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:13:20,473 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 55.0ms | App: 2.8ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 22:13:52,573 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 44.2ms | App: FECHADA | Admin: 18.1ms
+2025-08-29 22:13:52,746 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 51.6ms | App: 3.3ms | Admin: 4.1ms | HTTP: 200 (0.09s)
+2025-08-29 22:13:52,887 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 56.4ms | App: 2.1ms | Admin: 2.6ms | HTTP: 200 (0.07s)
+2025-08-29 22:13:54,979 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 43.4ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 22:13:55,107 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 112.9ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-08-29 22:13:55,278 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 136.4ms | App: 7.5ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 22:13:57,364 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.3ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 22:13:57,446 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 62.2ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:13:57,521 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 52.9ms | App: 2.3ms | Admin: 2.7ms | HTTP: 200 (0.01s)
+2025-08-29 22:14:29,728 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 115.9ms | App: FECHADA | Admin: 3.5ms
+2025-08-29 22:14:29,901 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 79.4ms | App: 2.3ms | Admin: 2.2ms | HTTP: 200 (0.08s)
+2025-08-29 22:14:30,176 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 185.3ms | App: 2.1ms | Admin: 14.2ms | HTTP: 200 (0.07s)
+2025-08-29 22:14:32,322 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 96.4ms | App: FECHADA | Admin: 2.1ms
+2025-08-29 22:14:32,493 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 148.2ms | App: 2.2ms | Admin: 5.0ms | HTTP: 200 (0.01s)
+2025-08-29 22:14:32,598 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 59.9ms | App: 16.9ms | Admin: 2.1ms | HTTP: Status 401
+2025-08-29 22:14:34,719 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 74.3ms | App: FECHADA | Admin: 4.0ms
+2025-08-29 22:14:35,075 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 227.8ms | App: 6.4ms | Admin: 23.3ms | HTTP: 200 (0.02s)
+2025-08-29 22:14:35,585 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 316.3ms | App: 6.0ms | Admin: 19.3ms | HTTP: 200 (0.07s)
+2025-08-29 22:15:07,926 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 135.4ms | App: FECHADA | Admin: 13.0ms
+2025-08-29 22:15:08,259 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 85.1ms | App: 11.1ms | Admin: 17.5ms | HTTP: 200 (0.09s)
+2025-08-29 22:15:08,601 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 210.0ms | App: 18.5ms | Admin: 9.8ms | HTTP: 200 (0.10s)
+2025-08-29 22:15:10,822 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 136.9ms | App: FECHADA | Admin: 14.0ms
+2025-08-29 22:15:10,933 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 89.5ms | App: 2.6ms | Admin: 5.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:15:11,051 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 82.8ms | App: 2.2ms | Admin: 8.3ms | HTTP: Status 401
+2025-08-29 22:15:13,231 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 69.3ms | App: FECHADA | Admin: 12.5ms
+2025-08-29 22:15:13,362 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 79.9ms | App: 10.7ms | Admin: 10.5ms | HTTP: 200 (0.02s)
+2025-08-29 22:15:13,467 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 64.5ms | App: 3.7ms | Admin: 14.2ms | HTTP: 200 (0.02s)
+2025-08-29 22:15:45,664 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 105.3ms | App: FECHADA | Admin: 6.2ms
+2025-08-29 22:15:46,014 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 93.4ms | App: 6.1ms | Admin: 4.8ms | HTTP: 200 (0.10s)
+2025-08-29 22:15:46,272 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 109.0ms | App: 2.6ms | Admin: 3.3ms | HTTP: 200 (0.12s)
+2025-08-29 22:15:48,475 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 115.4ms | App: FECHADA | Admin: 2.2ms
+2025-08-29 22:15:48,584 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 92.7ms | App: 4.8ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:15:48,684 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 71.1ms | App: 2.2ms | Admin: 2.0ms | HTTP: Status 401
+2025-08-29 22:15:50,924 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 173.6ms | App: FECHADA | Admin: 4.3ms
+2025-08-29 22:15:51,337 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 241.3ms | App: 8.4ms | Admin: 9.5ms | HTTP: 200 (0.08s)
+2025-08-29 22:15:51,702 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 144.0ms | App: 15.2ms | Admin: 30.4ms | HTTP: 200 (0.06s)
+2025-08-29 22:16:23,873 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 52.2ms | App: FECHADA | Admin: 16.7ms
+2025-08-29 22:16:24,226 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 163.6ms | App: 3.1ms | Admin: 3.3ms | HTTP: 200 (0.18s)
+2025-08-29 22:16:24,783 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 116.8ms | App: 54.0ms | Admin: 11.6ms | HTTP: 200 (0.30s)
+2025-08-29 22:16:27,023 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 111.4ms | App: FECHADA | Admin: 2.6ms
+2025-08-29 22:16:27,223 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 170.4ms | App: 9.2ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-08-29 22:16:27,325 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 60.0ms | App: 3.1ms | Admin: 3.2ms | HTTP: Status 401
+2025-08-29 22:16:29,473 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 81.9ms | App: FECHADA | Admin: 2.0ms
+2025-08-29 22:16:29,552 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 50.1ms | App: 3.8ms | Admin: 14.6ms | HTTP: 200 (0.01s)
+2025-08-29 22:16:29,644 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 61.2ms | App: 2.9ms | Admin: 4.0ms | HTTP: 200 (0.02s)
+2025-08-29 22:17:01,822 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 100.8ms | App: FECHADA | Admin: 6.5ms
+2025-08-29 22:17:02,110 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 62.7ms | App: 2.1ms | Admin: 7.1ms | HTTP: 200 (0.10s)
+2025-08-29 22:17:02,435 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 190.0ms | App: 4.8ms | Admin: 6.2ms | HTTP: 200 (0.12s)
+2025-08-29 22:17:04,588 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 83.1ms | App: FECHADA | Admin: 2.5ms
+2025-08-29 22:17:04,925 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 298.0ms | App: 3.8ms | Admin: 9.1ms | HTTP: 200 (0.02s)
+2025-08-29 22:17:06,265 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 798.2ms | App: 33.7ms | Admin: 12.1ms | HTTP: Status 401
+2025-08-29 22:17:08,595 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 180.2ms | App: FECHADA | Admin: 18.2ms
+2025-08-29 22:17:08,722 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 99.8ms | App: 2.7ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-08-29 22:17:08,881 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 120.4ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.03s)
+2025-08-29 22:17:41,169 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 187.9ms | App: FECHADA | Admin: 25.1ms
+2025-08-29 22:17:41,999 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 560.3ms | App: 32.1ms | Admin: 18.7ms | HTTP: 200 (0.21s)
+2025-08-29 22:17:42,433 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 262.9ms | App: 22.9ms | Admin: 6.9ms | HTTP: 200 (0.12s)
+2025-08-29 22:17:44,617 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 111.0ms | App: FECHADA | Admin: 5.8ms
+2025-08-29 22:17:44,702 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 68.9ms | App: 2.1ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-08-29 22:17:44,938 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 110.4ms | App: 16.4ms | Admin: 12.6ms | HTTP: Status 401
+2025-08-29 22:17:47,192 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 123.7ms | App: FECHADA | Admin: 8.8ms
+2025-08-29 22:17:47,457 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 222.1ms | App: 4.8ms | Admin: 2.4ms | HTTP: 200 (0.02s)
+2025-08-29 22:17:48,253 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 578.8ms | App: 11.6ms | Admin: 47.3ms | HTTP: 200 (0.04s)
+2025-08-29 22:18:20,917 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 490.3ms | App: FECHADA | Admin: 15.7ms
+2025-08-29 22:18:21,342 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 212.1ms | App: 15.5ms | Admin: 7.2ms | HTTP: 200 (0.15s)
+2025-08-29 22:18:21,717 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 150.5ms | App: 35.5ms | Admin: 33.1ms | HTTP: 200 (0.12s)
+2025-08-29 22:18:24,560 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 754.5ms | App: FECHADA | Admin: 3.0ms
+2025-08-29 22:18:24,693 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 106.1ms | App: 4.9ms | Admin: 5.3ms | HTTP: 200 (0.01s)
+2025-08-29 22:18:24,870 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 113.6ms | App: 3.7ms | Admin: 7.9ms | HTTP: Status 401
+2025-08-29 22:18:27,274 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 294.5ms | App: FECHADA | Admin: 7.8ms
+2025-08-29 22:18:27,704 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 269.6ms | App: 63.5ms | Admin: 13.0ms | HTTP: 200 (0.05s)
+2025-08-29 22:18:28,095 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 260.1ms | App: 3.7ms | Admin: 2.1ms | HTTP: 200 (0.04s)
+2025-08-29 22:19:00,292 - INFO - ✅ SFCS 116 [8080] (147.1.0.116) - Ping: 83.0ms | App: FECHADA | Admin: 19.6ms
+2025-08-29 22:19:00,687 - INFO - ✅ SFCS 40 [80] (147.1.160.40) - Ping: 184.1ms | App: 6.7ms | Admin: 5.3ms | HTTP: 200 (0.17s)
+2025-08-29 22:19:00,925 - INFO - ✅ SFCS 130 [8080] (147.0.0.130) - Ping: 77.0ms | App: 13.1ms | Admin: 21.1ms | HTTP: 200 (0.11s)
+2025-08-29 22:19:03,210 - INFO - ✅ SFCS 61 [8080] (147.1.0.61) - Ping: 131.4ms | App: FECHADA | Admin: 27.2ms
+2025-08-29 22:19:03,536 - INFO - ✅ SFCS 130 [9090] (147.0.0.130) - Ping: 288.7ms | App: 3.9ms | Admin: 5.4ms | HTTP: 200 (0.02s)
+2025-08-29 22:19:03,938 - INFO - ⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 240.8ms | App: 23.8ms | Admin: 17.0ms | HTTP: Status 401
+2025-08-29 22:19:06,456 - INFO - ✅ SFCS 130 [8181] (147.0.0.130) - Ping: 333.8ms | App: FECHADA | Admin: 30.6ms
+2025-08-29 22:19:06,528 - INFO - ✅ SFCS 40 [9090] (147.1.160.40) - Ping: 56.2ms | App: 2.4ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-08-29 22:19:06,660 - INFO - ✅ ICT [pasta] (147.1.0.95) - Ping: 85.7ms | App: 24.4ms | Admin: 3.4ms | HTTP: 200 (0.02s)
+2025-08-29 22:19:36,662 - INFO - === Monitoramento finalizado ===
