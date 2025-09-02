@@ -15,6 +15,7 @@ import threading
 import logging
 import csv
 import smtplib
+import json
 from datetime import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -22,8 +23,154 @@ import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import requests
 from requests.exceptions import RequestException, Timeout, ConnectionError
+from urllib.parse import urlparse
 
 # Configurações globais
+LOG_FILE = 'server_monitor.log'
+CSV_FILE = 'server_status.csv'
+CONFIG_FILE = 'servers_config.json'
+LOGS_FILE = 'server_logs.json'
+
+# Função utilitária para extrair porta de URL
+def extract_port_from_url(url):
+    """
+    Extrai a porta de uma URL automaticamente.
+    Se não especificada, usa portas padrão: 80 para HTTP, 443 para HTTPS.
+    
+    Args:
+        url (str): URL completa (ex: 'https://example.com:8080/path')
+    
+    Returns:
+        int: Número da porta
+    """
+    try:
+        # Preservar o esquema original para determinar porta padrão
+        original_scheme = None
+        if url.startswith('https://'):
+            original_scheme = 'https'
+        elif url.startswith('http://'):
+            original_scheme = 'http'
+            
+        # Se não tem protocolo, adicionar http:// temporariamente para parsing
+        temp_url = url
+        if not url.startswith(('http://', 'https://', 'ftp://')):
+            temp_url = 'http://' + url
+            
+        parsed = urlparse(temp_url)
+        
+        # Se a porta está explicitamente definida na URL
+        if parsed.port:
+            return parsed.port
+        
+        # Usar portas padrão baseadas no esquema original
+        if original_scheme == 'https':
+            return 443
+        elif original_scheme == 'http':
+            return 80
+        elif parsed.scheme.lower() == 'https':
+            return 443
+        elif parsed.scheme.lower() == 'http':
+            return 80
+        else:
+            # Para URLs sem protocolo, tentar extrair porta manualmente
+            if ':' in url and not url.startswith(('http://', 'https://')):
+                try:
+                    # Extrair parte após o primeiro :
+                    parts = url.split(':')
+                    if len(parts) >= 2:
+                        port_part = parts[1].split('/')[0]  # Remove path se presente
+                        return int(port_part)
+                except (ValueError, IndexError):
+                    pass
+            return 80  # Fallback para porta 80
+    except Exception:
+        return 80  # Fallback em caso de erro
+
+def extract_hostname_from_url(url):
+    """
+    Extrai o hostname de uma URL automaticamente.
+    
+    Args:
+        url (str): URL completa (ex: 'https://example.com:8080/path')
+    
+    Returns:
+        str: Hostname/IP extraído da URL
+    """
+    try:
+        # Se não tem protocolo, adicionar http:// temporariamente para parsing
+        temp_url = url
+        if not url.startswith(('http://', 'https://', 'ftp://')):
+            temp_url = 'http://' + url
+            
+        parsed = urlparse(temp_url)
+        # Remove a porta do hostname se presente
+        hostname = parsed.hostname or parsed.netloc.split(':')[0]
+        return hostname
+    except Exception:
+        # Fallback: tentar extrair manualmente
+        try:
+            # Remove protocolo se presente
+            if '://' in url:
+                url = url.split('://', 1)[1]
+            # Remove path se presente
+            if '/' in url:
+                url = url.split('/', 1)[0]
+            # Remove porta se presente
+            if ':' in url:
+                url = url.split(':', 1)[0]
+            return url
+        except Exception:
+            return url  # Retorna a URL original em caso de erro
+
+def detect_admin_port(app_port):
+    """
+    Detecta automaticamente a porta administrativa baseada na porta da aplicação.
+    Usa padrões comuns de servidores de aplicação.
+    
+    Args:
+        app_port (int): Porta da aplicação
+    
+    Returns:
+        int: Porta administrativa sugerida
+    """
+    # Mapeamento de portas comuns de aplicação para portas administrativas
+    port_mappings = {
+        8080: 4848,  # GlassFish/Payara padrão
+        8081: 4849,  # GlassFish/Payara alternativo
+        9080: 9060,  # WebSphere
+        7001: 7002,  # WebLogic
+        8000: 8001,  # Genérico
+        3000: 3001,  # Node.js/Express comum
+        5000: 5001,  # Flask/Python comum
+        8090: 8091,  # Tomcat alternativo
+        9090: 9091,  # Jetty comum
+    }
+    
+    # Se existe mapeamento direto, usar
+    if app_port in port_mappings:
+        return port_mappings[app_port]
+    
+    # Padrões baseados em faixas de porta
+    if 8000 <= app_port <= 8099:
+        # Para portas 80xx, usar 48xx (padrão GlassFish)
+        return 4800 + (app_port - 8000)
+    elif 9000 <= app_port <= 9099:
+        # Para portas 90xx, usar 90xx+60 (padrão WebSphere)
+        return app_port + 60
+    elif 7000 <= app_port <= 7099:
+        # Para portas 70xx, usar 70xx+1 (padrão WebLogic)
+        return app_port + 1
+    elif 3000 <= app_port <= 3999:
+        # Para portas 30xx, usar 30xx+1 (padrão Node.js)
+        return app_port + 1
+    elif 5000 <= app_port <= 5999:
+        # Para portas 50xx, usar 50xx+1 (padrão Flask/Python)
+        return app_port + 1
+    else:
+        # Fallback: porta + 1000 ou 4848 se muito alta
+        admin_port = app_port + 1000
+        return 4848 if admin_port > 65535 else admin_port
+
 CONFIG = {
     'ping_timeout': 3,
     'http_timeout': 10,
@@ -63,7 +210,15 @@ class ServerMonitor:
         self.monitoring = False
         self.monitor_thread = None
         self.server_status = {}
+        self.server_logs = {}  # Logs individuais por servidor
         self.servers = SERVERS.copy()  # Lista de servidores para monitorar
+        
+        # Inicializar logs para cada servidor
+        for server in self.servers:
+            self.server_logs[server['name']] = []
+        
+        # Carregar logs salvos
+        self.load_server_logs()
         
     def setup_logging(self):
         """Configura o sistema de logs"""
@@ -158,6 +313,8 @@ class ServerMonitor:
                 'error': str(e)
             }
     
+
+    
     def check_http(self, url):
         """Verifica resposta HTTP de uma URL"""
         try:
@@ -177,6 +334,76 @@ class ServerMonitor:
     def log_status(self, message):
         """Registra status nos logs"""
         self.logger.info(message)
+    
+    def log_server_event(self, server_name, event_type, message, is_error=False):
+        """Registra evento específico de um servidor"""
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        log_entry = {
+            'timestamp': timestamp,
+            'event_type': event_type,
+            'message': message,
+            'is_error': is_error
+        }
+        
+        # Adicionar ao log do servidor específico
+        if server_name not in self.server_logs:
+            self.server_logs[server_name] = []
+        
+        self.server_logs[server_name].append(log_entry)
+        
+        # Manter apenas os últimos 1000 logs por servidor
+        if len(self.server_logs[server_name]) > 1000:
+            self.server_logs[server_name] = self.server_logs[server_name][-1000:]
+        
+        # Log geral também
+        log_level = 'ERROR' if is_error else 'INFO'
+        full_message = f"[{server_name}] {event_type}: {message}"
+        if is_error:
+            self.logger.error(full_message)
+        else:
+            self.logger.info(full_message)
+        
+        # Salvar logs automaticamente (apenas para eventos de erro para evitar overhead)
+        if is_error:
+            self.save_server_logs()
+    
+    def get_server_logs(self, server_name, error_only=False):
+        """Retorna logs de um servidor específico"""
+        if server_name not in self.server_logs:
+            return []
+        
+        logs = self.server_logs[server_name]
+        if error_only:
+            return [log for log in logs if log['is_error']]
+        return logs
+    
+    def save_server_logs(self):
+        """Salva logs dos servidores em arquivo JSON"""
+        try:
+            logs_file = 'server_logs.json'
+            with open(logs_file, 'w', encoding='utf-8') as f:
+                json.dump(self.server_logs, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            self.logger.error(f"Erro ao salvar logs: {e}")
+    
+    def load_server_logs(self):
+        """Carrega logs dos servidores do arquivo JSON"""
+        try:
+            logs_file = 'server_logs.json'
+            if os.path.exists(logs_file):
+                with open(logs_file, 'r', encoding='utf-8') as f:
+                    saved_logs = json.load(f)
+                
+                # Mesclar logs salvos com logs atuais
+                for server_name, logs in saved_logs.items():
+                    if server_name in self.server_logs:
+                        self.server_logs[server_name] = logs
+                    else:
+                        self.server_logs[server_name] = logs
+                
+                self.logger.info(f"Logs carregados de {logs_file}")
+        except Exception as e:
+            self.logger.error(f"Erro ao carregar logs: {e}")
     
     def play_alert_sound(self):
         """Reproduz som de alerta no Windows"""
@@ -224,6 +451,8 @@ class ServerMonitor:
         app_port_result = self.check_port(host, server['app_port']) if ping_result['success'] else {'success': False, 'port': server['app_port'], 'status': 'IGNORADO'}
         admin_port_result = self.check_port(host, server['admin_port']) if ping_result['success'] else {'success': False, 'port': server['admin_port'], 'status': 'IGNORADO'}
         
+
+        
         http_result = None
         if ping_result['success'] and app_port_result['success'] and 'health_url' in server:
             http_result = self.check_http(server['health_url'])
@@ -250,6 +479,7 @@ class ServerMonitor:
             'ping': ping_result,
             'app_port': app_port_result,
             'admin_port': admin_port_result,
+
             'http': http_result,
             'status': status,
             'status_icon': status_icon
@@ -259,6 +489,8 @@ class ServerMonitor:
         ping_info = f"{ping_result['response_time']}ms" if ping_result['success'] else ping_result.get('error', 'Failed')
         app_info = f"{app_port_result['response_time']}ms" if app_port_result['success'] else app_port_result.get('status', 'Failed')
         admin_info = f"{admin_port_result['response_time']}ms" if admin_port_result['success'] else admin_port_result.get('status', 'Failed')
+        
+
         
         http_info = ''
         if http_result:
@@ -271,6 +503,23 @@ class ServerMonitor:
         log_message = f"{status_icon} {name} ({host}) - Ping: {ping_info} | App: {app_info} | Admin: {admin_info}{http_info}"
         self.log_status(log_message)
         
+        # Registrar eventos específicos do servidor
+        self.log_server_event(name, 'STATUS_CHECK', log_message, is_error=(status != 'ONLINE'))
+        
+        # Registrar erros específicos
+        if not ping_result['success']:
+            self.log_server_event(name, 'PING_ERROR', f"Ping falhou: {ping_result.get('error', 'Timeout')}", is_error=True)
+        
+        if not app_port_result['success']:
+            self.log_server_event(name, 'APP_PORT_ERROR', f"Porta {server['app_port']} inacessível: {app_port_result.get('status', 'Failed')}", is_error=True)
+        
+        if not admin_port_result['success']:
+            self.log_server_event(name, 'ADMIN_PORT_ERROR', f"Porta {server['admin_port']} inacessível: {admin_port_result.get('status', 'Failed')}", is_error=True)
+        
+        if http_result and not http_result['success']:
+            error_msg = http_result.get('error', f"Status {http_result['status_code']}")
+            self.log_server_event(name, 'HTTP_ERROR', f"HTTP check falhou: {error_msg}", is_error=True)
+        
         # Salvar no CSV
         self.save_to_csv(result)
         
@@ -280,10 +529,12 @@ class ServerMonitor:
             # Servidor ficou indisponível
             self.play_alert_sound()
             alert_message = f"ALERTA: Servidor {name} ({host}) ficou indisponível!\nStatus: {status}"
+            self.log_server_event(name, 'ALERT', f"Servidor ficou indisponível - Status: {status}", is_error=True)
             self.send_email_alert(f"Servidor {name} Indisponível", alert_message)
         elif previous_status in ['OFFLINE', 'PORTAS_FECHADAS', 'ERRO_HTTP'] and status == 'ONLINE':
             # Servidor voltou a funcionar
             recovery_message = f"RECUPERAÇÃO: Servidor {name} ({host}) voltou a funcionar!\nStatus: {status}"
+            self.log_server_event(name, 'RECOVERY', f"Servidor recuperado - Status: {status}", is_error=False)
             self.send_email_alert(f"Servidor {name} Recuperado", recovery_message)
         
         self.server_status[name] = result
@@ -349,6 +600,10 @@ class ServerMonitor:
         self.monitoring = False
         if self.monitor_thread and self.monitor_thread.is_alive():
             self.monitor_thread.join(timeout=5)
+        
+        # Salvar logs antes de parar
+        self.save_server_logs()
+        self.log_status("Monitoramento parado")
 
 if __name__ == '__main__':
     # Executar apenas o monitorador em modo console

@@ -16,7 +16,8 @@ from matplotlib.figure import Figure
 import matplotlib.animation as animation
 from collections import deque
 import json
-from monitor import ServerMonitor, SERVERS, CONFIG
+import webbrowser
+from monitor import ServerMonitor, SERVERS, CONFIG, extract_port_from_url, extract_hostname_from_url, detect_admin_port
 
 class ServerMonitorGUI:
     def __init__(self, root):
@@ -109,27 +110,40 @@ class ServerMonitorGUI:
         columns = ('Nome', 'Host', 'Ping', 'Porta App', 'Porta Admin', 'HTTP', 'Status', 'Última Verificação')
         self.servers_tree = ttk.Treeview(servers_frame, columns=columns, show='headings', height=15)
         
-        # Configurar colunas
+        # Configurar colunas com larguras iniciais
+        column_configs = {
+            'Nome': {'width': 150, 'minwidth': 100},
+            'Host': {'width': 180, 'minwidth': 120},
+            'Ping': {'width': 100, 'minwidth': 80},
+            'Porta App': {'width': 90, 'minwidth': 80},
+            'Porta Admin': {'width': 100, 'minwidth': 80},
+            'HTTP': {'width': 100, 'minwidth': 80},
+            'Status': {'width': 120, 'minwidth': 100},
+            'Última Verificação': {'width': 180, 'minwidth': 150}
+        }
+        
         for col in columns:
-            self.servers_tree.heading(col, text=col)
-            if col == 'Nome':
-                self.servers_tree.column(col, width=150)
-            elif col == 'Host':
-                self.servers_tree.column(col, width=120)
-            elif col == 'Status':
-                self.servers_tree.column(col, width=100)
-            elif col == 'Última Verificação':
-                self.servers_tree.column(col, width=150)
-            else:
-                self.servers_tree.column(col, width=80)
+            self.servers_tree.heading(col, text=col, command=lambda c=col: self.sort_servers_tree(c))
+            config = column_configs[col]
+            self.servers_tree.column(col, width=config['width'], minwidth=config['minwidth'], stretch=True)
         
-        # Scrollbar para treeview
-        scrollbar = ttk.Scrollbar(servers_frame, orient=tk.VERTICAL, command=self.servers_tree.yview)
-        self.servers_tree.configure(yscrollcommand=scrollbar.set)
+        # Bind eventos para ajuste automático e duplo clique
+        self.servers_tree.bind('<Double-1>', self.on_server_double_click)
+        self.servers_tree.bind('<Button-1>', self.on_server_click)
         
-        # Pack treeview e scrollbar
-        self.servers_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        # Scrollbars para treeview
+        v_scrollbar = ttk.Scrollbar(servers_frame, orient=tk.VERTICAL, command=self.servers_tree.yview)
+        h_scrollbar = ttk.Scrollbar(servers_frame, orient=tk.HORIZONTAL, command=self.servers_tree.xview)
+        self.servers_tree.configure(yscrollcommand=v_scrollbar.set, xscrollcommand=h_scrollbar.set)
+        
+        # Grid layout para scrollbars
+        self.servers_tree.grid(row=0, column=0, sticky='nsew')
+        v_scrollbar.grid(row=0, column=1, sticky='ns')
+        h_scrollbar.grid(row=1, column=0, sticky='ew')
+        
+        # Configurar grid weights
+        servers_frame.grid_rowconfigure(0, weight=1)
+        servers_frame.grid_columnconfigure(0, weight=1)
         
         # Configurar tags para cores
         self.servers_tree.tag_configure('online', background='#d4edda')
@@ -189,19 +203,61 @@ class ServerMonitorGUI:
         logs_frame = ttk.Frame(self.notebook)
         self.notebook.add(logs_frame, text="📝 Logs")
         
-        # Text widget para logs
-        self.logs_text = tk.Text(logs_frame, wrap=tk.WORD, height=25)
-        logs_scrollbar = ttk.Scrollbar(logs_frame, orient=tk.VERTICAL, command=self.logs_text.yview)
-        self.logs_text.configure(yscrollcommand=logs_scrollbar.set)
+        # Frame superior para seleção de servidor
+        logs_control_frame = ttk.Frame(logs_frame)
+        logs_control_frame.pack(fill=tk.X, padx=5, pady=5)
         
-        # Pack logs
-        self.logs_text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        logs_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        # Label e combobox para seleção de servidor
+        ttk.Label(logs_control_frame, text="Servidor:").pack(side=tk.LEFT, padx=(0, 5))
+        
+        self.logs_server_var = tk.StringVar()
+        self.logs_combo = ttk.Combobox(logs_control_frame, textvariable=self.logs_server_var, 
+                                      state="readonly", width=20)
+        self.logs_combo.pack(side=tk.LEFT, padx=(0, 10))
+        self.logs_combo.bind('<<ComboboxSelected>>', self.on_logs_server_change)
         
         # Botão para limpar logs
-        clear_logs_btn = ttk.Button(logs_frame, text="🗑️ Limpar Logs", 
+        clear_logs_btn = ttk.Button(logs_control_frame, text="🗑️ Limpar Logs", 
                                    command=self.clear_logs)
-        clear_logs_btn.pack(side=tk.BOTTOM, pady=5)
+        clear_logs_btn.pack(side=tk.LEFT, padx=5)
+        
+        # Frame para logs com scrollbar
+        logs_tree_frame = ttk.Frame(logs_frame)
+        logs_tree_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+        
+        # TreeView para logs estruturados
+        columns = ('timestamp', 'event_type', 'message')
+        self.logs_tree = ttk.Treeview(logs_tree_frame, columns=columns, show='headings', height=20)
+        
+        # Configurar colunas com ajuste automático
+        logs_column_configs = {
+            'timestamp': {'width': 180, 'minwidth': 150, 'text': 'Timestamp'},
+            'event_type': {'width': 120, 'minwidth': 100, 'text': 'Tipo'},
+            'message': {'width': 500, 'minwidth': 200, 'text': 'Mensagem'}
+        }
+        
+        for col in columns:
+            config = logs_column_configs[col]
+            self.logs_tree.heading(col, text=config['text'], command=lambda c=col: self.sort_logs_tree(c))
+            self.logs_tree.column(col, width=config['width'], minwidth=config['minwidth'], stretch=True)
+        
+        # Bind eventos para logs
+        self.logs_tree.bind('<Double-1>', self.on_logs_double_click)
+        self.logs_tree.bind('<Button-1>', self.on_logs_click)
+        
+        # Scrollbars para logs
+        logs_v_scrollbar = ttk.Scrollbar(logs_tree_frame, orient=tk.VERTICAL, command=self.logs_tree.yview)
+        logs_h_scrollbar = ttk.Scrollbar(logs_tree_frame, orient=tk.HORIZONTAL, command=self.logs_tree.xview)
+        self.logs_tree.configure(yscrollcommand=logs_v_scrollbar.set, xscrollcommand=logs_h_scrollbar.set)
+        
+        # Pack logs tree e scrollbars
+        self.logs_tree.grid(row=0, column=0, sticky='nsew')
+        logs_v_scrollbar.grid(row=0, column=1, sticky='ns')
+        logs_h_scrollbar.grid(row=1, column=0, sticky='ew')
+        
+        # Configurar grid weights
+        logs_tree_frame.grid_rowconfigure(0, weight=1)
+        logs_tree_frame.grid_columnconfigure(0, weight=1)
     
     def load_servers(self):
         """Carrega a lista de servidores na interface"""
@@ -215,11 +271,15 @@ class ServerMonitorGUI:
                 server['name'], server['host'], '-', '-', '-', '-', 'Não verificado', '-'
             ))
         
-        # Atualizar combo de telemetria
+        # Atualizar combos de telemetria e logs
         server_names = [server['name'] for server in self.servers]
         self.telemetry_combo['values'] = server_names
+        self.logs_combo['values'] = server_names
         if server_names:
             self.telemetry_combo.set(server_names[0])
+            self.logs_combo.set(server_names[0])
+            # Atualizar exibição de logs inicial
+            self.update_logs_display()
     
     def start_monitoring(self):
         """Inicia o monitoramento"""
@@ -258,6 +318,11 @@ class ServerMonitorGUI:
             try:
                 self.root.after(0, self.update_servers_display)
                 self.root.after(0, self.update_telemetry)
+                self.root.after(0, self.update_logs_display)
+                
+                # Ajustar colunas automaticamente após atualização
+                self.root.after(200, self.auto_adjust_columns)
+                
                 time.sleep(2)  # Atualizar a cada 2 segundos
             except Exception as e:
                 print(f"Erro na atualização da GUI: {e}")
@@ -332,7 +397,7 @@ class ServerMonitorGUI:
                 tag = 'online' if overall_status == 'ONLINE' else ('warning' if overall_status in ['ERRO_HTTP', 'PORTAS_FECHADAS'] else 'offline')
                 
                 item = self.servers_tree.insert('', tk.END, values=(
-                    name, server['host'], ping_status, app_port_status, 
+                    name, server['host'], ping_status, app_port_status,
                     admin_port_status, http_status, overall_status, last_check
                 ), tags=(tag,))
                 
@@ -455,6 +520,68 @@ class ServerMonitorGUI:
         if selected_server:
             self.plot_telemetry_data(selected_server)
     
+    def on_logs_server_change(self, event=None):
+        """Chamado quando o servidor de logs é alterado"""
+        self.update_logs_display()
+    
+    def update_logs_display(self):
+        """Atualiza a exibição de logs para o servidor selecionado"""
+        # Limpar logs atuais
+        for item in self.logs_tree.get_children():
+            self.logs_tree.delete(item)
+        
+        # Obter servidor selecionado
+        selected_server = self.logs_combo.get()
+        if not selected_server or not hasattr(self.monitor, 'get_server_logs'):
+            return
+        
+        # Obter logs do servidor
+        try:
+            logs = self.monitor.get_server_logs(selected_server)
+            
+            # Adicionar logs à árvore (mais recentes primeiro)
+            for log_entry in reversed(logs):
+                timestamp = log_entry['timestamp']
+                event_type = log_entry['event_type']
+                message = log_entry['message']
+                is_error = log_entry['is_error']
+                
+                # Definir cor baseada no tipo
+                tag = 'error' if is_error else 'info'
+                
+                self.logs_tree.insert('', 0, values=(
+                    timestamp,
+                    event_type,
+                    message
+                ), tags=(tag,))
+            
+            # Configurar cores das tags
+            self.logs_tree.tag_configure('error', foreground='red')
+            self.logs_tree.tag_configure('info', foreground='black')
+            
+        except Exception as e:
+            print(f"Erro ao atualizar logs: {e}")
+    
+    def clear_logs(self):
+        """Limpa os logs do servidor selecionado"""
+        selected_server = self.logs_combo.get()
+        if not selected_server:
+            messagebox.showwarning("Aviso", "Selecione um servidor primeiro.")
+            return
+        
+        # Confirmar limpeza
+        if messagebox.askyesno("Confirmar", f"Deseja limpar todos os logs do servidor '{selected_server}'?"):
+            try:
+                # Limpar logs no monitor
+                if hasattr(self.monitor, 'server_logs') and selected_server in self.monitor.server_logs:
+                    self.monitor.server_logs[selected_server] = []
+                
+                # Atualizar exibição
+                self.update_logs_display()
+                messagebox.showinfo("Sucesso", f"Logs do servidor '{selected_server}' foram limpos.")
+            except Exception as e:
+                messagebox.showerror("Erro", f"Erro ao limpar logs: {e}")
+    
     def add_server_dialog(self):
         """Diálogo para adicionar servidor"""
         dialog = ServerDialog(self.root, "Adicionar Servidor")
@@ -560,14 +687,179 @@ class ServerMonitorGUI:
     def log_message(self, message):
         """Adiciona mensagem aos logs da GUI"""
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        log_entry = f"[{timestamp}] {message}\n"
         
-        self.logs_text.insert(tk.END, log_entry)
-        self.logs_text.see(tk.END)
+        # Adicionar ao logs_tree se existir
+        if hasattr(self, 'logs_tree'):
+            self.logs_tree.insert('', 0, values=(
+                timestamp,
+                'SYSTEM',
+                message
+            ), tags=('info',))
+            
+            # Configurar cor da tag
+            self.logs_tree.tag_configure('info', foreground='blue')
     
-    def clear_logs(self):
-        """Limpa os logs da GUI"""
-        self.logs_text.delete(1.0, tk.END)
+    def clear_logs_old(self):
+        """Função antiga removida - usar clear_logs da linha 540"""
+        pass
+    
+
+    
+    def on_server_double_click(self, event):
+        """Manipula duplo clique em servidor - abre URL no navegador"""
+        item = self.servers_tree.selection()[0] if self.servers_tree.selection() else None
+        if not item:
+            return
+        
+        # Obter dados do servidor
+        values = self.servers_tree.item(item, 'values')
+        if not values:
+            return
+        
+        server_name = values[0]
+        host = values[1]
+        
+        # Encontrar servidor na lista para obter URL de health check
+        server_data = None
+        for server in self.servers:
+            if server['name'] == server_name:
+                server_data = server
+                break
+        
+        if server_data and server_data.get('health_url'):
+            # Usar URL de health check se disponível
+            url = server_data['health_url']
+        else:
+            # Construir URL básica com host e porta da aplicação
+            app_port = server_data.get('app_port', 8080) if server_data else 8080
+            protocol = 'https' if app_port == 443 else 'http'
+            url = f"{protocol}://{host}:{app_port}"
+        
+        try:
+            webbrowser.open(url)
+            self.log_message(f"Abrindo URL no navegador: {url}")
+        except Exception as e:
+            messagebox.showerror("Erro", f"Erro ao abrir URL no navegador: {str(e)}")
+    
+    def on_server_click(self, event):
+        """Manipula clique simples em servidor"""
+        # Ajustar largura das colunas automaticamente após clique
+        self.root.after(100, self.auto_adjust_columns)
+    
+    def auto_adjust_columns(self):
+        """Ajusta automaticamente a largura das colunas baseado no conteúdo"""
+        try:
+            for col in self.servers_tree['columns']:
+                # Calcular largura baseada no cabeçalho
+                header_width = len(str(self.servers_tree.heading(col, 'text'))) * 8 + 20
+                
+                # Calcular largura baseada no conteúdo
+                max_width = header_width
+                for item in self.servers_tree.get_children():
+                    values = self.servers_tree.item(item, 'values')
+                    if values:
+                        col_index = list(self.servers_tree['columns']).index(col)
+                        if col_index < len(values):
+                            content_width = len(str(values[col_index])) * 8 + 20
+                            max_width = max(max_width, content_width)
+                
+                # Aplicar largura com limites mínimo e máximo
+                min_width = 80
+                max_allowed_width = 300
+                final_width = max(min_width, min(max_width, max_allowed_width))
+                
+                self.servers_tree.column(col, width=final_width)
+        except Exception as e:
+            print(f"Erro ao ajustar colunas: {e}")
+    
+    def sort_servers_tree(self, col):
+        """Ordena a árvore de servidores por coluna"""
+        try:
+            # Obter todos os itens
+            items = [(self.servers_tree.set(item, col), item) for item in self.servers_tree.get_children('')]
+            
+            # Ordenar itens
+            items.sort()
+            
+            # Reorganizar itens na árvore
+            for index, (val, item) in enumerate(items):
+                self.servers_tree.move(item, '', index)
+                
+        except Exception as e:
+            print(f"Erro ao ordenar coluna {col}: {e}")
+    
+    def on_logs_double_click(self, event):
+        """Manipula duplo clique em log - copia mensagem para clipboard"""
+        item = self.logs_tree.selection()[0] if self.logs_tree.selection() else None
+        if not item:
+            return
+        
+        # Obter dados do log
+        values = self.logs_tree.item(item, 'values')
+        if not values or len(values) < 3:
+            return
+        
+        # Copiar mensagem completa para clipboard
+        message = values[2]  # Coluna de mensagem
+        try:
+            self.root.clipboard_clear()
+            self.root.clipboard_append(message)
+            self.root.update()  # Necessário para atualizar clipboard
+            messagebox.showinfo("Copiado", "Mensagem copiada para a área de transferência!")
+        except Exception as e:
+            messagebox.showerror("Erro", f"Erro ao copiar mensagem: {str(e)}")
+    
+    def on_logs_click(self, event):
+        """Manipula clique simples em log"""
+        # Ajustar largura das colunas automaticamente após clique
+        self.root.after(100, self.auto_adjust_logs_columns)
+    
+    def auto_adjust_logs_columns(self):
+        """Ajusta automaticamente a largura das colunas de logs baseado no conteúdo"""
+        try:
+            for col in self.logs_tree['columns']:
+                # Calcular largura baseada no cabeçalho
+                header_width = len(str(self.logs_tree.heading(col, 'text'))) * 8 + 20
+                
+                # Calcular largura baseada no conteúdo
+                max_width = header_width
+                for item in self.logs_tree.get_children():
+                    values = self.logs_tree.item(item, 'values')
+                    if values:
+                        col_index = list(self.logs_tree['columns']).index(col)
+                        if col_index < len(values):
+                            content_width = len(str(values[col_index])) * 8 + 10
+                            max_width = max(max_width, content_width)
+                
+                # Aplicar largura com limites específicos para logs
+                if col == 'timestamp':
+                    min_width, max_allowed_width = 150, 200
+                elif col == 'event_type':
+                    min_width, max_allowed_width = 100, 150
+                else:  # message
+                    min_width, max_allowed_width = 200, 600
+                
+                final_width = max(min_width, min(max_width, max_allowed_width))
+                self.logs_tree.column(col, width=final_width)
+        except Exception as e:
+            print(f"Erro ao ajustar colunas de logs: {e}")
+    
+    def sort_logs_tree(self, col):
+        """Ordena a árvore de logs por coluna"""
+        try:
+            # Obter todos os itens
+            items = [(self.logs_tree.set(item, col), item) for item in self.logs_tree.get_children('')]
+            
+            # Ordenar itens (reverso para timestamp para mostrar mais recentes primeiro)
+            reverse_sort = (col == 'timestamp')
+            items.sort(reverse=reverse_sort)
+            
+            # Reorganizar itens na árvore
+            for index, (val, item) in enumerate(items):
+                self.logs_tree.move(item, '', index)
+                
+        except Exception as e:
+            print(f"Erro ao ordenar coluna de logs {col}: {e}")
     
     def on_closing(self):
         """Callback para fechamento da janela"""
@@ -582,7 +874,7 @@ class ServerDialog:
         # Criar janela
         self.dialog = tk.Toplevel(parent)
         self.dialog.title(title)
-        self.dialog.geometry("450x400")
+        self.dialog.geometry("500x450")
         self.dialog.transient(parent)
         self.dialog.grab_set()
         self.dialog.resizable(False, False)
@@ -594,6 +886,20 @@ class ServerDialog:
         ttk.Label(self.dialog, text="Nome do Servidor:").pack(pady=5)
         self.name_entry = ttk.Entry(self.dialog, width=40)
         self.name_entry.pack(pady=5)
+        
+        # Frame para URL com botão de extração
+        url_frame = ttk.Frame(self.dialog)
+        url_frame.pack(pady=5, fill=tk.X, padx=20)
+        
+        ttk.Label(url_frame, text="URL (opcional - para extração automática):").pack(anchor=tk.W)
+        url_input_frame = ttk.Frame(url_frame)
+        url_input_frame.pack(fill=tk.X, pady=2)
+        
+        self.url_entry = ttk.Entry(url_input_frame, width=35)
+        self.url_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        
+        extract_btn = ttk.Button(url_input_frame, text="📥 Extrair", command=self.extract_from_url, width=10)
+        extract_btn.pack(side=tk.RIGHT, padx=(5, 0))
         
         ttk.Label(self.dialog, text="Host/IP:").pack(pady=5)
         self.host_entry = ttk.Entry(self.dialog, width=40)
@@ -651,6 +957,58 @@ class ServerDialog:
         
         # Aguardar resultado
         self.dialog.wait_window()
+    
+    def extract_from_url(self):
+        """Extrai hostname, porta da aplicação e porta administrativa da URL fornecida"""
+        url = self.url_entry.get().strip()
+        if not url:
+            messagebox.showwarning("Aviso", "Por favor, insira uma URL para extrair as informações.")
+            return
+        
+        try:
+            # Extrair hostname e porta
+            hostname = extract_hostname_from_url(url)
+            app_port = extract_port_from_url(url)
+            admin_port = detect_admin_port(app_port)
+            
+            if hostname:
+                # Preencher nome do servidor se estiver vazio
+                if not self.name_entry.get().strip():
+                    # Usar hostname como nome, removendo subdomínios se necessário
+                    server_name = hostname
+                    if hostname.startswith('www.'):
+                        server_name = hostname[4:]  # Remove 'www.'
+                    elif hostname.count('.') > 1:
+                        # Para subdomínios como 'api.example.com', usar 'api-example'
+                        parts = hostname.split('.')
+                        if len(parts) >= 2:
+                            server_name = f"{parts[0]}-{parts[1]}"
+                    
+                    self.name_entry.delete(0, tk.END)
+                    self.name_entry.insert(0, server_name.title())
+                
+                # Limpar e preencher o campo host
+                self.host_entry.delete(0, tk.END)
+                self.host_entry.insert(0, hostname)
+                
+                # Preencher porta da aplicação
+                self.app_port_entry.delete(0, tk.END)
+                self.app_port_entry.insert(0, str(app_port))
+                
+                # Preencher porta administrativa
+                self.admin_port_entry.delete(0, tk.END)
+                self.admin_port_entry.insert(0, str(admin_port))
+                
+                # Preencher URL de health check
+                self.health_url_entry.delete(0, tk.END)
+                self.health_url_entry.insert(0, url)
+                
+                messagebox.showinfo("Sucesso", f"Formulário preenchido automaticamente:\nNome: {self.name_entry.get()}\nHost: {hostname}\nPorta App: {app_port}\nPorta Admin: {admin_port}")
+            else:
+                messagebox.showerror("Erro", "Não foi possível extrair o hostname da URL fornecida.")
+                
+        except Exception as e:
+            messagebox.showerror("Erro", f"Erro ao processar URL: {str(e)}")
     
     def ok_clicked(self):
         name = self.name_entry.get().strip()
