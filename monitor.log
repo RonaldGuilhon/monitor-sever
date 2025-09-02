@@ -60994,3 +60994,299 @@
 2025-09-01 22:23:18,939 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 32.7ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.06s)
 2025-09-01 22:23:18,940 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 32.7ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.06s)
 2025-09-01 22:23:22,787 - INFO - Logs carregados de server_logs.json
+2025-09-01 22:24:09,976 - INFO - === Iniciando monitoramento de servidores GlassFish ===
+2025-09-01 22:24:10,116 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.2ms | App: 17.6ms | Admin: 3.2ms | HTTP: 200 (0.04s)
+2025-09-01 22:24:10,116 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.2ms | App: 17.6ms | Admin: 3.2ms | HTTP: 200 (0.04s)
+2025-09-01 22:24:10,237 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.6ms | App: 2.1ms | Admin: 13.4ms | HTTP: 200 (0.07s)
+2025-09-01 22:24:10,237 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.6ms | App: 2.1ms | Admin: 13.4ms | HTTP: 200 (0.07s)
+2025-09-01 22:24:10,343 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 20.5ms | App: 3.3ms | Admin: 14.1ms | HTTP: 200 (0.07s)
+2025-09-01 22:24:10,344 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 20.5ms | App: 3.3ms | Admin: 14.1ms | HTTP: 200 (0.07s)
+2025-09-01 22:24:10,435 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.3ms | App: 17.0ms | Admin: 1.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:24:10,435 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.3ms | App: 17.0ms | Admin: 1.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:24:12,570 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 32.2ms | App: 22.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:24:12,570 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 32.2ms | App: 22.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:24:12,575 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:24:12,582 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:24:14,790 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 26.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-01 22:24:14,790 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 26.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-01 22:24:14,791 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:24:16,931 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.5ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:24:16,932 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.5ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:24:16,932 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:24:47,074 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 31.2ms | App: 13.4ms | Admin: 15.6ms | HTTP: 200 (0.07s)
+2025-09-01 22:24:47,074 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 31.2ms | App: 13.4ms | Admin: 15.6ms | HTTP: 200 (0.07s)
+2025-09-01 22:24:47,208 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 21.1ms | App: 19.1ms | Admin: 14.9ms | HTTP: 200 (0.08s)
+2025-09-01 22:24:47,208 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 21.1ms | App: 19.1ms | Admin: 14.9ms | HTTP: 200 (0.08s)
+2025-09-01 22:24:47,344 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 24.8ms | App: 20.7ms | Admin: 4.4ms | HTTP: 200 (0.08s)
+2025-09-01 22:24:47,345 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 24.8ms | App: 20.7ms | Admin: 4.4ms | HTTP: 200 (0.08s)
+2025-09-01 22:24:47,435 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.4ms | App: 14.3ms | Admin: 2.7ms | HTTP: 200 (0.05s)
+2025-09-01 22:24:47,436 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.4ms | App: 14.3ms | Admin: 2.7ms | HTTP: 200 (0.05s)
+2025-09-01 22:24:49,509 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.7ms | App: 2.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:24:49,510 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.7ms | App: 2.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:24:49,516 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:24:49,525 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:24:51,689 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 40.2ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:24:51,690 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 40.2ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:24:51,690 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:24:53,852 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 28.4ms | App: 8.0ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:24:53,852 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 28.4ms | App: 8.0ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:24:53,852 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:25:23,971 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 39.9ms | App: 4.3ms | Admin: 2.8ms | HTTP: 200 (0.06s)
+2025-09-01 22:25:23,971 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 39.9ms | App: 4.3ms | Admin: 2.8ms | HTTP: 200 (0.06s)
+2025-09-01 22:25:24,066 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 22.2ms | App: 2.8ms | Admin: 16.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:25:24,066 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 22.2ms | App: 2.8ms | Admin: 16.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:25:24,146 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.3ms | App: 3.2ms | Admin: 1.8ms | HTTP: 200 (0.05s)
+2025-09-01 22:25:24,147 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.3ms | App: 3.2ms | Admin: 1.8ms | HTTP: 200 (0.05s)
+2025-09-01 22:25:24,236 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.6ms | App: 2.7ms | Admin: 2.0ms | HTTP: 200 (0.06s)
+2025-09-01 22:25:24,236 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.6ms | App: 2.7ms | Admin: 2.0ms | HTTP: 200 (0.06s)
+2025-09-01 22:25:26,351 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.5ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:25:26,352 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.5ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:25:26,362 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:25:26,377 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:25:28,563 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.7ms | App: 25.4ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:25:28,564 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.7ms | App: 25.4ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:25:28,564 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:25:30,713 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 26.9ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:25:30,714 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 26.9ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:25:30,714 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:26:00,856 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 40.7ms | App: 26.8ms | Admin: 2.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:26:00,857 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 40.7ms | App: 26.8ms | Admin: 2.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:26:00,991 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 27.0ms | App: 2.0ms | Admin: 22.6ms | HTTP: 200 (0.08s)
+2025-09-01 22:26:00,991 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 27.0ms | App: 2.0ms | Admin: 22.6ms | HTTP: 200 (0.08s)
+2025-09-01 22:26:01,109 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 37.8ms | App: 2.5ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-09-01 22:26:01,110 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 37.8ms | App: 2.5ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-09-01 22:26:01,302 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 52.9ms | App: 2.1ms | Admin: 1.8ms | HTTP: 200 (0.10s)
+2025-09-01 22:26:01,304 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 52.9ms | App: 2.1ms | Admin: 1.8ms | HTTP: 200 (0.10s)
+2025-09-01 22:26:03,544 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 108.4ms | App: 7.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:26:03,545 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 108.4ms | App: 7.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:26:03,554 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:26:03,571 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:26:06,062 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 21.4ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.14s)
+2025-09-01 22:26:06,070 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 21.4ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.14s)
+2025-09-01 22:26:06,082 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:26:08,353 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 25.3ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-01 22:26:08,355 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 25.3ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-01 22:26:08,356 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:26:38,619 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 38.7ms | App: 2.7ms | Admin: 2.2ms | HTTP: 200 (0.05s)
+2025-09-01 22:26:38,619 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 38.7ms | App: 2.7ms | Admin: 2.2ms | HTTP: 200 (0.05s)
+2025-09-01 22:26:38,735 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 23.2ms | App: 3.2ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-09-01 22:26:38,736 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 23.2ms | App: 3.2ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-09-01 22:26:38,885 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 44.5ms | App: 22.0ms | Admin: 2.2ms | HTTP: 200 (0.08s)
+2025-09-01 22:26:38,885 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 44.5ms | App: 22.0ms | Admin: 2.2ms | HTTP: 200 (0.08s)
+2025-09-01 22:26:39,086 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 56.6ms | App: 2.4ms | Admin: 2.3ms | HTTP: 200 (0.11s)
+2025-09-01 22:26:39,115 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 56.6ms | App: 2.4ms | Admin: 2.3ms | HTTP: 200 (0.11s)
+2025-09-01 22:26:41,301 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 41.6ms | App: 7.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:26:41,301 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 41.6ms | App: 7.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:26:41,319 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:26:41,445 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:26:43,690 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 60.5ms | App: 2.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:26:43,691 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 60.5ms | App: 2.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:26:43,692 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:26:45,936 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 62.9ms | App: 24.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-01 22:26:45,937 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 62.9ms | App: 24.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-01 22:26:45,937 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:27:16,056 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 33.8ms | App: 22.7ms | Admin: 2.9ms | HTTP: 200 (0.04s)
+2025-09-01 22:27:16,056 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 33.8ms | App: 22.7ms | Admin: 2.9ms | HTTP: 200 (0.04s)
+2025-09-01 22:27:16,176 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 29.0ms | App: 16.0ms | Admin: 6.8ms | HTTP: 200 (0.07s)
+2025-09-01 22:27:16,176 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 29.0ms | App: 16.0ms | Admin: 6.8ms | HTTP: 200 (0.07s)
+2025-09-01 22:27:16,270 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.7ms | App: 20.5ms | Admin: 2.8ms | HTTP: 200 (0.04s)
+2025-09-01 22:27:16,270 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.7ms | App: 20.5ms | Admin: 2.8ms | HTTP: 200 (0.04s)
+2025-09-01 22:27:16,354 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.8ms | App: 2.3ms | Admin: 2.8ms | HTTP: 200 (0.05s)
+2025-09-01 22:27:16,355 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.8ms | App: 2.3ms | Admin: 2.8ms | HTTP: 200 (0.05s)
+2025-09-01 22:27:18,475 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.6ms | App: 15.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:27:18,476 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.6ms | App: 15.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:27:18,489 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:27:18,525 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:27:20,714 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 38.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:27:20,715 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 38.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:27:20,715 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:27:22,899 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 46.7ms | App: 4.9ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:27:22,899 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 46.7ms | App: 4.9ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:27:22,900 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:27:53,046 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 24.7ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:27:53,047 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 24.7ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.05s)
+2025-09-01 22:27:53,212 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 77.5ms | App: 1.9ms | Admin: 19.2ms | HTTP: 200 (0.06s)
+2025-09-01 22:27:53,213 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 77.5ms | App: 1.9ms | Admin: 19.2ms | HTTP: 200 (0.06s)
+2025-09-01 22:27:53,382 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 65.1ms | App: 4.4ms | Admin: 3.5ms | HTTP: 200 (0.09s)
+2025-09-01 22:27:53,382 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 65.1ms | App: 4.4ms | Admin: 3.5ms | HTTP: 200 (0.09s)
+2025-09-01 22:27:53,802 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 106.7ms | App: 44.6ms | Admin: 8.0ms | HTTP: 200 (0.18s)
+2025-09-01 22:27:53,824 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 106.7ms | App: 44.6ms | Admin: 8.0ms | HTTP: 200 (0.18s)
+2025-09-01 22:27:56,021 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 54.8ms | App: 12.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:27:56,022 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 54.8ms | App: 12.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:27:56,029 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:27:56,055 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:27:58,251 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 48.2ms | App: 34.8ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:27:58,251 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 48.2ms | App: 34.8ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:27:58,252 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:28:00,457 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 72.1ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:28:00,458 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 72.1ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:28:00,458 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:28:30,593 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 21.8ms | App: 12.4ms | Admin: 14.9ms | HTTP: 200 (0.07s)
+2025-09-01 22:28:30,594 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 21.8ms | App: 12.4ms | Admin: 14.9ms | HTTP: 200 (0.07s)
+2025-09-01 22:28:30,732 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 33.7ms | App: 2.2ms | Admin: 26.3ms | HTTP: 200 (0.07s)
+2025-09-01 22:28:30,732 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 33.7ms | App: 2.2ms | Admin: 26.3ms | HTTP: 200 (0.07s)
+2025-09-01 22:28:30,873 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.6ms | App: 22.8ms | Admin: 2.6ms | HTTP: 200 (0.09s)
+2025-09-01 22:28:30,873 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.6ms | App: 22.8ms | Admin: 2.6ms | HTTP: 200 (0.09s)
+2025-09-01 22:28:31,010 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 47.2ms | App: 13.3ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-09-01 22:28:31,010 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 47.2ms | App: 13.3ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-09-01 22:28:33,161 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 27.0ms | App: 3.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:28:33,162 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 27.0ms | App: 3.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:28:33,168 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:28:33,179 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:28:35,330 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 23.3ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:28:35,331 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 23.3ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:28:35,332 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:28:37,488 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 23.3ms | App: 13.5ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:28:37,488 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 23.3ms | App: 13.5ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:28:37,488 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:29:07,644 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 37.1ms | App: 2.8ms | Admin: 39.4ms | HTTP: 200 (0.06s)
+2025-09-01 22:29:07,644 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 37.1ms | App: 2.8ms | Admin: 39.4ms | HTTP: 200 (0.06s)
+2025-09-01 22:29:08,002 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 88.9ms | App: 51.4ms | Admin: 26.1ms | HTTP: 200 (0.13s)
+2025-09-01 22:29:08,024 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 88.9ms | App: 51.4ms | Admin: 26.1ms | HTTP: 200 (0.13s)
+2025-09-01 22:29:08,249 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 80.3ms | App: 27.0ms | Admin: 3.7ms | HTTP: 200 (0.10s)
+2025-09-01 22:29:08,250 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 80.3ms | App: 27.0ms | Admin: 3.7ms | HTTP: 200 (0.10s)
+2025-09-01 22:29:08,408 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 52.8ms | App: 24.0ms | Admin: 3.6ms | HTTP: 200 (0.07s)
+2025-09-01 22:29:08,408 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 52.8ms | App: 24.0ms | Admin: 3.6ms | HTTP: 200 (0.07s)
+2025-09-01 22:29:10,672 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 47.8ms | App: 30.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:29:10,688 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 47.8ms | App: 30.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:29:10,776 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:29:10,798 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:29:13,023 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 86.8ms | App: 20.8ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:29:13,024 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 86.8ms | App: 20.8ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:29:13,025 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:29:15,255 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 65.7ms | App: 7.5ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:29:15,282 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 65.7ms | App: 7.5ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-01 22:29:15,333 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:29:45,569 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 114.7ms | App: 2.7ms | Admin: 3.3ms | HTTP: 200 (0.06s)
+2025-09-01 22:29:45,571 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 114.7ms | App: 2.7ms | Admin: 3.3ms | HTTP: 200 (0.06s)
+2025-09-01 22:29:45,768 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 69.7ms | App: 31.6ms | Admin: 3.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:29:45,769 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 69.7ms | App: 31.6ms | Admin: 3.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:29:45,910 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 53.8ms | App: 3.0ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:29:45,910 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 53.8ms | App: 3.0ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:29:46,065 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 65.9ms | App: 18.4ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-09-01 22:29:46,065 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 65.9ms | App: 18.4ms | Admin: 2.0ms | HTTP: 200 (0.07s)
+2025-09-01 22:29:48,238 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 75.0ms | App: 4.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:29:48,239 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 75.0ms | App: 4.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:29:48,249 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:29:48,281 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:29:50,665 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 67.3ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.18s)
+2025-09-01 22:29:50,667 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 67.3ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.18s)
+2025-09-01 22:29:50,667 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:29:52,907 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 66.4ms | App: 19.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:29:52,908 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 66.4ms | App: 19.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:29:52,908 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:30:23,035 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 27.5ms | App: 14.1ms | Admin: 2.3ms | HTTP: 200 (0.04s)
+2025-09-01 22:30:23,035 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 27.5ms | App: 14.1ms | Admin: 2.3ms | HTTP: 200 (0.04s)
+2025-09-01 22:30:23,190 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 44.9ms | App: 2.1ms | Admin: 2.9ms | HTTP: 200 (0.10s)
+2025-09-01 22:30:23,190 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 44.9ms | App: 2.1ms | Admin: 2.9ms | HTTP: 200 (0.10s)
+2025-09-01 22:30:23,329 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 78.1ms | App: 5.4ms | Admin: 2.3ms | HTTP: 200 (0.05s)
+2025-09-01 22:30:23,329 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 78.1ms | App: 5.4ms | Admin: 2.3ms | HTTP: 200 (0.05s)
+2025-09-01 22:30:23,506 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 75.8ms | App: 3.2ms | Admin: 3.0ms | HTTP: 200 (0.09s)
+2025-09-01 22:30:23,507 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 75.8ms | App: 3.2ms | Admin: 3.0ms | HTTP: 200 (0.09s)
+2025-09-01 22:30:25,882 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 215.7ms | App: 53.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:30:25,883 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 215.7ms | App: 53.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:30:25,891 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:30:25,906 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:30:28,258 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 119.9ms | App: 26.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-01 22:30:28,259 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 119.9ms | App: 26.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-01 22:30:28,259 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:30:30,470 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 64.2ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:30:30,471 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 64.2ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:30:30,471 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:31:00,577 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 44.3ms | App: 2.4ms | Admin: 2.4ms | HTTP: 200 (0.04s)
+2025-09-01 22:31:00,577 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 44.3ms | App: 2.4ms | Admin: 2.4ms | HTTP: 200 (0.04s)
+2025-09-01 22:31:01,036 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 142.8ms | App: 29.4ms | Admin: 17.9ms | HTTP: 200 (0.15s)
+2025-09-01 22:31:01,038 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 142.8ms | App: 29.4ms | Admin: 17.9ms | HTTP: 200 (0.15s)
+2025-09-01 22:31:01,222 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 76.8ms | App: 4.5ms | Admin: 12.3ms | HTTP: 200 (0.07s)
+2025-09-01 22:31:01,224 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 76.8ms | App: 4.5ms | Admin: 12.3ms | HTTP: 200 (0.07s)
+2025-09-01 22:31:01,461 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 79.2ms | App: 52.5ms | Admin: 2.1ms | HTTP: 200 (0.10s)
+2025-09-01 22:31:01,461 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 79.2ms | App: 52.5ms | Admin: 2.1ms | HTTP: 200 (0.10s)
+2025-09-01 22:31:03,759 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 67.2ms | App: 19.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:31:03,762 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 67.2ms | App: 19.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:31:03,804 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:31:03,916 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:31:06,164 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 47.8ms | App: 5.0ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:31:06,165 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 47.8ms | App: 5.0ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:31:06,165 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:31:08,580 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 181.5ms | App: 59.0ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:31:08,580 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 181.5ms | App: 59.0ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:31:08,581 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:31:38,687 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.6ms | App: 20.7ms | Admin: 3.7ms | HTTP: 200 (0.04s)
+2025-09-01 22:31:38,688 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.6ms | App: 20.7ms | Admin: 3.7ms | HTTP: 200 (0.04s)
+2025-09-01 22:31:38,795 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 45.7ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.06s)
+2025-09-01 22:31:38,796 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 45.7ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.06s)
+2025-09-01 22:31:38,898 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 27.0ms | App: 2.4ms | Admin: 13.8ms | HTTP: 200 (0.06s)
+2025-09-01 22:31:38,898 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 27.0ms | App: 2.4ms | Admin: 13.8ms | HTTP: 200 (0.06s)
+2025-09-01 22:31:39,055 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 51.6ms | App: 12.7ms | Admin: 15.3ms | HTTP: 200 (0.07s)
+2025-09-01 22:31:39,056 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 51.6ms | App: 12.7ms | Admin: 15.3ms | HTTP: 200 (0.07s)
+2025-09-01 22:31:41,211 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 55.2ms | App: 3.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:31:41,211 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 55.2ms | App: 3.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:31:41,217 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:31:41,228 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:31:43,478 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.4ms | App: 23.6ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-01 22:31:43,478 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.4ms | App: 23.6ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-01 22:31:43,479 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:31:45,654 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.6ms | App: 3.0ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:31:45,655 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.6ms | App: 3.0ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:31:45,656 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:31:49,804 - INFO - ⚠️ 147.1.0.61 (147.1.0.61) - Ping: 25.0ms | App: FECHADA | Admin: FECHADA
+2025-09-01 22:31:49,805 - ERROR - [147.1.0.61] STATUS_CHECK: ⚠️ 147.1.0.61 (147.1.0.61) - Ping: 25.0ms | App: FECHADA | Admin: FECHADA
+2025-09-01 22:31:49,814 - ERROR - [147.1.0.61] APP_PORT_ERROR: Porta 80 inacessível: FECHADA
+2025-09-01 22:31:49,828 - ERROR - [147.1.0.61] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:32:19,979 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 35.7ms | App: 2.5ms | Admin: 27.3ms | HTTP: 200 (0.06s)
+2025-09-01 22:32:19,980 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 35.7ms | App: 2.5ms | Admin: 27.3ms | HTTP: 200 (0.06s)
+2025-09-01 22:32:20,089 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 31.6ms | App: 4.0ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-09-01 22:32:20,090 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 31.6ms | App: 4.0ms | Admin: 2.1ms | HTTP: 200 (0.07s)
+2025-09-01 22:32:20,195 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 26.0ms | App: 13.1ms | Admin: 3.0ms | HTTP: 200 (0.06s)
+2025-09-01 22:32:20,196 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 26.0ms | App: 13.1ms | Admin: 3.0ms | HTTP: 200 (0.06s)
+2025-09-01 22:32:20,313 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 27.4ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:20,314 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 27.4ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:22,455 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 47.3ms | App: 12.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:32:22,455 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 47.3ms | App: 12.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:32:22,462 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:32:22,471 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:32:24,635 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 27.8ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:32:24,636 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 27.8ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:32:24,636 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:32:26,806 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 27.6ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:32:26,807 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 27.6ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:32:26,807 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:32:26,849 - INFO - ⚠️ 147.1.0.61 (147.1.0.61) - Ping: 30.6ms | App: 1.8ms | Admin: 2.0ms | HTTP: Invalid URL '147.1.0.61': No scheme supplied. Perhaps you meant https://147.1.0.61?
+2025-09-01 22:32:26,849 - ERROR - [147.1.0.61] STATUS_CHECK: ⚠️ 147.1.0.61 (147.1.0.61) - Ping: 30.6ms | App: 1.8ms | Admin: 2.0ms | HTTP: Invalid URL '147.1.0.61': No scheme supplied. Perhaps you meant https://147.1.0.61?
+2025-09-01 22:32:26,856 - ERROR - [147.1.0.61] HTTP_ERROR: HTTP check falhou: Invalid URL '147.1.0.61': No scheme supplied. Perhaps you meant https://147.1.0.61?
+2025-09-01 22:32:56,989 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 41.0ms | App: 2.9ms | Admin: 2.3ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:56,989 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 41.0ms | App: 2.9ms | Admin: 2.3ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:57,145 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 28.3ms | App: 28.2ms | Admin: 15.7ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:57,146 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 28.3ms | App: 28.2ms | Admin: 15.7ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:57,255 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 25.7ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:57,256 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 25.7ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-01 22:32:57,339 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 28.7ms | App: 1.9ms | Admin: 1.6ms | HTTP: 200 (0.05s)
+2025-09-01 22:32:57,339 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 28.7ms | App: 1.9ms | Admin: 1.6ms | HTTP: 200 (0.05s)
+2025-09-01 22:32:59,443 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.1ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:32:59,444 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.1ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:32:59,460 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:32:59,471 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:33:01,630 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 21.1ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:33:01,631 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 21.1ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-01 22:33:01,631 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:33:03,818 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 25.5ms | App: 26.3ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:33:03,818 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 25.5ms | App: 26.3ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:33:03,818 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA
+2025-09-01 22:33:33,929 - INFO - ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 37.4ms | App: 6.0ms | Admin: 3.8ms | HTTP: 200 (0.05s)
+2025-09-01 22:33:33,929 - INFO - [http://147.1.0.116/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 37.4ms | App: 6.0ms | Admin: 3.8ms | HTTP: 200 (0.05s)
+2025-09-01 22:33:34,091 - INFO - ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 60.6ms | App: 5.1ms | Admin: 3.7ms | HTTP: 200 (0.09s)
+2025-09-01 22:33:34,091 - INFO - [http://147.1.160.40/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 60.6ms | App: 5.1ms | Admin: 3.7ms | HTTP: 200 (0.09s)
+2025-09-01 22:33:34,199 - INFO - ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.7ms | App: 13.5ms | Admin: 4.5ms | HTTP: 200 (0.06s)
+2025-09-01 22:33:34,200 - INFO - [http://147.0.0.130/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.7ms | App: 13.5ms | Admin: 4.5ms | HTTP: 200 (0.06s)
+2025-09-01 22:33:34,293 - INFO - ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 30.0ms | App: 3.6ms | Admin: 1.9ms | HTTP: 200 (0.06s)
+2025-09-01 22:33:34,293 - INFO - [http://147.1.160.20/sfcs/faces/login.jsf] STATUS_CHECK: ✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 30.0ms | App: 3.6ms | Admin: 1.9ms | HTTP: 200 (0.06s)
+2025-09-01 22:33:36,374 - INFO - ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.2ms | App: 12.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:33:36,374 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] STATUS_CHECK: ⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.2ms | App: 12.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-01 22:33:36,382 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:33:36,389 - ERROR - [https://147.1.0.84/sisconp2/loginefetivo.php] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-01 22:33:38,558 - INFO - ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 34.9ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:33:38,559 - INFO - [http://147.1.0.84/siscompras/sc/loginsc.php] STATUS_CHECK: ✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 34.9ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:33:38,559 - ERROR - [http://147.1.0.84/siscompras/sc/loginsc.php] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-01 22:33:40,693 - INFO - ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.5ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:33:40,694 - INFO - [http://147.1.0.41:81/nre/acesso/index] STATUS_CHECK: ✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.5ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-01 22:33:40,694 - ERROR - [http://147.1.0.41:81/nre/acesso/index] ADMIN_PORT_ERROR: Porta 1081 inacessível: FECHADA

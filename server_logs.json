@@ -1,0 +1,5228 @@
+{
+  "Servidor Local": [],
+  "Servidor Produção": [],
+  "SFCS 116 [8080]": [
+    {
+      "timestamp": "2025-09-01 21:43:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 33.1ms | App: FECHADA | Admin: 2.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:00",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:43:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 33.9ms | App: FECHADA | Admin: 27.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:37",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:14",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 28.9ms | App: FECHADA | Admin: 2.4ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:14",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:52",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 27.9ms | App: FECHADA | Admin: 42.9ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:52",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:45:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 52.5ms | App: FECHADA | Admin: 5.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:30",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 28.4ms | App: FECHADA | Admin: 2.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:08",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 444.9ms | App: FECHADA | Admin: 14.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:45",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:47:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 29.6ms | App: FECHADA | Admin: 2.9ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:23",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 59.0ms | App: FECHADA | Admin: 3.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:00",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 34.0ms | App: FECHADA | Admin: 2.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:37",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:14",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 33.3ms | App: FECHADA | Admin: 2.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:14",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:52",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 22.0ms | App: FECHADA | Admin: 2.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:52",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:50:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 28.1ms | App: FECHADA | Admin: 13.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:30",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 35.6ms | App: FECHADA | Admin: 2.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:07",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:25",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 191.4ms | App: FECHADA | Admin: 2.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:25",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 116 [8080] (147.1.0.116) - Ping: 23.7ms | App: FECHADA | Admin: 15.8ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:44",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    }
+  ],
+  "SFCS 40 [80]": [
+    {
+      "timestamp": "2025-09-01 21:43:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 40.7ms | App: 2.5ms | Admin: 4.8ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 31.2ms | App: 6.6ms | Admin: 1.9ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:15",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 97.9ms | App: 4.1ms | Admin: 14.9ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:52",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 92.3ms | App: 25.1ms | Admin: 8.7ms | HTTP: 200 (0.14s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 88.7ms | App: 9.1ms | Admin: 20.9ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 57.6ms | App: 2.1ms | Admin: 3.9ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 45.0ms | App: 2.4ms | Admin: 3.9ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 38.8ms | App: 14.3ms | Admin: 27.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 78.3ms | App: 30.5ms | Admin: 9.8ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 50.1ms | App: 2.9ms | Admin: 3.7ms | HTTP: 200 (0.12s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:15",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 68.5ms | App: 12.1ms | Admin: 2.8ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:52",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 63.3ms | App: 2.2ms | Admin: 2.4ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 19.2ms | App: 3.2ms | Admin: 3.5ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 40.5ms | App: 20.7ms | Admin: 15.4ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 33.0ms | App: 5.4ms | Admin: 2.4ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 29.8ms | App: 2.0ms | Admin: 2.3ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 32.7ms | App: 2.0ms | Admin: 2.2ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:21",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 38.8ms | App: 6.5ms | Admin: 10.0ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 33.2ms | App: 2.0ms | Admin: 2.1ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 32.7ms | App: 25.0ms | Admin: 5.1ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 75.5ms | App: 2.6ms | Admin: 20.9ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 29.3ms | App: 2.5ms | Admin: 18.8ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:54",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 40.2ms | App: 2.2ms | Admin: 9.5ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 67.4ms | App: 21.4ms | Admin: 14.1ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 31.6ms | App: 2.2ms | Admin: 5.2ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:50",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 74.2ms | App: 45.9ms | Admin: 30.2ms | HTTP: 200 (0.13s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 40.6ms | App: 12.6ms | Admin: 6.8ms | HTTP: 200 (0.18s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 92.5ms | App: 3.1ms | Admin: 20.8ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 32.0ms | App: 3.2ms | Admin: 2.7ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 44.9ms | App: 3.4ms | Admin: 2.9ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 28.2ms | App: 12.2ms | Admin: 3.5ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:56",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 35.9ms | App: 2.1ms | Admin: 2.2ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 23.6ms | App: 2.8ms | Admin: 7.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:59:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [80] (147.1.160.40) - Ping: 21.0ms | App: 15.0ms | Admin: 3.3ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    }
+  ],
+  "SFCS 130 [8080]": [
+    {
+      "timestamp": "2025-09-01 21:43:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 38.2ms | App: 2.2ms | Admin: 4.1ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 43.1ms | App: 7.4ms | Admin: 2.9ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:15",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 38.4ms | App: 20.3ms | Admin: 2.4ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 150.6ms | App: 3.4ms | Admin: 13.9ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 114.5ms | App: 15.9ms | Admin: 23.7ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 27.0ms | App: 14.7ms | Admin: 31.2ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 68.6ms | App: 2.5ms | Admin: 2.1ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 37.2ms | App: 7.7ms | Admin: 2.9ms | HTTP: 200 (0.13s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 89.0ms | App: 13.5ms | Admin: 8.1ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 78.7ms | App: 5.3ms | Admin: 2.1ms | HTTP: 200 (0.14s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:15",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 76.6ms | App: 6.0ms | Admin: 2.5ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 64.5ms | App: 2.4ms | Admin: 21.0ms | HTTP: 200 (0.20s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 21.4ms | App: 2.0ms | Admin: 6.9ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 50.0ms | App: 2.8ms | Admin: 18.8ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 117.4ms | App: 3.3ms | Admin: 4.7ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 22.0ms | App: 24.8ms | Admin: 1.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 26.0ms | App: 1.9ms | Admin: 2.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:21",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 53.2ms | App: 18.2ms | Admin: 2.0ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 28.3ms | App: 18.0ms | Admin: 2.1ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 32.6ms | App: 2.3ms | Admin: 2.2ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 66.2ms | App: 2.9ms | Admin: 2.1ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 46.7ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:54",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 20.6ms | App: 2.6ms | Admin: 9.5ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 44.6ms | App: 2.6ms | Admin: 18.8ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 30.0ms | App: 2.0ms | Admin: 19.5ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:50",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 57.1ms | App: 5.8ms | Admin: 12.6ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 41.4ms | App: 12.7ms | Admin: 4.0ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 88.3ms | App: 5.3ms | Admin: 2.6ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 90.0ms | App: 20.4ms | Admin: 2.7ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 38.5ms | App: 2.0ms | Admin: 15.2ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 27.4ms | App: 3.0ms | Admin: 3.1ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:56",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 38.1ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 24.7ms | App: 13.2ms | Admin: 2.0ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:59:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8080] (147.0.0.130) - Ping: 29.4ms | App: 2.0ms | Admin: 2.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    }
+  ],
+  "SFCS 61 [8080]": [
+    {
+      "timestamp": "2025-09-01 21:43:02",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 32.1ms | App: FECHADA | Admin: 7.8ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:02",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:43:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 29.3ms | App: FECHADA | Admin: 3.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:40",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 46.5ms | App: FECHADA | Admin: 2.9ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:17",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 111.5ms | App: FECHADA | Admin: 20.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:55",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:45:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 57.1ms | App: FECHADA | Admin: 51.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:33",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 33.4ms | App: FECHADA | Admin: 16.4ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:10",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:48",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 154.9ms | App: FECHADA | Admin: 2.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:48",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:47:25",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 44.6ms | App: FECHADA | Admin: 1.9ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:25",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:02",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 90.1ms | App: FECHADA | Admin: 2.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:02",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 126.8ms | App: FECHADA | Admin: 4.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:40",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 74.7ms | App: FECHADA | Admin: 2.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:17",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 84.5ms | App: FECHADA | Admin: 3.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:55",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:50:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 43.1ms | App: FECHADA | Admin: 28.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:32",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 88.1ms | App: FECHADA | Admin: 16.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:09",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:28",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 41.1ms | App: FECHADA | Admin: 49.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:28",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:46",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 101.4ms | App: FECHADA | Admin: 15.8ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:46",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 36.2ms | App: FECHADA | Admin: 15.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:05",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 61.7ms | App: FECHADA | Admin: 2.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:24",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 20.5ms | App: FECHADA | Admin: 12.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:42",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 24.9ms | App: FECHADA | Admin: 14.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:00",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:19",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 56.1ms | App: FECHADA | Admin: 3.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:19",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 26.8ms | App: FECHADA | Admin: 10.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:37",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:56",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 44.6ms | App: FECHADA | Admin: 6.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:56",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:14",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 45.6ms | App: FECHADA | Admin: 2.8ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:14",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 23.0ms | App: FECHADA | Admin: 2.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:33",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:52",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 40.5ms | App: FECHADA | Admin: 9.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:52",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 31.0ms | App: FECHADA | Admin: 2.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:10",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 41.9ms | App: FECHADA | Admin: 27.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:30",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 41.8ms | App: FECHADA | Admin: 2.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:10",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:47",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 55.1ms | App: FECHADA | Admin: 11.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:47",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 32.8ms | App: FECHADA | Admin: 14.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:24",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:59",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 31.3ms | App: FECHADA | Admin: 2.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:59",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:58:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 24.9ms | App: FECHADA | Admin: 2.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:34",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:59:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 61 [8080] (147.1.0.61) - Ping: 25.7ms | App: FECHADA | Admin: 15.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:59:09",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    }
+  ],
+  "SFCS 130 [9090]": [
+    {
+      "timestamp": "2025-09-01 21:43:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 374.4ms | App: 2.3ms | Admin: 2.4ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 32.4ms | App: 5.6ms | Admin: 12.1ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 61.3ms | App: 2.4ms | Admin: 4.7ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 67.5ms | App: 10.5ms | Admin: 20.8ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 78.3ms | App: 5.3ms | Admin: 37.1ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 22.0ms | App: 3.9ms | Admin: 5.0ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:48",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 37.5ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:25",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 44.4ms | App: 2.7ms | Admin: 21.9ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:02",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 46.8ms | App: 20.8ms | Admin: 15.8ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 80.0ms | App: 34.6ms | Admin: 4.6ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 64.4ms | App: 13.9ms | Admin: 32.1ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 168.3ms | App: 2.5ms | Admin: 2.3ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 47.7ms | App: 6.1ms | Admin: 16.8ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 84.7ms | App: 20.4ms | Admin: 2.5ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:28",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 23.7ms | App: 8.4ms | Admin: 2.1ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:46",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 32.3ms | App: 7.3ms | Admin: 2.7ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 29.4ms | App: 12.9ms | Admin: 15.8ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 46.0ms | App: 9.6ms | Admin: 4.0ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 22.4ms | App: 1.8ms | Admin: 1.9ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 28.4ms | App: 23.3ms | Admin: 15.8ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:19",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 46.3ms | App: 3.1ms | Admin: 9.1ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 26.8ms | App: 17.1ms | Admin: 2.9ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:56",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 19.3ms | App: 9.4ms | Admin: 4.2ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:15",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 81.9ms | App: 3.6ms | Admin: 6.2ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 70.3ms | App: 2.1ms | Admin: 24.3ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:52",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 41.9ms | App: 16.6ms | Admin: 4.7ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 54.9ms | App: 5.3ms | Admin: 4.5ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 76.7ms | App: 5.9ms | Admin: 4.1ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 80.5ms | App: 6.4ms | Admin: 27.5ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:47",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 38.9ms | App: 3.2ms | Admin: 3.1ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 24.1ms | App: 20.1ms | Admin: 15.2ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:59",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 33.0ms | App: 2.4ms | Admin: 2.8ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 23.2ms | App: 7.0ms | Admin: 7.1ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:59:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [9090] (147.0.0.130) - Ping: 25.4ms | App: 2.0ms | Admin: 3.0ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    }
+  ],
+  "SFCS 130 [80]": [
+    {
+      "timestamp": "2025-09-01 21:43:03",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 34.1ms | App: 15.4ms | Admin: 4.4ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:43:03",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:43:40",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 95.9ms | App: 2.4ms | Admin: 27.9ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:43:40",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:17",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 66.2ms | App: 5.4ms | Admin: 3.1ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:17",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:55",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 93.6ms | App: 11.2ms | Admin: 14.2ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:55",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:45:33",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 107.9ms | App: 3.2ms | Admin: 3.0ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:45:33",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:10",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.0ms | App: 2.0ms | Admin: 19.7ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:10",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:48",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 27.6ms | App: 18.7ms | Admin: 3.1ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:48",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:47:25",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 55.8ms | App: 2.2ms | Admin: 2.1ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:47:25",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:03",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 31.0ms | App: 23.4ms | Admin: 38.8ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:03",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:40",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 29.8ms | App: 16.1ms | Admin: 5.9ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:40",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:17",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 107.6ms | App: 8.7ms | Admin: 11.0ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:17",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:55",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 44.5ms | App: 14.5ms | Admin: 10.0ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:55",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:50:32",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 59.6ms | App: 2.1ms | Admin: 2.1ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:50:32",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:09",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 30.4ms | App: 1.9ms | Admin: 2.7ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:09",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:28",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 30.7ms | App: 10.8ms | Admin: 3.8ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:28",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:46",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 20.3ms | App: 2.2ms | Admin: 2.5ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:46",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:05",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.0ms | App: 7.1ms | Admin: 4.2ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:05",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:24",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 46.2ms | App: 2.0ms | Admin: 2.1ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:24",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:42",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.1ms | App: 1.9ms | Admin: 19.9ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:42",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:01",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 21.0ms | App: 2.5ms | Admin: 2.0ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:01",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:19",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 72.5ms | App: 8.9ms | Admin: 8.0ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:19",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:37",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 30.7ms | App: 7.1ms | Admin: 1.9ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:37",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:56",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 28.1ms | App: 2.2ms | Admin: 14.0ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:56",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:15",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 106.9ms | App: 4.1ms | Admin: 3.5ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:15",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:33",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 52.9ms | App: 3.2ms | Admin: 25.7ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:33",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:52",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 31.1ms | App: 2.9ms | Admin: 15.4ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:52",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:10",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 36.4ms | App: 22.7ms | Admin: 27.9ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:10",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:30",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 235.7ms | App: 14.9ms | Admin: 5.0ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:30",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:10",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 32.7ms | App: 3.9ms | Admin: 11.2ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:10",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:47",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 46.8ms | App: 3.2ms | Admin: 2.9ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:47",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:24",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 23.5ms | App: 13.3ms | Admin: 2.3ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:24",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:59",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 31.1ms | App: 21.9ms | Admin: 2.3ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:59",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:58:34",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 22.1ms | App: 27.3ms | Admin: 2.5ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:58:34",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:59:09",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ SFCS 130 [80] (147.0.0.130) - Ping: 23.3ms | App: 2.4ms | Admin: 1.9ms | HTTP: Status 401",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:59:09",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Status 401",
+      "is_error": true
+    }
+  ],
+  "SFCS 130 [8181]": [
+    {
+      "timestamp": "2025-09-01 21:43:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 220.7ms | App: FECHADA | Admin: 2.8ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:05",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:43:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 92.4ms | App: FECHADA | Admin: 2.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:42",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:19",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 80.1ms | App: FECHADA | Admin: 12.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:19",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:44:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 62.4ms | App: FECHADA | Admin: 30.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:57",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:45:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 39.0ms | App: FECHADA | Admin: 12.9ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:35",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 25.5ms | App: FECHADA | Admin: 2.8ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:12",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:46:50",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 77.1ms | App: FECHADA | Admin: 7.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:50",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:47:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 86.0ms | App: FECHADA | Admin: 11.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:27",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 73.8ms | App: FECHADA | Admin: 16.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:05",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:48:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 69.9ms | App: FECHADA | Admin: 4.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:42",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 73.8ms | App: FECHADA | Admin: 53.4ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:20",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:49:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 103.1ms | App: FECHADA | Admin: 2.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:58",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:50:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 28.8ms | App: FECHADA | Admin: 36.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:34",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 64.7ms | App: FECHADA | Admin: 24.9ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:12",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 39.1ms | App: FECHADA | Admin: 35.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:30",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:51:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 21.8ms | App: FECHADA | Admin: 16.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:49",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 26.1ms | App: FECHADA | Admin: 15.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:07",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 63.0ms | App: FECHADA | Admin: 5.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:26",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 20.2ms | App: FECHADA | Admin: 19.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:44",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 31.3ms | App: FECHADA | Admin: 13.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:03",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:21",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 74.2ms | App: FECHADA | Admin: 53.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:21",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 45.3ms | App: FECHADA | Admin: 2.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:40",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 22.6ms | App: FECHADA | Admin: 30.8ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:58",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 98.1ms | App: FECHADA | Admin: 34.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:17",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 78.9ms | App: FECHADA | Admin: 3.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:35",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 87.7ms | App: FECHADA | Admin: 29.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:55",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:13",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 92.9ms | App: FECHADA | Admin: 2.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:13",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 104.8ms | App: FECHADA | Admin: 16.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:33",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 56.1ms | App: FECHADA | Admin: 3.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:12",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 41.6ms | App: FECHADA | Admin: 5.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:49",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 40.8ms | App: FECHADA | Admin: 2.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:26",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:58:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 70.6ms | App: FECHADA | Admin: 3.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:01",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:58:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 20.9ms | App: FECHADA | Admin: 11.4ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:36",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:59:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 130 [8181] (147.0.0.130) - Ping: 68.3ms | App: FECHADA | Admin: 5.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:59:11",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8181 inacessível: FECHADA",
+      "is_error": true
+    }
+  ],
+  "SFCS 40 [9090]": [
+    {
+      "timestamp": "2025-09-01 21:43:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 71.3ms | App: 13.5ms | Admin: 31.0ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 46.3ms | App: 2.5ms | Admin: 6.1ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:19",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 42.6ms | App: 17.1ms | Admin: 29.9ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 54.9ms | App: 30.0ms | Admin: 2.7ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 32.8ms | App: 9.9ms | Admin: 17.4ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 33.8ms | App: 26.7ms | Admin: 3.0ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:50",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 72.3ms | App: 8.6ms | Admin: 2.8ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:28",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 55.3ms | App: 7.3ms | Admin: 10.8ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 51.0ms | App: 2.2ms | Admin: 11.5ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 75.2ms | App: 2.5ms | Admin: 18.7ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 111.4ms | App: 3.1ms | Admin: 12.1ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 31.8ms | App: 23.2ms | Admin: 4.7ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 50.3ms | App: 24.2ms | Admin: 5.3ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 36.5ms | App: 7.5ms | Admin: 10.8ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 26.4ms | App: 2.0ms | Admin: 3.2ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 102.1ms | App: 9.2ms | Admin: 18.9ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 28.2ms | App: 2.9ms | Admin: 23.4ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 32.4ms | App: 4.8ms | Admin: 5.1ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 57.9ms | App: 3.2ms | Admin: 2.0ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 29.7ms | App: 27.0ms | Admin: 3.3ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 67.5ms | App: 3.2ms | Admin: 10.5ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 29.4ms | App: 23.1ms | Admin: 2.7ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:59",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 36.1ms | App: 3.1ms | Admin: 3.0ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 41.9ms | App: 3.1ms | Admin: 3.7ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 93.5ms | App: 2.6ms | Admin: 3.9ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 29.4ms | App: 9.8ms | Admin: 2.5ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:13",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 22.7ms | App: 2.0ms | Admin: 26.4ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 52.6ms | App: 2.1ms | Admin: 4.0ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 124.6ms | App: 4.7ms | Admin: 3.6ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 23.5ms | App: 2.1ms | Admin: 6.7ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 392.6ms | App: 2.3ms | Admin: 4.9ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ SFCS 40 [9090] (147.1.160.40) - Ping: 26.7ms | App: 3.8ms | Admin: 8.3ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    }
+  ],
+  "ICT [pasta]": [
+    {
+      "timestamp": "2025-09-01 21:43:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 45.9ms | App: 42.8ms | Admin: 14.7ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:43:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 96.9ms | App: 2.3ms | Admin: 11.1ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 64.7ms | App: 2.2ms | Admin: 24.8ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:44:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 95.1ms | App: 6.1ms | Admin: 3.9ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:45:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 61.5ms | App: 7.0ms | Admin: 5.6ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:13",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 37.6ms | App: 25.7ms | Admin: 15.9ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:46:50",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 63.2ms | App: 8.3ms | Admin: 13.8ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:47:28",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 34.2ms | App: 7.0ms | Admin: 7.7ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 66.3ms | App: 2.3ms | Admin: 2.6ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:48:42",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 53.0ms | App: 23.3ms | Admin: 9.0ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 98.9ms | App: 19.6ms | Admin: 5.2ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:49:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 24.5ms | App: 2.6ms | Admin: 3.1ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:50:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 57.5ms | App: 12.9ms | Admin: 1.9ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 28.0ms | App: 2.0ms | Admin: 4.1ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 57.6ms | App: 2.1ms | Admin: 2.6ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:51:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 26.2ms | App: 4.5ms | Admin: 1.7ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 19.5ms | App: 13.2ms | Admin: 4.3ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 39.9ms | App: 2.9ms | Admin: 3.9ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 60.2ms | App: 21.6ms | Admin: 4.3ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 26.4ms | App: 2.8ms | Admin: 20.7ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 29.8ms | App: 2.2ms | Admin: 14.8ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 84.9ms | App: 1.9ms | Admin: 19.6ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:59",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 23.6ms | App: 13.0ms | Admin: 14.8ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:17",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 49.5ms | App: 22.9ms | Admin: 2.7ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 35.2ms | App: 13.8ms | Admin: 1.9ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 46.5ms | App: 9.0ms | Admin: 3.3ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:13",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 45.3ms | App: 17.6ms | Admin: 3.0ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 42.3ms | App: 2.4ms | Admin: 2.6ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 105.1ms | App: 2.6ms | Admin: 6.1ms | HTTP: 200 (0.02s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 23.9ms | App: 3.0ms | Admin: 20.5ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:02",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 79.0ms | App: 6.1ms | Admin: 3.4ms | HTTP: 200 (0.03s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ ICT [pasta] (147.1.0.95) - Ping: 22.7ms | App: 8.1ms | Admin: 2.5ms | HTTP: 200 (0.01s)",
+      "is_error": false
+    }
+  ],
+  "http://147.1.0.116/sfcs/faces/login.jsf": [
+    {
+      "timestamp": "2025-09-01 21:52:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 36.5ms | App: FECHADA | Admin: 2.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:03",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:21",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 31.1ms | App: FECHADA | Admin: 32.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:21",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:39",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 31.4ms | App: FECHADA | Admin: 3.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:39",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:52:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 22.8ms | App: FECHADA | Admin: 18.5ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:52:58",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 37.2ms | App: FECHADA | Admin: 11.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:16",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 38.7ms | App: FECHADA | Admin: 2.4ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:35",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:53:54",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 40.3ms | App: FECHADA | Admin: 15.7ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:53:54",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 27.7ms | App: FECHADA | Admin: 2.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:12",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 29.7ms | App: FECHADA | Admin: 8.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:31",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:54:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 96.7ms | App: FECHADA | Admin: 25.3ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:54:49",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 50.7ms | App: FECHADA | Admin: 2.6ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:08",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:55:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 33.9ms | App: FECHADA | Admin: 3.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:55:27",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 24.2ms | App: FECHADA | Admin: 2.1ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:07",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:56:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 75.6ms | App: FECHADA | Admin: 2.2ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:56:44",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:21",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 36.3ms | App: FECHADA | Admin: 2.0ms",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:57:21",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 8080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 21:57:56",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 34.6ms | App: 2.4ms | Admin: 3.7ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:58:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 35.2ms | App: 9.8ms | Admin: 15.5ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 21:59:06",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 22.6ms | App: 11.0ms | Admin: 3.8ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:03:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.4ms | App: 3.9ms | Admin: 2.8ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:03:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 47.0ms | App: 22.2ms | Admin: 15.8ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:04:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 29.1ms | App: 22.3ms | Admin: 2.4ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:04:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 155.7ms | App: 3.7ms | Admin: 21.9ms | HTTP: 200 (0.19s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:05:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 25.7ms | App: 3.6ms | Admin: 2.3ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:05:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.8ms | App: 2.1ms | Admin: 2.1ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 24.4ms | App: 2.3ms | Admin: 2.6ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 29.1ms | App: 2.8ms | Admin: 2.1ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 32.4ms | App: 22.3ms | Admin: 2.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 77.6ms | App: 34.1ms | Admin: 2.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.8ms | App: 12.9ms | Admin: 24.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 40.2ms | App: 11.0ms | Admin: 3.6ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:21",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.2ms | App: 6.1ms | Admin: 4.8ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:54",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 41.4ms | App: 20.8ms | Admin: 2.9ms | HTTP: 200 (0.13s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:10:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 30.5ms | App: 2.4ms | Admin: 3.0ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:10:59",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 22.4ms | App: 21.6ms | Admin: 15.8ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:11:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 50.2ms | App: 2.5ms | Admin: 2.5ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:12:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 34.1ms | App: 2.5ms | Admin: 2.3ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:13:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 27.3ms | App: 24.1ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:13:31",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:14:25",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 27.3ms | App: 29.8ms | Admin: 15.2ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:14:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 25.2ms | App: 2.2ms | Admin: 22.1ms | HTTP: 200 (0.12s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:15:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 22.6ms | App: 2.2ms | Admin: 2.3ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 21.2ms | App: 2.4ms | Admin: 3.1ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 21.5ms | App: 11.4ms | Admin: 15.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 33.0ms | App: 7.7ms | Admin: 3.3ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 24.8ms | App: 17.3ms | Admin: 4.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 33.4ms | App: 1.9ms | Admin: 2.7ms | HTTP: 200 (0.12s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 24.6ms | App: 2.4ms | Admin: 25.7ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 32.2ms | App: 5.9ms | Admin: 3.5ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 32.9ms | App: 2.3ms | Admin: 15.7ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:48",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 19.6ms | App: 2.0ms | Admin: 3.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:21:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 51.7ms | App: 4.8ms | Admin: 4.4ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 44.6ms | App: 4.5ms | Admin: 2.3ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 48.7ms | App: 9.4ms | Admin: 2.6ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.2ms | App: 17.6ms | Admin: 3.2ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:47",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 31.2ms | App: 13.4ms | Admin: 15.6ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:25:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 39.9ms | App: 4.3ms | Admin: 2.8ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 40.7ms | App: 26.8ms | Admin: 2.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 38.7ms | App: 2.7ms | Admin: 2.2ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 33.8ms | App: 22.7ms | Admin: 2.9ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 24.7ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:28:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 21.8ms | App: 12.4ms | Admin: 14.9ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 37.1ms | App: 2.8ms | Admin: 39.4ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 114.7ms | App: 2.7ms | Admin: 3.3ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:30:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 27.5ms | App: 14.1ms | Admin: 2.3ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 44.3ms | App: 2.4ms | Admin: 2.4ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 20.6ms | App: 20.7ms | Admin: 3.7ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:19",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 35.7ms | App: 2.5ms | Admin: 27.3ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:56",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 41.0ms | App: 2.9ms | Admin: 2.3ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.116/sfcs/faces/login.jsf (147.1.0.116) - Ping: 37.4ms | App: 6.0ms | Admin: 3.8ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    }
+  ],
+  "http://147.1.160.40/sfcs/faces/login.jsf": [
+    {
+      "timestamp": "2025-09-01 22:03:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.4ms | App: 2.0ms | Admin: 1.8ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:03:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 29.3ms | App: 23.5ms | Admin: 5.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:04:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 59.6ms | App: 20.5ms | Admin: 2.2ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:04:39",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 38.1ms | App: 9.2ms | Admin: 3.7ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:05:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 41.4ms | App: 2.2ms | Admin: 11.8ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:05:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 49.3ms | App: 2.0ms | Admin: 2.3ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 24.3ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 31.1ms | App: 11.5ms | Admin: 1.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 20.5ms | App: 2.5ms | Admin: 2.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 35.2ms | App: 2.7ms | Admin: 9.6ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 22.2ms | App: 2.0ms | Admin: 3.0ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 22.3ms | App: 14.3ms | Admin: 2.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 30.4ms | App: 2.1ms | Admin: 2.4ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:54",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.0ms | App: 5.4ms | Admin: 21.6ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:10:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 22.5ms | App: 18.0ms | Admin: 26.5ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:10:59",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 18.4ms | App: 2.3ms | Admin: 3.4ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:11:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 43.5ms | App: 20.1ms | Admin: 15.5ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:12:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.2ms | App: 17.5ms | Admin: 16.0ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:13:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 26.7ms | App: 25.9ms | Admin: 19.6ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:14:25",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.2ms | App: 16.2ms | Admin: 2.1ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:14:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 71.9ms | App: 2.3ms | Admin: 2.2ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:15:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.5ms | App: 3.7ms | Admin: 11.9ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 28.6ms | App: 21.3ms | Admin: 2.6ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 23.6ms | App: 2.6ms | Admin: 2.2ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 22.8ms | App: 16.1ms | Admin: 2.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 20.5ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 29.6ms | App: 2.2ms | Admin: 2.2ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 31.1ms | App: 2.7ms | Admin: 2.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 20.3ms | App: 2.3ms | Admin: 5.9ms | HTTP: 200 (0.15s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 26.9ms | App: 27.0ms | Admin: 2.3ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:48",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 27.1ms | App: 27.2ms | Admin: 2.1ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:21:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 44.2ms | App: 6.9ms | Admin: 5.2ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:04",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 69.0ms | App: 8.7ms | Admin: 2.8ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 41.5ms | App: 5.3ms | Admin: 21.3ms | HTTP: 200 (0.14s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 25.6ms | App: 2.1ms | Admin: 13.4ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:47",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 21.1ms | App: 19.1ms | Admin: 14.9ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:25:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 22.2ms | App: 2.8ms | Admin: 16.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 27.0ms | App: 2.0ms | Admin: 22.6ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 23.2ms | App: 3.2ms | Admin: 2.2ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 29.0ms | App: 16.0ms | Admin: 6.8ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 77.5ms | App: 1.9ms | Admin: 19.2ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:28:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 33.7ms | App: 2.2ms | Admin: 26.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 88.9ms | App: 51.4ms | Admin: 26.1ms | HTTP: 200 (0.13s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 69.7ms | App: 31.6ms | Admin: 3.1ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:30:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 44.9ms | App: 2.1ms | Admin: 2.9ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 142.8ms | App: 29.4ms | Admin: 17.9ms | HTTP: 200 (0.15s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 45.7ms | App: 2.4ms | Admin: 2.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 31.6ms | App: 4.0ms | Admin: 2.1ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 28.3ms | App: 28.2ms | Admin: 15.7ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.40/sfcs/faces/login.jsf (147.1.160.40) - Ping: 60.6ms | App: 5.1ms | Admin: 3.7ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    }
+  ],
+  "http://147.0.0.130/sfcs/faces/login.jsf": [
+    {
+      "timestamp": "2025-09-01 22:03:07",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.0ms | App: 1.9ms | Admin: 1.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:03:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 38.7ms | App: 21.3ms | Admin: 15.2ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:04:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 68.6ms | App: 2.5ms | Admin: 13.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:04:39",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 37.7ms | App: 2.4ms | Admin: 18.1ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:05:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 51.9ms | App: 39.3ms | Admin: 68.6ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:05:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 66.9ms | App: 12.5ms | Admin: 1.8ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 31.0ms | App: 2.8ms | Admin: 17.6ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 29.5ms | App: 2.3ms | Admin: 1.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.8ms | App: 1.8ms | Admin: 1.7ms | HTTP: 200 (0.13s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.7ms | App: 25.7ms | Admin: 4.0ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 20.6ms | App: 2.9ms | Admin: 2.7ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.7ms | App: 39.2ms | Admin: 15.1ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.8ms | App: 3.1ms | Admin: 2.7ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:54",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 20.6ms | App: 3.1ms | Admin: 1.7ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:10:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 24.3ms | App: 2.5ms | Admin: 1.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:11:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.4ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:11:32",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 203.1ms | App: 2.5ms | Admin: 15.5ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:12:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 54.5ms | App: 18.3ms | Admin: 3.4ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:13:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.8ms | App: 36.6ms | Admin: 25.9ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:14:25",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 20.0ms | App: 2.1ms | Admin: 1.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:14:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 34.3ms | App: 2.2ms | Admin: 1.9ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:15:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 24.7ms | App: 2.1ms | Admin: 2.0ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.0ms | App: 2.0ms | Admin: 1.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.7ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.2ms | App: 2.0ms | Admin: 2.2ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.4ms | App: 2.7ms | Admin: 1.7ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.6ms | App: 3.6ms | Admin: 2.0ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 110.4ms | App: 2.1ms | Admin: 2.0ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 19.6ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.4ms | App: 2.0ms | Admin: 1.7ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 49.1ms | App: 2.2ms | Admin: 6.3ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:21:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 33.1ms | App: 3.1ms | Admin: 3.2ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:04",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 86.5ms | App: 2.5ms | Admin: 2.6ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 46.4ms | App: 2.8ms | Admin: 3.4ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 20.5ms | App: 3.3ms | Admin: 14.1ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:47",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 24.8ms | App: 20.7ms | Admin: 4.4ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:25:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 21.3ms | App: 3.2ms | Admin: 1.8ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 37.8ms | App: 2.5ms | Admin: 2.2ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 44.5ms | App: 22.0ms | Admin: 2.2ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.7ms | App: 20.5ms | Admin: 2.8ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 65.1ms | App: 4.4ms | Admin: 3.5ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:28:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 23.6ms | App: 22.8ms | Admin: 2.6ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 80.3ms | App: 27.0ms | Admin: 3.7ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 53.8ms | App: 3.0ms | Admin: 2.1ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:30:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 78.1ms | App: 5.4ms | Admin: 2.3ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 76.8ms | App: 4.5ms | Admin: 12.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 27.0ms | App: 2.4ms | Admin: 13.8ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 26.0ms | App: 13.1ms | Admin: 3.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 25.7ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.0.0.130/sfcs/faces/login.jsf (147.0.0.130) - Ping: 22.7ms | App: 13.5ms | Admin: 4.5ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    }
+  ],
+  "http://147.1.160.20/sfcs/faces/login.jsf": [
+    {
+      "timestamp": "2025-09-01 22:05:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 38.4ms | App: 2.3ms | Admin: 4.0ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:05:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 24.8ms | App: 2.3ms | Admin: 2.3ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 25.6ms | App: 2.7ms | Admin: 3.1ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:06:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 34.0ms | App: 20.2ms | Admin: 2.9ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.2ms | App: 13.8ms | Admin: 3.6ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:07:44",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 21.0ms | App: 1.9ms | Admin: 1.9ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.3ms | App: 2.1ms | Admin: 2.6ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:08:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 24.5ms | App: 2.1ms | Admin: 1.8ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.5ms | App: 26.9ms | Admin: 4.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:09:54",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 21.1ms | App: 20.4ms | Admin: 3.6ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:10:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.1ms | App: 2.8ms | Admin: 2.3ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:11:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 19.4ms | App: 24.8ms | Admin: 2.0ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:11:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 63.9ms | App: 2.3ms | Admin: 3.7ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:12:05",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.9ms | App: 2.0ms | Admin: 1.8ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:13:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 29.8ms | App: 2.2ms | Admin: 2.0ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:14:25",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 24.2ms | App: 2.2ms | Admin: 12.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:14:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 157.7ms | App: 5.2ms | Admin: 38.9ms | HTTP: 200 (0.12s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:15:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 22.8ms | App: 2.3ms | Admin: 1.8ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 26.4ms | App: 3.2ms | Admin: 2.7ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:36",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.7ms | App: 1.8ms | Admin: 1.7ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 21.9ms | App: 2.3ms | Admin: 15.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.7ms | App: 2.2ms | Admin: 1.7ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 25.4ms | App: 19.0ms | Admin: 2.0ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 121.8ms | App: 70.5ms | Admin: 2.4ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 24.9ms | App: 2.6ms | Admin: 23.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:12",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 19.2ms | App: 2.1ms | Admin: 2.4ms | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:49",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 27.9ms | App: 2.8ms | Admin: 2.1ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:21:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 79.2ms | App: 2.5ms | Admin: 16.1ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:04",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 77.2ms | App: 4.7ms | Admin: 8.0ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 39.9ms | App: 3.3ms | Admin: 4.1ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:10",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.3ms | App: 17.0ms | Admin: 1.9ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:47",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.4ms | App: 14.3ms | Admin: 2.7ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:25:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 20.6ms | App: 2.7ms | Admin: 2.0ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 52.9ms | App: 2.1ms | Admin: 1.8ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:39",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 56.6ms | App: 2.4ms | Admin: 2.3ms | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 23.8ms | App: 2.3ms | Admin: 2.8ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 106.7ms | App: 44.6ms | Admin: 8.0ms | HTTP: 200 (0.18s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:28:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 47.2ms | App: 13.3ms | Admin: 2.0ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 52.8ms | App: 24.0ms | Admin: 3.6ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:46",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 65.9ms | App: 18.4ms | Admin: 2.0ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:30:23",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 75.8ms | App: 3.2ms | Admin: 3.0ms | HTTP: 200 (0.09s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 79.2ms | App: 52.5ms | Admin: 2.1ms | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:39",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 51.6ms | App: 12.7ms | Admin: 15.3ms | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 27.4ms | App: 2.3ms | Admin: 2.1ms | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:57",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 28.7ms | App: 1.9ms | Admin: 1.6ms | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:34",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.160.20/sfcs/faces/login.jsf (147.1.160.20) - Ping: 30.0ms | App: 3.6ms | Admin: 1.9ms | HTTP: 200 (0.06s)",
+      "is_error": false
+    }
+  ],
+  "https://147.1.0.84/sisconp2/loginefetivo.php": [
+    {
+      "timestamp": "2025-09-01 22:07:13",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 25.5ms | App: 2.1ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:07:13",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:07:13",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:07:46",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.5ms | App: 2.6ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:07:46",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:07:46",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:08:19",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 39.0ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:08:19",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:08:19",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:08:51",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 24.3ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:08:51",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:08:51",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:09:24",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 49.5ms | App: 2.5ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:09:24",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:09:24",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:09:57",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 47.2ms | App: 2.5ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:09:57",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:09:57",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:10:29",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 73.8ms | App: 22.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:10:29",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:10:29",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:11:02",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.8ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:11:02",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:11:02",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:11:35",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 45.6ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:11:35",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:11:35",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:12:07",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 29.3ms | App: 4.0ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:12:07",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:12:07",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:13:34",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 26.2ms | App: 24.9ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:13:34",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:13:34",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:14:27",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 30.8ms | App: 3.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:14:27",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1443 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:14:27",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:15:00",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 34.6ms | App: 3.1ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:15:00",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1443 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:15:00",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:15:33",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 22.2ms | App: 6.6ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:15:33",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1443 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:15:33",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:16:06",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 90.0ms | App: 8.5ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:16:06",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:16:06",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:16:38",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 22.0ms | App: 2.4ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:16:38",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 4848 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:16:38",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:13",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.4ms | App: 3.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:13",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:13",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:47",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.9ms | App: 2.5ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:47",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:47",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:18:22",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.0ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:18:22",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:18:22",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:18:59",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 53.4ms | App: 5.4ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:00",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:00",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:37",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 41.4ms | App: 2.5ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:37",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:37",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:14",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 26.0ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:14",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:14",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:51",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.1ms | App: 3.1ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:51",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:51",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:21:29",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 41.1ms | App: 2.5ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:21:29",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:21:29",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:06",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 142.1ms | App: 21.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:06",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:06",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:43",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 35.1ms | App: 2.6ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:43",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:43",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:12",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 32.2ms | App: 22.4ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:12",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:12",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:49",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.7ms | App: 2.4ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:49",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:49",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:25:26",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.5ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:25:26",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:25:26",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:03",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 108.4ms | App: 7.0ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:03",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:03",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:41",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 41.6ms | App: 7.1ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:41",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:41",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:18",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.6ms | App: 15.9ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:18",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:18",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:56",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 54.8ms | App: 12.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:56",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:56",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:28:33",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 27.0ms | App: 3.2ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:28:33",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:28:33",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:10",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 47.8ms | App: 30.1ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:10",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:10",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:48",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 75.0ms | App: 4.6ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:48",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:48",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:30:25",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 215.7ms | App: 53.2ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:30:25",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:30:25",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:03",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 67.2ms | App: 19.1ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:03",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:03",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:41",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 55.2ms | App: 3.6ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:41",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:41",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:22",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 47.3ms | App: 12.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:22",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:22",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:59",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 21.1ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:59",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:59",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:33:36",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ https://147.1.0.84/sisconp2/loginefetivo.php (147.1.0.84) - Ping: 23.2ms | App: 12.1ms | Admin: FECHADA | HTTP: Erro de Conexão",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:33:36",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:33:36",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Erro de Conexão",
+      "is_error": true
+    }
+  ],
+  "http://147.1.0.84/siscompras/sc/loginsc.php": [
+    {
+      "timestamp": "2025-09-01 22:16:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.8ms | App: 27.2ms | Admin: FECHADA | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:16:40",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:15",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 22.2ms | App: 2.6ms | Admin: FECHADA | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:15",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:17:50",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 51.7ms | App: 2.6ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:17:50",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:18:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.1ms | App: 3.5ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:24",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:02",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 32.5ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:02",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:39",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 24.9ms | App: 12.4ms | Admin: FECHADA | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:39",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 39.1ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:16",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 35.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:53",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:21:31",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 39.6ms | App: 13.6ms | Admin: FECHADA | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:21:31",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:09",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 55.8ms | App: 9.3ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:09",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:46",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 68.9ms | App: 13.8ms | Admin: FECHADA | HTTP: 200 (0.13s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:46",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:14",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 26.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.10s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:14",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:51",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 40.2ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:51",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:25:28",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.7ms | App: 25.4ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:25:28",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:06",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 21.4ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.14s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:06",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:43",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 60.5ms | App: 2.5ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:43",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:20",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 38.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:20",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:58",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 48.2ms | App: 34.8ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:58",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:28:35",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 23.3ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:28:35",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:13",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 86.8ms | App: 20.8ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:13",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:50",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 67.3ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.18s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:50",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:30:28",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 119.9ms | App: 26.3ms | Admin: FECHADA | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:30:28",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:06",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 47.8ms | App: 5.0ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:06",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:43",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 33.4ms | App: 23.6ms | Admin: FECHADA | HTTP: 200 (0.12s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:43",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:24",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 27.8ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:24",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:33:01",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 21.1ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:01",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:33:38",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.84/siscompras/sc/loginsc.php (147.1.0.84) - Ping: 34.9ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:38",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    }
+  ],
+  "http://147.1.0.41:81/nre/acesso/index": [
+    {
+      "timestamp": "2025-09-01 22:18:27",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 34.8ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:18:27",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:04",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 30.1ms | App: 12.2ms | Admin: FECHADA | HTTP: 200 (0.11s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:04",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:19:41",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 33.6ms | App: 13.9ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:19:41",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:18",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 27.3ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:18",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:20:55",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 167.6ms | App: 41.2ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:20:56",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:21:33",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 41.5ms | App: 17.6ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:21:33",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:11",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 23.5ms | App: 21.5ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:11",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:22:48",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 31.5ms | App: 2.0ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:22:48",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:16",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.5ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:16",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:24:53",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 28.4ms | App: 8.0ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:24:53",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:25:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 26.9ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:25:30",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 25.3ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.08s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:08",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:26:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 62.9ms | App: 24.9ms | Admin: FECHADA | HTTP: 200 (0.07s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:26:45",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:27:22",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 46.7ms | App: 4.9ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:27:22",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:28:00",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 72.1ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:28:00",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:28:37",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 23.3ms | App: 13.5ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:28:37",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:15",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 65.7ms | App: 7.5ms | Admin: FECHADA | HTTP: 200 (0.04s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:15",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:29:52",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 66.4ms | App: 19.5ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:29:52",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:30:30",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 64.2ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:30:30",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:08",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 181.5ms | App: 59.0ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:08",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:45",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.6ms | App: 3.0ms | Admin: FECHADA | HTTP: 200 (0.06s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:31:45",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:26",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 27.6ms | App: 2.2ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:32:26",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:33:03",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 25.5ms | App: 26.3ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:03",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:33:40",
+      "event_type": "STATUS_CHECK",
+      "message": "✅ http://147.1.0.41:81/nre/acesso/index (147.1.0.41) - Ping: 24.5ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.05s)",
+      "is_error": false
+    },
+    {
+      "timestamp": "2025-09-01 22:33:40",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1081 inacessível: FECHADA",
+      "is_error": true
+    }
+  ],
+  "147.1.0.61": [
+    {
+      "timestamp": "2025-09-01 22:31:49",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ 147.1.0.61 (147.1.0.61) - Ping: 25.0ms | App: FECHADA | Admin: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:49",
+      "event_type": "APP_PORT_ERROR",
+      "message": "Porta 80 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:31:49",
+      "event_type": "ADMIN_PORT_ERROR",
+      "message": "Porta 1080 inacessível: FECHADA",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:26",
+      "event_type": "STATUS_CHECK",
+      "message": "⚠️ 147.1.0.61 (147.1.0.61) - Ping: 30.6ms | App: 1.8ms | Admin: 2.0ms | HTTP: Invalid URL '147.1.0.61': No scheme supplied. Perhaps you meant https://147.1.0.61?",
+      "is_error": true
+    },
+    {
+      "timestamp": "2025-09-01 22:32:26",
+      "event_type": "HTTP_ERROR",
+      "message": "HTTP check falhou: Invalid URL '147.1.0.61': No scheme supplied. Perhaps you meant https://147.1.0.61?",
+      "is_error": true
+    }
+  ]
+}
