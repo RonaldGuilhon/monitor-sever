@@ -8,6 +8,12 @@ import os
 import json
 from pathlib import Path
 from typing import Dict, Any, Optional
+try:
+    from dotenv import load_dotenv
+    DOTENV_AVAILABLE = True
+except ImportError:
+    DOTENV_AVAILABLE = False
+    
 from .constants import (
     CONFIG_FILE, DEFAULT_PING_TIMEOUT, DEFAULT_HTTP_TIMEOUT, 
     DEFAULT_MONITOR_INTERVAL, DEFAULT_SMTP_SERVER, DEFAULT_SMTP_PORT,
@@ -30,6 +36,12 @@ class Settings:
     """
     
     def __init__(self):
+        # Carregar arquivo .env se disponível
+        if DOTENV_AVAILABLE:
+            env_file = BASE_DIR / ".env"
+            if env_file.exists():
+                load_dotenv(env_file)
+        
         self._config = self._load_default_config()
         self._servers = self._load_default_servers()
         self._load_from_file()
@@ -141,8 +153,11 @@ class Settings:
             "ALERTS_EMAIL_ENABLED": ("alerts", "email_enabled", lambda x: x.lower() == 'true'),
             "EMAIL_SMTP_SERVER": ("email", "smtp_server", str),
             "EMAIL_SMTP_PORT": ("email", "smtp_port", int),
+            "EMAIL_USE_TLS": ("email", "use_tls", lambda x: x.lower() == 'true'),
             "EMAIL_USERNAME": ("email", "username", str),
             "EMAIL_PASSWORD": ("email", "password", str),
+            "EMAIL_FROM": ("email", "from_email", str),
+            "EMAIL_TO": ("email", "to_emails", lambda x: [email.strip() for email in x.split(',')]),
             "LOG_LEVEL": ("logging", "level", str),
         }
         
