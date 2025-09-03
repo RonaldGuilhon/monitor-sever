@@ -1,0 +1,158 @@
+# Server Monitor - Docker Ignore File
+# This file specifies which files and directories should be excluded from Docker builds
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PYMANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation
+docs/_build/
+.readthedocs.yml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# Logs (runtime logs, not the logs directory structure)
+logs/*.log
+logs/*.txt
+*.log
+
+# Data files (runtime data, not the data directory structure)
+data/*.csv
+data/*.json
+data/*.db
+data/*.sqlite
+
+# Config files (runtime config, not the config directory structure)
+config/*.json
+config/*.yaml
+config/*.yml
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows specific
+*.lnk
+Desktop.ini
+
+# Build artifacts
+*.exe
+*.msi
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Docker files (avoid recursive Docker builds)
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Development tools
+Makefile
+*.mk
+
+# Scripts that are not needed in container
+run.bat
+run.sh
+install.sh
+setup.sh
+
+# Documentation that's not needed in runtime
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+docs/
+
+# GitHub specific
+.github/
+
+# CI/CD files
+.travis.yml
+.circleci/
+.gitlab-ci.yml
+Jenkinsfile
+
+# Package manager files (already handled by requirements.txt)
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Keep these files/directories
+!src/
+!requirements.txt
+!setup.py
+!run.py
+!.env.example

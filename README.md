@@ -1,59 +1,97 @@
-# 🖥️ Monitor de Servidores GlassFish
+# Monitor Server
 
-Sistema completo de monitoramento de servidores GlassFish em Python com interface gráfica e telemetria em tempo real.
+Um sistema avançado de monitoramento de servidores em Python com interface gráfica moderna e arquitetura modular.
 
-## 📋 Características
+## 🚀 Funcionalidades
 
-### ✅ Funcionalidades Principais
-- **Monitoramento Contínuo**: Verifica múltiplos servidores em intervalos configuráveis
-- **Verificações Múltiplas**:
-  - 🏓 Ping (ICMP) para conectividade
-  - 🔌 Portas do GlassFish (8080 para aplicação, 4848 para admin)
-  - 🌐 Resposta HTTP em URLs específicas
-- **Interface Gráfica**: Painel completo com Tkinter
-- **Telemetria em Tempo Real**: Gráficos de performance e disponibilidade
-- **Sistema de Logs**: Arquivos .log e exportação CSV
-- **Alertas**: Sons e emails para servidores indisponíveis
-- **Cadastro Dinâmico**: Adicionar/remover servidores pela interface
+### Monitoramento
+- ✅ Verificação de conectividade (ping)
+- 🔌 Monitoramento de portas TCP
+- 🌐 Testes de conectividade HTTP/HTTPS
+- 📊 Coleta de métricas de performance
+- ⏱️ Monitoramento em tempo real
 
-### 📊 Painel de Telemetria
-- Gráfico de conectividade (ping)
-- Tempo de resposta HTTP
-- Status das portas em tempo real
-- Histórico de disponibilidade (uptime)
-- Seleção de servidor para análise detalhada
+### Interface Gráfica
+- 🎨 Interface moderna com tema escuro
+- 📈 Gráficos de telemetria em tempo real
+- 📋 Visualização de logs estruturados
+- ⚙️ Configuração através da interface
+- 🔔 Notificações visuais de status
 
-### 🔔 Sistema de Alertas
-- **Alertas Sonoros**: Beep no Windows quando servidor fica indisponível
-- **Alertas por Email**: Notificações configuráveis via SMTP
-- **Status Visual**: Cores diferentes para cada estado do servidor
+### Alertas e Notificações
+- 🔊 Alertas sonoros configuráveis
+- 📧 Notificações por email (SMTP)
+- 🚨 Alertas de servidor inativo/recuperado
+- ⏰ Cooldown configurável para alertas
 
-## 🚀 Instalação
+### Dados e Logs
+- 📝 Logs estruturados em JSON
+- 💾 Exportação de dados para CSV
+- 📊 Retenção configurável de dados
+- 🔄 Backup automático de configurações
+
+## 📁 Estrutura do Projeto
+
+```
+monitor-server/
+├── src/
+│   └── monitor_server/
+│       ├── core/           # Lógica principal
+│       │   ├── monitor.py  # Classe principal ServerMonitor
+│       │   ├── checks.py   # Funções de verificação
+│       │   ├── alerts.py   # Sistema de alertas
+│       │   └── network_utils.py # Utilitários de rede
+│       ├── gui/            # Interface gráfica
+│       │   ├── main_window.py   # Janela principal
+│       │   ├── dialogs.py       # Diálogos personalizados
+│       │   ├── telemetry.py     # Painel de telemetria
+│       │   └── logs.py          # Painel de logs
+│       ├── config/         # Configurações
+│       │   ├── settings.py      # Configuração centralizada
+│       │   └── constants.py     # Constantes do sistema
+│       └── utils/          # Utilitários
+│           └── file_utils.py    # Operações com arquivos
+├── config/                 # Arquivos de configuração
+├── data/                   # Dados e logs
+├── logs/                   # Arquivos de log
+├── scripts/                # Scripts auxiliares
+└── tests/                  # Testes automatizados
+```
+
+## 🛠️ Instalação
 
 ### Pré-requisitos
-- Python 3.7 ou superior
-- Windows (para alertas sonoros) ou Linux/macOS
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
 
 ### Passos de Instalação
 
-1. **Clone ou baixe o projeto**:
+1. **Clone o repositório**
    ```bash
-   git clone <url-do-repositorio>
-   cd monitor-sever
+   git clone https://github.com/seu-usuario/monitor-server.git
+   cd monitor-server
    ```
 
-2. **Instale as dependências**:
+2. **Crie um ambiente virtual (recomendado)**
+   ```bash
+   python -m venv venv
+   
+   # Windows
+   venv\Scripts\activate
+   
+   # Linux/Mac
+   source venv/bin/activate
+   ```
+
+3. **Instale as dependências**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Execute o sistema**:
+4. **Configure o ambiente (opcional)**
    ```bash
-   # Interface gráfica completa (recomendado)
-   python gui_monitor.py
-   
-   # Ou apenas console
-   python monitor.py
+   cp .env.example .env
+   # Edite o arquivo .env com suas configurações
    ```
 
 ## 📖 Como Usar
