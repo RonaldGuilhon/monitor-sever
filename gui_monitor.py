@@ -17,14 +17,102 @@ import matplotlib.animation as animation
 from collections import deque
 import json
 import webbrowser
-from monitor import ServerMonitor, SERVERS, CONFIG, extract_port_from_url, extract_hostname_from_url, detect_admin_port
+from monitor import ServerMonitor, SERVERS, CONFIG, extract_port_from_url, extract_hostname_from_url
+
+# Classe para messagebox com tema escuro
+class DarkMessageBox:
+    @staticmethod
+    def _create_dialog(parent, title, message, dialog_type="info", buttons=None):
+        """Cria um diálogo personalizado com tema escuro"""
+        dialog = tk.Toplevel(parent if parent else tk._default_root)
+        dialog.title(title)
+        dialog.configure(bg='#2b2b2b')
+        dialog.resizable(False, False)
+        dialog.transient(parent if parent else tk._default_root)
+        dialog.grab_set()
+        
+        # Centralizar janela
+        if parent:
+            dialog.geometry("+%d+%d" % (parent.winfo_rootx() + 100, parent.winfo_rooty() + 100))
+        
+        # Frame principal
+        main_frame = tk.Frame(dialog, bg='#2b2b2b', padx=20, pady=20)
+        main_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Ícone e mensagem
+        icon_text = {"info": "ℹ️", "warning": "⚠️", "error": "❌", "question": "❓"}.get(dialog_type, "ℹ️")
+        
+        # Frame para ícone e texto
+        content_frame = tk.Frame(main_frame, bg='#2b2b2b')
+        content_frame.pack(pady=(0, 20))
+        
+        # Ícone
+        icon_label = tk.Label(content_frame, text=icon_text, font=('Arial', 24), bg='#2b2b2b', fg='#ffffff')
+        icon_label.pack(side=tk.LEFT, padx=(0, 15))
+        
+        # Mensagem
+        msg_label = tk.Label(content_frame, text=message, font=('Arial', 10), bg='#2b2b2b', fg='#ffffff', wraplength=300, justify=tk.LEFT)
+        msg_label.pack(side=tk.LEFT)
+        
+        # Botões
+        button_frame = tk.Frame(main_frame, bg='#2b2b2b')
+        button_frame.pack()
+        
+        result = [None]
+        
+        def button_click(value):
+            result[0] = value
+            dialog.destroy()
+        
+        if buttons:
+            for i, (text, value) in enumerate(buttons):
+                btn = tk.Button(button_frame, text=text, command=lambda v=value: button_click(v),
+                              bg='#404040', fg='#ffffff', font=('Arial', 9), padx=15, pady=5,
+                              relief=tk.RAISED, borderwidth=1, cursor='hand2')
+                btn.pack(side=tk.LEFT, padx=5)
+                
+                # Efeitos hover
+                def on_enter(e, button=btn):
+                    button.configure(bg='#505050')
+                def on_leave(e, button=btn):
+                    button.configure(bg='#404040')
+                
+                btn.bind('<Enter>', on_enter)
+                btn.bind('<Leave>', on_leave)
+        
+        # Bind Escape para fechar
+        dialog.bind('<Escape>', lambda e: dialog.destroy())
+        
+        # Aguardar resultado
+        dialog.wait_window()
+        return result[0]
+    
+    @staticmethod
+    def showinfo(title, message, parent=None):
+        DarkMessageBox._create_dialog(parent, title, message, "info", [("OK", True)])
+    
+    @staticmethod
+    def showwarning(title, message, parent=None):
+        DarkMessageBox._create_dialog(parent, title, message, "warning", [("OK", True)])
+    
+    @staticmethod
+    def showerror(title, message, parent=None):
+        DarkMessageBox._create_dialog(parent, title, message, "error", [("OK", True)])
+    
+    @staticmethod
+    def askyesno(title, message, parent=None):
+        result = DarkMessageBox._create_dialog(parent, title, message, "question", [("Sim", True), ("Não", False)])
+        return result if result is not None else False
 
 class ServerMonitorGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Monitor de Servidores GlassFish")
         self.root.geometry("1200x800")
-        self.root.configure(bg='#f0f0f0')
+        
+        # Configurar tema escuro
+        self.setup_dark_theme()
+        self.root.configure(bg='#2b2b2b')
         
         # Inicializar monitor
         self.monitor = ServerMonitor()
@@ -43,6 +131,64 @@ class ServerMonitorGUI:
         self.load_servers_config()  # Carregar servidores do arquivo JSON
         self.load_servers()  # Atualizar interface
         
+    def setup_dark_theme(self):
+        """Configura o tema escuro para a aplicação"""
+        style = ttk.Style()
+        
+        # Configurar tema escuro para ttk widgets
+        style.theme_use('clam')
+        
+        # Cores do tema escuro
+        dark_bg = '#2b2b2b'
+        dark_fg = '#ffffff'
+        dark_select_bg = '#404040'
+        dark_select_fg = '#ffffff'
+        button_bg = '#404040'
+        button_fg = '#ffffff'
+        
+        # Configurar estilos
+        style.configure('TFrame', background=dark_bg)
+        style.configure('TLabel', background=dark_bg, foreground=dark_fg)
+        style.configure('TButton', background=button_bg, foreground=button_fg)
+        style.map('TButton', background=[('active', '#505050')])
+        
+        # Configurar Treeview (servidores - tema escuro)
+        style.configure('Treeview', background='#3c3c3c', foreground=dark_fg, 
+                       fieldbackground='#3c3c3c', borderwidth=0)
+        style.configure('Treeview.Heading', background='#404040', foreground=dark_fg,
+                       relief='flat')
+        style.map('Treeview.Heading', background=[('active', '#505050')])
+        style.map('Treeview', background=[('selected', dark_select_bg)],
+                 foreground=[('selected', dark_select_fg)])
+        
+        # Configurar Treeview para logs (fundo branco)
+        style.configure('Logs.Treeview', background='#ffffff', foreground='#000000', 
+                       fieldbackground='#ffffff', borderwidth=1)
+        style.configure('Logs.Treeview.Heading', background='#f0f0f0', foreground='#000000',
+                       relief='flat')
+        style.map('Logs.Treeview.Heading', background=[('active', '#e0e0e0')])
+        style.map('Logs.Treeview', background=[('selected', '#0078d4')],
+                 foreground=[('selected', '#ffffff')])
+        
+        # Configurar Notebook
+        style.configure('TNotebook', background=dark_bg, borderwidth=0)
+        style.configure('TNotebook.Tab', background='#404040', foreground=dark_fg,
+                       padding=[20, 8])
+        style.map('TNotebook.Tab', background=[('selected', '#505050'),
+                                             ('active', '#4a4a4a')],
+                 padding=[('selected', [25, 12]), ('active', [22, 10])])
+        
+        # Configurar Scrollbar
+        style.configure('TScrollbar', background='#404040', troughcolor='#2b2b2b',
+                       borderwidth=0, arrowcolor=dark_fg)
+        style.map('TScrollbar', background=[('active', '#505050')])
+        
+        # Configurar Combobox
+        style.configure('TCombobox', fieldbackground='#3c3c3c', background='#404040',
+                       foreground=dark_fg, borderwidth=1)
+        style.map('TCombobox', fieldbackground=[('readonly', '#3c3c3c')],
+                 selectbackground=[('readonly', '#3c3c3c')])
+        
     def setup_ui(self):
         """Configura a interface do usuário"""
         # Frame principal
@@ -51,7 +197,7 @@ class ServerMonitorGUI:
         
         # Título
         title_label = tk.Label(main_frame, text="🖥️ Monitor de Servidores GlassFish", 
-                              font=('Arial', 16, 'bold'), bg='#f0f0f0')
+                              font=('Arial', 16, 'bold'), bg='#2b2b2b', fg='#ffffff')
         title_label.pack(pady=(0, 10))
         
         # Frame de controles
@@ -85,7 +231,7 @@ class ServerMonitorGUI:
         
         # Status do monitoramento
         self.status_label = tk.Label(control_frame, text="Status: Parado", 
-                                    font=('Arial', 10), bg='#f0f0f0')
+                                    font=('Arial', 10), bg='#2b2b2b', fg='#ffffff')
         self.status_label.pack(side=tk.RIGHT)
         
         # Notebook para abas
@@ -116,7 +262,7 @@ class ServerMonitorGUI:
             'Host': {'width': 180, 'minwidth': 120},
             'Ping': {'width': 100, 'minwidth': 80},
             'Porta App': {'width': 90, 'minwidth': 80},
-            'Porta Admin': {'width': 100, 'minwidth': 80},
+            'Porta Admin': {'width': 90, 'minwidth': 80},
             'HTTP': {'width': 100, 'minwidth': 80},
             'Status': {'width': 120, 'minwidth': 100},
             'Última Verificação': {'width': 180, 'minwidth': 150}
@@ -145,10 +291,13 @@ class ServerMonitorGUI:
         servers_frame.grid_rowconfigure(0, weight=1)
         servers_frame.grid_columnconfigure(0, weight=1)
         
-        # Configurar tags para cores
-        self.servers_tree.tag_configure('online', background='#d4edda')
-        self.servers_tree.tag_configure('offline', background='#f8d7da')
-        self.servers_tree.tag_configure('warning', background='#fff3cd')
+        # Configurar tags para cores (tema escuro)
+        self.servers_tree.tag_configure('online', background='#1e4d2b', foreground='#ffffff')
+        self.servers_tree.tag_configure('offline', background='#4d1e1e', foreground='#ffffff')
+        self.servers_tree.tag_configure('warning', background='#4d3d1e', foreground='#ffffff')
+        
+        # Configurar cursor para indicar clicabilidade na coluna Admin
+        self.servers_tree.bind('<Motion>', self.on_tree_motion)
     
     def setup_telemetry_tab(self):
         """Configura a aba de telemetria"""
@@ -225,9 +374,9 @@ class ServerMonitorGUI:
         logs_tree_frame = ttk.Frame(logs_frame)
         logs_tree_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
         
-        # TreeView para logs estruturados
+        # TreeView para logs estruturados (com fundo branco)
         columns = ('timestamp', 'event_type', 'message')
-        self.logs_tree = ttk.Treeview(logs_tree_frame, columns=columns, show='headings', height=20)
+        self.logs_tree = ttk.Treeview(logs_tree_frame, columns=columns, show='headings', height=20, style='Logs.Treeview')
         
         # Configurar colunas com ajuste automático
         logs_column_configs = {
@@ -397,8 +546,8 @@ class ServerMonitorGUI:
                 tag = 'online' if overall_status == 'ONLINE' else ('warning' if overall_status in ['ERRO_HTTP', 'PORTAS_FECHADAS'] else 'offline')
                 
                 item = self.servers_tree.insert('', tk.END, values=(
-                    name, server['host'], ping_status, app_port_status,
-                    admin_port_status, http_status, overall_status, last_check
+                    name, server['host'], ping_status, app_port_status, admin_port_status,
+                    http_status, overall_status, last_check
                 ), tags=(tag,))
                 
                 # Restaurar seleção se este servidor estava selecionado
@@ -481,7 +630,7 @@ class ServerMonitorGUI:
         self.ax2.set_ylabel('Tempo (ms)')
         self.ax2.grid(True, alpha=0.3)
         
-        # Gráfico 3: Status das portas
+        # Gráfico 3: Status das portas (App e Admin)
         self.ax3.plot(timestamps, list(data['app_port_status']), 'r-', label='Porta App', linewidth=2)
         self.ax3.plot(timestamps, list(data['admin_port_status']), 'orange', label='Porta Admin', linewidth=2)
         self.ax3.set_title('Status das Portas')
@@ -566,11 +715,11 @@ class ServerMonitorGUI:
         """Limpa os logs do servidor selecionado"""
         selected_server = self.logs_combo.get()
         if not selected_server:
-            messagebox.showwarning("Aviso", "Selecione um servidor primeiro.")
+            DarkMessageBox.showwarning("Aviso", "Selecione um servidor primeiro.", self.root)
             return
         
         # Confirmar limpeza
-        if messagebox.askyesno("Confirmar", f"Deseja limpar todos os logs do servidor '{selected_server}'?"):
+        if DarkMessageBox.askyesno("Confirmar", f"Deseja limpar todos os logs do servidor '{selected_server}'?", self.root):
             try:
                 # Limpar logs no monitor
                 if hasattr(self.monitor, 'server_logs') and selected_server in self.monitor.server_logs:
@@ -578,9 +727,9 @@ class ServerMonitorGUI:
                 
                 # Atualizar exibição
                 self.update_logs_display()
-                messagebox.showinfo("Sucesso", f"Logs do servidor '{selected_server}' foram limpos.")
+                DarkMessageBox.showinfo("Sucesso", f"Logs do servidor '{selected_server}' foram limpos.", self.root)
             except Exception as e:
-                messagebox.showerror("Erro", f"Erro ao limpar logs: {e}")
+                DarkMessageBox.showerror("Erro", f"Erro ao limpar logs: {e}", self.root)
     
     def add_server_dialog(self):
         """Diálogo para adicionar servidor"""
@@ -594,13 +743,13 @@ class ServerMonitorGUI:
     def edit_server_dialog(self):
         """Diálogo para editar servidor"""
         if not self.servers:
-            messagebox.showwarning("Aviso", "Não há servidores para editar")
+            DarkMessageBox.showwarning("Aviso", "Não há servidores para editar", self.root)
             return
         
         # Verificar se há um servidor selecionado na treeview
         selected_item = self.servers_tree.selection()
         if not selected_item:
-            messagebox.showinfo("Seleção Necessária", "Por favor, selecione um servidor na tabela para editar")
+            DarkMessageBox.showinfo("Seleção Necessária", "Por favor, selecione um servidor na tabela para editar", self.root)
             return
         
         # Obter dados do servidor selecionado
@@ -626,18 +775,18 @@ class ServerMonitorGUI:
                 self.load_servers()
                 self.log_message(f"Servidor '{dialog.result['name']}' editado")
         else:
-            messagebox.showerror("Erro", f"Servidor '{server_name}' não encontrado na lista")
+            DarkMessageBox.showerror("Erro", f"Servidor '{server_name}' não encontrado na lista", self.root)
     
     def remove_server_dialog(self):
         """Diálogo para remover servidor"""
         if not self.servers:
-            messagebox.showwarning("Aviso", "Não há servidores para remover")
+            DarkMessageBox.showwarning("Aviso", "Não há servidores para remover", self.root)
             return
         
         # Verificar se há um servidor selecionado na treeview
         selected_item = self.servers_tree.selection()
         if not selected_item:
-            messagebox.showinfo("Seleção Necessária", "Por favor, selecione um servidor na tabela para remover")
+            DarkMessageBox.showinfo("Seleção Necessária", "Por favor, selecione um servidor na tabela para remover", self.root)
             return
         
         # Obter dados do servidor selecionado
@@ -645,7 +794,7 @@ class ServerMonitorGUI:
         server_name = item_values[0]
         
         # Confirmar remoção
-        if messagebox.askyesno("Confirmar Remoção", f"Tem certeza que deseja remover o servidor '{server_name}'?"):
+        if DarkMessageBox.askyesno("Confirmar Remoção", f"Tem certeza que deseja remover o servidor '{server_name}'?", self.root):
             # Encontrar e remover o servidor da lista
             for i, server in enumerate(self.servers):
                 if server['name'] == server_name:
@@ -654,7 +803,7 @@ class ServerMonitorGUI:
                     self.load_servers()
                     self.log_message(f"Servidor '{server_name}' removido")
                     return
-            messagebox.showerror("Erro", f"Servidor '{server_name}' não encontrado na lista")
+            DarkMessageBox.showerror("Erro", f"Servidor '{server_name}' não encontrado na lista", self.root)
     
     def show_config_dialog(self):
         """Mostra diálogo de configurações"""
@@ -666,7 +815,7 @@ class ServerMonitorGUI:
             with open('servers_config.json', 'w', encoding='utf-8') as f:
                 json.dump(self.servers, f, indent=2, ensure_ascii=False)
         except Exception as e:
-            messagebox.showerror("Erro", f"Erro ao salvar configuração: {e}")
+            DarkMessageBox.showerror("Erro", f"Erro ao salvar configuração: {e}", self.root)
     
     def load_servers_config(self):
         """Carrega configuração dos servidores"""
@@ -682,7 +831,7 @@ class ServerMonitorGUI:
             self.log_message("Arquivo servers_config.json não encontrado, usando servidores padrão")
         except Exception as e:
             self.log_message(f"Erro ao carregar configuração: {e}")
-            messagebox.showerror("Erro", f"Erro ao carregar configuração: {e}")
+            DarkMessageBox.showerror("Erro", f"Erro ao carregar configuração: {e}", self.root)
     
     def log_message(self, message):
         """Adiciona mensagem aos logs da GUI"""
@@ -739,12 +888,22 @@ class ServerMonitorGUI:
             webbrowser.open(url)
             self.log_message(f"Abrindo URL no navegador: {url}")
         except Exception as e:
-            messagebox.showerror("Erro", f"Erro ao abrir URL no navegador: {str(e)}")
+            DarkMessageBox.showerror("Erro", f"Erro ao abrir URL no navegador: {str(e)}", self.root)
+    
+    def on_tree_motion(self, event):
+        """Manipula movimento do mouse sobre o TreeView"""
+        try:
+            # Resetar cursor para padrão
+            self.servers_tree.config(cursor='')
+        except:
+            self.servers_tree.config(cursor='')
     
     def on_server_click(self, event):
         """Manipula clique simples em servidor"""
         # Ajustar largura das colunas automaticamente após clique
         self.root.after(100, self.auto_adjust_columns)
+    
+
     
     def auto_adjust_columns(self):
         """Ajusta automaticamente a largura das colunas baseado no conteúdo"""
@@ -805,9 +964,9 @@ class ServerMonitorGUI:
             self.root.clipboard_clear()
             self.root.clipboard_append(message)
             self.root.update()  # Necessário para atualizar clipboard
-            messagebox.showinfo("Copiado", "Mensagem copiada para a área de transferência!")
+            DarkMessageBox.showinfo("Copiado", "Mensagem copiada para a área de transferência!", self.root)
         except Exception as e:
-            messagebox.showerror("Erro", f"Erro ao copiar mensagem: {str(e)}")
+            DarkMessageBox.showerror("Erro", f"Erro ao copiar mensagem: {str(e)}", self.root)
     
     def on_logs_click(self, event):
         """Manipula clique simples em log"""
@@ -879,44 +1038,55 @@ class ServerDialog:
         self.dialog.grab_set()
         self.dialog.resizable(False, False)
         
+        # Aplicar tema escuro
+        self.dialog.configure(bg='#2b2b2b')
+        
+        # Configurar estilo para o diálogo
+        style = ttk.Style()
+        style.configure('Dialog.TLabel', background='#2b2b2b', foreground='#ffffff')
+        style.configure('Dialog.TEntry', fieldbackground='#3c3c3c', foreground='#ffffff', borderwidth=1)
+        style.configure('Dialog.TFrame', background='#2b2b2b')
+        style.configure('Dialog.TButton', background='#404040', foreground='#ffffff')
+        style.map('Dialog.TButton', background=[('active', '#505050')])
+        
         # Centralizar janela
         self.dialog.geometry("+%d+%d" % (parent.winfo_rootx() + 50, parent.winfo_rooty() + 50))
         
         # Campos
-        ttk.Label(self.dialog, text="Nome do Servidor:").pack(pady=5)
-        self.name_entry = ttk.Entry(self.dialog, width=40)
+        ttk.Label(self.dialog, text="Nome do Servidor:", style='Dialog.TLabel').pack(pady=5)
+        self.name_entry = ttk.Entry(self.dialog, width=40, style='Dialog.TEntry')
         self.name_entry.pack(pady=5)
         
         # Frame para URL com botão de extração
-        url_frame = ttk.Frame(self.dialog)
+        url_frame = ttk.Frame(self.dialog, style='Dialog.TFrame')
         url_frame.pack(pady=5, fill=tk.X, padx=20)
         
-        ttk.Label(url_frame, text="URL (opcional - para extração automática):").pack(anchor=tk.W)
-        url_input_frame = ttk.Frame(url_frame)
+        ttk.Label(url_frame, text="URL (opcional - para extração automática):", style='Dialog.TLabel').pack(anchor=tk.W)
+        url_input_frame = ttk.Frame(url_frame, style='Dialog.TFrame')
         url_input_frame.pack(fill=tk.X, pady=2)
         
-        self.url_entry = ttk.Entry(url_input_frame, width=35)
+        self.url_entry = ttk.Entry(url_input_frame, width=35, style='Dialog.TEntry')
         self.url_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
         
-        extract_btn = ttk.Button(url_input_frame, text="📥 Extrair", command=self.extract_from_url, width=10)
+        extract_btn = ttk.Button(url_input_frame, text="📥 Extrair", command=self.extract_from_url, width=10, style='Dialog.TButton')
         extract_btn.pack(side=tk.RIGHT, padx=(5, 0))
         
-        ttk.Label(self.dialog, text="Host/IP:").pack(pady=5)
-        self.host_entry = ttk.Entry(self.dialog, width=40)
+        ttk.Label(self.dialog, text="Host/IP:", style='Dialog.TLabel').pack(pady=5)
+        self.host_entry = ttk.Entry(self.dialog, width=40, style='Dialog.TEntry')
         self.host_entry.pack(pady=5)
         
-        ttk.Label(self.dialog, text="Porta da Aplicação:").pack(pady=5)
-        self.app_port_entry = ttk.Entry(self.dialog, width=40)
+        ttk.Label(self.dialog, text="Porta da Aplicação:", style='Dialog.TLabel').pack(pady=5)
+        self.app_port_entry = ttk.Entry(self.dialog, width=40, style='Dialog.TEntry')
         self.app_port_entry.insert(0, "8080")
         self.app_port_entry.pack(pady=5)
         
-        ttk.Label(self.dialog, text="Porta de Administração:").pack(pady=5)
-        self.admin_port_entry = ttk.Entry(self.dialog, width=40)
-        self.admin_port_entry.insert(0, "4848")
+        ttk.Label(self.dialog, text="Porta Admin:", style='Dialog.TLabel').pack(pady=5)
+        self.admin_port_entry = ttk.Entry(self.dialog, width=40, style='Dialog.TEntry')
+        self.admin_port_entry.insert(0, "8081")
         self.admin_port_entry.pack(pady=5)
         
-        ttk.Label(self.dialog, text="URL de Health Check (opcional):").pack(pady=5)
-        self.health_url_entry = ttk.Entry(self.dialog, width=40)
+        ttk.Label(self.dialog, text="URL de Health Check (opcional):", style='Dialog.TLabel').pack(pady=5)
+        self.health_url_entry = ttk.Entry(self.dialog, width=40, style='Dialog.TEntry')
         self.health_url_entry.pack(pady=5)
         
         # Se dados do servidor foram fornecidos, pré-carregar os campos
@@ -928,24 +1098,24 @@ class ServerDialog:
             self.app_port_entry.delete(0, tk.END)
             self.app_port_entry.insert(0, str(server_data.get('app_port', 8080)))
             
-            # Limpar e inserir porta de administração
+            # Limpar e inserir porta admin
             self.admin_port_entry.delete(0, tk.END)
-            self.admin_port_entry.insert(0, str(server_data.get('admin_port', 4848)))
+            self.admin_port_entry.insert(0, str(server_data.get('admin_port', 8081)))
             
             self.health_url_entry.insert(0, server_data.get('health_url', ''))
         
         # Botões
-        button_frame = ttk.Frame(self.dialog)
+        button_frame = ttk.Frame(self.dialog, style='Dialog.TFrame')
         button_frame.pack(pady=20, fill=tk.X)
         
         # Centralizar os botões
-        inner_frame = ttk.Frame(button_frame)
+        inner_frame = ttk.Frame(button_frame, style='Dialog.TFrame')
         inner_frame.pack()
         
-        ok_button = ttk.Button(inner_frame, text="Salvar", command=self.ok_clicked, width=12)
+        ok_button = ttk.Button(inner_frame, text="Salvar", command=self.ok_clicked, width=12, style='Dialog.TButton')
         ok_button.pack(side=tk.LEFT, padx=10)
         
-        cancel_button = ttk.Button(inner_frame, text="Cancelar", command=self.cancel_clicked, width=12)
+        cancel_button = ttk.Button(inner_frame, text="Cancelar", command=self.cancel_clicked, width=12, style='Dialog.TButton')
         cancel_button.pack(side=tk.LEFT, padx=10)
         
         # Bind Enter para OK e Escape para Cancelar
@@ -962,14 +1132,13 @@ class ServerDialog:
         """Extrai hostname, porta da aplicação e porta administrativa da URL fornecida"""
         url = self.url_entry.get().strip()
         if not url:
-            messagebox.showwarning("Aviso", "Por favor, insira uma URL para extrair as informações.")
+            DarkMessageBox.showwarning("Aviso", "Por favor, insira uma URL para extrair as informações.", self.parent)
             return
         
         try:
             # Extrair hostname e porta
             hostname = extract_hostname_from_url(url)
             app_port = extract_port_from_url(url)
-            admin_port = detect_admin_port(app_port)
             
             if hostname:
                 # Preencher nome do servidor se estiver vazio
@@ -995,34 +1164,35 @@ class ServerDialog:
                 self.app_port_entry.delete(0, tk.END)
                 self.app_port_entry.insert(0, str(app_port))
                 
-                # Preencher porta administrativa
-                self.admin_port_entry.delete(0, tk.END)
-                self.admin_port_entry.insert(0, str(admin_port))
-                
                 # Preencher URL de health check
                 self.health_url_entry.delete(0, tk.END)
                 self.health_url_entry.insert(0, url)
                 
-                messagebox.showinfo("Sucesso", f"Formulário preenchido automaticamente:\nNome: {self.name_entry.get()}\nHost: {hostname}\nPorta App: {app_port}\nPorta Admin: {admin_port}")
+                DarkMessageBox.showinfo("Sucesso", f"Formulário preenchido automaticamente:\nNome: {self.name_entry.get()}\nHost: {hostname}\nPorta App: {app_port}", self.parent)
             else:
-                messagebox.showerror("Erro", "Não foi possível extrair o hostname da URL fornecida.")
+                DarkMessageBox.showerror("Erro", "Não foi possível extrair o hostname da URL fornecida.", self.parent)
                 
         except Exception as e:
-            messagebox.showerror("Erro", f"Erro ao processar URL: {str(e)}")
+            DarkMessageBox.showerror("Erro", f"Erro ao processar URL: {str(e)}", self.parent)
     
     def ok_clicked(self):
         name = self.name_entry.get().strip()
         host = self.host_entry.get().strip()
         
         if not name or not host:
-            messagebox.showerror("Erro", "Nome e Host são obrigatórios")
+            DarkMessageBox.showerror("Erro", "Nome e Host são obrigatórios", self.parent)
             return
         
         try:
             app_port = int(self.app_port_entry.get())
+        except ValueError:
+            DarkMessageBox.showerror("Erro", "Porta da aplicação deve ser um número", self.parent)
+            return
+        
+        try:
             admin_port = int(self.admin_port_entry.get())
         except ValueError:
-            messagebox.showerror("Erro", "Portas devem ser números")
+            DarkMessageBox.showerror("Erro", "Porta admin deve ser um número", self.parent)
             return
         
         health_url = self.health_url_entry.get().strip()
@@ -1053,62 +1223,78 @@ class ConfigDialog:
         self.dialog.transient(parent)
         self.dialog.grab_set()
         
+        # Aplicar tema escuro
+        self.dialog.configure(bg='#2b2b2b')
+        
+        # Configurar estilo para o diálogo de configurações
+        style = ttk.Style()
+        style.configure('Config.TLabel', background='#2b2b2b', foreground='#ffffff')
+        style.configure('Config.TEntry', fieldbackground='#3c3c3c', foreground='#ffffff', borderwidth=1)
+        style.configure('Config.TFrame', background='#2b2b2b')
+        style.configure('Config.TButton', background='#404040', foreground='#ffffff')
+        style.map('Config.TButton', background=[('active', '#505050')])
+        style.configure('Config.TCheckbutton', background='#2b2b2b', foreground='#ffffff', focuscolor='none')
+        style.map('Config.TCheckbutton', background=[('active', '#2b2b2b')])
+        style.configure('Config.TNotebook', background='#2b2b2b', borderwidth=0)
+        style.configure('Config.TNotebook.Tab', background='#404040', foreground='#ffffff', padding=[12, 8])
+        style.map('Config.TNotebook.Tab', background=[('selected', '#505050'), ('active', '#4a4a4a')])
+        
         # Centralizar janela
         self.dialog.geometry("+%d+%d" % (parent.winfo_rootx() + 50, parent.winfo_rooty() + 50))
         
         # Notebook para abas
-        notebook = ttk.Notebook(self.dialog)
+        notebook = ttk.Notebook(self.dialog, style='Config.TNotebook')
         notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
         
         # Aba Geral
-        general_frame = ttk.Frame(notebook)
+        general_frame = ttk.Frame(notebook, style='Config.TFrame')
         notebook.add(general_frame, text="Geral")
         
-        ttk.Label(general_frame, text="Intervalo de Monitoramento (segundos):").pack(pady=5)
+        ttk.Label(general_frame, text="Intervalo de Monitoramento (segundos):", style='Config.TLabel').pack(pady=5)
         self.interval_var = tk.StringVar(value=str(config['monitor_interval']))
-        ttk.Entry(general_frame, textvariable=self.interval_var, width=20).pack(pady=5)
+        ttk.Entry(general_frame, textvariable=self.interval_var, width=20, style='Config.TEntry').pack(pady=5)
         
-        ttk.Label(general_frame, text="Timeout de Ping (segundos):").pack(pady=5)
+        ttk.Label(general_frame, text="Timeout de Ping (segundos):", style='Config.TLabel').pack(pady=5)
         self.ping_timeout_var = tk.StringVar(value=str(config['ping_timeout']))
-        ttk.Entry(general_frame, textvariable=self.ping_timeout_var, width=20).pack(pady=5)
+        ttk.Entry(general_frame, textvariable=self.ping_timeout_var, width=20, style='Config.TEntry').pack(pady=5)
         
-        ttk.Label(general_frame, text="Timeout HTTP (segundos):").pack(pady=5)
+        ttk.Label(general_frame, text="Timeout HTTP (segundos):", style='Config.TLabel').pack(pady=5)
         self.http_timeout_var = tk.StringVar(value=str(config['http_timeout']))
-        ttk.Entry(general_frame, textvariable=self.http_timeout_var, width=20).pack(pady=5)
+        ttk.Entry(general_frame, textvariable=self.http_timeout_var, width=20, style='Config.TEntry').pack(pady=5)
         
         # Checkboxes
         self.sound_alerts_var = tk.BooleanVar(value=config['sound_alerts'])
-        ttk.Checkbutton(general_frame, text="Alertas Sonoros", variable=self.sound_alerts_var).pack(pady=5)
+        ttk.Checkbutton(general_frame, text="Alertas Sonoros", variable=self.sound_alerts_var, style='Config.TCheckbutton').pack(pady=5)
         
         self.email_alerts_var = tk.BooleanVar(value=config['email_alerts'])
-        ttk.Checkbutton(general_frame, text="Alertas por Email", variable=self.email_alerts_var).pack(pady=5)
+        ttk.Checkbutton(general_frame, text="Alertas por Email", variable=self.email_alerts_var, style='Config.TCheckbutton').pack(pady=5)
         
         # Aba Email
-        email_frame = ttk.Frame(notebook)
+        email_frame = ttk.Frame(notebook, style='Config.TFrame')
         notebook.add(email_frame, text="Email")
         
-        ttk.Label(email_frame, text="Servidor SMTP:").pack(pady=5)
+        ttk.Label(email_frame, text="Servidor SMTP:", style='Config.TLabel').pack(pady=5)
         self.smtp_server_var = tk.StringVar(value=config['smtp_server'])
-        ttk.Entry(email_frame, textvariable=self.smtp_server_var, width=40).pack(pady=5)
+        ttk.Entry(email_frame, textvariable=self.smtp_server_var, width=40, style='Config.TEntry').pack(pady=5)
         
-        ttk.Label(email_frame, text="Porta SMTP:").pack(pady=5)
+        ttk.Label(email_frame, text="Porta SMTP:", style='Config.TLabel').pack(pady=5)
         self.smtp_port_var = tk.StringVar(value=str(config['smtp_port']))
-        ttk.Entry(email_frame, textvariable=self.smtp_port_var, width=20).pack(pady=5)
+        ttk.Entry(email_frame, textvariable=self.smtp_port_var, width=20, style='Config.TEntry').pack(pady=5)
         
-        ttk.Label(email_frame, text="Usuário Email:").pack(pady=5)
+        ttk.Label(email_frame, text="Usuário Email:", style='Config.TLabel').pack(pady=5)
         self.email_user_var = tk.StringVar(value=config['email_user'])
-        ttk.Entry(email_frame, textvariable=self.email_user_var, width=40).pack(pady=5)
+        ttk.Entry(email_frame, textvariable=self.email_user_var, width=40, style='Config.TEntry').pack(pady=5)
         
-        ttk.Label(email_frame, text="Senha Email:").pack(pady=5)
+        ttk.Label(email_frame, text="Senha Email:", style='Config.TLabel').pack(pady=5)
         self.email_password_var = tk.StringVar(value=config['email_password'])
-        ttk.Entry(email_frame, textvariable=self.email_password_var, width=40, show="*").pack(pady=5)
+        ttk.Entry(email_frame, textvariable=self.email_password_var, width=40, show="*", style='Config.TEntry').pack(pady=5)
         
         # Botões
-        button_frame = ttk.Frame(self.dialog)
+        button_frame = ttk.Frame(self.dialog, style='Config.TFrame')
         button_frame.pack(pady=10)
         
-        ttk.Button(button_frame, text="Salvar", command=self.save_config).pack(side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="Cancelar", command=self.dialog.destroy).pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="Salvar", command=self.save_config, style='Config.TButton').pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="Cancelar", command=self.dialog.destroy, style='Config.TButton').pack(side=tk.LEFT, padx=5)
     
     def save_config(self):
         try:
@@ -1122,10 +1308,10 @@ class ConfigDialog:
             self.config['email_user'] = self.email_user_var.get()
             self.config['email_password'] = self.email_password_var.get()
             
-            messagebox.showinfo("Sucesso", "Configurações salvas com sucesso!")
+            DarkMessageBox.showinfo("Sucesso", "Configurações salvas com sucesso!", self.dialog)
             self.dialog.destroy()
         except ValueError as e:
-            messagebox.showerror("Erro", f"Erro nos valores: {e}")
+            DarkMessageBox.showerror("Erro", f"Erro nos valores: {e}", self.dialog)
 
 def main():
     root = tk.Tk()

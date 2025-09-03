@@ -122,54 +122,7 @@ def extract_hostname_from_url(url):
         except Exception:
             return url  # Retorna a URL original em caso de erro
 
-def detect_admin_port(app_port):
-    """
-    Detecta automaticamente a porta administrativa baseada na porta da aplicação.
-    Usa padrões comuns de servidores de aplicação.
-    
-    Args:
-        app_port (int): Porta da aplicação
-    
-    Returns:
-        int: Porta administrativa sugerida
-    """
-    # Mapeamento de portas comuns de aplicação para portas administrativas
-    port_mappings = {
-        8080: 4848,  # GlassFish/Payara padrão
-        8081: 4849,  # GlassFish/Payara alternativo
-        9080: 9060,  # WebSphere
-        7001: 7002,  # WebLogic
-        8000: 8001,  # Genérico
-        3000: 3001,  # Node.js/Express comum
-        5000: 5001,  # Flask/Python comum
-        8090: 8091,  # Tomcat alternativo
-        9090: 9091,  # Jetty comum
-    }
-    
-    # Se existe mapeamento direto, usar
-    if app_port in port_mappings:
-        return port_mappings[app_port]
-    
-    # Padrões baseados em faixas de porta
-    if 8000 <= app_port <= 8099:
-        # Para portas 80xx, usar 48xx (padrão GlassFish)
-        return 4800 + (app_port - 8000)
-    elif 9000 <= app_port <= 9099:
-        # Para portas 90xx, usar 90xx+60 (padrão WebSphere)
-        return app_port + 60
-    elif 7000 <= app_port <= 7099:
-        # Para portas 70xx, usar 70xx+1 (padrão WebLogic)
-        return app_port + 1
-    elif 3000 <= app_port <= 3999:
-        # Para portas 30xx, usar 30xx+1 (padrão Node.js)
-        return app_port + 1
-    elif 5000 <= app_port <= 5999:
-        # Para portas 50xx, usar 50xx+1 (padrão Flask/Python)
-        return app_port + 1
-    else:
-        # Fallback: porta + 1000 ou 4848 se muito alta
-        admin_port = app_port + 1000
-        return 4848 if admin_port > 65535 else admin_port
+
 
 CONFIG = {
     'ping_timeout': 3,
@@ -192,14 +145,12 @@ SERVERS = [
         'name': 'Servidor Local',
         'host': 'localhost',
         'app_port': 8080,
-        'admin_port': 4848,
         'health_url': 'http://localhost:8080/health'
     },
     {
         'name': 'Servidor Produção',
         'host': '192.168.1.100',
         'app_port': 8080,
-        'admin_port': 4848,
         'health_url': 'http://192.168.1.100:8080/health'
     }
 ]
@@ -211,7 +162,7 @@ class ServerMonitor:
         self.monitor_thread = None
         self.server_status = {}
         self.server_logs = {}  # Logs individuais por servidor
-        self.servers = SERVERS.copy()  # Lista de servidores para monitorar
+        self.servers = SERVERS  # Usar servidores da configuração global
         
         # Inicializar logs para cada servidor
         for server in self.servers:
@@ -219,6 +170,8 @@ class ServerMonitor:
         
         # Carregar logs salvos
         self.load_server_logs()
+    
+
         
     def setup_logging(self):
         """Configura o sistema de logs"""
@@ -451,8 +404,6 @@ class ServerMonitor:
         app_port_result = self.check_port(host, server['app_port']) if ping_result['success'] else {'success': False, 'port': server['app_port'], 'status': 'IGNORADO'}
         admin_port_result = self.check_port(host, server['admin_port']) if ping_result['success'] else {'success': False, 'port': server['admin_port'], 'status': 'IGNORADO'}
         
-
-        
         http_result = None
         if ping_result['success'] and app_port_result['success'] and 'health_url' in server:
             http_result = self.check_http(server['health_url'])
@@ -461,8 +412,8 @@ class ServerMonitor:
         if not ping_result['success']:
             status = 'OFFLINE'
             status_icon = '❌'
-        elif not app_port_result['success'] and not admin_port_result['success']:
-            status = 'PORTAS_FECHADAS'
+        elif not app_port_result['success']:
+            status = 'PORTA_FECHADA'
             status_icon = '⚠️'
         elif http_result and not http_result['success']:
             status = 'ERRO_HTTP'
@@ -470,6 +421,8 @@ class ServerMonitor:
         else:
             status = 'ONLINE'
             status_icon = '✅'
+        
+
         
         # Criar resultado
         result = {
@@ -479,7 +432,6 @@ class ServerMonitor:
             'ping': ping_result,
             'app_port': app_port_result,
             'admin_port': admin_port_result,
-
             'http': http_result,
             'status': status,
             'status_icon': status_icon
@@ -489,8 +441,6 @@ class ServerMonitor:
         ping_info = f"{ping_result['response_time']}ms" if ping_result['success'] else ping_result.get('error', 'Failed')
         app_info = f"{app_port_result['response_time']}ms" if app_port_result['success'] else app_port_result.get('status', 'Failed')
         admin_info = f"{admin_port_result['response_time']}ms" if admin_port_result['success'] else admin_port_result.get('status', 'Failed')
-        
-
         
         http_info = ''
         if http_result:
@@ -525,13 +475,13 @@ class ServerMonitor:
         
         # Verificar se precisa de alerta
         previous_status = self.server_status.get(name, {}).get('status')
-        if previous_status and previous_status not in ['OFFLINE', 'PORTAS_FECHADAS', 'ERRO_HTTP'] and status in ['OFFLINE', 'PORTAS_FECHADAS', 'ERRO_HTTP']:
+        if previous_status and previous_status not in ['OFFLINE', 'PORTA_FECHADA', 'ERRO_HTTP'] and status in ['OFFLINE', 'PORTA_FECHADA', 'ERRO_HTTP']:
             # Servidor ficou indisponível
             self.play_alert_sound()
             alert_message = f"ALERTA: Servidor {name} ({host}) ficou indisponível!\nStatus: {status}"
             self.log_server_event(name, 'ALERT', f"Servidor ficou indisponível - Status: {status}", is_error=True)
             self.send_email_alert(f"Servidor {name} Indisponível", alert_message)
-        elif previous_status in ['OFFLINE', 'PORTAS_FECHADAS', 'ERRO_HTTP'] and status == 'ONLINE':
+        elif previous_status in ['OFFLINE', 'PORTA_FECHADA', 'ERRO_HTTP'] and status == 'ONLINE':
             # Servidor voltou a funcionar
             recovery_message = f"RECUPERAÇÃO: Servidor {name} ({host}) voltou a funcionar!\nStatus: {status}"
             self.log_server_event(name, 'RECOVERY', f"Servidor recuperado - Status: {status}", is_error=False)
@@ -568,6 +518,7 @@ class ServerMonitor:
     def monitor_loop(self):
         """Loop principal de monitoramento"""
         self.log_status("=== Iniciando monitoramento de servidores GlassFish ===")
+        cycle_count = 0
         
         while self.monitoring:
             try:
@@ -575,6 +526,8 @@ class ServerMonitor:
                     if not self.monitoring:
                         break
                     self.monitor_server(server)
+                
+                cycle_count += 1
                 
                 if self.monitoring:
                     time.sleep(CONFIG['monitor_interval'])
