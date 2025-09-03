@@ -61,5 +61,19 @@
     "app_port": 80,
     "admin_port": 4848,
     "health_url": "http://147.0.0.130/fuji-ws/"
+  },
+  {
+    "name": "POSTOS-149",
+    "host": "147.1.0.149",
+    "app_port": 9393,
+    "admin_port": 4848,
+    "health_url": "http://147.1.0.149:9393/"
+  },
+  {
+    "name": "POSTOS-61",
+    "host": "147.1.0.61",
+    "app_port": 9393,
+    "admin_port": 4848,
+    "health_url": "http://147.1.0.61:9393/"
   }
 ]
