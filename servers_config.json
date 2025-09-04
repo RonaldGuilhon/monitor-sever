@@ -75,5 +75,12 @@
     "app_port": 9393,
     "admin_port": 4848,
     "health_url": "http://147.1.0.61:9393/"
+  },
+  {
+    "name": "CASCI",
+    "host": "147.1.0.84",
+    "app_port": 80,
+    "admin_port": 8081,
+    "health_url": "http://147.1.0.84/casci/#/login"
   }
 ]
