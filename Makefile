@@ -1,7 +1,7 @@
 # Server Monitor - Makefile
 # This Makefile provides convenient commands for development and deployment tasks
 
-.PHONY: help install install-dev setup clean test lint format build run run-console run-gui docker-build docker-run
+.PHONY: help install install-dev setup clean test lint format build run run-console run-gui
 
 # Default target
 help:
@@ -26,10 +26,6 @@ help:
 	@echo "Building:"
 	@echo "  make build        - Build executable with PyInstaller"
 	@echo "  make build-onefile - Build single executable file"
-	@echo ""
-	@echo "Docker:"
-	@echo "  make docker-build - Build Docker image"
-	@echo "  make docker-run   - Run Docker container"
 	@echo ""
 
 # Setup virtual environment
@@ -128,19 +124,6 @@ build-onefile:
 		--hidden-import="ping3" \
 		run.py
 	@echo "Build complete! Executable is dist/ServerMonitor.exe"
-
-# Docker commands
-docker-build:
-	@echo "Building Docker image..."
-	docker build -t server-monitor .
-
-docker-run:
-	@echo "Running Docker container..."
-	docker run -it --rm \
-		-v $(PWD)/config:/app/config \
-		-v $(PWD)/data:/app/data \
-		-v $(PWD)/logs:/app/logs \
-		server-monitor
 
 # Install package in development mode
 install-package:

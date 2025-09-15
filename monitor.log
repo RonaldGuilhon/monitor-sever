@@ -83838,3 +83838,1253 @@
 2025-09-12 19:48:37,579 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 39.8ms | App: 7.1ms | Admin: FECHADA | HTTP: 200 (0.11s)
 2025-09-12 19:48:37,579 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
 2025-09-12 19:48:58,079 - INFO - Monitoramento parado
+2025-09-15 17:09:12,619 - INFO - Logs carregados de server_logs.json
+2025-09-15 17:09:17,182 - INFO - === Iniciando monitoramento de servidores GlassFish ===
+2025-09-15 17:09:17,413 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 47.2ms | App: 17.4ms | Admin: 25.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:09:17,414 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 47.2ms | App: 17.4ms | Admin: 25.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:09:17,564 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 56.3ms | App: 4.7ms | Admin: 4.1ms | HTTP: 200 (0.07s)
+2025-09-15 17:09:17,564 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 56.3ms | App: 4.7ms | Admin: 4.1ms | HTTP: 200 (0.07s)
+2025-09-15 17:09:17,731 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 32.1ms | App: 14.5ms | Admin: 6.0ms | HTTP: 200 (0.11s)
+2025-09-15 17:09:17,731 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 32.1ms | App: 14.5ms | Admin: 6.0ms | HTTP: 200 (0.11s)
+2025-09-15 17:09:17,868 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 41.4ms | App: 8.6ms | Admin: 10.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:09:17,868 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 41.4ms | App: 8.6ms | Admin: 10.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:09:20,008 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 27.4ms | App: 20.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:09:20,008 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 27.4ms | App: 20.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:09:20,157 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:09:20,287 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:09:22,621 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 26.4ms | App: 13.9ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:09:22,621 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 26.4ms | App: 13.9ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:09:22,621 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:09:22,942 - INFO - ✅ NRE (147.1.0.41) - Ping: 33.3ms | App: 4.7ms | Admin: 4.5ms | HTTP: 200 (0.04s)
+2025-09-15 17:09:22,943 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 33.3ms | App: 4.7ms | Admin: 4.5ms | HTTP: 200 (0.04s)
+2025-09-15 17:09:25,122 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 46.5ms | App: 5.5ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:09:25,123 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 46.5ms | App: 5.5ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:09:25,123 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:09:25,367 - INFO - ✅ FUJI (147.0.0.130) - Ping: 42.9ms | App: 4.3ms | Admin: 2.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:09:25,368 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 42.9ms | App: 4.3ms | Admin: 2.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:09:25,414 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 24.4ms | App: 3.3ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:09:25,414 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 24.4ms | App: 3.3ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:09:25,475 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 30.5ms | App: 7.1ms | Admin: 10.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:09:25,476 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 30.5ms | App: 7.1ms | Admin: 10.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:09:27,682 - INFO - ✅ CASCI (147.1.0.84) - Ping: 37.9ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:09:27,682 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 37.9ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:09:27,683 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:09:58,113 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 114.5ms | App: 21.2ms | Admin: 2.8ms | HTTP: 200 (0.09s)
+2025-09-15 17:09:58,113 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 114.5ms | App: 21.2ms | Admin: 2.8ms | HTTP: 200 (0.09s)
+2025-09-15 17:09:58,233 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 31.1ms | App: 9.2ms | Admin: 4.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:09:58,234 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 31.1ms | App: 9.2ms | Admin: 4.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:09:58,399 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 33.4ms | App: 22.3ms | Admin: 2.7ms | HTTP: 200 (0.10s)
+2025-09-15 17:09:58,399 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 33.4ms | App: 22.3ms | Admin: 2.7ms | HTTP: 200 (0.10s)
+2025-09-15 17:09:58,501 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 34.1ms | App: 5.4ms | Admin: 4.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:09:58,502 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 34.1ms | App: 5.4ms | Admin: 4.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:10:00,620 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 31.0ms | App: 3.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:10:00,623 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 31.0ms | App: 3.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:10:00,816 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:10:00,991 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:10:03,426 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 31.9ms | App: 19.1ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:10:03,474 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 31.9ms | App: 19.1ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:10:03,498 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:10:03,850 - INFO - ✅ NRE (147.1.0.41) - Ping: 33.7ms | App: 3.3ms | Admin: 3.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:10:03,851 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 33.7ms | App: 3.3ms | Admin: 3.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:10:06,062 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 23.7ms | App: 4.7ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:10:06,064 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 23.7ms | App: 4.7ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:10:06,065 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:10:06,332 - INFO - ✅ FUJI (147.0.0.130) - Ping: 30.2ms | App: 11.5ms | Admin: 6.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:10:06,333 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 30.2ms | App: 11.5ms | Admin: 6.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:10:06,427 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 39.4ms | App: 15.0ms | Admin: 7.4ms | HTTP: 200 (0.03s)
+2025-09-15 17:10:06,428 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 39.4ms | App: 15.0ms | Admin: 7.4ms | HTTP: 200 (0.03s)
+2025-09-15 17:10:06,495 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 29.1ms | App: 17.8ms | Admin: 5.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:10:06,496 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 29.1ms | App: 17.8ms | Admin: 5.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:10:08,777 - INFO - ✅ CASCI (147.1.0.84) - Ping: 39.1ms | App: 3.2ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:10:08,778 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 39.1ms | App: 3.2ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:10:08,779 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:10:39,241 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 130.1ms | App: 3.8ms | Admin: 3.9ms | HTTP: 200 (0.08s)
+2025-09-15 17:10:39,241 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 130.1ms | App: 3.8ms | Admin: 3.9ms | HTTP: 200 (0.08s)
+2025-09-15 17:10:39,396 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 41.5ms | App: 37.2ms | Admin: 20.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:10:39,397 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 41.5ms | App: 37.2ms | Admin: 20.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:10:39,539 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 25.3ms | App: 27.9ms | Admin: 6.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:10:39,539 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 25.3ms | App: 27.9ms | Admin: 6.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:10:39,695 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 53.4ms | App: 7.3ms | Admin: 5.6ms | HTTP: 200 (0.09s)
+2025-09-15 17:10:39,695 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 53.4ms | App: 7.3ms | Admin: 5.6ms | HTTP: 200 (0.09s)
+2025-09-15 17:10:41,805 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 39.0ms | App: 3.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:10:41,805 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 39.0ms | App: 3.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:10:41,964 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:10:42,084 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:10:44,485 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 30.9ms | App: 22.1ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:10:44,485 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 30.9ms | App: 22.1ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:10:44,485 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:10:44,826 - INFO - ✅ NRE (147.1.0.41) - Ping: 27.2ms | App: 4.8ms | Admin: 24.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:10:44,826 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 27.2ms | App: 4.8ms | Admin: 24.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:10:46,973 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 44.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:10:46,973 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 44.6ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:10:46,973 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:10:47,214 - INFO - ✅ FUJI (147.0.0.130) - Ping: 30.8ms | App: 26.6ms | Admin: 3.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:10:47,214 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 30.8ms | App: 26.6ms | Admin: 3.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:10:47,291 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 37.3ms | App: 3.6ms | Admin: 4.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:10:47,291 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 37.3ms | App: 3.6ms | Admin: 4.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:10:47,339 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 25.8ms | App: 2.1ms | Admin: 3.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:10:47,340 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 25.8ms | App: 2.1ms | Admin: 3.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:10:49,534 - INFO - ✅ CASCI (147.1.0.84) - Ping: 38.6ms | App: 7.6ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:10:49,534 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 38.6ms | App: 7.6ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:10:49,535 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:11:19,879 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 31.0ms | App: 23.6ms | Admin: 3.6ms | HTTP: 200 (0.11s)
+2025-09-15 17:11:19,906 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 31.0ms | App: 23.6ms | Admin: 3.6ms | HTTP: 200 (0.11s)
+2025-09-15 17:11:20,170 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 98.9ms | App: 3.6ms | Admin: 3.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:11:20,171 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 98.9ms | App: 3.6ms | Admin: 3.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:11:20,307 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 44.0ms | App: 3.6ms | Admin: 2.4ms | HTTP: 200 (0.08s)
+2025-09-15 17:11:20,308 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 44.0ms | App: 3.6ms | Admin: 2.4ms | HTTP: 200 (0.08s)
+2025-09-15 17:11:20,473 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 66.9ms | App: 25.0ms | Admin: 5.3ms | HTTP: 200 (0.07s)
+2025-09-15 17:11:20,473 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 66.9ms | App: 25.0ms | Admin: 5.3ms | HTTP: 200 (0.07s)
+2025-09-15 17:11:22,610 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 20.0ms | App: 3.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:11:22,612 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 20.0ms | App: 3.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:11:23,059 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:11:23,227 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:11:25,635 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 37.5ms | App: 10.2ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:11:25,643 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 37.5ms | App: 10.2ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:11:25,663 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:11:26,126 - INFO - ✅ NRE (147.1.0.41) - Ping: 29.8ms | App: 12.0ms | Admin: 26.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:11:26,126 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 29.8ms | App: 12.0ms | Admin: 26.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:11:28,383 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 36.1ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:11:28,383 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 36.1ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:11:28,396 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:11:28,954 - INFO - ✅ FUJI (147.0.0.130) - Ping: 39.2ms | App: 7.6ms | Admin: 6.0ms | HTTP: 200 (0.07s)
+2025-09-15 17:11:28,999 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 39.2ms | App: 7.6ms | Admin: 6.0ms | HTTP: 200 (0.07s)
+2025-09-15 17:11:29,253 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 93.5ms | App: 2.4ms | Admin: 4.1ms | HTTP: 200 (0.04s)
+2025-09-15 17:11:29,253 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 93.5ms | App: 2.4ms | Admin: 4.1ms | HTTP: 200 (0.04s)
+2025-09-15 17:11:29,338 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 33.1ms | App: 26.4ms | Admin: 14.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:11:29,338 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 33.1ms | App: 26.4ms | Admin: 14.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:11:31,645 - INFO - ✅ CASCI (147.1.0.84) - Ping: 37.2ms | App: 14.7ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:11:31,646 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 37.2ms | App: 14.7ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:11:31,647 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:12:01,931 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 32.2ms | App: 11.5ms | Admin: 13.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:12:01,931 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 32.2ms | App: 11.5ms | Admin: 13.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:12:02,044 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 43.8ms | App: 3.9ms | Admin: 2.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:12:02,045 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 43.8ms | App: 3.9ms | Admin: 2.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:12:02,225 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 49.4ms | App: 5.9ms | Admin: 11.6ms | HTTP: 200 (0.11s)
+2025-09-15 17:12:02,226 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 49.4ms | App: 5.9ms | Admin: 11.6ms | HTTP: 200 (0.11s)
+2025-09-15 17:12:02,378 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 51.5ms | App: 27.3ms | Admin: 16.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:12:02,379 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 51.5ms | App: 27.3ms | Admin: 16.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:12:04,470 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 29.1ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:12:04,471 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 29.1ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:12:04,612 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:12:04,726 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:12:07,041 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 27.3ms | App: 21.5ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:12:07,041 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 27.3ms | App: 21.5ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:12:07,042 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:12:07,378 - INFO - ✅ NRE (147.1.0.41) - Ping: 28.5ms | App: 19.7ms | Admin: 15.0ms | HTTP: 200 (0.05s)
+2025-09-15 17:12:07,378 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 28.5ms | App: 19.7ms | Admin: 15.0ms | HTTP: 200 (0.05s)
+2025-09-15 17:12:09,516 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 33.0ms | App: 3.5ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:12:09,516 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 33.0ms | App: 3.5ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:12:09,517 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:12:09,776 - INFO - ✅ FUJI (147.0.0.130) - Ping: 26.6ms | App: 24.1ms | Admin: 23.7ms | HTTP: 200 (0.03s)
+2025-09-15 17:12:09,776 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 26.6ms | App: 24.1ms | Admin: 23.7ms | HTTP: 200 (0.03s)
+2025-09-15 17:12:09,842 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 32.8ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.02s)
+2025-09-15 17:12:09,844 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 32.8ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.02s)
+2025-09-15 17:12:09,948 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 40.0ms | App: 24.0ms | Admin: 8.7ms | HTTP: 200 (0.03s)
+2025-09-15 17:12:09,948 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 40.0ms | App: 24.0ms | Admin: 8.7ms | HTTP: 200 (0.03s)
+2025-09-15 17:12:12,104 - INFO - ✅ CASCI (147.1.0.84) - Ping: 27.9ms | App: 4.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:12:12,104 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 27.9ms | App: 4.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:12:12,105 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:12:42,427 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 47.4ms | App: 27.9ms | Admin: 2.7ms | HTTP: 200 (0.08s)
+2025-09-15 17:12:42,427 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 47.4ms | App: 27.9ms | Admin: 2.7ms | HTTP: 200 (0.08s)
+2025-09-15 17:12:42,551 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 32.7ms | App: 2.5ms | Admin: 2.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:12:42,551 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 32.7ms | App: 2.5ms | Admin: 2.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:12:42,696 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 30.3ms | App: 17.2ms | Admin: 4.7ms | HTTP: 200 (0.09s)
+2025-09-15 17:12:42,697 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 30.3ms | App: 17.2ms | Admin: 4.7ms | HTTP: 200 (0.09s)
+2025-09-15 17:12:42,817 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 40.4ms | App: 3.0ms | Admin: 3.8ms | HTTP: 200 (0.07s)
+2025-09-15 17:12:42,817 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 40.4ms | App: 3.0ms | Admin: 3.8ms | HTTP: 200 (0.07s)
+2025-09-15 17:12:44,939 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 29.6ms | App: 4.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:12:44,940 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 29.6ms | App: 4.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:12:45,067 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:12:45,192 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:12:47,512 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 23.7ms | App: 21.5ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:12:47,512 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 23.7ms | App: 21.5ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:12:47,512 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:12:47,827 - INFO - ✅ NRE (147.1.0.41) - Ping: 27.9ms | App: 4.8ms | Admin: 3.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:12:47,827 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 27.9ms | App: 4.8ms | Admin: 3.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:12:50,005 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 38.0ms | App: 27.7ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:12:50,006 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 38.0ms | App: 27.7ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:12:50,006 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:12:50,218 - INFO - ✅ FUJI (147.0.0.130) - Ping: 25.3ms | App: 2.8ms | Admin: 21.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:12:50,218 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 25.3ms | App: 2.8ms | Admin: 21.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:12:50,289 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 32.2ms | App: 3.5ms | Admin: 19.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:12:50,294 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 32.2ms | App: 3.5ms | Admin: 19.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:12:50,370 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 41.9ms | App: 2.3ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:12:50,370 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 41.9ms | App: 2.3ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:12:52,576 - INFO - ✅ CASCI (147.1.0.84) - Ping: 52.6ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:12:52,577 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 52.6ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:12:52,577 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:13:23,020 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 96.7ms | App: 42.8ms | Admin: 28.7ms | HTTP: 200 (0.11s)
+2025-09-15 17:13:23,022 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 96.7ms | App: 42.8ms | Admin: 28.7ms | HTTP: 200 (0.11s)
+2025-09-15 17:13:23,197 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 54.1ms | App: 23.5ms | Admin: 9.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:13:23,198 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 54.1ms | App: 23.5ms | Admin: 9.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:13:23,369 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 59.7ms | App: 17.5ms | Admin: 13.3ms | HTTP: 200 (0.08s)
+2025-09-15 17:13:23,370 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 59.7ms | App: 17.5ms | Admin: 13.3ms | HTTP: 200 (0.08s)
+2025-09-15 17:13:23,484 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 46.3ms | App: 4.2ms | Admin: 2.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:13:23,485 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 46.3ms | App: 4.2ms | Admin: 2.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:13:25,590 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 34.3ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:13:25,594 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 34.3ms | App: 2.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:13:25,794 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:13:25,926 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:13:28,368 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 33.6ms | App: 4.7ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:13:28,369 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 33.6ms | App: 4.7ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:13:28,371 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:13:28,760 - INFO - ✅ NRE (147.1.0.41) - Ping: 30.8ms | App: 4.5ms | Admin: 4.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:13:28,760 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 30.8ms | App: 4.5ms | Admin: 4.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:13:30,915 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 33.6ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:13:30,917 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 33.6ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:13:30,922 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:13:31,198 - INFO - ✅ FUJI (147.0.0.130) - Ping: 26.8ms | App: 2.6ms | Admin: 9.2ms | HTTP: 200 (0.02s)
+2025-09-15 17:13:31,199 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 26.8ms | App: 2.6ms | Admin: 9.2ms | HTTP: 200 (0.02s)
+2025-09-15 17:13:31,352 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 69.0ms | App: 34.8ms | Admin: 15.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:13:31,352 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 69.0ms | App: 34.8ms | Admin: 15.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:13:31,455 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 68.0ms | App: 5.2ms | Admin: 7.9ms | HTTP: 200 (0.02s)
+2025-09-15 17:13:31,456 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 68.0ms | App: 5.2ms | Admin: 7.9ms | HTTP: 200 (0.02s)
+2025-09-15 17:13:33,655 - INFO - ✅ CASCI (147.1.0.84) - Ping: 51.1ms | App: 4.0ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:13:33,656 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 51.1ms | App: 4.0ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:13:33,659 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:14:04,508 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 36.0ms | App: 8.6ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:14:04,508 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 36.0ms | App: 8.6ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:14:04,643 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 54.7ms | App: 3.6ms | Admin: 5.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:04,644 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 54.7ms | App: 3.6ms | Admin: 5.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:04,788 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 50.2ms | App: 3.1ms | Admin: 15.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:04,788 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 50.2ms | App: 3.1ms | Admin: 15.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:04,969 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 67.8ms | App: 20.0ms | Admin: 8.1ms | HTTP: 200 (0.08s)
+2025-09-15 17:14:04,969 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 67.8ms | App: 20.0ms | Admin: 8.1ms | HTTP: 200 (0.08s)
+2025-09-15 17:14:07,184 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 46.8ms | App: 12.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:14:07,184 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 46.8ms | App: 12.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:14:07,341 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:14:07,476 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:14:09,805 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 34.5ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:14:09,806 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 34.5ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:14:09,806 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:14:10,126 - INFO - ✅ NRE (147.1.0.41) - Ping: 32.9ms | App: 4.7ms | Admin: 3.5ms | HTTP: 200 (0.05s)
+2025-09-15 17:14:10,126 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 32.9ms | App: 4.7ms | Admin: 3.5ms | HTTP: 200 (0.05s)
+2025-09-15 17:14:12,321 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 99.9ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:14:12,321 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 99.9ms | App: 2.1ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:14:12,321 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:14:12,559 - INFO - ✅ FUJI (147.0.0.130) - Ping: 36.2ms | App: 26.4ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:14:12,560 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 36.2ms | App: 26.4ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:14:12,647 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 40.7ms | App: 22.7ms | Admin: 13.1ms | HTTP: 200 (0.01s)
+2025-09-15 17:14:12,647 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 40.7ms | App: 22.7ms | Admin: 13.1ms | HTTP: 200 (0.01s)
+2025-09-15 17:14:12,754 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 48.7ms | App: 4.3ms | Admin: 20.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:14:12,755 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 48.7ms | App: 4.3ms | Admin: 20.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:14:14,919 - INFO - ✅ CASCI (147.1.0.84) - Ping: 29.2ms | App: 14.1ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:14:14,919 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 29.2ms | App: 14.1ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:14:14,919 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:14:45,189 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 25.0ms | App: 3.2ms | Admin: 34.7ms | HTTP: 200 (0.05s)
+2025-09-15 17:14:45,189 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 25.0ms | App: 3.2ms | Admin: 34.7ms | HTTP: 200 (0.05s)
+2025-09-15 17:14:45,314 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 39.8ms | App: 15.5ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:14:45,314 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 39.8ms | App: 15.5ms | Admin: 2.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:14:45,453 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 30.4ms | App: 27.1ms | Admin: 5.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:45,454 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 30.4ms | App: 27.1ms | Admin: 5.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:45,613 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 55.7ms | App: 20.7ms | Admin: 15.0ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:45,613 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 55.7ms | App: 20.7ms | Admin: 15.0ms | HTTP: 200 (0.07s)
+2025-09-15 17:14:47,735 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 33.5ms | App: 14.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:14:47,736 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 33.5ms | App: 14.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:14:47,887 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:14:48,012 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:14:50,342 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 31.0ms | App: 18.6ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:14:50,342 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 31.0ms | App: 18.6ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:14:50,342 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:14:50,652 - INFO - ✅ NRE (147.1.0.41) - Ping: 34.5ms | App: 6.7ms | Admin: 7.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:14:50,652 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 34.5ms | App: 6.7ms | Admin: 7.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:14:52,765 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 30.6ms | App: 3.5ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:14:52,768 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 30.6ms | App: 3.5ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:14:52,769 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:14:53,202 - INFO - ✅ FUJI (147.0.0.130) - Ping: 41.4ms | App: 6.9ms | Admin: 12.3ms | HTTP: 200 (0.02s)
+2025-09-15 17:14:53,203 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 41.4ms | App: 6.9ms | Admin: 12.3ms | HTTP: 200 (0.02s)
+2025-09-15 17:14:53,324 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 64.5ms | App: 12.4ms | Admin: 11.2ms | HTTP: 200 (0.03s)
+2025-09-15 17:14:53,325 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 64.5ms | App: 12.4ms | Admin: 11.2ms | HTTP: 200 (0.03s)
+2025-09-15 17:14:53,407 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 55.5ms | App: 2.5ms | Admin: 7.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:14:53,408 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 55.5ms | App: 2.5ms | Admin: 7.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:14:55,587 - INFO - ✅ CASCI (147.1.0.84) - Ping: 66.8ms | App: 3.1ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:14:55,587 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 66.8ms | App: 3.1ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:14:55,588 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:15:25,791 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 27.0ms | App: 5.9ms | Admin: 12.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:15:25,791 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 27.0ms | App: 5.9ms | Admin: 12.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:15:25,907 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 39.5ms | App: 2.3ms | Admin: 11.4ms | HTTP: 200 (0.06s)
+2025-09-15 17:15:25,907 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 39.5ms | App: 2.3ms | Admin: 11.4ms | HTTP: 200 (0.06s)
+2025-09-15 17:15:26,057 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 26.6ms | App: 4.2ms | Admin: 20.8ms | HTTP: 200 (0.10s)
+2025-09-15 17:15:26,057 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 26.6ms | App: 4.2ms | Admin: 20.8ms | HTTP: 200 (0.10s)
+2025-09-15 17:15:26,174 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 34.2ms | App: 13.8ms | Admin: 6.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:15:26,174 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 34.2ms | App: 13.8ms | Admin: 6.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:15:28,267 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 38.2ms | App: 4.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:15:28,268 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 38.2ms | App: 4.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:15:28,420 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:15:28,546 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:15:30,863 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 24.7ms | App: 26.8ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:15:30,863 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 24.7ms | App: 26.8ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:15:30,864 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:15:31,215 - INFO - ✅ NRE (147.1.0.41) - Ping: 27.5ms | App: 10.4ms | Admin: 8.9ms | HTTP: 200 (0.07s)
+2025-09-15 17:15:31,216 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 27.5ms | App: 10.4ms | Admin: 8.9ms | HTTP: 200 (0.07s)
+2025-09-15 17:15:33,364 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 37.6ms | App: 12.2ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:15:33,364 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 37.6ms | App: 12.2ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:15:33,365 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:15:33,587 - INFO - ✅ FUJI (147.0.0.130) - Ping: 27.2ms | App: 6.4ms | Admin: 3.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:15:33,588 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 27.2ms | App: 6.4ms | Admin: 3.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:15:33,661 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 44.5ms | App: 3.3ms | Admin: 5.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:15:33,661 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 44.5ms | App: 3.3ms | Admin: 5.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:15:33,762 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 42.5ms | App: 13.0ms | Admin: 29.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:15:33,762 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 42.5ms | App: 13.0ms | Admin: 29.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:15:35,916 - INFO - ✅ CASCI (147.1.0.84) - Ping: 26.0ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:15:35,917 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 26.0ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:15:35,917 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:16:06,307 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 21.8ms | App: 4.2ms | Admin: 4.2ms | HTTP: 200 (0.05s)
+2025-09-15 17:16:06,308 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 21.8ms | App: 4.2ms | Admin: 4.2ms | HTTP: 200 (0.05s)
+2025-09-15 17:16:06,432 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 38.9ms | App: 12.1ms | Admin: 8.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:06,432 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 38.9ms | App: 12.1ms | Admin: 8.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:06,542 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 26.4ms | App: 3.1ms | Admin: 3.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:16:06,543 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 26.4ms | App: 3.1ms | Admin: 3.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:16:06,668 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 59.0ms | App: 2.6ms | Admin: 2.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:06,668 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 59.0ms | App: 2.6ms | Admin: 2.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:08,807 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 44.6ms | App: 5.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:16:08,807 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 44.6ms | App: 5.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:16:08,929 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:16:09,055 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:16:11,406 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 30.0ms | App: 10.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:16:11,407 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 30.0ms | App: 10.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:16:11,407 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:16:11,836 - INFO - ✅ NRE (147.1.0.41) - Ping: 28.1ms | App: 7.4ms | Admin: 2.9ms | HTTP: 200 (0.10s)
+2025-09-15 17:16:11,837 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 28.1ms | App: 7.4ms | Admin: 2.9ms | HTTP: 200 (0.10s)
+2025-09-15 17:16:14,045 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 98.1ms | App: 19.8ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:16:14,045 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 98.1ms | App: 19.8ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:16:14,046 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:16:14,756 - INFO - ✅ FUJI (147.0.0.130) - Ping: 32.9ms | App: 15.3ms | Admin: 2.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:16:14,758 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 32.9ms | App: 15.3ms | Admin: 2.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:16:14,832 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 25.1ms | App: 2.3ms | Admin: 12.6ms | HTTP: 200 (0.03s)
+2025-09-15 17:16:14,851 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 25.1ms | App: 2.3ms | Admin: 12.6ms | HTTP: 200 (0.03s)
+2025-09-15 17:16:14,996 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 52.0ms | App: 23.2ms | Admin: 3.9ms | HTTP: 200 (0.03s)
+2025-09-15 17:16:14,997 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 52.0ms | App: 23.2ms | Admin: 3.9ms | HTTP: 200 (0.03s)
+2025-09-15 17:16:17,272 - INFO - ✅ CASCI (147.1.0.84) - Ping: 53.7ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:16:17,275 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 53.7ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:16:17,276 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:16:47,595 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 22.4ms | App: 19.6ms | Admin: 15.5ms | HTTP: 200 (0.05s)
+2025-09-15 17:16:47,595 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 22.4ms | App: 19.6ms | Admin: 15.5ms | HTTP: 200 (0.05s)
+2025-09-15 17:16:47,704 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 33.6ms | App: 6.1ms | Admin: 4.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:47,704 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 33.6ms | App: 6.1ms | Admin: 4.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:47,818 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 22.1ms | App: 3.3ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:16:47,818 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 22.1ms | App: 3.3ms | Admin: 2.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:16:47,915 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 26.2ms | App: 4.7ms | Admin: 2.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:47,916 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 26.2ms | App: 4.7ms | Admin: 2.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:50,050 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 35.7ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:16:50,050 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 35.7ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:16:50,209 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:16:50,330 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:16:52,612 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 32.6ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:16:52,612 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 32.6ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:16:52,612 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:16:52,933 - INFO - ✅ NRE (147.1.0.41) - Ping: 30.8ms | App: 4.6ms | Admin: 5.3ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:52,933 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 30.8ms | App: 4.6ms | Admin: 5.3ms | HTTP: 200 (0.06s)
+2025-09-15 17:16:55,083 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 34.3ms | App: 5.3ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:16:55,083 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 34.3ms | App: 5.3ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:16:55,084 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:16:55,320 - INFO - ✅ FUJI (147.0.0.130) - Ping: 32.9ms | App: 2.7ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:16:55,321 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 32.9ms | App: 2.7ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:16:55,437 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 96.4ms | App: 6.3ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:16:55,441 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 96.4ms | App: 6.3ms | Admin: 2.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:16:55,583 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 96.1ms | App: 26.6ms | Admin: 5.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:16:55,583 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 96.1ms | App: 26.6ms | Admin: 5.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:16:57,752 - INFO - ✅ CASCI (147.1.0.84) - Ping: 48.2ms | App: 14.6ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:16:57,753 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 48.2ms | App: 14.6ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:16:57,753 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:17:28,011 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 24.4ms | App: 12.9ms | Admin: 14.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:17:28,011 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 24.4ms | App: 12.9ms | Admin: 14.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:17:28,136 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 25.6ms | App: 4.6ms | Admin: 4.9ms | HTTP: 200 (0.09s)
+2025-09-15 17:17:28,136 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 25.6ms | App: 4.6ms | Admin: 4.9ms | HTTP: 200 (0.09s)
+2025-09-15 17:17:28,284 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 29.4ms | App: 22.6ms | Admin: 2.3ms | HTTP: 200 (0.09s)
+2025-09-15 17:17:28,285 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 29.4ms | App: 22.6ms | Admin: 2.3ms | HTTP: 200 (0.09s)
+2025-09-15 17:17:28,650 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 128.8ms | App: 37.9ms | Admin: 44.3ms | HTTP: 200 (0.07s)
+2025-09-15 17:17:28,652 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 128.8ms | App: 37.9ms | Admin: 44.3ms | HTTP: 200 (0.07s)
+2025-09-15 17:17:30,815 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 68.4ms | App: 19.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:17:30,815 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 68.4ms | App: 19.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:17:31,264 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:17:31,460 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:17:33,928 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 34.3ms | App: 23.1ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:17:33,959 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 34.3ms | App: 23.1ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:17:33,968 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:17:34,440 - INFO - ✅ NRE (147.1.0.41) - Ping: 49.0ms | App: 9.8ms | Admin: 12.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:17:34,440 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 49.0ms | App: 9.8ms | Admin: 12.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:17:36,730 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 46.7ms | App: 38.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:17:36,741 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 46.7ms | App: 38.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:17:36,758 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:17:37,091 - INFO - ✅ FUJI (147.0.0.130) - Ping: 34.8ms | App: 9.1ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:17:37,093 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 34.8ms | App: 9.1ms | Admin: 2.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:17:37,220 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 69.2ms | App: 5.5ms | Admin: 27.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:17:37,220 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 69.2ms | App: 5.5ms | Admin: 27.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:17:37,293 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 37.5ms | App: 2.4ms | Admin: 7.3ms | HTTP: 200 (0.02s)
+2025-09-15 17:17:37,296 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 37.5ms | App: 2.4ms | Admin: 7.3ms | HTTP: 200 (0.02s)
+2025-09-15 17:17:39,647 - INFO - ✅ CASCI (147.1.0.84) - Ping: 33.9ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.21s)
+2025-09-15 17:17:39,648 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 33.9ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.21s)
+2025-09-15 17:17:39,649 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:18:09,940 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 23.0ms | App: 24.1ms | Admin: 2.8ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:09,940 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 23.0ms | App: 24.1ms | Admin: 2.8ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:10,060 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 21.0ms | App: 26.0ms | Admin: 3.9ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:10,061 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 21.0ms | App: 26.0ms | Admin: 3.9ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:10,181 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 31.0ms | App: 10.8ms | Admin: 7.4ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:10,181 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 31.0ms | App: 10.8ms | Admin: 7.4ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:10,289 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 36.9ms | App: 5.3ms | Admin: 3.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:18:10,289 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 36.9ms | App: 5.3ms | Admin: 3.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:18:12,408 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 34.2ms | App: 25.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:18:12,408 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 34.2ms | App: 25.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:18:12,674 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:18:12,813 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:18:15,101 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 27.2ms | App: 14.4ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:18:15,102 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 27.2ms | App: 14.4ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:18:15,102 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:18:15,416 - INFO - ✅ NRE (147.1.0.41) - Ping: 25.8ms | App: 5.0ms | Admin: 2.4ms | HTTP: 200 (0.06s)
+2025-09-15 17:18:15,417 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 25.8ms | App: 5.0ms | Admin: 2.4ms | HTTP: 200 (0.06s)
+2025-09-15 17:18:17,525 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 38.0ms | App: 4.6ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:18:17,526 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 38.0ms | App: 4.6ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:18:17,526 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:18:17,795 - INFO - ✅ FUJI (147.0.0.130) - Ping: 37.9ms | App: 5.3ms | Admin: 4.9ms | HTTP: 200 (0.02s)
+2025-09-15 17:18:17,795 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 37.9ms | App: 5.3ms | Admin: 4.9ms | HTTP: 200 (0.02s)
+2025-09-15 17:18:18,020 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 164.7ms | App: 5.3ms | Admin: 24.7ms | HTTP: 200 (0.03s)
+2025-09-15 17:18:18,021 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 164.7ms | App: 5.3ms | Admin: 24.7ms | HTTP: 200 (0.03s)
+2025-09-15 17:18:18,094 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 37.1ms | App: 2.5ms | Admin: 20.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:18:18,094 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 37.1ms | App: 2.5ms | Admin: 20.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:18:20,272 - INFO - ✅ CASCI (147.1.0.84) - Ping: 26.3ms | App: 13.8ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:18:20,272 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 26.3ms | App: 13.8ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:18:20,272 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:18:50,530 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 25.9ms | App: 2.4ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:50,531 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 25.9ms | App: 2.4ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:50,651 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 30.4ms | App: 6.3ms | Admin: 2.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:18:50,651 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 30.4ms | App: 6.3ms | Admin: 2.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:18:50,807 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 30.7ms | App: 23.9ms | Admin: 5.1ms | HTTP: 200 (0.09s)
+2025-09-15 17:18:50,808 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 30.7ms | App: 23.9ms | Admin: 5.1ms | HTTP: 200 (0.09s)
+2025-09-15 17:18:50,962 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 54.3ms | App: 11.9ms | Admin: 15.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:50,963 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 54.3ms | App: 11.9ms | Admin: 15.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:18:53,125 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 40.5ms | App: 26.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:18:53,126 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 40.5ms | App: 26.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:18:53,271 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:18:53,394 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:18:55,774 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.9ms | App: 2.9ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:18:55,774 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.9ms | App: 2.9ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:18:55,774 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:18:56,237 - INFO - ✅ NRE (147.1.0.41) - Ping: 32.5ms | App: 28.7ms | Admin: 30.6ms | HTTP: 200 (0.09s)
+2025-09-15 17:18:56,254 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 32.5ms | App: 28.7ms | Admin: 30.6ms | HTTP: 200 (0.09s)
+2025-09-15 17:18:58,457 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 26.5ms | App: 5.3ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:18:58,458 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 26.5ms | App: 5.3ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:18:58,458 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:18:58,930 - INFO - ✅ FUJI (147.0.0.130) - Ping: 26.8ms | App: 2.8ms | Admin: 11.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:18:58,932 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 26.8ms | App: 2.8ms | Admin: 11.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:18:59,046 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 74.4ms | App: 3.5ms | Admin: 5.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:18:59,048 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 74.4ms | App: 3.5ms | Admin: 5.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:18:59,168 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 62.6ms | App: 25.1ms | Admin: 18.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:18:59,168 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 62.6ms | App: 25.1ms | Admin: 18.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:19:01,493 - INFO - ✅ CASCI (147.1.0.84) - Ping: 56.4ms | App: 7.9ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:19:01,494 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 56.4ms | App: 7.9ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:19:01,496 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:19:31,971 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 43.3ms | App: 32.0ms | Admin: 30.8ms | HTTP: 200 (0.17s)
+2025-09-15 17:19:31,977 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 43.3ms | App: 32.0ms | Admin: 30.8ms | HTTP: 200 (0.17s)
+2025-09-15 17:19:32,083 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 36.7ms | App: 2.8ms | Admin: 3.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:19:32,083 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 36.7ms | App: 2.8ms | Admin: 3.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:19:32,197 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 40.9ms | App: 4.3ms | Admin: 5.0ms | HTTP: 200 (0.05s)
+2025-09-15 17:19:32,198 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 40.9ms | App: 4.3ms | Admin: 5.0ms | HTTP: 200 (0.05s)
+2025-09-15 17:19:32,280 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 26.0ms | App: 2.6ms | Admin: 2.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:19:32,281 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 26.0ms | App: 2.6ms | Admin: 2.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:19:34,392 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 21.4ms | App: 2.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:19:34,394 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 21.4ms | App: 2.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:19:34,507 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:19:34,612 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:19:36,970 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 21.3ms | App: 28.1ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:19:36,971 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 21.3ms | App: 28.1ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:19:36,972 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:19:37,238 - INFO - ✅ NRE (147.1.0.41) - Ping: 21.4ms | App: 3.7ms | Admin: 3.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:19:37,239 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 21.4ms | App: 3.7ms | Admin: 3.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:19:39,362 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 35.5ms | App: 27.1ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:19:39,362 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 35.5ms | App: 27.1ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:19:39,362 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:19:39,529 - INFO - ✅ FUJI (147.0.0.130) - Ping: 18.9ms | App: 3.7ms | Admin: 19.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:19:39,530 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 18.9ms | App: 3.7ms | Admin: 19.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:19:39,589 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 25.6ms | App: 15.6ms | Admin: 5.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:19:39,589 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 25.6ms | App: 15.6ms | Admin: 5.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:19:39,763 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 113.2ms | App: 23.4ms | Admin: 14.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:19:39,763 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 113.2ms | App: 23.4ms | Admin: 14.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:19:41,930 - INFO - ✅ CASCI (147.1.0.84) - Ping: 53.2ms | App: 6.5ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:19:41,930 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 53.2ms | App: 6.5ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:19:41,931 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:20:12,167 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 40.6ms | App: 23.2ms | Admin: 15.0ms | HTTP: 200 (0.06s)
+2025-09-15 17:20:12,167 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 40.6ms | App: 23.2ms | Admin: 15.0ms | HTTP: 200 (0.06s)
+2025-09-15 17:20:12,247 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 19.6ms | App: 3.4ms | Admin: 3.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:20:12,247 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 19.6ms | App: 3.4ms | Admin: 3.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:20:12,369 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 20.2ms | App: 3.3ms | Admin: 19.9ms | HTTP: 200 (0.08s)
+2025-09-15 17:20:12,369 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 20.2ms | App: 3.3ms | Admin: 19.9ms | HTTP: 200 (0.08s)
+2025-09-15 17:20:12,449 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 22.2ms | App: 1.9ms | Admin: 1.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:20:12,450 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 22.2ms | App: 1.9ms | Admin: 1.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:20:14,587 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 24.1ms | App: 2.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:20:14,587 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 24.1ms | App: 2.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:20:14,675 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:20:14,748 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:20:17,066 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.2ms | App: 20.3ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:20:17,067 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.2ms | App: 20.3ms | Admin: FECHADA | HTTP: 200 (0.13s)
+2025-09-15 17:20:17,067 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:20:17,358 - INFO - ✅ NRE (147.1.0.41) - Ping: 19.1ms | App: 2.7ms | Admin: 25.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:20:17,359 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 19.1ms | App: 2.7ms | Admin: 25.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:20:19,505 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 43.5ms | App: 5.1ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:20:19,505 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 43.5ms | App: 5.1ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:20:19,506 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:20:19,652 - INFO - ✅ FUJI (147.0.0.130) - Ping: 20.3ms | App: 2.9ms | Admin: 3.0ms | HTTP: 200 (0.03s)
+2025-09-15 17:20:19,652 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 20.3ms | App: 2.9ms | Admin: 3.0ms | HTTP: 200 (0.03s)
+2025-09-15 17:20:19,703 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 19.9ms | App: 4.4ms | Admin: 3.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:20:19,703 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 19.9ms | App: 4.4ms | Admin: 3.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:20:19,761 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 26.7ms | App: 21.5ms | Admin: 1.8ms | HTTP: 200 (0.01s)
+2025-09-15 17:20:19,762 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 26.7ms | App: 21.5ms | Admin: 1.8ms | HTTP: 200 (0.01s)
+2025-09-15 17:20:21,942 - INFO - ✅ CASCI (147.1.0.84) - Ping: 22.9ms | App: 3.1ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:20:21,943 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 22.9ms | App: 3.1ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:20:21,944 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:20:52,216 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 42.8ms | App: 26.9ms | Admin: 30.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:20:52,216 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 42.8ms | App: 26.9ms | Admin: 30.6ms | HTTP: 200 (0.08s)
+2025-09-15 17:20:52,384 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 24.3ms | App: 3.8ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:20:52,407 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 24.3ms | App: 3.8ms | Admin: 2.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:20:52,583 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 22.1ms | App: 8.6ms | Admin: 24.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:20:52,584 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 22.1ms | App: 8.6ms | Admin: 24.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:20:52,761 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 25.8ms | App: 2.3ms | Admin: 19.0ms | HTTP: 200 (0.13s)
+2025-09-15 17:20:52,761 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 25.8ms | App: 2.3ms | Admin: 19.0ms | HTTP: 200 (0.13s)
+2025-09-15 17:20:54,860 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 22.2ms | App: 3.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:20:54,860 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 22.2ms | App: 3.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:20:54,994 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:20:55,097 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:20:57,358 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 21.8ms | App: 25.9ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:20:57,362 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 21.8ms | App: 25.9ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:20:57,363 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:20:57,672 - INFO - ✅ NRE (147.1.0.41) - Ping: 24.0ms | App: 2.9ms | Admin: 14.0ms | HTTP: 200 (0.06s)
+2025-09-15 17:20:57,673 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 24.0ms | App: 2.9ms | Admin: 14.0ms | HTTP: 200 (0.06s)
+2025-09-15 17:20:59,795 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 32.3ms | App: 15.4ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:20:59,795 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 32.3ms | App: 15.4ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:20:59,795 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:20:59,973 - INFO - ✅ FUJI (147.0.0.130) - Ping: 21.4ms | App: 23.3ms | Admin: 4.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:20:59,974 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 21.4ms | App: 23.3ms | Admin: 4.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:21:00,017 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 25.8ms | App: 4.0ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:21:00,017 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 25.8ms | App: 4.0ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:21:00,079 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 31.0ms | App: 14.3ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:21:00,079 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 31.0ms | App: 14.3ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:21:02,229 - INFO - ✅ CASCI (147.1.0.84) - Ping: 24.9ms | App: 21.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:21:02,229 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 24.9ms | App: 21.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:21:02,229 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:21:32,440 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 38.0ms | App: 20.5ms | Admin: 3.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:21:32,441 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 38.0ms | App: 20.5ms | Admin: 3.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:21:32,547 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 25.4ms | App: 25.7ms | Admin: 3.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:21:32,548 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 25.4ms | App: 25.7ms | Admin: 3.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:21:32,644 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 21.1ms | App: 3.4ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:21:32,644 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 21.1ms | App: 3.4ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:21:32,781 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 22.4ms | App: 25.7ms | Admin: 4.3ms | HTTP: 200 (0.08s)
+2025-09-15 17:21:32,781 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 22.4ms | App: 25.7ms | Admin: 4.3ms | HTTP: 200 (0.08s)
+2025-09-15 17:21:34,938 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 25.0ms | App: 25.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:21:34,938 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 25.0ms | App: 25.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:21:35,018 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:21:35,102 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:21:37,343 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.5ms | App: 23.9ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:21:37,344 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.5ms | App: 23.9ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:21:37,345 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:21:37,591 - INFO - ✅ NRE (147.1.0.41) - Ping: 20.5ms | App: 2.6ms | Admin: 20.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:21:37,592 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 20.5ms | App: 2.6ms | Admin: 20.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:21:39,824 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 39.4ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:21:39,824 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 39.4ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:21:39,824 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:21:40,007 - INFO - ✅ FUJI (147.0.0.130) - Ping: 20.8ms | App: 19.6ms | Admin: 2.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:21:40,007 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 20.8ms | App: 19.6ms | Admin: 2.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:21:40,067 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 25.8ms | App: 4.6ms | Admin: 4.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:21:40,068 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 25.8ms | App: 4.6ms | Admin: 4.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:21:40,126 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 20.9ms | App: 25.5ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:21:40,127 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 20.9ms | App: 25.5ms | Admin: 2.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:21:42,279 - INFO - ✅ CASCI (147.1.0.84) - Ping: 37.1ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:21:42,279 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 37.1ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:21:42,280 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:22:12,569 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 42.4ms | App: 20.4ms | Admin: 4.7ms | HTTP: 200 (0.09s)
+2025-09-15 17:22:12,595 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 42.4ms | App: 20.4ms | Admin: 4.7ms | HTTP: 200 (0.09s)
+2025-09-15 17:22:12,758 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 36.6ms | App: 8.3ms | Admin: 4.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:22:12,760 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 36.6ms | App: 8.3ms | Admin: 4.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:22:12,879 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 24.9ms | App: 17.7ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:12,880 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 24.9ms | App: 17.7ms | Admin: 3.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:12,973 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 20.1ms | App: 2.5ms | Admin: 3.0ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:12,973 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 20.1ms | App: 2.5ms | Admin: 3.0ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:15,109 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 19.7ms | App: 13.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:22:15,109 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 19.7ms | App: 13.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:22:15,221 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:22:15,309 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:22:17,569 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.5ms | App: 24.5ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:22:17,570 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.5ms | App: 24.5ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:22:17,571 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:22:17,854 - INFO - ✅ NRE (147.1.0.41) - Ping: 20.5ms | App: 2.2ms | Admin: 27.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:22:17,855 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 20.5ms | App: 2.2ms | Admin: 27.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:22:19,987 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 37.0ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:22:19,988 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 37.0ms | App: 2.3ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:22:19,989 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:22:20,156 - INFO - ✅ FUJI (147.0.0.130) - Ping: 20.4ms | App: 20.5ms | Admin: 2.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:22:20,157 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 20.4ms | App: 20.5ms | Admin: 2.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:22:20,206 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 33.3ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:22:20,206 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 33.3ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:22:20,249 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 24.1ms | App: 4.5ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:22:20,250 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 24.1ms | App: 4.5ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:22:22,450 - INFO - ✅ CASCI (147.1.0.84) - Ping: 32.8ms | App: 15.5ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:22:22,451 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 32.8ms | App: 15.5ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:22:22,451 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:22:52,627 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 28.2ms | App: 2.8ms | Admin: 2.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:22:52,628 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 28.2ms | App: 2.8ms | Admin: 2.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:22:52,746 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 24.5ms | App: 12.1ms | Admin: 6.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:52,746 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 24.5ms | App: 12.1ms | Admin: 6.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:52,831 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 23.0ms | App: 2.9ms | Admin: 2.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:22:52,832 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 23.0ms | App: 2.9ms | Admin: 2.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:22:52,957 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 25.9ms | App: 24.6ms | Admin: 3.3ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:52,958 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 25.9ms | App: 24.6ms | Admin: 3.3ms | HTTP: 200 (0.07s)
+2025-09-15 17:22:55,084 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 23.7ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:22:55,085 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 23.7ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:22:55,168 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:22:55,244 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:22:57,522 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.2ms | App: 5.8ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:22:57,523 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.2ms | App: 5.8ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:22:57,524 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:22:57,776 - INFO - ✅ NRE (147.1.0.41) - Ping: 21.7ms | App: 27.3ms | Admin: 4.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:22:57,777 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 21.7ms | App: 27.3ms | Admin: 4.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:22:59,932 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 24.2ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:22:59,932 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 24.2ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:22:59,933 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:23:00,134 - INFO - ✅ FUJI (147.0.0.130) - Ping: 19.5ms | App: 23.5ms | Admin: 15.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:23:00,135 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 19.5ms | App: 23.5ms | Admin: 15.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:23:00,229 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 30.1ms | App: 26.5ms | Admin: 3.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:23:00,230 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 30.1ms | App: 26.5ms | Admin: 3.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:23:00,382 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 54.7ms | App: 30.6ms | Admin: 30.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:23:00,383 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 54.7ms | App: 30.6ms | Admin: 30.3ms | HTTP: 200 (0.03s)
+2025-09-15 17:23:02,711 - INFO - ✅ CASCI (147.1.0.84) - Ping: 174.8ms | App: 17.7ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:23:02,712 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 174.8ms | App: 17.7ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:23:02,712 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:23:33,065 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 43.6ms | App: 2.7ms | Admin: 3.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:23:33,065 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 43.6ms | App: 2.7ms | Admin: 3.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:23:33,152 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 19.5ms | App: 2.7ms | Admin: 3.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:23:33,152 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 19.5ms | App: 2.7ms | Admin: 3.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:23:33,305 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 27.6ms | App: 27.2ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-09-15 17:23:33,306 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 27.6ms | App: 27.2ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-09-15 17:23:33,387 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 21.4ms | App: 3.2ms | Admin: 2.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:23:33,387 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 21.4ms | App: 3.2ms | Admin: 2.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:23:35,505 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 21.9ms | App: 4.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:23:35,506 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 21.9ms | App: 4.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:23:35,594 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:23:35,674 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:23:37,978 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 18.7ms | App: 26.8ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:23:37,979 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 18.7ms | App: 26.8ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:23:37,980 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:23:38,193 - INFO - ✅ NRE (147.1.0.41) - Ping: 20.9ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:23:38,193 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 20.9ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:23:40,319 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 33.5ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:23:40,320 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 33.5ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:23:40,320 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:23:40,491 - INFO - ✅ FUJI (147.0.0.130) - Ping: 21.4ms | App: 26.5ms | Admin: 2.2ms | HTTP: 200 (0.03s)
+2025-09-15 17:23:40,492 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 21.4ms | App: 26.5ms | Admin: 2.2ms | HTTP: 200 (0.03s)
+2025-09-15 17:23:40,528 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 22.4ms | App: 2.8ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:23:40,528 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 22.4ms | App: 2.8ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:23:40,566 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 20.2ms | App: 2.2ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:23:40,566 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 20.2ms | App: 2.2ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:23:42,743 - INFO - ✅ CASCI (147.1.0.84) - Ping: 36.1ms | App: 20.0ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:23:42,743 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 36.1ms | App: 20.0ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:23:42,743 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:24:13,019 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 37.6ms | App: 20.5ms | Admin: 6.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:24:13,019 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 37.6ms | App: 20.5ms | Admin: 6.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:24:13,092 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 18.1ms | App: 2.7ms | Admin: 2.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:13,092 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 18.1ms | App: 2.7ms | Admin: 2.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:13,231 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 21.4ms | App: 17.5ms | Admin: 7.3ms | HTTP: 200 (0.09s)
+2025-09-15 17:24:13,231 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 21.4ms | App: 17.5ms | Admin: 7.3ms | HTTP: 200 (0.09s)
+2025-09-15 17:24:13,324 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 23.3ms | App: 16.6ms | Admin: 3.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:13,325 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 23.3ms | App: 16.6ms | Admin: 3.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:15,468 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 19.4ms | App: 18.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:24:15,468 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 19.4ms | App: 18.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:24:17,134 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:24:17,233 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:24:19,540 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 18.7ms | App: 12.9ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:24:19,541 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 18.7ms | App: 12.9ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:24:19,541 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:24:19,829 - INFO - ✅ NRE (147.1.0.41) - Ping: 22.8ms | App: 21.5ms | Admin: 15.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:24:19,829 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 22.8ms | App: 21.5ms | Admin: 15.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:24:22,151 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 52.5ms | App: 15.8ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:24:22,152 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 52.5ms | App: 15.8ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:24:22,152 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:24:22,346 - INFO - ✅ FUJI (147.0.0.130) - Ping: 51.8ms | App: 16.5ms | Admin: 2.7ms | HTTP: 200 (0.04s)
+2025-09-15 17:24:22,347 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 51.8ms | App: 16.5ms | Admin: 2.7ms | HTTP: 200 (0.04s)
+2025-09-15 17:24:22,477 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 65.5ms | App: 2.5ms | Admin: 4.2ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:22,478 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 65.5ms | App: 2.5ms | Admin: 4.2ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:22,721 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 65.7ms | App: 3.9ms | Admin: 15.1ms | HTTP: 200 (0.16s)
+2025-09-15 17:24:22,722 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 65.7ms | App: 3.9ms | Admin: 15.1ms | HTTP: 200 (0.16s)
+2025-09-15 17:24:25,178 - INFO - ✅ CASCI (147.1.0.84) - Ping: 90.9ms | App: 21.7ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:24:25,179 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 90.9ms | App: 21.7ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:24:25,179 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:24:55,427 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 37.4ms | App: 26.8ms | Admin: 2.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:55,428 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 37.4ms | App: 26.8ms | Admin: 2.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:55,510 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 22.3ms | App: 2.8ms | Admin: 4.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:55,510 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 22.3ms | App: 2.8ms | Admin: 4.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:55,605 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 19.2ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:24:55,606 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 19.2ms | App: 2.2ms | Admin: 2.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:24:55,692 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 23.8ms | App: 2.2ms | Admin: 3.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:55,692 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 23.8ms | App: 2.2ms | Admin: 3.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:24:57,858 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 27.4ms | App: 26.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:24:57,859 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 27.4ms | App: 26.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:24:57,950 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:24:58,039 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:25:00,312 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 22.7ms | App: 29.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:25:00,312 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 22.7ms | App: 29.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:25:00,313 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:25:00,568 - INFO - ✅ NRE (147.1.0.41) - Ping: 19.3ms | App: 6.1ms | Admin: 23.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:00,568 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 19.3ms | App: 6.1ms | Admin: 23.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:02,669 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 26.4ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:25:02,670 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 26.4ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:25:02,670 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:25:02,855 - INFO - ✅ FUJI (147.0.0.130) - Ping: 21.5ms | App: 20.8ms | Admin: 2.5ms | HTTP: 200 (0.04s)
+2025-09-15 17:25:02,855 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 21.5ms | App: 20.8ms | Admin: 2.5ms | HTTP: 200 (0.04s)
+2025-09-15 17:25:02,913 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 37.4ms | App: 5.4ms | Admin: 4.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:25:02,917 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 37.4ms | App: 5.4ms | Admin: 4.7ms | HTTP: 200 (0.01s)
+2025-09-15 17:25:03,000 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 40.1ms | App: 21.9ms | Admin: 4.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:25:03,001 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 40.1ms | App: 21.9ms | Admin: 4.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:25:05,153 - INFO - ✅ CASCI (147.1.0.84) - Ping: 49.2ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:25:05,154 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 49.2ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:25:05,154 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:25:35,346 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 31.7ms | App: 15.0ms | Admin: 2.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:25:35,346 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 31.7ms | App: 15.0ms | Admin: 2.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:25:35,442 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 27.6ms | App: 1.9ms | Admin: 7.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:35,442 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 27.6ms | App: 1.9ms | Admin: 7.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:35,590 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 24.1ms | App: 5.5ms | Admin: 5.5ms | HTTP: 200 (0.11s)
+2025-09-15 17:25:35,590 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 24.1ms | App: 5.5ms | Admin: 5.5ms | HTTP: 200 (0.11s)
+2025-09-15 17:25:35,726 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 65.1ms | App: 5.7ms | Admin: 4.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:35,727 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 65.1ms | App: 5.7ms | Admin: 4.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:38,091 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 29.4ms | App: 2.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:25:38,092 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 29.4ms | App: 2.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:25:38,239 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:25:38,489 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:25:41,205 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 39.1ms | App: 25.7ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:25:41,205 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 39.1ms | App: 25.7ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:25:41,205 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:25:41,580 - INFO - ✅ NRE (147.1.0.41) - Ping: 22.6ms | App: 26.3ms | Admin: 47.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:41,581 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 22.6ms | App: 26.3ms | Admin: 47.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:25:43,760 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 62.2ms | App: 9.0ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:25:43,760 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 62.2ms | App: 9.0ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:25:43,760 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:25:43,968 - INFO - ✅ FUJI (147.0.0.130) - Ping: 23.7ms | App: 22.2ms | Admin: 2.2ms | HTTP: 200 (0.04s)
+2025-09-15 17:25:43,969 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 23.7ms | App: 22.2ms | Admin: 2.2ms | HTTP: 200 (0.04s)
+2025-09-15 17:25:44,056 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 65.7ms | App: 3.2ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:25:44,057 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 65.7ms | App: 3.2ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:25:44,130 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 33.3ms | App: 10.6ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:25:44,131 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 33.3ms | App: 10.6ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:25:46,320 - INFO - ✅ CASCI (147.1.0.84) - Ping: 44.3ms | App: 10.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:25:46,320 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 44.3ms | App: 10.3ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:25:46,321 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:26:16,581 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 43.3ms | App: 24.1ms | Admin: 15.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:26:16,582 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 43.3ms | App: 24.1ms | Admin: 15.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:26:16,666 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 22.7ms | App: 3.0ms | Admin: 2.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:26:16,666 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 22.7ms | App: 3.0ms | Admin: 2.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:26:16,817 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 29.5ms | App: 22.4ms | Admin: 3.7ms | HTTP: 200 (0.09s)
+2025-09-15 17:26:16,817 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 29.5ms | App: 22.4ms | Admin: 3.7ms | HTTP: 200 (0.09s)
+2025-09-15 17:26:16,927 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 22.5ms | App: 3.2ms | Admin: 2.7ms | HTTP: 200 (0.08s)
+2025-09-15 17:26:16,927 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 22.5ms | App: 3.2ms | Admin: 2.7ms | HTTP: 200 (0.08s)
+2025-09-15 17:26:19,026 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 26.5ms | App: 2.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:26:19,026 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 26.5ms | App: 2.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:26:19,133 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:26:19,235 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:26:21,491 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.5ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:26:21,491 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.5ms | App: 2.8ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:26:21,492 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:26:21,769 - INFO - ✅ NRE (147.1.0.41) - Ping: 20.3ms | App: 18.6ms | Admin: 4.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:26:21,770 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 20.3ms | App: 18.6ms | Admin: 4.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:26:23,938 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 31.1ms | App: 22.5ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:26:23,938 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 31.1ms | App: 22.5ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:26:23,939 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:26:24,063 - INFO - ✅ FUJI (147.0.0.130) - Ping: 19.8ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-09-15 17:26:24,063 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 19.8ms | App: 2.2ms | Admin: 2.1ms | HTTP: 200 (0.01s)
+2025-09-15 17:26:24,102 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 19.5ms | App: 2.9ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:26:24,103 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 19.5ms | App: 2.9ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:26:24,150 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 23.7ms | App: 3.3ms | Admin: 3.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:26:24,151 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 23.7ms | App: 3.3ms | Admin: 3.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:26:26,345 - INFO - ✅ CASCI (147.1.0.84) - Ping: 34.6ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:26:26,346 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 34.6ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:26:26,346 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:26:56,565 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 31.9ms | App: 2.5ms | Admin: 22.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:26:56,565 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 31.9ms | App: 2.5ms | Admin: 22.5ms | HTTP: 200 (0.07s)
+2025-09-15 17:26:56,665 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 23.0ms | App: 18.2ms | Admin: 4.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:26:56,665 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 23.0ms | App: 18.2ms | Admin: 4.1ms | HTTP: 200 (0.05s)
+2025-09-15 17:26:56,761 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 25.4ms | App: 4.0ms | Admin: 4.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:26:56,761 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 25.4ms | App: 4.0ms | Admin: 4.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:26:56,886 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 18.8ms | App: 24.8ms | Admin: 3.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:26:56,887 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 18.8ms | App: 24.8ms | Admin: 3.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:26:58,980 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 23.4ms | App: 3.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:26:58,980 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 23.4ms | App: 3.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:26:59,067 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:26:59,157 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:27:01,413 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.0ms | App: 24.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:27:01,414 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.0ms | App: 24.5ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:27:01,415 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:27:01,654 - INFO - ✅ NRE (147.1.0.41) - Ping: 20.4ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:27:01,654 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 20.4ms | App: 2.3ms | Admin: 2.9ms | HTTP: 200 (0.05s)
+2025-09-15 17:27:03,811 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 27.8ms | App: 21.6ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:27:03,812 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 27.8ms | App: 21.6ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:27:03,812 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:27:03,955 - INFO - ✅ FUJI (147.0.0.130) - Ping: 20.3ms | App: 3.8ms | Admin: 3.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:27:03,955 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 20.3ms | App: 3.8ms | Admin: 3.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:27:03,992 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 22.8ms | App: 1.8ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:27:03,992 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 22.8ms | App: 1.8ms | Admin: 2.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:27:04,030 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 22.7ms | App: 3.4ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:27:04,031 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 22.7ms | App: 3.4ms | Admin: 3.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:27:06,224 - INFO - ✅ CASCI (147.1.0.84) - Ping: 26.4ms | App: 2.6ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:27:06,225 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 26.4ms | App: 2.6ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:27:06,226 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:27:36,501 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 50.6ms | App: 15.2ms | Admin: 15.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:36,501 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 50.6ms | App: 15.2ms | Admin: 15.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:36,592 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 26.9ms | App: 2.3ms | Admin: 2.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:36,593 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 26.9ms | App: 2.3ms | Admin: 2.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:36,711 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 24.2ms | App: 2.4ms | Admin: 3.2ms | HTTP: 200 (0.09s)
+2025-09-15 17:27:36,711 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 24.2ms | App: 2.4ms | Admin: 3.2ms | HTTP: 200 (0.09s)
+2025-09-15 17:27:36,838 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 31.0ms | App: 21.5ms | Admin: 15.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:36,838 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 31.0ms | App: 21.5ms | Admin: 15.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:39,003 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 31.8ms | App: 4.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:27:39,004 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 31.8ms | App: 4.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:27:39,132 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:27:39,219 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:27:41,528 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 23.1ms | App: 12.2ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:27:41,529 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 23.1ms | App: 12.2ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:27:41,529 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:27:41,842 - INFO - ✅ NRE (147.1.0.41) - Ping: 23.8ms | App: 3.4ms | Admin: 2.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:41,843 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 23.8ms | App: 3.4ms | Admin: 2.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:44,004 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 66.7ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:27:44,006 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 66.7ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:27:44,006 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:27:44,233 - INFO - ✅ FUJI (147.0.0.130) - Ping: 26.0ms | App: 3.9ms | Admin: 7.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:44,233 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 26.0ms | App: 3.9ms | Admin: 7.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:27:44,323 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 32.0ms | App: 13.6ms | Admin: 8.2ms | HTTP: 200 (0.03s)
+2025-09-15 17:27:44,323 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 32.0ms | App: 13.6ms | Admin: 8.2ms | HTTP: 200 (0.03s)
+2025-09-15 17:27:44,415 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 47.0ms | App: 3.0ms | Admin: 5.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:27:44,415 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 47.0ms | App: 3.0ms | Admin: 5.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:27:46,634 - INFO - ✅ CASCI (147.1.0.84) - Ping: 66.1ms | App: 7.4ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:27:46,634 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 66.1ms | App: 7.4ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:27:46,635 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:28:16,963 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 26.0ms | App: 2.4ms | Admin: 2.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:28:16,964 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 26.0ms | App: 2.4ms | Admin: 2.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:28:17,085 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 25.4ms | App: 14.5ms | Admin: 2.9ms | HTTP: 200 (0.08s)
+2025-09-15 17:28:17,086 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 25.4ms | App: 14.5ms | Admin: 2.9ms | HTTP: 200 (0.08s)
+2025-09-15 17:28:17,229 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 60.6ms | App: 2.3ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:28:17,229 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 60.6ms | App: 2.3ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:28:17,379 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 51.7ms | App: 3.7ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-09-15 17:28:17,379 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 51.7ms | App: 3.7ms | Admin: 2.2ms | HTTP: 200 (0.09s)
+2025-09-15 17:28:19,488 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 23.5ms | App: 17.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:28:19,489 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 23.5ms | App: 17.6ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:28:19,582 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:28:19,672 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:28:21,961 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.3ms | App: 3.0ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:28:21,962 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.3ms | App: 3.0ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:28:21,962 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:28:22,339 - INFO - ✅ NRE (147.1.0.41) - Ping: 44.4ms | App: 2.8ms | Admin: 4.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:28:22,339 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 44.4ms | App: 2.8ms | Admin: 4.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:28:24,520 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 42.0ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:28:24,520 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 42.0ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:28:24,520 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:28:24,704 - INFO - ✅ FUJI (147.0.0.130) - Ping: 20.1ms | App: 27.1ms | Admin: 15.4ms | HTTP: 200 (0.03s)
+2025-09-15 17:28:24,705 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 20.1ms | App: 27.1ms | Admin: 15.4ms | HTTP: 200 (0.03s)
+2025-09-15 17:28:24,757 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 32.1ms | App: 2.8ms | Admin: 6.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:28:24,760 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 32.1ms | App: 2.8ms | Admin: 6.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:28:24,847 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 36.3ms | App: 3.0ms | Admin: 27.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:28:24,847 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 36.3ms | App: 3.0ms | Admin: 27.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:28:26,999 - INFO - ✅ CASCI (147.1.0.84) - Ping: 22.4ms | App: 2.5ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:28:27,000 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 22.4ms | App: 2.5ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:28:27,000 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:28:57,218 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 38.8ms | App: 13.6ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:28:57,218 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 38.8ms | App: 13.6ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:28:57,333 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 32.2ms | App: 2.4ms | Admin: 15.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:28:57,333 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 32.2ms | App: 2.4ms | Admin: 15.1ms | HTTP: 200 (0.06s)
+2025-09-15 17:28:57,452 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 24.2ms | App: 15.2ms | Admin: 7.8ms | HTTP: 200 (0.07s)
+2025-09-15 17:28:57,453 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 24.2ms | App: 15.2ms | Admin: 7.8ms | HTTP: 200 (0.07s)
+2025-09-15 17:28:57,542 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 20.4ms | App: 4.4ms | Admin: 3.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:28:57,542 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 20.4ms | App: 4.4ms | Admin: 3.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:28:59,672 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 25.8ms | App: 7.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:28:59,673 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 25.8ms | App: 7.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:28:59,762 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:28:59,843 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:29:02,077 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 19.7ms | App: 15.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:29:02,077 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 19.7ms | App: 15.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:29:02,077 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:29:02,358 - INFO - ✅ NRE (147.1.0.41) - Ping: 26.6ms | App: 2.5ms | Admin: 3.7ms | HTTP: 200 (0.04s)
+2025-09-15 17:29:02,359 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 26.6ms | App: 2.5ms | Admin: 3.7ms | HTTP: 200 (0.04s)
+2025-09-15 17:29:04,499 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 66.0ms | App: 5.0ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:29:04,499 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 66.0ms | App: 5.0ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:29:04,499 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:29:04,669 - INFO - ✅ FUJI (147.0.0.130) - Ping: 22.8ms | App: 2.1ms | Admin: 5.9ms | HTTP: 200 (0.03s)
+2025-09-15 17:29:04,670 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 22.8ms | App: 2.1ms | Admin: 5.9ms | HTTP: 200 (0.03s)
+2025-09-15 17:29:04,752 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 61.1ms | App: 7.7ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:29:04,752 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 61.1ms | App: 7.7ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:29:04,795 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 22.3ms | App: 5.9ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:29:04,795 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 22.3ms | App: 5.9ms | Admin: 2.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:29:06,971 - INFO - ✅ CASCI (147.1.0.84) - Ping: 34.3ms | App: 5.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:29:06,971 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 34.3ms | App: 5.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:29:06,971 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:29:37,201 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 32.8ms | App: 12.5ms | Admin: 2.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:29:37,201 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 32.8ms | App: 12.5ms | Admin: 2.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:29:37,309 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 34.4ms | App: 3.1ms | Admin: 2.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:29:37,310 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 34.4ms | App: 3.1ms | Admin: 2.7ms | HTTP: 200 (0.07s)
+2025-09-15 17:29:37,463 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 22.9ms | App: 2.9ms | Admin: 12.2ms | HTTP: 200 (0.11s)
+2025-09-15 17:29:37,463 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 22.9ms | App: 2.9ms | Admin: 12.2ms | HTTP: 200 (0.11s)
+2025-09-15 17:29:37,585 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 38.4ms | App: 9.1ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:29:37,585 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 38.4ms | App: 9.1ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:29:39,724 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 51.2ms | App: 18.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:29:39,724 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 51.2ms | App: 18.9ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:29:39,893 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:29:40,025 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:29:42,285 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.6ms | App: 3.0ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:29:42,285 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.6ms | App: 3.0ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:29:42,286 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:29:42,583 - INFO - ✅ NRE (147.1.0.41) - Ping: 25.3ms | App: 12.4ms | Admin: 5.4ms | HTTP: 200 (0.04s)
+2025-09-15 17:29:42,584 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 25.3ms | App: 12.4ms | Admin: 5.4ms | HTTP: 200 (0.04s)
+2025-09-15 17:29:44,686 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 38.6ms | App: 10.4ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:29:44,686 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 38.6ms | App: 10.4ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:29:44,686 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:29:44,898 - INFO - ✅ FUJI (147.0.0.130) - Ping: 26.9ms | App: 21.0ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:29:44,898 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 26.9ms | App: 21.0ms | Admin: 2.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:29:44,968 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 32.8ms | App: 3.1ms | Admin: 2.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:29:44,972 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 32.8ms | App: 3.1ms | Admin: 2.8ms | HTTP: 200 (0.03s)
+2025-09-15 17:29:45,131 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 122.9ms | App: 3.2ms | Admin: 18.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:29:45,131 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 122.9ms | App: 3.2ms | Admin: 18.9ms | HTTP: 200 (0.01s)
+2025-09-15 17:29:47,334 - INFO - ✅ CASCI (147.1.0.84) - Ping: 69.6ms | App: 14.2ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:29:47,334 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 69.6ms | App: 14.2ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:29:47,334 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:30:17,619 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 22.0ms | App: 18.2ms | Admin: 14.9ms | HTTP: 200 (0.09s)
+2025-09-15 17:30:17,619 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 22.0ms | App: 18.2ms | Admin: 14.9ms | HTTP: 200 (0.09s)
+2025-09-15 17:30:17,719 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 26.3ms | App: 4.6ms | Admin: 3.3ms | HTTP: 200 (0.06s)
+2025-09-15 17:30:17,720 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 26.3ms | App: 4.6ms | Admin: 3.3ms | HTTP: 200 (0.06s)
+2025-09-15 17:30:17,847 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 55.4ms | App: 4.6ms | Admin: 7.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:30:17,848 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 55.4ms | App: 4.6ms | Admin: 7.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:30:17,991 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 42.4ms | App: 11.4ms | Admin: 4.4ms | HTTP: 200 (0.08s)
+2025-09-15 17:30:17,992 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 42.4ms | App: 11.4ms | Admin: 4.4ms | HTTP: 200 (0.08s)
+2025-09-15 17:30:20,110 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 34.5ms | App: 4.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:30:20,110 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 34.5ms | App: 4.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:30:20,206 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:30:20,306 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:30:22,588 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.8ms | App: 17.4ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:30:22,588 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 20.8ms | App: 17.4ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:30:22,589 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:30:22,943 - INFO - ✅ NRE (147.1.0.41) - Ping: 26.4ms | App: 4.3ms | Admin: 5.6ms | HTTP: 200 (0.09s)
+2025-09-15 17:30:22,954 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 26.4ms | App: 4.3ms | Admin: 5.6ms | HTTP: 200 (0.09s)
+2025-09-15 17:30:25,390 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 122.4ms | App: 40.7ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:30:25,391 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 122.4ms | App: 40.7ms | Admin: FECHADA | HTTP: 200 (0.12s)
+2025-09-15 17:30:25,392 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:30:25,805 - INFO - ✅ FUJI (147.0.0.130) - Ping: 27.7ms | App: 7.2ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:30:25,806 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 27.7ms | App: 7.2ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:30:25,890 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 37.8ms | App: 11.0ms | Admin: 9.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:30:25,891 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 37.8ms | App: 11.0ms | Admin: 9.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:30:25,999 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 58.4ms | App: 5.3ms | Admin: 22.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:30:25,999 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 58.4ms | App: 5.3ms | Admin: 22.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:30:28,335 - INFO - ✅ CASCI (147.1.0.84) - Ping: 26.3ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.17s)
+2025-09-15 17:30:28,336 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 26.3ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.17s)
+2025-09-15 17:30:28,336 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:30:58,643 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 29.6ms | App: 19.0ms | Admin: 16.4ms | HTTP: 200 (0.08s)
+2025-09-15 17:30:58,643 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 29.6ms | App: 19.0ms | Admin: 16.4ms | HTTP: 200 (0.08s)
+2025-09-15 17:30:58,744 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 18.7ms | App: 14.7ms | Admin: 2.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:30:58,745 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 18.7ms | App: 14.7ms | Admin: 2.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:30:58,850 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 22.4ms | App: 3.1ms | Admin: 2.4ms | HTTP: 200 (0.07s)
+2025-09-15 17:30:58,850 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 22.4ms | App: 3.1ms | Admin: 2.4ms | HTTP: 200 (0.07s)
+2025-09-15 17:30:59,055 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 20.6ms | App: 4.1ms | Admin: 18.4ms | HTTP: 200 (0.16s)
+2025-09-15 17:30:59,055 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 20.6ms | App: 4.1ms | Admin: 18.4ms | HTTP: 200 (0.16s)
+2025-09-15 17:31:01,149 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 20.0ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:31:01,150 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 20.0ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:31:01,271 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:31:01,393 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:31:03,680 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 24.1ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:31:03,680 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 24.1ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:31:03,680 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:31:03,994 - INFO - ✅ NRE (147.1.0.41) - Ping: 21.7ms | App: 23.1ms | Admin: 3.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:03,995 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 21.7ms | App: 23.1ms | Admin: 3.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:06,108 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 27.0ms | App: 5.7ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:31:06,108 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 27.0ms | App: 5.7ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:31:06,109 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:31:06,307 - INFO - ✅ FUJI (147.0.0.130) - Ping: 23.0ms | App: 22.6ms | Admin: 2.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:06,308 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 23.0ms | App: 22.6ms | Admin: 2.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:06,400 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 62.6ms | App: 3.5ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:31:06,400 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 62.6ms | App: 3.5ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:31:06,445 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 29.0ms | App: 2.9ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:31:06,446 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 29.0ms | App: 2.9ms | Admin: 3.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:31:08,578 - INFO - ✅ CASCI (147.1.0.84) - Ping: 30.1ms | App: 4.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:31:08,579 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 30.1ms | App: 4.9ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:31:08,579 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:31:38,797 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 21.4ms | App: 17.3ms | Admin: 2.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:31:38,797 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 21.4ms | App: 17.3ms | Admin: 2.4ms | HTTP: 200 (0.05s)
+2025-09-15 17:31:38,928 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 42.4ms | App: 26.2ms | Admin: 3.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:31:38,929 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 42.4ms | App: 26.2ms | Admin: 3.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:31:39,137 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 73.7ms | App: 18.9ms | Admin: 14.7ms | HTTP: 200 (0.10s)
+2025-09-15 17:31:39,138 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 73.7ms | App: 18.9ms | Admin: 14.7ms | HTTP: 200 (0.10s)
+2025-09-15 17:31:39,261 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 59.3ms | App: 2.2ms | Admin: 1.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:31:39,261 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 59.3ms | App: 2.2ms | Admin: 1.8ms | HTTP: 200 (0.06s)
+2025-09-15 17:31:41,425 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 32.6ms | App: 22.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:31:41,425 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 32.6ms | App: 22.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:31:41,552 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:31:41,647 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:31:43,893 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 21.3ms | App: 3.2ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:31:43,893 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 21.3ms | App: 3.2ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:31:43,894 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:31:44,145 - INFO - ✅ NRE (147.1.0.41) - Ping: 21.8ms | App: 26.1ms | Admin: 3.7ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:44,145 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 21.8ms | App: 26.1ms | Admin: 3.7ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:46,347 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 60.1ms | App: 4.4ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:31:46,349 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 60.1ms | App: 4.4ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:31:46,349 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:31:46,587 - INFO - ✅ FUJI (147.0.0.130) - Ping: 26.8ms | App: 2.4ms | Admin: 5.1ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:46,588 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 26.8ms | App: 2.4ms | Admin: 5.1ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:46,707 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 54.3ms | App: 23.5ms | Admin: 3.2ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:46,708 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 54.3ms | App: 23.5ms | Admin: 3.2ms | HTTP: 200 (0.04s)
+2025-09-15 17:31:46,802 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 71.9ms | App: 4.0ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-09-15 17:31:46,802 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 71.9ms | App: 4.0ms | Admin: 2.0ms | HTTP: 200 (0.01s)
+2025-09-15 17:31:49,002 - INFO - ✅ CASCI (147.1.0.84) - Ping: 45.4ms | App: 3.4ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:31:49,002 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 45.4ms | App: 3.4ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:31:49,003 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:32:19,213 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 34.6ms | App: 6.9ms | Admin: 2.4ms | HTTP: 200 (0.06s)
+2025-09-15 17:32:19,213 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 34.6ms | App: 6.9ms | Admin: 2.4ms | HTTP: 200 (0.06s)
+2025-09-15 17:32:19,336 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 43.2ms | App: 3.1ms | Admin: 3.9ms | HTTP: 200 (0.07s)
+2025-09-15 17:32:19,337 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 43.2ms | App: 3.1ms | Admin: 3.9ms | HTTP: 200 (0.07s)
+2025-09-15 17:32:19,527 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 64.3ms | App: 5.1ms | Admin: 20.5ms | HTTP: 200 (0.10s)
+2025-09-15 17:32:19,527 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 64.3ms | App: 5.1ms | Admin: 20.5ms | HTTP: 200 (0.10s)
+2025-09-15 17:32:19,668 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 57.6ms | App: 4.1ms | Admin: 16.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:32:19,669 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 57.6ms | App: 4.1ms | Admin: 16.6ms | HTTP: 200 (0.06s)
+2025-09-15 17:32:21,778 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 23.7ms | App: 21.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:32:21,779 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 23.7ms | App: 21.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:32:21,935 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:32:22,082 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:32:24,452 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 35.3ms | App: 15.8ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:32:24,453 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 35.3ms | App: 15.8ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:32:24,453 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:32:24,809 - INFO - ✅ NRE (147.1.0.41) - Ping: 46.1ms | App: 27.7ms | Admin: 4.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:32:24,809 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 46.1ms | App: 27.7ms | Admin: 4.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:32:26,932 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 22.3ms | App: 19.6ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:32:26,933 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 22.3ms | App: 19.6ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:32:26,933 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:32:27,136 - INFO - ✅ FUJI (147.0.0.130) - Ping: 27.8ms | App: 20.5ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:32:27,136 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 27.8ms | App: 20.5ms | Admin: 3.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:32:27,216 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 38.2ms | App: 20.2ms | Admin: 9.1ms | HTTP: 200 (0.01s)
+2025-09-15 17:32:27,216 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 38.2ms | App: 20.2ms | Admin: 9.1ms | HTTP: 200 (0.01s)
+2025-09-15 17:32:27,314 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 56.5ms | App: 2.9ms | Admin: 16.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:32:27,315 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 56.5ms | App: 2.9ms | Admin: 16.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:32:29,478 - INFO - ✅ CASCI (147.1.0.84) - Ping: 25.2ms | App: 16.6ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:32:29,479 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 25.2ms | App: 16.6ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:32:29,479 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:32:59,785 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 44.2ms | App: 3.2ms | Admin: 3.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:32:59,785 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 44.2ms | App: 3.2ms | Admin: 3.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:32:59,930 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 35.1ms | App: 22.6ms | Admin: 3.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:32:59,930 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 35.1ms | App: 22.6ms | Admin: 3.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:33:00,055 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 47.2ms | App: 4.8ms | Admin: 6.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:00,056 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 47.2ms | App: 4.8ms | Admin: 6.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:00,199 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 63.5ms | App: 4.5ms | Admin: 12.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:00,200 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 63.5ms | App: 4.5ms | Admin: 12.7ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:02,341 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 45.5ms | App: 25.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:33:02,342 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 45.5ms | App: 25.5ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:33:02,594 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:33:02,837 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:33:05,417 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 85.2ms | App: 5.1ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:33:05,418 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 85.2ms | App: 5.1ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:33:05,418 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:33:05,748 - INFO - ✅ NRE (147.1.0.41) - Ping: 28.9ms | App: 2.6ms | Admin: 3.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:33:05,748 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 28.9ms | App: 2.6ms | Admin: 3.3ms | HTTP: 200 (0.05s)
+2025-09-15 17:33:07,858 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 46.3ms | App: 2.9ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:33:07,864 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 46.3ms | App: 2.9ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:33:07,865 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:33:08,445 - INFO - ✅ FUJI (147.0.0.130) - Ping: 49.0ms | App: 3.5ms | Admin: 6.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:08,445 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 49.0ms | App: 3.5ms | Admin: 6.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:08,573 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 92.5ms | App: 9.1ms | Admin: 2.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:08,573 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 92.5ms | App: 9.1ms | Admin: 2.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:08,660 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 51.3ms | App: 10.5ms | Admin: 6.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:33:08,660 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 51.3ms | App: 10.5ms | Admin: 6.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:33:10,865 - INFO - ✅ CASCI (147.1.0.84) - Ping: 69.9ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:33:10,865 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 69.9ms | App: 3.8ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:33:10,865 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:33:41,143 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 68.0ms | App: 4.1ms | Admin: 18.5ms | HTTP: 200 (0.04s)
+2025-09-15 17:33:41,144 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 68.0ms | App: 4.1ms | Admin: 18.5ms | HTTP: 200 (0.04s)
+2025-09-15 17:33:41,299 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 63.7ms | App: 11.2ms | Admin: 3.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:41,300 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 63.7ms | App: 11.2ms | Admin: 3.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:41,440 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 31.2ms | App: 5.2ms | Admin: 5.4ms | HTTP: 200 (0.10s)
+2025-09-15 17:33:41,440 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 31.2ms | App: 5.2ms | Admin: 5.4ms | HTTP: 200 (0.10s)
+2025-09-15 17:33:41,552 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 39.3ms | App: 6.3ms | Admin: 2.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:41,552 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 39.3ms | App: 6.3ms | Admin: 2.9ms | HTTP: 200 (0.06s)
+2025-09-15 17:33:43,681 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 36.1ms | App: 19.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:33:43,683 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 36.1ms | App: 19.0ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:33:43,872 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:33:44,096 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:33:46,399 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.8ms | App: 6.5ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:33:46,400 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.8ms | App: 6.5ms | Admin: FECHADA | HTTP: 200 (0.05s)
+2025-09-15 17:33:46,401 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:33:46,799 - INFO - ✅ NRE (147.1.0.41) - Ping: 40.3ms | App: 4.1ms | Admin: 18.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:33:46,800 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 40.3ms | App: 4.1ms | Admin: 18.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:33:48,977 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 40.4ms | App: 9.7ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:33:48,979 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 40.4ms | App: 9.7ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:33:48,981 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:33:49,391 - INFO - ✅ FUJI (147.0.0.130) - Ping: 130.2ms | App: 3.2ms | Admin: 3.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:33:49,392 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 130.2ms | App: 3.2ms | Admin: 3.3ms | HTTP: 200 (0.04s)
+2025-09-15 17:33:49,509 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 75.2ms | App: 3.3ms | Admin: 13.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:49,509 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 75.2ms | App: 3.3ms | Admin: 13.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:49,625 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 51.2ms | App: 28.2ms | Admin: 14.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:49,625 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 51.2ms | App: 28.2ms | Admin: 14.4ms | HTTP: 200 (0.02s)
+2025-09-15 17:33:51,866 - INFO - ✅ CASCI (147.1.0.84) - Ping: 46.0ms | App: 4.1ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:33:51,867 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 46.0ms | App: 4.1ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:33:51,870 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:34:22,189 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 29.8ms | App: 21.1ms | Admin: 15.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:34:22,189 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 29.8ms | App: 21.1ms | Admin: 15.2ms | HTTP: 200 (0.06s)
+2025-09-15 17:34:22,330 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 42.3ms | App: 27.3ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:34:22,331 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 42.3ms | App: 27.3ms | Admin: 4.2ms | HTTP: 200 (0.07s)
+2025-09-15 17:34:22,454 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 38.3ms | App: 4.8ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-15 17:34:22,454 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 38.3ms | App: 4.8ms | Admin: 2.1ms | HTTP: 200 (0.08s)
+2025-09-15 17:34:22,614 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 32.7ms | App: 24.3ms | Admin: 4.1ms | HTTP: 200 (0.10s)
+2025-09-15 17:34:22,614 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 32.7ms | App: 24.3ms | Admin: 4.1ms | HTTP: 200 (0.10s)
+2025-09-15 17:34:24,716 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 31.8ms | App: 4.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:34:24,716 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 31.8ms | App: 4.4ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:34:24,965 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:34:25,107 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:34:27,381 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 26.2ms | App: 4.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:34:27,381 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 26.2ms | App: 4.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:34:27,382 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:34:27,680 - INFO - ✅ NRE (147.1.0.41) - Ping: 26.4ms | App: 9.1ms | Admin: 8.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:34:27,680 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 26.4ms | App: 9.1ms | Admin: 8.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:34:29,851 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 43.5ms | App: 7.3ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:34:29,852 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 43.5ms | App: 7.3ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:34:29,852 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:34:30,069 - INFO - ✅ FUJI (147.0.0.130) - Ping: 26.7ms | App: 6.1ms | Admin: 12.6ms | HTTP: 200 (0.02s)
+2025-09-15 17:34:30,069 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 26.7ms | App: 6.1ms | Admin: 12.6ms | HTTP: 200 (0.02s)
+2025-09-15 17:34:30,193 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 72.1ms | App: 14.0ms | Admin: 3.0ms | HTTP: 200 (0.03s)
+2025-09-15 17:34:30,194 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 72.1ms | App: 14.0ms | Admin: 3.0ms | HTTP: 200 (0.03s)
+2025-09-15 17:34:30,286 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 72.2ms | App: 6.5ms | Admin: 3.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:34:30,286 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 72.2ms | App: 6.5ms | Admin: 3.6ms | HTTP: 200 (0.01s)
+2025-09-15 17:34:32,533 - INFO - ✅ CASCI (147.1.0.84) - Ping: 54.6ms | App: 4.6ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:34:32,534 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 54.6ms | App: 4.6ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:34:32,534 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:35:02,784 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 27.2ms | App: 4.0ms | Admin: 6.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:35:02,785 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 27.2ms | App: 4.0ms | Admin: 6.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:35:02,889 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 31.1ms | App: 4.4ms | Admin: 4.0ms | HTTP: 200 (0.06s)
+2025-09-15 17:35:02,889 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 31.1ms | App: 4.4ms | Admin: 4.0ms | HTTP: 200 (0.06s)
+2025-09-15 17:35:03,033 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 31.5ms | App: 22.7ms | Admin: 6.3ms | HTTP: 200 (0.08s)
+2025-09-15 17:35:03,033 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 31.5ms | App: 22.7ms | Admin: 6.3ms | HTTP: 200 (0.08s)
+2025-09-15 17:35:03,129 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 34.7ms | App: 5.1ms | Admin: 3.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:35:03,130 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 34.7ms | App: 5.1ms | Admin: 3.8ms | HTTP: 200 (0.05s)
+2025-09-15 17:35:05,266 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 43.5ms | App: 7.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:35:05,267 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 43.5ms | App: 7.8ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:35:05,418 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:35:05,555 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:35:07,914 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 25.6ms | App: 12.4ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:35:07,915 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 25.6ms | App: 12.4ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:35:07,915 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:35:08,245 - INFO - ✅ NRE (147.1.0.41) - Ping: 29.3ms | App: 26.2ms | Admin: 10.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:35:08,246 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 29.3ms | App: 26.2ms | Admin: 10.0ms | HTTP: 200 (0.04s)
+2025-09-15 17:35:10,383 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 37.4ms | App: 13.1ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:35:10,384 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 37.4ms | App: 13.1ms | Admin: FECHADA | HTTP: 200 (0.03s)
+2025-09-15 17:35:10,384 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:35:10,703 - INFO - ✅ FUJI (147.0.0.130) - Ping: 112.8ms | App: 3.6ms | Admin: 2.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:35:10,704 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 112.8ms | App: 3.6ms | Admin: 2.6ms | HTTP: 200 (0.04s)
+2025-09-15 17:35:10,800 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 29.1ms | App: 35.5ms | Admin: 5.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:35:10,801 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 29.1ms | App: 35.5ms | Admin: 5.7ms | HTTP: 200 (0.02s)
+2025-09-15 17:35:10,873 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 36.4ms | App: 5.9ms | Admin: 13.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:35:10,878 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 36.4ms | App: 5.9ms | Admin: 13.4ms | HTTP: 200 (0.01s)
+2025-09-15 17:35:13,050 - INFO - ✅ CASCI (147.1.0.84) - Ping: 36.0ms | App: 5.5ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:35:13,050 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 36.0ms | App: 5.5ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:35:13,051 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:35:43,280 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 22.2ms | App: 3.8ms | Admin: 3.2ms | HTTP: 200 (0.05s)
+2025-09-15 17:35:43,280 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 22.2ms | App: 3.8ms | Admin: 3.2ms | HTTP: 200 (0.05s)
+2025-09-15 17:35:43,401 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 35.7ms | App: 5.2ms | Admin: 3.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:35:43,401 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 35.7ms | App: 5.2ms | Admin: 3.6ms | HTTP: 200 (0.07s)
+2025-09-15 17:35:43,531 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 35.7ms | App: 6.1ms | Admin: 6.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:35:43,532 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 35.7ms | App: 6.1ms | Admin: 6.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:35:43,664 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 26.5ms | App: 4.5ms | Admin: 3.2ms | HTTP: 200 (0.10s)
+2025-09-15 17:35:43,665 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 26.5ms | App: 4.5ms | Admin: 3.2ms | HTTP: 200 (0.10s)
+2025-09-15 17:35:45,803 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 52.5ms | App: 4.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:35:45,803 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 52.5ms | App: 4.1ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:35:45,938 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:35:46,072 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:35:48,411 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.6ms | App: 7.8ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:35:48,411 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 28.6ms | App: 7.8ms | Admin: FECHADA | HTTP: 200 (0.10s)
+2025-09-15 17:35:48,412 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:35:48,742 - INFO - ✅ NRE (147.1.0.41) - Ping: 28.7ms | App: 21.4ms | Admin: 14.4ms | HTTP: 200 (0.04s)
+2025-09-15 17:35:48,742 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 28.7ms | App: 21.4ms | Admin: 14.4ms | HTTP: 200 (0.04s)
+2025-09-15 17:35:50,900 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 37.8ms | App: 21.6ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:35:50,900 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 37.8ms | App: 21.6ms | Admin: FECHADA | HTTP: 200 (0.01s)
+2025-09-15 17:35:50,900 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:35:51,201 - INFO - ✅ FUJI (147.0.0.130) - Ping: 31.4ms | App: 3.2ms | Admin: 5.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:35:51,201 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 31.4ms | App: 3.2ms | Admin: 5.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:35:51,299 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 71.8ms | App: 7.7ms | Admin: 4.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:35:51,300 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 71.8ms | App: 7.7ms | Admin: 4.3ms | HTTP: 200 (0.01s)
+2025-09-15 17:35:51,356 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 32.0ms | App: 2.6ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:35:51,356 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 32.0ms | App: 2.6ms | Admin: 3.0ms | HTTP: 200 (0.02s)
+2025-09-15 17:35:53,603 - INFO - ✅ CASCI (147.1.0.84) - Ping: 65.3ms | App: 8.1ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:35:53,603 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 65.3ms | App: 8.1ms | Admin: FECHADA | HTTP: 200 (0.07s)
+2025-09-15 17:35:53,604 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:36:23,990 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 29.4ms | App: 6.0ms | Admin: 25.5ms | HTTP: 200 (0.09s)
+2025-09-15 17:36:23,990 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 29.4ms | App: 6.0ms | Admin: 25.5ms | HTTP: 200 (0.09s)
+2025-09-15 17:36:24,129 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 34.0ms | App: 2.8ms | Admin: 5.0ms | HTTP: 200 (0.09s)
+2025-09-15 17:36:24,130 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 34.0ms | App: 2.8ms | Admin: 5.0ms | HTTP: 200 (0.09s)
+2025-09-15 17:36:24,324 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 57.8ms | App: 2.8ms | Admin: 21.3ms | HTTP: 200 (0.10s)
+2025-09-15 17:36:24,326 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 57.8ms | App: 2.8ms | Admin: 21.3ms | HTTP: 200 (0.10s)
+2025-09-15 17:36:24,480 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 46.7ms | App: 22.8ms | Admin: 3.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:36:24,481 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 46.7ms | App: 22.8ms | Admin: 3.5ms | HTTP: 200 (0.08s)
+2025-09-15 17:36:26,637 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 55.3ms | App: 6.3ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:36:26,638 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 55.3ms | App: 6.3ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:36:26,802 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:36:27,523 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:36:30,111 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 132.9ms | App: 3.2ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:36:30,112 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 132.9ms | App: 3.2ms | Admin: FECHADA | HTTP: 200 (0.04s)
+2025-09-15 17:36:30,112 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:36:30,665 - INFO - ✅ NRE (147.1.0.41) - Ping: 30.6ms | App: 3.6ms | Admin: 8.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:36:30,666 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 30.6ms | App: 3.6ms | Admin: 8.5ms | HTTP: 200 (0.06s)
+2025-09-15 17:36:32,862 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 40.5ms | App: 2.9ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:36:32,863 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 40.5ms | App: 2.9ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:36:32,863 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:36:33,092 - INFO - ✅ FUJI (147.0.0.130) - Ping: 23.4ms | App: 4.6ms | Admin: 2.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:36:33,093 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 23.4ms | App: 4.6ms | Admin: 2.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:36:33,164 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 45.0ms | App: 5.4ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-09-15 17:36:33,167 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 45.0ms | App: 5.4ms | Admin: 2.8ms | HTTP: 200 (0.01s)
+2025-09-15 17:36:33,228 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 38.5ms | App: 2.5ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:36:33,228 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 38.5ms | App: 2.5ms | Admin: 3.2ms | HTTP: 200 (0.01s)
+2025-09-15 17:36:35,475 - INFO - ✅ CASCI (147.1.0.84) - Ping: 26.4ms | App: 21.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:36:35,475 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 26.4ms | App: 21.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:36:35,475 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:37:05,808 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 56.5ms | App: 4.8ms | Admin: 5.7ms | HTTP: 200 (0.10s)
+2025-09-15 17:37:05,809 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 56.5ms | App: 4.8ms | Admin: 5.7ms | HTTP: 200 (0.10s)
+2025-09-15 17:37:06,052 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 131.2ms | App: 6.5ms | Admin: 3.5ms | HTTP: 200 (0.10s)
+2025-09-15 17:37:06,055 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 131.2ms | App: 6.5ms | Admin: 3.5ms | HTTP: 200 (0.10s)
+2025-09-15 17:37:06,286 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 127.9ms | App: 6.2ms | Admin: 14.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:06,287 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 127.9ms | App: 6.2ms | Admin: 14.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:06,408 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 31.7ms | App: 3.9ms | Admin: 3.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:06,409 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 31.7ms | App: 3.9ms | Admin: 3.0ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:08,515 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 27.5ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:37:08,517 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 27.5ms | App: 2.2ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:37:08,686 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:37:08,836 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:37:11,140 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 30.2ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:37:11,141 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 30.2ms | App: 4.5ms | Admin: FECHADA | HTTP: 200 (0.08s)
+2025-09-15 17:37:11,141 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:37:11,454 - INFO - ✅ NRE (147.1.0.41) - Ping: 31.0ms | App: 25.5ms | Admin: 3.8ms | HTTP: 200 (0.04s)
+2025-09-15 17:37:11,454 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 31.0ms | App: 25.5ms | Admin: 3.8ms | HTTP: 200 (0.04s)
+2025-09-15 17:37:13,641 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 74.7ms | App: 4.6ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:37:13,641 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 74.7ms | App: 4.6ms | Admin: FECHADA | HTTP: 200 (0.02s)
+2025-09-15 17:37:13,641 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:37:13,940 - INFO - ✅ FUJI (147.0.0.130) - Ping: 71.1ms | App: 4.1ms | Admin: 7.2ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:13,940 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 71.1ms | App: 4.1ms | Admin: 7.2ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:14,051 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 46.8ms | App: 23.9ms | Admin: 15.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:14,051 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 46.8ms | App: 23.9ms | Admin: 15.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:14,136 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 47.9ms | App: 3.4ms | Admin: 19.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:37:14,136 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 47.9ms | App: 3.4ms | Admin: 19.5ms | HTTP: 200 (0.01s)
+2025-09-15 17:37:16,343 - INFO - ✅ CASCI (147.1.0.84) - Ping: 66.5ms | App: 5.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:37:16,343 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 66.5ms | App: 5.1ms | Admin: FECHADA | HTTP: 200 (0.06s)
+2025-09-15 17:37:16,344 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:37:46,651 - INFO - ✅ SFCS-116 (147.1.0.116) - Ping: 57.2ms | App: 33.6ms | Admin: 5.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:37:46,651 - INFO - [SFCS-116] STATUS_CHECK: ✅ SFCS-116 (147.1.0.116) - Ping: 57.2ms | App: 33.6ms | Admin: 5.6ms | HTTP: 200 (0.05s)
+2025-09-15 17:37:46,817 - INFO - ✅ SFCS-130 (147.0.0.130) - Ping: 52.0ms | App: 8.9ms | Admin: 19.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:46,818 - INFO - [SFCS-130] STATUS_CHECK: ✅ SFCS-130 (147.0.0.130) - Ping: 52.0ms | App: 8.9ms | Admin: 19.2ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:46,978 - INFO - ✅ SFCS-40 (147.1.160.40) - Ping: 53.2ms | App: 7.0ms | Admin: 5.4ms | HTTP: 200 (0.09s)
+2025-09-15 17:37:46,978 - INFO - [SFCS-40] STATUS_CHECK: ✅ SFCS-40 (147.1.160.40) - Ping: 53.2ms | App: 7.0ms | Admin: 5.4ms | HTTP: 200 (0.09s)
+2025-09-15 17:37:47,108 - INFO - ✅ SFCS-20 (147.1.160.20) - Ping: 27.3ms | App: 20.7ms | Admin: 3.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:47,108 - INFO - [SFCS-20] STATUS_CHECK: ✅ SFCS-20 (147.1.160.20) - Ping: 27.3ms | App: 20.7ms | Admin: 3.8ms | HTTP: 200 (0.08s)
+2025-09-15 17:37:49,330 - INFO - ⚠️ SISCONP (147.1.0.84) - Ping: 72.6ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:37:49,331 - ERROR - [SISCONP] STATUS_CHECK: ⚠️ SISCONP (147.1.0.84) - Ping: 72.6ms | App: 2.7ms | Admin: FECHADA | HTTP: Erro de Conexão
+2025-09-15 17:37:49,729 - ERROR - [SISCONP] ADMIN_PORT_ERROR: Porta 8443 inacessível: FECHADA
+2025-09-15 17:37:49,955 - ERROR - [SISCONP] HTTP_ERROR: HTTP check falhou: Erro de Conexão
+2025-09-15 17:37:52,545 - INFO - ✅ SISCOMPRAS (147.1.0.84) - Ping: 37.8ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:37:52,558 - INFO - [SISCOMPRAS] STATUS_CHECK: ✅ SISCOMPRAS (147.1.0.84) - Ping: 37.8ms | App: 3.3ms | Admin: FECHADA | HTTP: 200 (0.09s)
+2025-09-15 17:37:52,559 - ERROR - [SISCOMPRAS] ADMIN_PORT_ERROR: Porta 8080 inacessível: FECHADA
+2025-09-15 17:37:52,967 - INFO - ✅ NRE (147.1.0.41) - Ping: 34.7ms | App: 7.0ms | Admin: 10.7ms | HTTP: 200 (0.05s)
+2025-09-15 17:37:52,968 - INFO - [NRE] STATUS_CHECK: ✅ NRE (147.1.0.41) - Ping: 34.7ms | App: 7.0ms | Admin: 10.7ms | HTTP: 200 (0.05s)
+2025-09-15 17:37:55,279 - INFO - ✅ MES 4.0 (147.1.0.85) - Ping: 24.9ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.15s)
+2025-09-15 17:37:55,279 - INFO - [MES 4.0] STATUS_CHECK: ✅ MES 4.0 (147.1.0.85) - Ping: 24.9ms | App: 2.4ms | Admin: FECHADA | HTTP: 200 (0.15s)
+2025-09-15 17:37:55,280 - ERROR - [MES 4.0] ADMIN_PORT_ERROR: Porta 1080 inacessível: FECHADA
+2025-09-15 17:37:55,521 - INFO - ✅ FUJI (147.0.0.130) - Ping: 31.0ms | App: 11.9ms | Admin: 4.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:55,522 - INFO - [FUJI] STATUS_CHECK: ✅ FUJI (147.0.0.130) - Ping: 31.0ms | App: 11.9ms | Admin: 4.8ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:55,610 - INFO - ✅ POSTOS-149 (147.1.0.149) - Ping: 41.1ms | App: 5.7ms | Admin: 12.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:55,612 - INFO - [POSTOS-149] STATUS_CHECK: ✅ POSTOS-149 (147.1.0.149) - Ping: 41.1ms | App: 5.7ms | Admin: 12.5ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:55,703 - INFO - ✅ POSTOS-61 (147.1.0.61) - Ping: 52.9ms | App: 2.5ms | Admin: 3.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:55,704 - INFO - [POSTOS-61] STATUS_CHECK: ✅ POSTOS-61 (147.1.0.61) - Ping: 52.9ms | App: 2.5ms | Admin: 3.1ms | HTTP: 200 (0.02s)
+2025-09-15 17:37:58,004 - INFO - ✅ CASCI (147.1.0.84) - Ping: 43.5ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:37:58,004 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 43.5ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.11s)
+2025-09-15 17:37:58,006 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
+2025-09-15 17:38:03,902 - INFO - Monitoramento parado

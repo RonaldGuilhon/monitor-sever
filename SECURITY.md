@@ -56,7 +56,7 @@ secrets.yaml
 3. **NUNCA** commite o arquivo `.env`
 
 ### Produção
-1. Configure variáveis no servidor/container
+1. Configure variáveis no servidor
 2. Use serviços de gerenciamento de segredos (AWS Secrets Manager, Azure Key Vault, etc.)
 3. Configure CI/CD com GitHub Secrets
 

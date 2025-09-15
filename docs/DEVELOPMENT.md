@@ -324,21 +324,6 @@ python setup.py bdist_wheel
 pip install -e .
 ```
 
-### Docker
-
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY src/ ./src/
-COPY main.py .
-
-CMD ["python", "main.py"]
-```
-
 ## 🔧 Configuração de IDE
 
 ### VSCode

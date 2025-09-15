@@ -1,4 +1,17 @@
-# Monitor Server
+# 🖥️ Server Monitor
+
+Um sistema de monitoramento de servidores **portátil** e **leve** com interface gráfica e alertas por email.
+
+## 🚀 Instalação Rápida
+
+```bash
+# Clone e instale em um comando
+git clone https://github.com/seu-usuario/monitor-server.git
+cd monitor-server
+python install.py
+```
+
+**✨ Pronto!** O Monitor Server está instalado e configurado.
 
 Um sistema avançado de monitoramento de servidores em Python com interface gráfica moderna e arquitetura modular.
 
@@ -60,11 +73,28 @@ monitor-server/
 
 ## 🛠️ Instalação
 
-### Pré-requisitos
+### ✨ Método 1: Instalador Automático (Recomendado)
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/monitor-server.git
+cd monitor-server
+
+# Execute o instalador portátil
+python install.py
+
+# Pronto! Execute com:
+# Windows: start.bat
+# Linux/macOS: ./start.sh
+```
+
+### 🔧 Método 2: Instalação Manual
+
+**Pré-requisitos:**
 - Python 3.8 ou superior
 - pip (gerenciador de pacotes Python)
 
-### Passos de Instalação
+**Passos:**
 
 1. **Clone o repositório**
    ```bash
