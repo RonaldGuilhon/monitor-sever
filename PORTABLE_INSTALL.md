@@ -51,12 +51,15 @@ python run.py
 
 ### Windows
 ```cmd
+# Método mais simples - duplo clique
+executar.bat
+
 # Usando o script criado pelo instalador
 start.bat
 
 # Ou manualmente
 venv\Scripts\activate
-python run.py
+python main.py
 ```
 
 ### Linux/macOS
@@ -66,7 +69,7 @@ python run.py
 
 # Ou manualmente
 source venv/bin/activate
-python run.py
+python main.py
 ```
 
 ## ⚙️ Opções do Instalador

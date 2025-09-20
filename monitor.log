@@ -85088,3 +85088,9 @@
 2025-09-15 17:37:58,004 - INFO - [CASCI] STATUS_CHECK: ✅ CASCI (147.1.0.84) - Ping: 43.5ms | App: 3.9ms | Admin: FECHADA | HTTP: 200 (0.11s)
 2025-09-15 17:37:58,006 - ERROR - [CASCI] ADMIN_PORT_ERROR: Porta 8081 inacessível: FECHADA
 2025-09-15 17:38:03,902 - INFO - Monitoramento parado
+2025-09-19 23:37:33,034 - INFO - Logs carregados de server_logs.json
+2025-09-19 23:37:33,036 - INFO - === Iniciando monitoramento de servidores GlassFish ===
+2025-09-19 23:37:33,110 - ERROR - Erro no loop de monitoramento: 'admin_port'
+2025-09-19 23:37:38,161 - ERROR - Erro no loop de monitoramento: 'admin_port'
+2025-09-19 23:37:43,193 - ERROR - Erro no loop de monitoramento: 'admin_port'
+2025-09-19 23:37:48,230 - ERROR - Erro no loop de monitoramento: 'admin_port'

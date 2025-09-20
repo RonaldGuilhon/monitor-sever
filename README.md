@@ -5,13 +5,19 @@ Um sistema de monitoramento de servidores **portátil** e **leve** com interface
 ## 🚀 Instalação Rápida
 
 ```bash
-# Clone e instale em um comando
+# Clone o repositório
 git clone https://github.com/seu-usuario/monitor-server.git
 cd monitor-server
+
+# Execute o instalador automático
 python install.py
 ```
 
-**✨ Pronto!** O Monitor Server está instalado e configurado.
+**🎯 Execução Simples (Windows):**
+- Duplo clique em `executar.bat` 
+- Ou execute: `python main.py`
+
+**✅ Pronto!** A aplicação será instalada e executada automaticamente.
 
 Um sistema avançado de monitoramento de servidores em Python com interface gráfica moderna e arquitetura modular.
 

@@ -161,7 +161,7 @@ def create_launcher_scripts(python_exe):
         # Script Windows
         script_content = f'''@echo off
 cd /d "%~dp0"
-"{python_exe}" run.py %*
+"{python_exe}" main.py %*
 pause
 '''
         with open("start.bat", "w") as f:
@@ -172,7 +172,7 @@ pause
         # Script Unix/Linux/macOS
         script_content = f'''#!/bin/bash
 cd "$(dirname "$0")"
-"{python_exe}" run.py "$@"
+"{python_exe}" main.py "$@"
 '''
         with open("start.sh", "w") as f:
             f.write(script_content)
