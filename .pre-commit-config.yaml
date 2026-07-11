@@ -1,78 +1,25 @@
-# =============================================================================
-# CONFIGURAÇÃO DE PRE-COMMIT HOOKS PARA SEGURANÇA
-# =============================================================================
-#
-# Este arquivo configura hooks de pre-commit para prevenir vazamentos de
-# credenciais e manter a qualidade do código.
-#
-# Para usar:
-# 1. pip install pre-commit
-# 2. pre-commit install
-# 3. Configure sua API key do GitGuardian: ggshield auth login
-#
-# =============================================================================
-
 repos:
-  # GitGuardian - Scanner de segredos
-  - repo: https://github.com/gitguardian/ggshield
-    rev: v1.25.0
-    hooks:
-      - id: ggshield
-        name: GitGuardian Shield
-        entry: ggshield secret scan pre-commit
-        language: python
-        stages: [commit]
-        
-  # Hooks básicos de qualidade
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: trailing-whitespace
-        name: Remove espaços em branco no final das linhas
       - id: end-of-file-fixer
-        name: Garantir quebra de linha no final dos arquivos
       - id: check-yaml
-        name: Verificar sintaxe YAML
-      - id: check-json
-        name: Verificar sintaxe JSON
       - id: check-added-large-files
-        name: Verificar arquivos grandes
-        args: ['--maxkb=1000']
-      - id: detect-private-key
-        name: Detectar chaves privadas
-      - id: check-merge-conflict
-        name: Verificar marcadores de merge conflict
-        
-  # Python específico
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.9
+    hooks:
+      - id: ruff
+        args: [--fix]
+
   - repo: https://github.com/psf/black
-    rev: 23.3.0
+    rev: 23.12.1
     hooks:
       - id: black
-        name: Formatação de código Python (Black)
-        language_version: python3
-        
-  - repo: https://github.com/pycqa/flake8
-    rev: 6.0.0
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
     hooks:
-      - id: flake8
-        name: Linting Python (Flake8)
-        args: ['--max-line-length=88', '--extend-ignore=E203,W503']
-
-# =============================================================================
-# CONFIGURAÇÕES ADICIONAIS
-# =============================================================================
-
-# Configuração global
-default_stages: [commit]
-fail_fast: false
-
-# Exclusões globais
-exclude: |
-  (?x)^(
-      dist/.*|
-      build/.*|
-      __pycache__/.*|
-      .*\.egg-info/.*|
-      server_logs\.json|
-      .*\.log
-  )$
+      - id: mypy
+        additional_dependencies: [types-requests]
